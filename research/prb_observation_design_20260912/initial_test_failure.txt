@@ -1,0 +1,1 @@
+Initial run:8/9 passed. Self-reference cross-product RMS7.996710628744983e-17 differed from incorrectly required exact zero. Same g=.8 selected. Test now checks roundoff-scale absolute1e-14; scientific metrics/tolerances and production source unchanged.

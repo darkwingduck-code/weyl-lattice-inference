@@ -1,0 +1,12 @@
+test_D_N_common_zero_not_accepted_as_regular_charge_zero (test_zero_full_input_followup.FullInputZeroControls.test_D_N_common_zero_not_accepted_as_regular_charge_zero) ... ok
+test_charge_zero_independent_of_vc_in_complex_vertex_control (test_zero_full_input_followup.FullInputZeroControls.test_charge_zero_independent_of_vc_in_complex_vertex_control) ... ok
+test_degenerate_bare_target_is_rejected (test_zero_full_input_followup.FullInputZeroControls.test_degenerate_bare_target_is_rejected) ... ok
+test_literal_rank_defect_is_not_silently_projected_out (test_zero_full_input_followup.FullInputZeroControls.test_literal_rank_defect_is_not_silently_projected_out) ... ok
+test_one_oscillator_has_no_spurious_local_zero (test_zero_full_input_followup.FullInputZeroControls.test_one_oscillator_has_no_spurious_local_zero) ... ok
+test_scaled_analytic_derivative_matches_complex_step (test_zero_full_input_followup.FullInputZeroControls.test_scaled_analytic_derivative_matches_complex_step) ... ok
+test_two_oscillator_zero_has_known_closed_form (test_zero_full_input_followup.FullInputZeroControls.test_two_oscillator_zero_has_known_closed_form) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.012s
+
+OK

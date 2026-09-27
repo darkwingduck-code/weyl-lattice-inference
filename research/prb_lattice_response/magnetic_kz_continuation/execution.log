@@ -1,0 +1,11 @@
+[continuation] Nkx=2,Nky=13,Nkz=192; prior runtime=298.1s, total budget=1200s
+  blocks 1/26, continuation elapsed=15.0s
+  blocks 4/26, continuation elapsed=68.9s
+  blocks 8/26, continuation elapsed=139.0s
+  blocks 12/26, continuation elapsed=207.6s
+  blocks 16/26, continuation elapsed=274.6s
+  blocks 20/26, continuation elapsed=336.0s
+  blocks 24/26, continuation elapsed=397.4s
+  blocks 26/26, continuation elapsed=431.4s
+Final kz comparison: {"kind": "fixed_B_kz", "coarse_Nkx": 2, "coarse_Nky": 13, "coarse_Nkz": 96, "fine_Nkx": 2, "fine_Nky": 13, "fine_Nkz": 192, "B": 0.17453292519943295, "maximum_scaled_response_error": 0.00034109960951884364, "tolerance": 0.001, "converged": true}
+Final status: SELECTED_MAGNETIC_MESHES_CONVERGED

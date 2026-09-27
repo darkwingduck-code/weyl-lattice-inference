@@ -51,7 +51,7 @@ def main():
     root = args.root.resolve()
     manifest = json.loads((root / 'release_manifest.json').read_text(encoding='utf-8'))
     count = check_hashes(root, manifest)
-    report = {'status': 'PASS', 'paper': manifest['paper'], 'checked_files': count,
+    report = {'status': 'PASS', 'paper': manifest['paper'], 'checked_files': count, 'version': manifest['version'],
               'test_results': []}
     environment = os.environ.copy()
     environment.update(PYTHONPATH='', PYTHONDONTWRITEBYTECODE='1',

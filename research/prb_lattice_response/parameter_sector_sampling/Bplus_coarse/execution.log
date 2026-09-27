@@ -1,0 +1,28 @@
+Bplus coarse: chunks=26, pair estimate/chunk=1990656, required free=1.859 GB
+Bplus coarse: chunks 1/26, elapsed=40.3s, free=22.26 GB
+Bplus coarse: chunks 2/26, elapsed=85.2s, free=22.80 GB
+Bplus coarse: chunks 3/26, elapsed=132.3s, free=22.18 GB
+Bplus coarse: chunks 4/26, elapsed=179.2s, free=22.42 GB
+Bplus coarse: chunks 5/26, elapsed=224.8s, free=22.68 GB
+Bplus coarse: chunks 6/26, elapsed=266.1s, free=22.76 GB
+Bplus coarse: chunks 7/26, elapsed=304.2s, free=22.97 GB
+Bplus coarse: chunks 8/26, elapsed=338.9s, free=23.24 GB
+Bplus coarse: chunks 9/26, elapsed=375.2s, free=22.40 GB
+Bplus coarse: chunks 10/26, elapsed=414.9s, free=22.78 GB
+Bplus coarse: chunks 11/26, elapsed=453.5s, free=22.81 GB
+Bplus coarse: chunks 12/26, elapsed=495.2s, free=23.30 GB
+Bplus coarse: chunks 13/26, elapsed=537.0s, free=23.24 GB
+Bplus coarse: chunks 14/26, elapsed=579.7s, free=23.42 GB
+Bplus coarse: chunks 15/26, elapsed=621.6s, free=23.62 GB
+Bplus coarse: chunks 16/26, elapsed=663.2s, free=24.47 GB
+Bplus coarse: chunks 17/26, elapsed=703.1s, free=23.51 GB
+Bplus coarse: chunks 18/26, elapsed=740.0s, free=24.49 GB
+Bplus coarse: chunks 19/26, elapsed=776.9s, free=25.09 GB
+Bplus coarse: chunks 20/26, elapsed=814.7s, free=25.76 GB
+Bplus coarse: chunks 21/26, elapsed=851.7s, free=25.32 GB
+Bplus coarse: chunks 22/26, elapsed=889.3s, free=25.59 GB
+Bplus coarse: chunks 23/26, elapsed=927.7s, free=25.62 GB
+Bplus coarse: chunks 24/26, elapsed=966.7s, free=25.79 GB
+Bplus coarse: chunks 25/26, elapsed=1006.6s, free=25.70 GB
+Bplus coarse: chunks 26/26, elapsed=1044.6s, free=25.81 GB
+Final status: PARAMETER_SECTOR_SAMPLING_COMPLETE

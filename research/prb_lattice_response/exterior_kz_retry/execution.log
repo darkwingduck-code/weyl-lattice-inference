@@ -1,0 +1,7 @@
+[exterior] L=72,Nkz=384, raw slots=31850496; available=29944320000, estimated peak=8995471360
+Bloch eigensystem ready in 4.2s
+All transitions ready in 14.4s; vertex=1.45976e-14
+Rational response: active=24174126, exact-zero removed=7676370
+Comparison: {"coarse_L": 72, "fine_L": 72, "coarse_Nkz": 192, "fine_Nkz": 384, "pole_relative_tolerance": 1e-05, "residue_relative_tolerance": 0.01, "passes_declared_tolerances": true, "pole_relative_error": 1.4388586646044247e-14, "charge_residue_relative_error": 1.2219683653469506e-10, "axial_residue_relative_error": 1.1089960866932007e-14}
+Pole=15.5554515026648; charge residue=(8.347314923964564e-12+0j); axial residue=(0.6707412545673281+0j)
+Final status: EXTERIOR_EXTENSION_CONVERGED

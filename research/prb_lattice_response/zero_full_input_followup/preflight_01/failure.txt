@@ -1,0 +1,4 @@
+Initial analytic test run: 7 tests, 6 passed, 1 error.
+Failing test: test_two_oscillator_zero_has_known_closed_form
+ValueError: Unscaled cofactor/direct inverse check failed
+Cause: normalization used the already-cancelled Pi entries. The exact rank-one two-oscillator zero has Pi=0, making this normalized residual ill-defined. Root location and complex-step derivative controls passed.

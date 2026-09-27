@@ -1,0 +1,28 @@
+Bplus final: chunks=26, pair estimate/chunk=3981312, required free=2.241 GB
+Bplus final: chunks 1/26, elapsed=80.6s, free=21.25 GB
+Bplus final: chunks 2/26, elapsed=172.3s, free=23.29 GB
+Bplus final: chunks 3/26, elapsed=263.1s, free=22.88 GB
+Bplus final: chunks 4/26, elapsed=341.5s, free=22.95 GB
+Bplus final: chunks 5/26, elapsed=412.6s, free=23.25 GB
+Bplus final: chunks 6/26, elapsed=490.5s, free=22.87 GB
+Bplus final: chunks 7/26, elapsed=573.9s, free=23.64 GB
+Bplus final: chunks 8/26, elapsed=657.1s, free=23.67 GB
+Bplus final: chunks 9/26, elapsed=736.6s, free=24.39 GB
+Bplus final: chunks 10/26, elapsed=810.5s, free=24.36 GB
+Bplus final: chunks 11/26, elapsed=885.0s, free=25.64 GB
+Bplus final: chunks 12/26, elapsed=961.1s, free=25.89 GB
+Bplus final: chunks 13/26, elapsed=1038.6s, free=26.03 GB
+Bplus final: chunks 14/26, elapsed=1115.9s, free=26.15 GB
+Bplus final: chunks 15/26, elapsed=1192.3s, free=26.53 GB
+Bplus final: chunks 16/26, elapsed=1264.3s, free=26.74 GB
+Bplus final: chunks 17/26, elapsed=1337.0s, free=26.87 GB
+Bplus final: chunks 18/26, elapsed=1410.5s, free=26.88 GB
+Bplus final: chunks 19/26, elapsed=1487.1s, free=26.83 GB
+Bplus final: chunks 20/26, elapsed=1564.9s, free=26.76 GB
+Bplus final: chunks 21/26, elapsed=1644.2s, free=27.12 GB
+Bplus final: chunks 22/26, elapsed=1721.2s, free=27.08 GB
+Bplus final: chunks 23/26, elapsed=1798.0s, free=27.30 GB
+Bplus final: chunks 24/26, elapsed=1874.6s, free=27.30 GB
+Bplus final: chunks 25/26, elapsed=1950.8s, free=27.22 GB
+Bplus final: chunks 26/26, elapsed=2027.8s, free=27.30 GB
+Final status: PARAMETER_SECTOR_SAMPLING_COMPLETE

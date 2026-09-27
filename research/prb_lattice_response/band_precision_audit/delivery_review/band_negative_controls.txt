@@ -1,0 +1,11 @@
+test_degenerate_projector_sum_survives_basis_rotation (test_band_precision_audit.BandPrecisionTests.test_degenerate_projector_sum_survives_basis_rotation) ... ok
+test_equal_energies_exact_zero_and_sign (test_band_precision_audit.BandPrecisionTests.test_equal_energies_exact_zero_and_sign) ... ok
+test_literal_float_is_not_decimal_literal (test_band_precision_audit.BandPrecisionTests.test_literal_float_is_not_decimal_literal) ... ok
+test_opposite_energy_occupation_identity (test_band_precision_audit.BandPrecisionTests.test_opposite_energy_occupation_identity) ... ok
+test_saturated_occupation_difference_is_not_zero (test_band_precision_audit.BandPrecisionTests.test_saturated_occupation_difference_is_not_zero) ... ok
+test_trig_rounding_and_k_rounding_are_distinct_inputs (test_band_precision_audit.BandPrecisionTests.test_trig_rounding_and_k_rounding_are_distinct_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+OK

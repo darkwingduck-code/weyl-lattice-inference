@@ -1,0 +1,25 @@
+Preflight RAM: {"total_physical_bytes": 68095827968, "available_physical_bytes": 19048210432}
+  L=3, Nkz=24: blocks 5/12, elapsed 0.0s
+  L=3, Nkz=24: blocks 12/12, elapsed 0.4s
+  L=3, Nkz=24: blocks 5/12, elapsed 0.0s
+  L=3, Nkz=24: blocks 12/12, elapsed 0.3s
+Small twisted-grid direct Bloch comparison and wrong-RPA negative control PASS
+[extension] L=72, Nkz=192, flux=0, fixed_mu
+  L=72, Nkz=192: blocks 128/5184, elapsed 4.0s
+  L=72, Nkz=192: blocks 1024/5184, elapsed 24.3s
+  L=72, Nkz=192: blocks 2048/5184, elapsed 49.8s
+  L=72, Nkz=192: blocks 3072/5184, elapsed 76.2s
+  L=72, Nkz=192: blocks 4096/5184, elapsed 96.8s
+  L=72, Nkz=192: blocks 5120/5184, elapsed 122.1s
+  L=72, Nkz=192: blocks 5184/5184, elapsed 123.4s
+Comparison: {"kind": "zero_B_transverse", "flux": 0, "coarse_L": 48, "fine_L": 72, "coarse_Nkz": 192, "fine_Nkz": 192, "maximum_scaled_response_error": 0.00036972969171602, "tolerance": 0.001, "converged": true}
+[extension] L=72, Nkz=384, flux=0, fixed_mu
+  L=72, Nkz=384: blocks 128/5184, elapsed 4.7s
+  L=72, Nkz=384: blocks 1024/5184, elapsed 47.5s
+  L=72, Nkz=384: blocks 2048/5184, elapsed 103.3s
+  L=72, Nkz=384: blocks 3072/5184, elapsed 163.1s
+  L=72, Nkz=384: blocks 4096/5184, elapsed 219.3s
+  L=72, Nkz=384: blocks 5120/5184, elapsed 277.0s
+  L=72, Nkz=384: blocks 5184/5184, elapsed 280.7s
+Comparison: {"kind": "zero_B_kz", "flux": 0, "coarse_L": 72, "fine_L": 72, "coarse_Nkz": 192, "fine_Nkz": 384, "maximum_scaled_response_error": 2.2279976248733083e-05, "tolerance": 0.001, "converged": true}
+Final status: ZERO_B_SELECTED_MESHES_CONVERGED

@@ -1,0 +1,13 @@
+test_all_bands_zero_weights_and_streamed_bare_sum_are_preserved (test_magnetic_bloch_response.MagneticBlochResponseTests.test_all_bands_zero_weights_and_streamed_bare_sum_are_preserved) ... ok
+test_complex_bare_rpa_current_and_moments_match_for_both_probe_signs (test_magnetic_bloch_response.MagneticBlochResponseTests.test_complex_bare_rpa_current_and_moments_match_for_both_probe_signs) ... ok
+test_denominator_36_block_matches_independent_peierls_projection (test_magnetic_bloch_response.MagneticBlochResponseTests.test_denominator_36_block_matches_independent_peierls_projection) ... ok
+test_explicit_sample_counts_refine_size_at_fixed_physical_field (test_magnetic_bloch_response.MagneticBlochResponseTests.test_explicit_sample_counts_refine_size_at_fixed_physical_field) ... ok
+test_full_fourier_transform_block_diagonalizes_dense_hamiltonian (test_magnetic_bloch_response.MagneticBlochResponseTests.test_full_fourier_transform_block_diagonalizes_dense_hamiltonian) ... ok
+test_invalid_flux_grids_phases_and_probe_boundaries (test_magnetic_bloch_response.MagneticBlochResponseTests.test_invalid_flux_grids_phases_and_probe_boundaries) ... ok
+test_periodic_cell_gauge_and_arbitrary_torus_gauge_consistency (test_magnetic_bloch_response.MagneticBlochResponseTests.test_periodic_cell_gauge_and_arbitrary_torus_gauge_consistency) ... ok
+test_spectrum_density_mu_and_flux_sign_match_dense_torus (test_magnetic_bloch_response.MagneticBlochResponseTests.test_spectrum_density_mu_and_flux_sign_match_dense_torus) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 5.702s
+
+OK

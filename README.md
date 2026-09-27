@@ -1,7 +1,7 @@
 # Weyl lattice inference: data and code
 
 Research artifacts for **Screening and cross-response constraints on interaction
-inference in a Weyl lattice**, Gyeongtae Im. Version 1.1.0, 27 September 2026.
+inference in a Weyl lattice**, Gyeongtae Im. Version 1.2.0, 27 September 2026.
 Journal target: *Physical Review B*. This release does not imply acceptance.
 
 This separate repository contains the lattice and observation calculations,
@@ -83,6 +83,33 @@ python -B research/figure_style_epjp_20260927/prb/render_all.py --output researc
 
 Use a new output directory for each render. The release verification also
 checks every final asset and the preserved original source/data hashes.
+
+## Restored supplementary evidence in version 1.2.0
+
+Version 1.2.0 preserves all earlier scientific bytes and adds omitted numerical
+execution/failure logs supporting the expanded technical supplement. The
+existing archive already contains the finite-transition realization, residue
+and charge-zero code, the 110-digit input and complete 751-local-zero audit,
+and the corrected source, refinement, screening and fixed-budget studies.
+
+The zero audit verifies 751 zeros of a new serialized input. They must not be
+added to the 1901 verified old-input candidates: original-input correspondence
+remains uncertified. The release check verifies all 20 stored code/data/log
+hashes behind that conclusion. Archived exterior-pole controls retain their
+weak charge-residue convergence failure, successful later retry, unresolved
+edge sliver and failed streaming/preflight records; they are not evidence of
+a low-energy hybrid gap or intrinsic linewidth.
+
+`verify_release.py --tests` now also executes the lattice Ward/metric,
+finite-pole/zero, full-input and zero-observability controls. The new record
+checker asserts the failure/correspondence limitations as well as successful
+outcomes. The original sqrt(2)-normalization outputs and three-start optimizer
+failures remain historical records; current inference uses the corrected
+complex RMS, rerun noise fits and uniform five-start common-reference results.
+
+No lattice eigensolver campaign or Monte Carlo production was repeated for
+this packaging change. The archive contains no manuscript TeX, author block,
+cover letter, or data from the other paper.
 
 ## Provenance, citation and licensing
 

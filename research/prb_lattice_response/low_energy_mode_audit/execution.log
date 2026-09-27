@@ -1,0 +1,12 @@
+B0: stored RPA error=0.000e+00; minimum dielectric singular value=0.85170973
+Bplus: stored RPA error=0.000e+00; minimum dielectric singular value=0.6691724
+Final magnetic grid controls: 26 blocks, 45 frequencies, all 144 bands, eta=(0.0075, 0.015, 0.03)
+Control blocks 1/26; elapsed 22.7s
+Control blocks 4/26; elapsed 85.3s
+Control blocks 8/26; elapsed 154.6s
+Control blocks 12/26; elapsed 216.8s
+Control blocks 16/26; elapsed 282.5s
+Control blocks 20/26; elapsed 345.0s
+Control blocks 24/26; elapsed 411.9s
+Control blocks 26/26; elapsed 444.8s
+Final status: LOW_ENERGY_FINITE_RESPONSE_AUDIT_COMPLETE

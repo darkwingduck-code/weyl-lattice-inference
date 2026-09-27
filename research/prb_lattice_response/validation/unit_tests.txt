@@ -1,0 +1,23 @@
+test_all_bands_and_zero_weight_pairs_are_retained (test_bloch_response.BlochResponseTests.test_all_bands_and_zero_weight_pairs_are_retained) ... ok
+test_all_channels_and_rpa_match_full_torus_for_both_q_signs (test_bloch_response.BlochResponseTests.test_all_channels_and_rpa_match_full_torus_for_both_q_signs) ... ok
+test_bloch_shapes_twists_and_full_torus_eigenvalues (test_bloch_response.BlochResponseTests.test_bloch_shapes_twists_and_full_torus_eigenvalues) ... ok
+test_density_and_fixed_density_mu_match_full_torus (test_bloch_response.BlochResponseTests.test_density_and_fixed_density_mu_match_full_torus) ... ok
+test_independent_current_vertex_detects_changed_hopping (test_bloch_response.BlochResponseTests.test_independent_current_vertex_detects_changed_hopping) ... ok
+test_independent_peierls_current_contact_and_commutator_moments (test_bloch_response.BlochResponseTests.test_independent_peierls_current_contact_and_commutator_moments) ... ok
+test_q_boundaries_and_positive_temperature_contract (test_bloch_response.BlochResponseTests.test_q_boundaries_and_positive_temperature_contract) ... ok
+test_analytic_nodes_and_projected_axial_charge (test_lattice_response.LatticeResponseTests.test_analytic_nodes_and_projected_axial_charge) ... ok
+test_arbitrary_local_gauge_covariance_of_spectrum_and_response (test_lattice_response.LatticeResponseTests.test_arbitrary_local_gauge_covariance_of_spectrum_and_response) ... ok
+test_degenerate_subspace_rotations_leave_responses_invariant (test_lattice_response.LatticeResponseTests.test_degenerate_subspace_rotations_leave_responses_invariant) ... ok
+test_density_is_fixed_separately_for_both_flux_signs (test_lattice_response.LatticeResponseTests.test_density_is_fixed_separately_for_both_flux_signs) ... ok
+test_finite_q_charge_ward_identity_before_and_after_rpa (test_lattice_response.LatticeResponseTests.test_finite_q_charge_ward_identity_before_and_after_rpa) ... ok
+test_finite_q_commutators_and_large_frequency_moments (test_lattice_response.LatticeResponseTests.test_finite_q_commutators_and_large_frequency_moments) ... ok
+test_frequency_weighted_density_passivity_at_finite_eta (test_lattice_response.LatticeResponseTests.test_frequency_weighted_density_passivity_at_finite_eta) ... ok
+test_full_response_matches_unsimplified_current_and_contact (test_lattice_response.LatticeResponseTests.test_full_response_matches_unsimplified_current_and_contact) ... ok
+test_independent_eigenvector_phases_leave_responses_invariant (test_lattice_response.LatticeResponseTests.test_independent_eigenvector_phases_leave_responses_invariant) ... ok
+test_rpa_dyson_identity_and_full_matrix_loss_congruence (test_lattice_response.LatticeResponseTests.test_rpa_dyson_identity_and_full_matrix_loss_congruence) ... ok
+test_zero_field_torus_spectrum_matches_bloch_grids (test_lattice_response.LatticeResponseTests.test_zero_field_torus_spectrum_matches_bloch_grids) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.675s
+
+OK

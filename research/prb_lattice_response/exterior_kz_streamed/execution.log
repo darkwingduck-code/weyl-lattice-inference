@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "H:\Research\weyl-collective-modes\research\prb_lattice_response\stream_exterior_pole.py", line 119, in main
+    validation=validate_stream()
+               ^^^^^^^^^^^^^^^^^
+  File "H:\Research\weyl-collective-modes\research\prb_lattice_response\stream_exterior_pole.py", line 69, in validate_stream
+    errors[f'residue_matrix{i}']=float(np.max(np.abs(old['residue_matrix']-new['residue_matrix'])))
+                                                     ~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'residue_matrix'
+
+Final status: STREAMED_EXTERIOR_FAILED

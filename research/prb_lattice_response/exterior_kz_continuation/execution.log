@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "H:\Research\weyl-collective-modes\research\prb_lattice_response\extend_exterior_pole.py", line 87, in main
+    raise MemoryError('Insufficient RAM for the conservative complete-array budget; use an exact streamed continuation')
+MemoryError: Insufficient RAM for the conservative complete-array budget; use an exact streamed continuation
+
+Final status: EXTERIOR_EXTENSION_FAILED

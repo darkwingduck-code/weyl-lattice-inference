@@ -1,0 +1,19 @@
+Preflight: {"total_physical_bytes": 68095827968, "available_physical_bytes": 25528004608}
+[magnetic] Nkx=1, Nky=7, Nkz=96; Lx=36, Ly=7, flux=7
+  blocks 1/7, elapsed 8.1s
+  blocks 4/7, elapsed 33.9s
+  blocks 7/7, elapsed 60.4s
+Budget admission: {"kind": "magnetic_transverse", "Nkx": 2, "Nky": 13, "Nkz": 96, "elapsed_seconds": 62.85505920000287, "predicted_seconds_with_25_percent_margin": 282.6160883928476, "admitted": true}
+[magnetic] Nkx=2, Nky=13, Nkz=96; Lx=72, Ly=13, flux=26
+  blocks 1/26, elapsed 8.4s
+  blocks 4/26, elapsed 34.8s
+  blocks 8/26, elapsed 71.4s
+  blocks 12/26, elapsed 107.7s
+  blocks 16/26, elapsed 142.5s
+  blocks 20/26, elapsed 177.3s
+  blocks 24/26, elapsed 212.1s
+  blocks 26/26, elapsed 229.3s
+Comparison: {"kind": "magnetic_transverse", "coarse_Nkx": 1, "coarse_Nky": 7, "coarse_Nkz": 96, "fine_Nkx": 2, "fine_Nky": 13, "fine_Nkz": 96, "B": 0.17453292519943295, "maximum_scaled_response_error": 2.097062610649091e-06, "tolerance": 0.001, "converged": true}
+Budget admission: {"kind": "fixed_B_kz", "Nkx": 2, "Nky": 13, "Nkz": 192, "elapsed_seconds": 294.54559750000044, "predicted_seconds_with_25_percent_margin": 572.2510510757461, "admitted": false}
+Final Nkz192 check exceeds the measured remaining budget
+Final status: BUDGET_LIMIT_REACHED

@@ -1,0 +1,8 @@
+test_degenerate_transition_not_silently_treated_rank_one (__main__.LocalPoleControls.test_degenerate_transition_not_silently_treated_rank_one) ... ok
+test_exact_lorentz_pole_and_residue (__main__.LocalPoleControls.test_exact_lorentz_pole_and_residue) ... ok
+test_fullrank_target_is_rejected (__main__.LocalPoleControls.test_fullrank_target_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+OK

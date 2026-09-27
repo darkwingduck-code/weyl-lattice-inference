@@ -1,0 +1,24 @@
+Bplus_final_reference: blocks 1/26, elapsed 3.6s
+Bplus_final_reference: blocks 8/26, elapsed 31.1s
+Bplus_final_reference: blocks 16/26, elapsed 66.7s
+Bplus_final_reference: blocks 24/26, elapsed 101.9s
+Bplus_final_reference: blocks 26/26, elapsed 110.2s
+B0_L48_Nk192: blocks 1/18, elapsed 0.7s
+B0_L48_Nk192: blocks 8/18, elapsed 6.2s
+B0_L48_Nk192: blocks 16/18, elapsed 12.9s
+B0_L48_Nk192: blocks 18/18, elapsed 14.6s
+B0_L72_Nk192: blocks 1/41, elapsed 0.9s
+B0_L72_Nk192: blocks 8/41, elapsed 6.8s
+B0_L72_Nk192: blocks 16/41, elapsed 13.9s
+B0_L72_Nk192: blocks 24/41, elapsed 20.4s
+B0_L72_Nk192: blocks 32/41, elapsed 27.4s
+B0_L72_Nk192: blocks 40/41, elapsed 34.1s
+B0_L72_Nk192: blocks 41/41, elapsed 34.5s
+B0_L72_Nk384: blocks 1/41, elapsed 1.7s
+B0_L72_Nk384: blocks 8/41, elapsed 13.6s
+B0_L72_Nk384: blocks 16/41, elapsed 27.4s
+B0_L72_Nk384: blocks 24/41, elapsed 41.0s
+B0_L72_Nk384: blocks 32/41, elapsed 54.9s
+B0_L72_Nk384: blocks 40/41, elapsed 68.8s
+B0_L72_Nk384: blocks 41/41, elapsed 69.6s
+Final status: UV_SECTOR_SAMPLING_COMPLETE

@@ -1,0 +1,10 @@
+2026-09-11T04:36:27.715402+00:00 Frozen input gate PASS; 751 unresolved intervals; 23 deterministic representatives; 216 blocks
+2026-09-11T04:36:27.722911+00:00 Start 80-digit full block diagonalization: literal_matrix
+2026-09-11T04:36:30.622633+00:00 Finished literal_matrix
+2026-09-11T04:36:30.639195+00:00 Start 80-digit full block diagonalization: literal_trig
+2026-09-11T04:36:34.340643+00:00 Finished literal_trig
+2026-09-11T04:36:34.355009+00:00 Start 80-digit full block diagonalization: literal_k
+2026-09-11T04:36:37.284480+00:00 Finished literal_k
+2026-09-11T04:36:38.246804+00:00 Repeat at 110 digits: 39 blocks, 23 representative raw transitions
+2026-09-11T04:36:41.899375+00:00 Compute finite-eta responses and isolated restored-transition contribution
+2026-09-11T04:36:54.401751+00:00 Completed; original frozen inputs unchanged; no all-zero-interval certification

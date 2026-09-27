@@ -1,0 +1,17 @@
+Dense finite realization: 2654 nonzero transitions
+Finite modal reconstruction and first moment PASS
+Exterior L=8,Nk=48,qfactor=1.0,Ua=8.0: [(15.55528434096629, np.float64(1.45794940333563e-11))]
+Exterior L=16,Nk=96,qfactor=1.0,Ua=8.0: [(15.555459450235665, np.float64(8.416345760756656e-12))]
+Exterior L=24,Nk=192,qfactor=1.0,Ua=8.0: [(15.555451167079193, np.float64(8.171266816835743e-12))]
+Exterior L=48,Nk=192,qfactor=1.0,Ua=8.0: [(15.55545150187627, np.float64(8.344998631812373e-12))]
+Exterior L=48,Nk=384,qfactor=1.0,Ua=8.0: [(15.55545150187626, np.float64(8.344998631691132e-12))]
+Exterior L=24,Nk=192,qfactor=0.5,Ua=4.0: []
+Exterior L=24,Nk=192,qfactor=0.5,Ua=8.0: [(15.55672649145492, np.float64(2.0698658758726226e-12))]
+Exterior L=24,Nk=192,qfactor=0.5,Ua=12.0: [(18.072398031479615, np.float64(1.644493608825232e-12))]
+Exterior L=24,Nk=192,qfactor=1.0,Ua=4.0: []
+Exterior L=24,Nk=192,qfactor=1.0,Ua=8.0: [(15.555451167079193, np.float64(8.171266816835743e-12))]
+Exterior L=24,Nk=192,qfactor=1.0,Ua=12.0: [(18.072710664770195, np.float64(6.481757712698206e-12))]
+Exterior L=24,Nk=192,qfactor=2.0,Ua=4.0: []
+Exterior L=24,Nk=192,qfactor=2.0,Ua=8.0: [(15.550458028464643, np.float64(3.098021271530324e-11))]
+Exterior L=24,Nk=192,qfactor=2.0,Ua=12.0: [(18.073945570477225, np.float64(2.4422837555621348e-11))]
+Complete: finite pole/zero method and bounded exterior experiments; no low-energy gap certification.
