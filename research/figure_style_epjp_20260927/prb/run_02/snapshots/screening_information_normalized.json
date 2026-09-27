@@ -1,0 +1,366 @@
+{
+  "axes": [
+    {
+      "limits": [
+        [
+          5.6007280608977394,
+          14283.857228943341
+        ],
+        [
+          1.3564287436574499e-19,
+          7.915116044065171
+        ]
+      ],
+      "scales": [
+        "log",
+        "log"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b806302ed223746c7c5c550a033825245511aba8a83ec8ecd1589aa8e332d901"
+          },
+          "y": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "ff25785646524d16566e1422533166dba00ea0104011677f5aed9f8601d76a15"
+          },
+          "color": [
+            0.12156862745098039,
+            0.4666666666666667,
+            0.7058823529411765,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 4.7,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.12156862745098039,
+            0.4666666666666667,
+            0.7058823529411765,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.1,
+          "label": "All entries, calibrated"
+        },
+        {
+          "x": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b806302ed223746c7c5c550a033825245511aba8a83ec8ecd1589aa8e332d901"
+          },
+          "y": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b5bb4e7a329eaf40119d464c8564c55ba40386af4fe435af0eca450d607003b3"
+          },
+          "color": [
+            0.12156862745098039,
+            0.4666666666666667,
+            0.7058823529411765,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.7,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.12156862745098039,
+            0.4666666666666667,
+            0.7058823529411765,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.1,
+          "label": "All entries, gains profiled"
+        },
+        {
+          "x": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b806302ed223746c7c5c550a033825245511aba8a83ec8ecd1589aa8e332d901"
+          },
+          "y": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "a7f27d3bd63865ef6b3abaff58cd87d3fc527892f9fd1344a6b5b2e91161c47e"
+          },
+          "color": [
+            0.8509803921568627,
+            0.37254901960784315,
+            0.00784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.7,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.8509803921568627,
+            0.37254901960784315,
+            0.00784313725490196,
+            1.0
+          ],
+          "linestyle": "-.",
+          "linewidth": 1.1,
+          "label": "Axial auto, calibrated"
+        },
+        {
+          "x": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b806302ed223746c7c5c550a033825245511aba8a83ec8ecd1589aa8e332d901"
+          },
+          "y": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "e0d7ea999fb4c185e549c406cc0dce607a22dae95613f886e5f7fb14a7d3a79d"
+          },
+          "color": [
+            0.8509803921568627,
+            0.37254901960784315,
+            0.00784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "D",
+          "markersize": 4.7,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.8509803921568627,
+            0.37254901960784315,
+            0.00784313725490196,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.1,
+          "label": "Axial auto, gain profiled"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          5.6007280608977394,
+          14283.857228943341
+        ],
+        [
+          1.3564287436574499e-19,
+          7.915116044065171
+        ]
+      ],
+      "scales": [
+        "log",
+        "log"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b806302ed223746c7c5c550a033825245511aba8a83ec8ecd1589aa8e332d901"
+          },
+          "y": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "0aa05af5f5525353315643f22c20dfe812292fdd1bd5fbba30fa03032b1b1808"
+          },
+          "color": [
+            0.12156862745098039,
+            0.4666666666666667,
+            0.7058823529411765,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 4.7,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.12156862745098039,
+            0.4666666666666667,
+            0.7058823529411765,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.1,
+          "label": "All entries, calibrated"
+        },
+        {
+          "x": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b806302ed223746c7c5c550a033825245511aba8a83ec8ecd1589aa8e332d901"
+          },
+          "y": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "edc9beea2a0ff44532337dc00d8d5df00d19efff780c6f8b2a4ec094ad04702e"
+          },
+          "color": [
+            0.12156862745098039,
+            0.4666666666666667,
+            0.7058823529411765,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.7,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.12156862745098039,
+            0.4666666666666667,
+            0.7058823529411765,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.1,
+          "label": "All entries, gains profiled"
+        },
+        {
+          "x": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b806302ed223746c7c5c550a033825245511aba8a83ec8ecd1589aa8e332d901"
+          },
+          "y": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "8e5b3958a46bbcb17974ac660cb3b550cf6640189c949a9f236559c8efa6944f"
+          },
+          "color": [
+            0.8509803921568627,
+            0.37254901960784315,
+            0.00784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.7,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.8509803921568627,
+            0.37254901960784315,
+            0.00784313725490196,
+            1.0
+          ],
+          "linestyle": "-.",
+          "linewidth": 1.1,
+          "label": "Axial auto, calibrated"
+        },
+        {
+          "x": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "b806302ed223746c7c5c550a033825245511aba8a83ec8ecd1589aa8e332d901"
+          },
+          "y": {
+            "shape": [
+              81
+            ],
+            "dtype": "float64",
+            "sha256": "6a0e5b644bee68a45fa7d810631076e5bf264b88b00d4a9de7eac377335c0178"
+          },
+          "color": [
+            0.8509803921568627,
+            0.37254901960784315,
+            0.00784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "D",
+          "markersize": 4.7,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.8509803921568627,
+            0.37254901960784315,
+            0.00784313725490196,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.1,
+          "label": "Axial auto, gain profiled"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ]
+}

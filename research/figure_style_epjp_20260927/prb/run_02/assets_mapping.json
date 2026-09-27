@@ -1,0 +1,90 @@
+{
+  "editorial_figures_v2/figure1_uv.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure1_uv.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure1_uv.png",
+    "pdf_sha256": "02b40fd4d91d70655b730f2dc3f487c4aa5f9faeba79af89370b638a8da271fe",
+    "png_sha256": "4c70f03d1bed4d26c1c722c941b1f0360079619a71a7c39e0b3cd1745d5d20be",
+    "document": "main",
+    "figure_number": 1
+  },
+  "editorial_figures_v2/figure2_qwindows.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure2_qwindows.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure2_qwindows.png",
+    "pdf_sha256": "80bb3a9780587b2d3fb0e56155a2c819eca1677032a3d27182633d7a07e7ade8",
+    "png_sha256": "0cb2d37461bb25dc9545807515b873352f52332eb962c1c6d63e113313d9120e",
+    "document": "main",
+    "figure_number": 2
+  },
+  "editorial_figures_v2/figure3_calibration.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure3_calibration.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure3_calibration.png",
+    "pdf_sha256": "6bd9269257a6cac978980d7aa11b1685fdf7c74b3108f2d31c41c1d31f6a334e",
+    "png_sha256": "e0d0263fc9308c02408fcfc37fc07673fe7c8381ac9e63e6fa7bc3a21f381b92",
+    "document": "main",
+    "figure_number": 3
+  },
+  "editorial_figures_v2/figure4_reference.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure4_reference.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure4_reference.png",
+    "pdf_sha256": "c2f372465f29fa771017aabdb3bbed5536bca5ac06a9d254bfac08125bc1f957",
+    "png_sha256": "04f72ac40abdd2bd4b91f31aeb497fa97701bde67605371115b0be7bd7728a5f",
+    "document": "supplement",
+    "figure_number": 1
+  },
+  "editorial_figures_v2/figure5_eta.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure5_eta.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/editorial/figure5_eta.png",
+    "pdf_sha256": "3ce5c9c852c20a3bda369a642870c04067ec8bf0c3325757a4dffb28cd80cd78",
+    "png_sha256": "3801ca2473a38545fbb7686d5ce7cb9b5498de9f3230870d3c4a489c919e99f4",
+    "document": "supplement",
+    "figure_number": 2
+  },
+  "observation_figures/observation_profiles.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/observation/observation_profiles.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/observation/observation_profiles.png",
+    "pdf_sha256": "facd2da49824ba4ec35481faed9adf84004d95cd29ba3cf8a3e3ba5cd50e2aa8",
+    "png_sha256": "b6fed3acd0bcb1ff000193525a4b8b53ff07226346791c1ae74c144cac706edc",
+    "document": "main",
+    "figure_number": 5
+  },
+  "observation_figures/observation_noise.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/observation/observation_noise.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/observation/observation_noise.png",
+    "pdf_sha256": "af5c75c420ca49fb7b9e9ac6d4b6037d8c1d9600261aeee575ffe9f1bfda6417",
+    "png_sha256": "cb4ef7d7a4615ced97e7859aa8475d0c4cfda59a3efd283b6b733beaf8e22671",
+    "document": "main",
+    "figure_number": 6
+  },
+  "observation_figures/observation_limits.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/observation/observation_limits.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/observation/observation_limits.png",
+    "pdf_sha256": "e252a38c670f951a63926e44d0bedefaf652419772b59b5353426b2eb2992ec6",
+    "png_sha256": "26e2f3571bcbb756d7f991d7c58c17d2a3331e59c12495ce0332d176ccc02851",
+    "document": "main",
+    "figure_number": 7
+  },
+  "editorial_figures_v2/screening_information_normalized.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/revision/screening_information_normalized.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/revision/screening_information_normalized.png",
+    "pdf_sha256": "cc80c9350892d93ad627ba3b095dd08c962bb507112a29308bb7da90ba87384a",
+    "png_sha256": "9b3df67c6a9d1bbb26baa2eede36ada31fe81b6cc09c16ed96bf168924157172",
+    "document": "main",
+    "figure_number": 4
+  },
+  "editorial_figures_v2/independent_sources.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/revision/independent_sources.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/revision/independent_sources.png",
+    "pdf_sha256": "9e83bd82342ae016f07b9de24d35e27e34867c61cb6ea3611556e464d6cfbd9e",
+    "png_sha256": "49f415a6d3cc35a90b8159ae423ee563544c672cf1a07ba93238e438d2ae78d8",
+    "document": "main",
+    "figure_number": 8
+  },
+  "editorial_figures_v2/fixed_budget.pdf": {
+    "pdf": "research/figure_style_epjp_20260927/prb/run_02/budget/fixed_budget.pdf",
+    "png": "research/figure_style_epjp_20260927/prb/run_02/budget/fixed_budget.png",
+    "pdf_sha256": "19330e2a79a46d0847ec67f8fc6c24d3d6f6311d8872c093a708f1f8cd5a073e",
+    "png_sha256": "c2c1ffaf32f4241d324bbd1937784a839014780fb7a441a5e2f9426fe118352b",
+    "document": "main",
+    "figure_number": 9
+  }
+}

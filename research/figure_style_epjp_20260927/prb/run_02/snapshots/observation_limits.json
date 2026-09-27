@@ -1,0 +1,350 @@
+{
+  "axes": [
+    {
+      "limits": [
+        [
+          -0.48,
+          3.4800000000000004
+        ],
+        [
+          5e-06,
+          0.04
+        ]
+      ],
+      "scales": [
+        "linear",
+        "log"
+      ],
+      "lines": [],
+      "collections": [],
+      "patches": [
+        {
+          "path": {
+            "shape": [
+              5,
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "658c0e42dc673b8a72f4745ba389d3b0a4d563fb73746db73eaf054819ee8c69"
+          },
+          "paint": {
+            "alpha": null,
+            "visible": true,
+            "facecolor": {
+              "shape": [
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "5b8fc2066d5d8c40dac1ead9d7a4b10347468d9e28ba3299d95c9ff510875ca8"
+            },
+            "edgecolor": {
+              "shape": [
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+            }
+          },
+          "geometry": {
+            "shape": [
+              3,
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "72cccaae82c932e7da285dc0e11db2d2578eff0dd68cf285f5389051b0d8a33d"
+          }
+        },
+        {
+          "path": {
+            "shape": [
+              5,
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "658c0e42dc673b8a72f4745ba389d3b0a4d563fb73746db73eaf054819ee8c69"
+          },
+          "paint": {
+            "alpha": null,
+            "visible": true,
+            "facecolor": {
+              "shape": [
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "e77c03e9454309b15789f11d91d5a6194a536132815ae77758e4aedc4eadff22"
+            },
+            "edgecolor": {
+              "shape": [
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+            }
+          },
+          "geometry": {
+            "shape": [
+              3,
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "ab099a98cbf3d2060c4da1ee49e4c9bf8806ceebd4851100d5594a8600581f26"
+          }
+        },
+        {
+          "path": {
+            "shape": [
+              5,
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "658c0e42dc673b8a72f4745ba389d3b0a4d563fb73746db73eaf054819ee8c69"
+          },
+          "paint": {
+            "alpha": null,
+            "visible": true,
+            "facecolor": {
+              "shape": [
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "e77c03e9454309b15789f11d91d5a6194a536132815ae77758e4aedc4eadff22"
+            },
+            "edgecolor": {
+              "shape": [
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+            }
+          },
+          "geometry": {
+            "shape": [
+              3,
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "305f39d056e0da6dd480fafa81d394f24b7c3ae393008bd6061bb31ecd4117f5"
+          }
+        },
+        {
+          "path": {
+            "shape": [
+              5,
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "658c0e42dc673b8a72f4745ba389d3b0a4d563fb73746db73eaf054819ee8c69"
+          },
+          "paint": {
+            "alpha": null,
+            "visible": true,
+            "facecolor": {
+              "shape": [
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "5b8fc2066d5d8c40dac1ead9d7a4b10347468d9e28ba3299d95c9ff510875ca8"
+            },
+            "edgecolor": {
+              "shape": [
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+            }
+          },
+          "geometry": {
+            "shape": [
+              3,
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "891b75821c22fb7755b02e7e057f86de12f38c942a09934a1715192a451664ad"
+          }
+        }
+      ],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          0.055,
+          1.045
+        ],
+        [
+          -2.300384318522692,
+          0.09976084033445526
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "565e0288cba14ac35c3d103e45413255cba8f94004ab64847b9d7687359eb157"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "d093bb772f3c28f06dce2fafa09c3ab81fb92ff773b5f69f8513061b454dc47e"
+          },
+          "color": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.0,
+          "label": "_child0"
+        },
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "565e0288cba14ac35c3d103e45413255cba8f94004ab64847b9d7687359eb157"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "51709a2878ca56eceec03fddfa9b8c234256d0ce49e06c82a060448933d79b75"
+          },
+          "color": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.0,
+          "label": "$B_+,\\mu/t=0.5$"
+        },
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "565e0288cba14ac35c3d103e45413255cba8f94004ab64847b9d7687359eb157"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "07802624d3d582ef8df5130f4039b09029c36e105680a93c8c0fffe03459fe98"
+          },
+          "color": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.0,
+          "label": "_child2"
+        },
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "565e0288cba14ac35c3d103e45413255cba8f94004ab64847b9d7687359eb157"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "76494396a932ea3222c5115bb104c2589b386c9e01502f6248fb6ec19cc04c7a"
+          },
+          "color": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.0,
+          "label": "$B_0,\\mu/t=0.25$"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ]
+}

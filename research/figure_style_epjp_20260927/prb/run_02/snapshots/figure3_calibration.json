@@ -1,0 +1,667 @@
+{
+  "axes": [
+    {
+      "limits": [
+        [
+          -1.2000000000000002,
+          25.2
+        ],
+        [
+          0.0,
+          334.37504830305716
+        ]
+      ],
+      "scales": [
+        "linear",
+        "symlog"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "7f73a1a71dbf41a6fbf2184b50ec82ca51fc06d94713cf8f450ba3d267b227ba"
+          },
+          "color": [
+            0.6549019607843137,
+            0.4745098039215686,
+            0.0,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.6549019607843137,
+            0.4745098039215686,
+            0.0,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.2,
+          "label": "Charge only"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "0b77a211fb5f5087c8a01386542436c7b197e0d8a2b3fdb2d63162bcbb25c5e6"
+          },
+          "color": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.2,
+          "label": "Both calibrated"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "7ca6207357ff74c1fd4af995d408395a47e3d1158bbf56d341b4827d4a1f7209"
+          },
+          "color": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.2,
+          "label": "Separate axial gains"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "3c06a2b823e309e3708674fecabab3716a1845a28ea65b51df533cf9f23a4181"
+          },
+          "color": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "D",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 0.8,
+          "label": "Shared axial gain"
+        },
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "814dd7b9784d57c15b9c2972e9b4fd6cf7e164f8162a934bdb2452a413dab1f7"
+          },
+          "color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "markeredge": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child4"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          -1.2000000000000002,
+          25.2
+        ],
+        [
+          0.0,
+          336.0453453773551
+        ]
+      ],
+      "scales": [
+        "linear",
+        "symlog"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "f66f08564aa08b81ab12e55ff62f160faee2182425aa44ceeb37943eed494c9f"
+          },
+          "color": [
+            0.6549019607843137,
+            0.4745098039215686,
+            0.0,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.6549019607843137,
+            0.4745098039215686,
+            0.0,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.2,
+          "label": "Charge only"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "8394a41e66719a75371662cdd356746893711879df21d0a9218f4aacbe902c2c"
+          },
+          "color": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.2,
+          "label": "Both calibrated"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "06a1d8e8609a45d4ea55662a737a51083f9874a5185b27e3ca67c63e874e3f19"
+          },
+          "color": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.2,
+          "label": "Separate axial gains"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "f4b7dc4b8271ea3302b7fe73aba7c4773be3cd9d7235946e2d935f4ccd1a312f"
+          },
+          "color": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "D",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 0.8,
+          "label": "Shared axial gain"
+        },
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "814dd7b9784d57c15b9c2972e9b4fd6cf7e164f8162a934bdb2452a413dab1f7"
+          },
+          "color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "markeredge": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child4"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          -1.2000000000000002,
+          25.2
+        ],
+        [
+          0.0,
+          335.83704354235243
+        ]
+      ],
+      "scales": [
+        "linear",
+        "symlog"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "f9325d17c1e77d2879d6afa3efab385b997941843f1b5f6d99b855ed59cc9394"
+          },
+          "color": [
+            0.6549019607843137,
+            0.4745098039215686,
+            0.0,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.6549019607843137,
+            0.4745098039215686,
+            0.0,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.2,
+          "label": "Charge only"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "52f89c3f01e0b6c9cf4a03db8a85ec9b425601002dc6eb02df355a336edb151e"
+          },
+          "color": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.2,
+          "label": "Both calibrated"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "78965012e7145c52e7632bb471bc3856c3146ba3fe4af6a53af8bca64c281c60"
+          },
+          "color": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.2,
+          "label": "Separate axial gains"
+        },
+        {
+          "x": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "e083373dd847862b061de5ec494f9be13a1a2265662d09aa6ff9305963ee646d"
+          },
+          "y": {
+            "shape": [
+              49
+            ],
+            "dtype": "float64",
+            "sha256": "8a79cbc828cb147caa8255ceed6501cbc5c084f3a72f0014da964460258477da"
+          },
+          "color": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "D",
+          "markersize": 4.0,
+          "markerface": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "markeredge": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 0.8,
+          "label": "Shared axial gain"
+        },
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "814dd7b9784d57c15b9c2972e9b4fd6cf7e164f8162a934bdb2452a413dab1f7"
+          },
+          "color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "markeredge": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child4"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "status": "PLOTS_REFLOWED_FROM_FROZEN_DATA",
+  "source_sha256": "3eac118668dbf511829dd530063f12255efa5a5e26cbf0d74b34b74f796561e3",
+  "original_plot_source_sha256": "eb8577ad55ec375ecb2198c0a90cd8824ea005759ecf2861dcefc574f2dc7f93",
+  "input_sha256": {
+    "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\responses.csv": "5f283182fd34cde94d57634cfab2a450f8e68c7118b5c054f7b2a7319ae314ae",
+    "research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qhalf.csv": "4827c8e6c0b966bb0778489e6e671ac3f78e962824bc3b3fb46077d5a98ded2d",
+    "research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qhalf.csv": "8786a8c9700b9eeb5880a300453c4a27bd241a35da340f018c5a69b2a5150455",
+    "research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\baseline.csv": "d74f7ed6e81787eb4ac6ad3db81e3a4e8bd52d14cc4a0a9876e39cd77edc0d12",
+    "research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\baseline.csv": "361a3224c44a6ac71610688b5a1b5e9fb6e2a48828d998a3af129f7b7435da26",
+    "research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qdouble.csv": "11a7a1be0ef52db23ba9ba89e3249342f33962ccfc9fbff2dd2e99d1ba03c34c",
+    "research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qdouble.csv": "49c160bdefe57aca5e163a737736e0b51cd1b7410fea9d8f1a1b1969fad12cd0",
+    "research\\prb_lattice_response\\parameter_calibration_audit\\run_01\\profiles.csv": "96fbf54af1cf7c2a5c73de5865b8992ea279ab1205c6336d38c25b3dea1e0eda",
+    "research\\prb_lattice_response\\detector_boundary_refinement\\higher_profile_comparison\\own_mesh_truth_profiles.csv": "226fe4a9386bb7ed826c5cec4291ea76256d6d6d4e554cef4d20af282eddd90f",
+    "research\\prb_lattice_response\\detector_boundary_refinement\\higher_profile_comparison\\shared_higher_truth_profiles.csv": "cc9403e7205749450926bd4a3ed9ea71bb17720766805f41d0ed55a741efdc9e",
+    "research\\prb_lattice_response\\low_energy_mode_audit\\eta_controls.csv": "7dc552b1073520e90d2bbff3f3d65b33316598088a145baba2df2c1a248bc5a6",
+    "research\\prb_lattice_response\\low_energy_mode_audit\\transition_sectors.csv": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1"
+  },
+  "all_inputs_unchanged": true,
+  "new_fits_or_resampling": false,
+  "figures": {
+    "figure1_uv": {
+      "size_inches": [
+        7.2,
+        5.2
+      ],
+      "trace_sha256": "91e3e981258b48a7b4769a7aafae58918309005292cecf7a17dc0ee48e5ea578",
+      "trace_count": 15,
+      "all_trace_values_unchanged": true,
+      "text_outside_canvas": []
+    },
+    "figure2_qwindows": {
+      "size_inches": [
+        7.2,
+        5.8
+      ],
+      "trace_sha256": "fb6b5ac0450bde4ff5896618408baa8a0bd596504262d4d8a10a7401999ff0f2",
+      "trace_count": 18,
+      "all_trace_values_unchanged": true,
+      "text_outside_canvas": []
+    },
+    "figure3_calibration": {
+      "size_inches": [
+        7.2,
+        3.7
+      ],
+      "trace_sha256": "2ff1ce81958da0a1b1cfba1aa80e66cccb39fb61de41972ee6c545bc291bcaa4",
+      "trace_count": 15,
+      "all_trace_values_unchanged": true,
+      "text_outside_canvas": []
+    },
+    "figure4_reference": {
+      "size_inches": [
+        7.2,
+        7.2
+      ],
+      "trace_sha256": "fee256301308120e2dc8dac04761f012c9b2748e1eed9b374eba29c0400a6f19",
+      "trace_count": 15,
+      "all_trace_values_unchanged": true,
+      "text_outside_canvas": []
+    },
+    "figure5_eta": {
+      "size_inches": [
+        7.2,
+        5.2
+      ],
+      "trace_sha256": "222179287035f1db15969976228213bde216867a3292d4506dba5aa94e8e1fd4",
+      "trace_count": 11,
+      "all_trace_values_unchanged": true,
+      "text_outside_canvas": []
+    }
+  },
+  "output_sha256": {
+    "figure1_uv.pdf": "02b40fd4d91d70655b730f2dc3f487c4aa5f9faeba79af89370b638a8da271fe",
+    "figure1_uv.png": "4c70f03d1bed4d26c1c722c941b1f0360079619a71a7c39e0b3cd1745d5d20be",
+    "figure2_qwindows.pdf": "80bb3a9780587b2d3fb0e56155a2c819eca1677032a3d27182633d7a07e7ade8",
+    "figure2_qwindows.png": "0cb2d37461bb25dc9545807515b873352f52332eb962c1c6d63e113313d9120e",
+    "figure3_calibration.pdf": "6bd9269257a6cac978980d7aa11b1685fdf7c74b3108f2d31c41c1d31f6a334e",
+    "figure3_calibration.png": "e0d0263fc9308c02408fcfc37fc07673fe7c8381ac9e63e6fa7bc3a21f381b92",
+    "figure4_reference.pdf": "c2f372465f29fa771017aabdb3bbed5536bca5ac06a9d254bfac08125bc1f957",
+    "figure4_reference.png": "04f72ac40abdd2bd4b91f31aeb497fa97701bde67605371115b0be7bd7728a5f",
+    "figure5_eta.pdf": "3ce5c9c852c20a3bda369a642870c04067ec8bf0c3325757a4dffb28cd80cd78",
+    "figure5_eta.png": "3801ca2473a38545fbb7686d5ce7cb9b5498de9f3230870d3c4a489c919e99f4"
+  }
+}

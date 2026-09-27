@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "figure_count": 11,
+  "output_directory": "research/figure_style_epjp_20260927/prb/reproduction/styled_figures_02",
+  "no_scientific_recomputation": true,
+  "figures": {
+    "figure1_uv": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "02b40fd4d91d70655b730f2dc3f487c4aa5f9faeba79af89370b638a8da271fe",
+      "reproduced_pdf_sha256": "124d74b75f9804b69bb580c6b27d6f08dd7fa071468c508d02dd8685b73c5962",
+      "png_byte_equal": true
+    },
+    "figure2_qwindows": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "80bb3a9780587b2d3fb0e56155a2c819eca1677032a3d27182633d7a07e7ade8",
+      "reproduced_pdf_sha256": "bf67d703cb40d5c344846492ce3a7b69d2e2d84c970669737a38b5b27b2cb12c",
+      "png_byte_equal": true
+    },
+    "figure3_calibration": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "6bd9269257a6cac978980d7aa11b1685fdf7c74b3108f2d31c41c1d31f6a334e",
+      "reproduced_pdf_sha256": "1b3865f2b91d662ed91962a7d3ec36b80824c9f4350c15c3322df43ba0d7ee4c",
+      "png_byte_equal": true
+    },
+    "figure4_reference": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "c2f372465f29fa771017aabdb3bbed5536bca5ac06a9d254bfac08125bc1f957",
+      "reproduced_pdf_sha256": "7edffba74acacab02c124b7ddcc6a5812225e932136e8f989820cd98ed2b955e",
+      "png_byte_equal": true
+    },
+    "figure5_eta": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "3ce5c9c852c20a3bda369a642870c04067ec8bf0c3325757a4dffb28cd80cd78",
+      "reproduced_pdf_sha256": "aeafd23e89c0300500b73a01796df03fd264f5f663cf135903a4b54dd6245a44",
+      "png_byte_equal": true
+    },
+    "observation_profiles": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "facd2da49824ba4ec35481faed9adf84004d95cd29ba3cf8a3e3ba5cd50e2aa8",
+      "reproduced_pdf_sha256": "3a100f4a0dd01d3b145415c288a8d9adf91ad16ac3fe91087138779100fc4436",
+      "png_byte_equal": true
+    },
+    "observation_noise": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "af5c75c420ca49fb7b9e9ac6d4b6037d8c1d9600261aeee575ffe9f1bfda6417",
+      "reproduced_pdf_sha256": "37a5eec4a27573d5f8cb62c0c29c196af568a838738237bdfd54950baac2c9ea",
+      "png_byte_equal": true
+    },
+    "observation_limits": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "e252a38c670f951a63926e44d0bedefaf652419772b59b5353426b2eb2992ec6",
+      "reproduced_pdf_sha256": "5ee22935547ab8dcfc3fc534bf1d1d9ec13534d3d220dd20c55eab5d44b9d129",
+      "png_byte_equal": true
+    },
+    "screening_information_normalized": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "cc80c9350892d93ad627ba3b095dd08c962bb507112a29308bb7da90ba87384a",
+      "reproduced_pdf_sha256": "2afe1a607c9616bcc8725a77f8bea7dc026650646a44aaf9ba1bb1c4401b3390",
+      "png_byte_equal": true
+    },
+    "independent_sources": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "9e83bd82342ae016f07b9de24d35e27e34867c61cb6ea3611556e464d6cfbd9e",
+      "reproduced_pdf_sha256": "2e55b9810bfddbf16e72f608d27c504b4d197a434c09ae2a17e11c037dcef18f",
+      "png_byte_equal": true
+    },
+    "fixed_budget": {
+      "text_equal": true,
+      "pixels_equal_72_and_144dpi": true,
+      "dimensions_equal": true,
+      "scientific_fingerprint_equal": true,
+      "released_pdf_sha256": "19330e2a79a46d0847ec67f8fc6c24d3d6f6311d8872c093a708f1f8cd5a073e",
+      "reproduced_pdf_sha256": "b3aae6bb45b548a4bb5acd39a61df14b15bc7a6f73a161a3b0c87552d26797fa",
+      "png_byte_equal": true
+    }
+  }
+}

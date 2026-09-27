@@ -1,7 +1,7 @@
 # Weyl lattice inference: data and code
 
 Research artifacts for **Screening and cross-response constraints on interaction
-inference in a Weyl lattice**, Gyeongtae Im. Version 1.0.0, 27 September 2026.
+inference in a Weyl lattice**, Gyeongtae Im. Version 1.1.0, 27 September 2026.
 Journal target: *Physical Review B*. This release does not imply acceptance.
 
 This separate repository contains the lattice and observation calculations,
@@ -33,7 +33,7 @@ band summations or the full Monte Carlo study.
 | `prb_fixed_budget_20260927` | 300-fit pilot and independent 800-fit confirmation at fixed total acquisition time |
 | `figure_revision_20260927/prb/run_05` | Readability revision of Figures 4 and 8; numerical arrays unchanged |
 
-The final nine main-text and two supplemental figure PDFs are also preserved
+The version 1.0.0 nine main-text and two supplemental figure PDFs are preserved
 under `paper/prb_strengthened/editorial_figures_v2` and `observation_figures`.
 These directories contain figure assets only, without manuscript text.
 
@@ -61,6 +61,28 @@ the commands and the fixed 200-pair stopping rule.
 The independent confirmation supports one of the two preselected fixed-budget
 comparisons; the other remains unresolved. RPA, known bare response, specified
 noise and probe families remain assumptions, not experimental validation.
+
+## Figure styling in version 1.1.0
+
+Version 1.1.0 preserves the scientific calculations and version 1.0.0 history.
+It adds the final publication figure typography: standalone bold lowercase
+panel labels, consistent axis/tick/legend sizes, and verified text layout.
+The shared Matplotlib style checks numerical arrays, axis limits, colors,
+line styles and markers before and after each display-only revision.
+No model fitting, eigensolver calculation or Monte Carlo study is repeated.
+
+The eleven final styled figures and their checks are under
+`research/figure_style_epjp_20260927/prb/run_02`; `assets_mapping.json` maps each
+asset to its paper figure number. Earlier figure directories below retain the
+version 1.0.0 assets as provenance. The hollow triangle/square/circle/diamond
+markers in Figure 4 and the reduced Figure 8 colorbar gap are preserved.
+
+```sh
+python -B research/figure_style_epjp_20260927/prb/render_all.py --output research/figure_style_epjp_20260927/prb/reproduction/styled_figures
+```
+
+Use a new output directory for each render. The release verification also
+checks every final asset and the preserved original source/data hashes.
 
 ## Provenance, citation and licensing
 

@@ -1,0 +1,730 @@
+{
+  "axes": [
+    {
+      "limits": [
+        [
+          -0.14,
+          2.14
+        ],
+        [
+          -0.007398747246983922,
+          0.0006041965359806622
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+          },
+          "color": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "markeredge": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child0"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "ac0900185f8d1e20617bf9b44fef04519524acd836b005ca447a62c1c4570904"
+          },
+          "color": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.1,
+          "label": "Trial $U_a$=1"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          -0.14,
+          2.14
+        ],
+        [
+          -1.1222157575115883,
+          1.5665309077433531
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+          },
+          "color": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "markeredge": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child0"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "6ed30f01e9951f5dc33298952422cfa5a2e96613e8ff0c1818f5d58dbc1f86b5"
+          },
+          "color": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.1,
+          "label": "Trial $U_a$=1"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "12c48777b9bbbe65bf624e0dbda9befe88c903345ea9e5c7009c1ffa787e2307"
+          },
+          "color": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.1,
+          "label": "True $U_a=8$"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          -0.14,
+          2.14
+        ],
+        [
+          -7.608012022109856e-05,
+          9.275241798427521e-05
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+          },
+          "color": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "markeredge": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child0"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "642593bee81d357a914be1367f33c4030e9227e652029030e9c8a2d5faad30a5"
+          },
+          "color": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.1,
+          "label": "Trial $U_a$=20"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          -0.14,
+          2.14
+        ],
+        [
+          -0.12511644741698733,
+          0.4274453957567338
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+          },
+          "color": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "markeredge": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child0"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "c2b095cfe93c017e8dcbba2a673899ba71e929a04f5a93b38356bac1fabf10ff"
+          },
+          "color": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.1,
+          "label": "Trial $U_a$=20"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "88c57da15270a632fe72c8da57518af1130c44bcfae35470a125d96cccb8ec08"
+          },
+          "color": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.1,
+          "label": "True $U_a=8$"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          -0.14,
+          2.14
+        ],
+        [
+          -0.0002567647601930511,
+          8.526798768636649e-05
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+          },
+          "color": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "markeredge": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child0"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "e2be754d601071229e43acad7cc2f2af473ead94176268a4c059447628ae7dbf"
+          },
+          "color": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.0,
+            0.4470588235294118,
+            0.6980392156862745,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.1,
+          "label": "Trial $U_a$=17"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          -0.14,
+          2.14
+        ],
+        [
+          -0.15749745468037468,
+          1.1074465482878681
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "9d34149fbd1fe777eb238799054c8cbfbce372255f219f8740838def9bfd02db"
+          },
+          "y": {
+            "shape": [
+              2
+            ],
+            "dtype": "int64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+          },
+          "color": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "markeredge": [
+            0.4,
+            0.4,
+            0.4,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "_child0"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "94f7a7247163e97baa0549675a70531cdb7f285baca13fe686c8b0c4bb4a61d9"
+          },
+          "color": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.8352941176470589,
+            0.3686274509803922,
+            0.0,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.1,
+          "label": "Trial $U_a$=17"
+        },
+        {
+          "x": {
+            "shape": [
+              3
+            ],
+            "dtype": "int64",
+            "sha256": "ab25350e3e65efebe24584461683ecda68725576e825e550038b90e7b1479946"
+          },
+          "y": {
+            "shape": [
+              3
+            ],
+            "dtype": "float64",
+            "sha256": "adb26a839a9bdb68063fc3d6102225e7b634bde0dbd59d62c407fad297e8e628"
+          },
+          "color": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 5.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.0,
+            0.6196078431372549,
+            0.45098039215686275,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.1,
+          "label": "True $U_a=8$"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ]
+}

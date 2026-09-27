@@ -1,0 +1,528 @@
+{
+  "axes": [
+    {
+      "limits": [
+        [
+          0.035,
+          0.365
+        ],
+        [
+          -0.005694651511292664,
+          0.15244914415614017
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "c3ae839ec9103a958eb11b8ae318cdf2078421a07a99a40481b6112ac829c9f8"
+          },
+          "color": [
+            0.09019607843137255,
+            0.396078431372549,
+            0.6784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.09019607843137255,
+            0.396078431372549,
+            0.6784313725490196,
+            1.0
+          ],
+          "markeredge": [
+            0.09019607843137255,
+            0.396078431372549,
+            0.6784313725490196,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.2,
+          "label": "$\\eta=0.0075$"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "effdc840fefacf4c6d266bb50cd59aca73e24158531b9df675b313941e151b7c"
+          },
+          "color": [
+            0.8745098039215686,
+            0.42745098039215684,
+            0.08235294117647059,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.8745098039215686,
+            0.42745098039215684,
+            0.08235294117647059,
+            1.0
+          ],
+          "markeredge": [
+            0.8745098039215686,
+            0.42745098039215684,
+            0.08235294117647059,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.2,
+          "label": "$\\eta=0.015$"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "d36ce81fa919720a704ea5bd8b5f7e8ae9049b2e0f67134e564cee1e1b0cd313"
+          },
+          "color": [
+            0.6941176470588235,
+            0.12156862745098039,
+            0.20392156862745098,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.6941176470588235,
+            0.12156862745098039,
+            0.20392156862745098,
+            1.0
+          ],
+          "markeredge": [
+            0.6941176470588235,
+            0.12156862745098039,
+            0.20392156862745098,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.2,
+          "label": "$\\eta=0.03$"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          0.035,
+          0.365
+        ],
+        [
+          0.0,
+          2.0587625070274447
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "dc7608ba25c3471c1d67958a0b6d1c1938ab46cebfefeee9c7c6a6626a8c5581"
+          },
+          "color": [
+            0.09019607843137255,
+            0.396078431372549,
+            0.6784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.09019607843137255,
+            0.396078431372549,
+            0.6784313725490196,
+            1.0
+          ],
+          "markeredge": [
+            0.09019607843137255,
+            0.396078431372549,
+            0.6784313725490196,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.2,
+          "label": "_child0"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "efe1943c03ad8bb700919406f0c4f64145cea9353c869b3e77bd49d8a3a9d2b4"
+          },
+          "color": [
+            0.8745098039215686,
+            0.42745098039215684,
+            0.08235294117647059,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.8745098039215686,
+            0.42745098039215684,
+            0.08235294117647059,
+            1.0
+          ],
+          "markeredge": [
+            0.8745098039215686,
+            0.42745098039215684,
+            0.08235294117647059,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.2,
+          "label": "_child1"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "7ebfa3a85f995d481a43943ca9e942531eab2af780b68bfa56b8645eb8ae08df"
+          },
+          "color": [
+            0.6941176470588235,
+            0.12156862745098039,
+            0.20392156862745098,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.6941176470588235,
+            0.12156862745098039,
+            0.20392156862745098,
+            1.0
+          ],
+          "markeredge": [
+            0.6941176470588235,
+            0.12156862745098039,
+            0.20392156862745098,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.2,
+          "label": "_child2"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          0.035,
+          0.365
+        ],
+        [
+          -0.0015520423775520478,
+          0.07948924017519135
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "f029f933adcbd58585f583eb6cf6eb7084cde67bc52e499c452f1edc637b1d20"
+          },
+          "color": [
+            0.13333333333333333,
+            0.13333333333333333,
+            0.13333333333333333,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.13333333333333333,
+            0.13333333333333333,
+            0.13333333333333333,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.6,
+          "label": "All"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "8cf96f62e821d4ffb64df88a6b1b762ac140127055b266d97316cf10b1392952"
+          },
+          "color": [
+            0.8470588235294118,
+            0.4588235294117647,
+            0.050980392156862744,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.8470588235294118,
+            0.4588235294117647,
+            0.050980392156862744,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 0.85,
+          "label": "Positive-positive"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "0ba286e08d1c606d10e25a912fae3f38ede8c365728af34c7efb50a8b6f3fe86"
+          },
+          "color": [
+            0.07058823529411765,
+            0.5294117647058824,
+            0.27450980392156865,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.07058823529411765,
+            0.5294117647058824,
+            0.27450980392156865,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "Equal index"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          0.035,
+          0.365
+        ],
+        [
+          4.690422916434229e-05,
+          0.018665049766553636
+        ]
+      ],
+      "scales": [
+        "linear",
+        "log"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "116263dd6a7e95f05af94256907e6d57c9522e22550b21e4d89b535785432147"
+          },
+          "color": [
+            0.8470588235294118,
+            0.4588235294117647,
+            0.050980392156862744,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 3.5,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.8470588235294118,
+            0.4588235294117647,
+            0.050980392156862744,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 0.85,
+          "label": "Positive-positive"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "3c40089a5dcfc5a4d972318d5470317345e327f3549e7f467b71f602e22d96ac"
+          },
+          "color": [
+            0.07058823529411765,
+            0.5294117647058824,
+            0.27450980392156865,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 3.5,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.07058823529411765,
+            0.5294117647058824,
+            0.27450980392156865,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 0.8,
+          "label": "Equal index"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ]
+}

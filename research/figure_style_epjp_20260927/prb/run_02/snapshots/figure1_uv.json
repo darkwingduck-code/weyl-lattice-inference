@@ -1,0 +1,688 @@
+{
+  "axes": [
+    {
+      "limits": [
+        [
+          0.035,
+          0.365
+        ],
+        [
+          -0.0009196889588549777,
+          0.08227696807270478
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "3407a138f233386507de53b3c2966edae1bdea9f5417a361bcf88822d73a2648"
+          },
+          "color": [
+            0.13333333333333333,
+            0.13333333333333333,
+            0.13333333333333333,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.13333333333333333,
+            0.13333333333333333,
+            0.13333333333333333,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.7,
+          "label": "Full"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "e96455c4e507ca8ac7a631ed6b1dd4f3760d236bbe3b6e1b9cc14daca0005213"
+          },
+          "color": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.1,
+          "label": "Positive-positive; bare $U$"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "43880baee99084839be8d27bca00253e13439fbc3973c1c9e17527763033660f"
+          },
+          "color": [
+            0.5176470588235295,
+            0.33725490196078434,
+            0.6509803921568628,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.5176470588235295,
+            0.33725490196078434,
+            0.6509803921568628,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.0,
+          "label": "Effective $U$ only"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "d412f670d8b2d5c23b56908198aa0bcbdd8bc182636b11b8cda00b966c649b67"
+          },
+          "color": [
+            0.03137254901960784,
+            0.49019607843137253,
+            0.3843137254901961,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.03137254901960784,
+            0.49019607843137253,
+            0.3843137254901961,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 0.8,
+          "label": "Frozen full matching"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          0.035,
+          0.365
+        ],
+        [
+          -0.003175433899110892,
+          0.06923619855152105
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "a13c12d3653869dec3bc403a29260c199877fc662305207c2dd15a5db14eb661"
+          },
+          "color": [
+            0.13333333333333333,
+            0.13333333333333333,
+            0.13333333333333333,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.13333333333333333,
+            0.13333333333333333,
+            0.13333333333333333,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.7,
+          "label": "Full"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "36df501152f55e3f929f5aeede1f73bbee430c7c936a2fe38919f88fb2b688dc"
+          },
+          "color": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.1,
+          "label": "Positive-positive; bare $U$"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "d824ecf399a8906324286b06d5153a374dbe460503fb6ce107e9e364bec8de2b"
+          },
+          "color": [
+            0.5176470588235295,
+            0.33725490196078434,
+            0.6509803921568628,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.5176470588235295,
+            0.33725490196078434,
+            0.6509803921568628,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.0,
+          "label": "Effective $U$ only"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "af52378b7ea199e06bbde8dc3e97722f5d40d8f65a8f57076d4bf327f9878077"
+          },
+          "color": [
+            0.03137254901960784,
+            0.49019607843137253,
+            0.3843137254901961,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.03137254901960784,
+            0.49019607843137253,
+            0.3843137254901961,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 0.8,
+          "label": "Frozen full matching"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          0.035,
+          0.365
+        ],
+        [
+          -0.003319829705361842,
+          0.07486060410991491
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "48c97e37e75ddf25eb231ca0dfc9bc4dcdbedc8c19983d8cf8508cb18518b42c"
+          },
+          "color": [
+            0.13333333333333333,
+            0.13333333333333333,
+            0.13333333333333333,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.13333333333333333,
+            0.13333333333333333,
+            0.13333333333333333,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.7,
+          "label": "Full"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "1be3083f01941ba6398d96498a6ab85af2b590a6b53f086f193ae024d9326735"
+          },
+          "color": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.1,
+          "label": "Positive-positive; bare $U$"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "570216119c27fb1527fa9997732375845634647ce21c2e6183ecaff667fff4cb"
+          },
+          "color": [
+            0.5176470588235295,
+            0.33725490196078434,
+            0.6509803921568628,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.5176470588235295,
+            0.33725490196078434,
+            0.6509803921568628,
+            1.0
+          ],
+          "linestyle": ":",
+          "linewidth": 1.0,
+          "label": "Effective $U$ only"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "4a55d2db9ee21456fe0441a57ebe1cda86108ee7aa43094f4342a3bdb742cd49"
+          },
+          "color": [
+            0.03137254901960784,
+            0.49019607843137253,
+            0.3843137254901961,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 4.0,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.03137254901960784,
+            0.49019607843137253,
+            0.3843137254901961,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 0.8,
+          "label": "Frozen full matching"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          0.035,
+          0.365
+        ],
+        [
+          1.0819449419055369e-05,
+          0.0021442857829622702
+        ]
+      ],
+      "scales": [
+        "linear",
+        "log"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "0407f3ebaf504b86c552f6a4e7b53d392f2746b83fbc66c47b6d7530b4e86a81"
+          },
+          "color": [
+            0.09019607843137255,
+            0.396078431372549,
+            0.6784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 3.5,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.09019607843137255,
+            0.396078431372549,
+            0.6784313725490196,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.0,
+          "label": "cc"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "cf571cb90c13d86d740531f2edb2d16568fa87f0567f1ca3fa7b29e792ad57ff"
+          },
+          "color": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "s",
+          "markersize": 3.5,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.7764705882352941,
+            0.1568627450980392,
+            0.1568627450980392,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.0,
+          "label": "aa"
+        },
+        {
+          "x": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "11ea5f2db8ad5aedde6aaec0e158aa08029e6b313e6d48b7e5aeb94fbddb33cb"
+          },
+          "y": {
+            "shape": [
+              45
+            ],
+            "dtype": "float64",
+            "sha256": "ff27326e613d919a5d9e7d4752c748a5f3796d3908ffce6d04ca47d817c287b4"
+          },
+          "color": [
+            0.03137254901960784,
+            0.49019607843137253,
+            0.3843137254901961,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "^",
+          "markersize": 3.5,
+          "markerface": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "markeredge": [
+            0.03137254901960784,
+            0.49019607843137253,
+            0.3843137254901961,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.0,
+          "label": "ca"
+        }
+      ],
+      "collections": [],
+      "patches": [],
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "axes": [
+    {
+      "limits": [
+        [
+          -0.05,
+          1.05
+        ],
+        [
+          0.0,
+          0.12667251462605192
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "100d80160cd298c807bbee8d56f54355cad590d800d0bb2bf7f5c2be3f59f694"
+          },
+          "y": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "3d4bd11f6125c1565c0fc9f4baa3b3f2cc79abad71f868e1eca3dc5efa444c23"
+          },
+          "color": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 6.0,
+          "markerface": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "markeredge": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.5,
+          "label": "_nolegend_"
+        },
+        {
+          "x": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "100d80160cd298c807bbee8d56f54355cad590d800d0bb2bf7f5c2be3f59f694"
+          },
+          "y": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "78d55f52ae91168ae580c23c884b2a245c1114017cd78f53782a30f61dd4206c"
+          },
+          "color": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "_",
+          "markersize": 6.0,
+          "markerface": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "markeredge": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "linestyle": "None",
+          "linewidth": 1.5,
+          "label": "_nolegend_"
+        },
+        {
+          "x": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "100d80160cd298c807bbee8d56f54355cad590d800d0bb2bf7f5c2be3f59f694"
+          },
+          "y": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "9b1b718003111ce75b266aa322d06335704746c04a75d257f9a8bdd225b8ee8c"
+          },
+          "color": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "_",
+          "markersize": 6.0,
+          "markerface": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "markeredge": [
+            0.09019607843137255,
+            0.4196078431372549,
+            0.6196078431372549,
+            1.0
+          ],
+          "linestyle": "None",
+          "linewidth": 1.5,
+          "label": "_nolegend_"
+        },
+        {
+          "x": {
+            "shape": [
+              5
+            ],
+            "dtype": "float64",
+            "sha256": "b775cb658293f2d9056d63a2bb64185bb77284c3a55650287f38ab52c8758828"
+          },
+          "y": {
+            "shape": [
+              5
+            ],
+            "dtype": "float64",
+            "sha256": "a52f49011bdb7c3f7d711970efa5e0b17a072bcc2dc69492b534cd93ff589552"
+          },
+          "color": [
+            0.25,
+            0.25,
+            0.25,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.25,
+            0.25,
+            0.25,
+            1.0
+          ],
+          "markeredge": [
+            0.25,
+            0.25,
+            0.25,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.5,
+          "label": "Local Fisher SD"
+        }
+      ],
+      "collections": [
+        {
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+          },
+          "paths": [
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "450d674d153c8d1a4e22713c7483323dcfdb8094d745c39584b25899b7f2590c"
+            },
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "1f9d03fded2b7fe1d569e43e9d3879b145f924e7aa06c6dd1ca0d1f8d3697120"
+            },
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "fca3f2913bcb924849217925476c71a7bfbd6042c2e0f34728b44e8762d7b50d"
+            },
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "9a2c9ddddac35e52a4dc7cb26ea356fce95d85ffde73664d2cf7862ba372f2ce"
+            },
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "ffa0ed94e07b2288aa12b2b074bf08824ccda0a96f8551a04c39dcfeaa274dc7"
+            }
+          ],
+          "paint": {
+            "alpha": null,
+            "visible": true,
+            "facecolor": {
+              "shape": [
+                0,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "edgecolor": {
+              "shape": [
+                1,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "98ef2c02bb42cddc5c7db027e8d1efaebc1f4c9d71e121c35094602367baf456"
+            }
+          },
+          "label": "_nolegend_",
+          "array": null,
+          "cmap": "viridis",
+          "clim": [
+            null,
+            null
+          ]
+        }
+      ],
+      "patches": [],
+      "images": []
+    },
+    {
+      "limits": [
+        [
+          -0.05,
+          1.05
+        ],
+        [
+          0.0,
+          0.4402103790209212
+        ]
+      ],
+      "scales": [
+        "linear",
+        "linear"
+      ],
+      "lines": [
+        {
+          "x": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "100d80160cd298c807bbee8d56f54355cad590d800d0bb2bf7f5c2be3f59f694"
+          },
+          "y": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "5b6159777f430c1e25a156b47bef77f47f5174ea729638c41945e3639de88cae"
+          },
+          "color": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "o",
+          "markersize": 6.0,
+          "markerface": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "markeredge": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "linestyle": "-",
+          "linewidth": 1.5,
+          "label": "_nolegend_"
+        },
+        {
+          "x": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "100d80160cd298c807bbee8d56f54355cad590d800d0bb2bf7f5c2be3f59f694"
+          },
+          "y": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "92cea1703640fc1ea18f08595a1d805bd17ffaa7813ea235767ecc1a6ec35f93"
+          },
+          "color": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "_",
+          "markersize": 6.0,
+          "markerface": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "markeredge": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "linestyle": "None",
+          "linewidth": 1.5,
+          "label": "_nolegend_"
+        },
+        {
+          "x": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "100d80160cd298c807bbee8d56f54355cad590d800d0bb2bf7f5c2be3f59f694"
+          },
+          "y": {
+            "shape": [
+              5
+            ],
+            "dtype": "object",
+            "sha256": "29c373c13323664ecc2c6198d8548d41f2c4c70717f2f52b04bfc0e7ba33e4e0"
+          },
+          "color": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "_",
+          "markersize": 6.0,
+          "markerface": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "markeredge": [
+            0.7294117647058823,
+            0.3411764705882353,
+            0.0784313725490196,
+            1.0
+          ],
+          "linestyle": "None",
+          "linewidth": 1.5,
+          "label": "_nolegend_"
+        },
+        {
+          "x": {
+            "shape": [
+              5
+            ],
+            "dtype": "float64",
+            "sha256": "b775cb658293f2d9056d63a2bb64185bb77284c3a55650287f38ab52c8758828"
+          },
+          "y": {
+            "shape": [
+              5
+            ],
+            "dtype": "float64",
+            "sha256": "2f6b84e53e15ec890f30ef2d924a831941201df6aaadf79b6f50a88cef212e76"
+          },
+          "color": [
+            0.25,
+            0.25,
+            0.25,
+            1.0
+          ],
+          "alpha": null,
+          "marker": "None",
+          "markersize": 6.0,
+          "markerface": [
+            0.25,
+            0.25,
+            0.25,
+            1.0
+          ],
+          "markeredge": [
+            0.25,
+            0.25,
+            0.25,
+            1.0
+          ],
+          "linestyle": "--",
+          "linewidth": 1.5,
+          "label": "Local Fisher SD"
+        }
+      ],
+      "collections": [
+        {
+          "offsets": {
+            "shape": [
+              1,
+              2
+            ],
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+          },
+          "paths": [
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "5d2df836a157e2eeb8c4aa4e51e1e6bdc56060808951aa0e95db86159285f5b4"
+            },
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "eaf926490b2d94a3972deadd77568204a28749b3bb2424575f3143e813403cfb"
+            },
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "f6835c8077527022332b398f71f0c20c6cdb81a63b353bc51760fb1e94b8a758"
+            },
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "3dbcb45622f8e7435c01abdd2d78f60bb09c4c1a15bea7dc66be99e751fff58a"
+            },
+            {
+              "shape": [
+                2,
+                2
+              ],
+              "dtype": "float64",
+              "sha256": "5ed88e0a2167e2c818daefedeea591160849c288d20a55efef13871496ff3e1e"
+            }
+          ],
+          "paint": {
+            "alpha": null,
+            "visible": true,
+            "facecolor": {
+              "shape": [
+                0,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "edgecolor": {
+              "shape": [
+                1,
+                4
+              ],
+              "dtype": "float64",
+              "sha256": "a3afe3bc1bbb5a5d54a21360e14c49244029850681e647fab395a8f3afe4adce"
+            }
+          },
+          "label": "_nolegend_",
+          "array": null,
+          "cmap": "viridis",
+          "clim": [
+            null,
+            null
+          ]
+        }
+      ],
+      "patches": [],
+      "images": []
+    }
+  ]
+}

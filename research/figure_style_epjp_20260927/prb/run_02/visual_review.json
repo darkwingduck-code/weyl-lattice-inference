@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "figures_checked": 11,
+  "panels_checked": 36,
+  "all_frozen_source_and_input_hashes_unchanged": true,
+  "render_manifest_sha256": "9fb85383df29eb3752b3325d77cc835f96049b32e275406996b097cf3864a18d",
+  "scope": "Visual and typography revision only; no scientific model or inference rerun. Nine byte-identical PNGs were reviewed in run_01; the two revised layouts were reviewed in run_02.",
+  "notes": [
+    "Main Fig.4 hollow triangle/square/circle/diamond and staggered markers preserved.",
+    "Main Fig.8 colorbar gap remains 0.06 in = 4.32 pt; full bin labels rotated 35 degrees to avoid collisions.",
+    "Supplement Fig.1 scientific offsets moved to upper right; long titles wrapped without changing words."
+  ],
+  "figures": {
+    "figure1_uv": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\editorial\\figure1_uv.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "02b40fd4d91d70655b730f2dc3f487c4aa5f9faeba79af89370b638a8da271fe",
+      "png_sha256": "4c70f03d1bed4d26c1c722c941b1f0360079619a71a7c39e0b3cd1745d5d20be"
+    },
+    "figure2_qwindows": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)",
+        "(e)",
+        "(f)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\editorial\\figure2_qwindows.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "80bb3a9780587b2d3fb0e56155a2c819eca1677032a3d27182633d7a07e7ade8",
+      "png_sha256": "0cb2d37461bb25dc9545807515b873352f52332eb962c1c6d63e113313d9120e"
+    },
+    "figure3_calibration": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)",
+        "(c)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\editorial\\figure3_calibration.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "6bd9269257a6cac978980d7aa11b1685fdf7c74b3108f2d31c41c1d31f6a334e",
+      "png_sha256": "e0d0263fc9308c02408fcfc37fc07673fe7c8381ac9e63e6fa7bc3a21f381b92"
+    },
+    "figure4_reference": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)",
+        "(e)",
+        "(f)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\editorial\\figure4_reference.png",
+      "same_png_as_reviewed_run_01": false,
+      "pdf_sha256": "c2f372465f29fa771017aabdb3bbed5536bca5ac06a9d254bfac08125bc1f957",
+      "png_sha256": "04f72ac40abdd2bd4b91f31aeb497fa97701bde67605371115b0be7bd7728a5f"
+    },
+    "figure5_eta": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\editorial\\figure5_eta.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "3ce5c9c852c20a3bda369a642870c04067ec8bf0c3325757a4dffb28cd80cd78",
+      "png_sha256": "3801ca2473a38545fbb7686d5ce7cb9b5498de9f3230870d3c4a489c919e99f4"
+    },
+    "observation_profiles": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\observation\\observation_profiles.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "facd2da49824ba4ec35481faed9adf84004d95cd29ba3cf8a3e3ba5cd50e2aa8",
+      "png_sha256": "b6fed3acd0bcb1ff000193525a4b8b53ff07226346791c1ae74c144cac706edc"
+    },
+    "observation_noise": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\observation\\observation_noise.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "af5c75c420ca49fb7b9e9ac6d4b6037d8c1d9600261aeee575ffe9f1bfda6417",
+      "png_sha256": "cb4ef7d7a4615ced97e7859aa8475d0c4cfda59a3efd283b6b733beaf8e22671"
+    },
+    "observation_limits": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\observation\\observation_limits.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "e252a38c670f951a63926e44d0bedefaf652419772b59b5353426b2eb2992ec6",
+      "png_sha256": "26e2f3571bcbb756d7f991d7c58c17d2a3331e59c12495ce0332d176ccc02851"
+    },
+    "screening_information_normalized": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\revision\\screening_information_normalized.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "cc80c9350892d93ad627ba3b095dd08c962bb507112a29308bb7da90ba87384a",
+      "png_sha256": "9b3df67c6a9d1bbb26baa2eede36ada31fe81b6cc09c16ed96bf168924157172"
+    },
+    "independent_sources": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)",
+        "(c)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\revision\\independent_sources.png",
+      "same_png_as_reviewed_run_01": false,
+      "pdf_sha256": "9e83bd82342ae016f07b9de24d35e27e34867c61cb6ea3611556e464d6cfbd9e",
+      "png_sha256": "49f415a6d3cc35a90b8159ae423ee563544c672cf1a07ba93238e438d2ae78d8"
+    },
+    "fixed_budget": {
+      "status": "PASS",
+      "panel_labels": [
+        "(a)",
+        "(b)"
+      ],
+      "panel_font": "DejaVuSans-Bold",
+      "panel_points": 11,
+      "numeric_artists_limits_colors_preserved": true,
+      "pdf_text_within_canvas": true,
+      "visually_reviewed_png": "research\\figure_style_epjp_20260927\\prb\\run_02\\budget\\fixed_budget.png",
+      "same_png_as_reviewed_run_01": true,
+      "pdf_sha256": "19330e2a79a46d0847ec67f8fc6c24d3d6f6311d8872c093a708f1f8cd5a073e",
+      "png_sha256": "c2c1ffaf32f4241d324bbd1937784a839014780fb7a441a5e2f9426fe118352b"
+    }
+  }
+}
