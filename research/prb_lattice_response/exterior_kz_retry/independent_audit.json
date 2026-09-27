@@ -1,0 +1,519 @@
+{
+  "all_checks_pass": true,
+  "hash_checks": [
+    {
+      "owner": "exterior_extension:source_sha256",
+      "path": "lattice_response.py",
+      "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:source_sha256",
+      "path": "bloch_response.py",
+      "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:source_sha256",
+      "path": "pole_zero_analysis.py",
+      "expected": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "actual": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:source_sha256",
+      "path": "run_pole_zero_experiment.py",
+      "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:source_sha256",
+      "path": "extend_transverse.py",
+      "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:source_sha256",
+      "path": "extend_exterior_pole.py",
+      "expected": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "actual": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:input_sha256",
+      "path": "mode_analysis\\diagnostic.json",
+      "expected": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+      "actual": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:input_sha256",
+      "path": "mode_analysis\\exterior_searches.json",
+      "expected": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+      "actual": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:input_sha256",
+      "path": "mode_analysis\\exterior_refinement.csv",
+      "expected": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32",
+      "actual": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:output_sha256",
+      "path": "exterior_extension\\reference_record.json",
+      "expected": "ea7d93ef33cce29b7e73c3a616b80880833335d3ce6159b252bb6b676f4d5b77",
+      "actual": "ea7d93ef33cce29b7e73c3a616b80880833335d3ce6159b252bb6b676f4d5b77",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:output_sha256",
+      "path": "exterior_extension\\execution.log",
+      "expected": "510c7651c5b264bb59943ea52cca86d56c729bbb167c5e1d7f5f9e21bd38a838",
+      "actual": "510c7651c5b264bb59943ea52cca86d56c729bbb167c5e1d7f5f9e21bd38a838",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:output_sha256",
+      "path": "exterior_extension\\exterior_search.json",
+      "expected": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+      "actual": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_extension:output_sha256",
+      "path": "exterior_extension\\comparison.csv",
+      "expected": "adca60f8b0a3ff4910462f2c99a7a91474be19e3d2abf48bd99aabb7a361d56c",
+      "actual": "adca60f8b0a3ff4910462f2c99a7a91474be19e3d2abf48bd99aabb7a361d56c",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:source_sha256",
+      "path": "lattice_response.py",
+      "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:source_sha256",
+      "path": "bloch_response.py",
+      "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:source_sha256",
+      "path": "pole_zero_analysis.py",
+      "expected": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "actual": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:source_sha256",
+      "path": "run_pole_zero_experiment.py",
+      "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:source_sha256",
+      "path": "extend_transverse.py",
+      "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:source_sha256",
+      "path": "extend_exterior_pole.py",
+      "expected": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "actual": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:input_sha256",
+      "path": "exterior_extension\\diagnostic.json",
+      "expected": "1a06d381872879c083cc574e97bd181452c050c5a69398b6803c061f87f50de6",
+      "actual": "1a06d381872879c083cc574e97bd181452c050c5a69398b6803c061f87f50de6",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:input_sha256",
+      "path": "mode_analysis\\diagnostic.json",
+      "expected": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+      "actual": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:input_sha256",
+      "path": "mode_analysis\\exterior_searches.json",
+      "expected": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+      "actual": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:input_sha256",
+      "path": "mode_analysis\\exterior_refinement.csv",
+      "expected": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32",
+      "actual": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:output_sha256",
+      "path": "exterior_kz_continuation\\reference_record.json",
+      "expected": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+      "actual": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_continuation:output_sha256",
+      "path": "exterior_kz_continuation\\execution.log",
+      "expected": "9ade309bd8ea61689d4f3e2fbbb7ae2b07d3730d8e733f9357602c7c8493fe9b",
+      "actual": "9ade309bd8ea61689d4f3e2fbbb7ae2b07d3730d8e733f9357602c7c8493fe9b",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:source_sha256",
+      "path": "lattice_response.py",
+      "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:source_sha256",
+      "path": "bloch_response.py",
+      "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:source_sha256",
+      "path": "pole_zero_analysis.py",
+      "expected": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "actual": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:source_sha256",
+      "path": "run_pole_zero_experiment.py",
+      "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:source_sha256",
+      "path": "extend_transverse.py",
+      "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:source_sha256",
+      "path": "extend_exterior_pole.py",
+      "expected": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "actual": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:source_sha256",
+      "path": "stream_exterior_pole.py",
+      "expected": "a2b43098edc92750ddbba55ec44f51495bec9b2ffd932b497e434f0b64b2da08",
+      "actual": "a2b43098edc92750ddbba55ec44f51495bec9b2ffd932b497e434f0b64b2da08",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:input_sha256",
+      "path": "exterior_extension\\diagnostic.json",
+      "expected": "1a06d381872879c083cc574e97bd181452c050c5a69398b6803c061f87f50de6",
+      "actual": "1a06d381872879c083cc574e97bd181452c050c5a69398b6803c061f87f50de6",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:input_sha256",
+      "path": "exterior_extension\\exterior_search.json",
+      "expected": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+      "actual": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:input_sha256",
+      "path": "exterior_kz_continuation\\diagnostic.json",
+      "expected": "f5ff325d03fab58d51db11156b27688cfdc11b1a23767666bed8b32f0129709e",
+      "actual": "f5ff325d03fab58d51db11156b27688cfdc11b1a23767666bed8b32f0129709e",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_streamed:output_sha256",
+      "path": "exterior_kz_streamed\\execution.log",
+      "expected": "bec7cbd3d35a279b80f61aa74f58c3f04bda7721ab78075636d5bce68f7723a6",
+      "actual": "bec7cbd3d35a279b80f61aa74f58c3f04bda7721ab78075636d5bce68f7723a6",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:source_sha256",
+      "path": "lattice_response.py",
+      "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:source_sha256",
+      "path": "bloch_response.py",
+      "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:source_sha256",
+      "path": "pole_zero_analysis.py",
+      "expected": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "actual": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:source_sha256",
+      "path": "run_pole_zero_experiment.py",
+      "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:source_sha256",
+      "path": "extend_transverse.py",
+      "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:source_sha256",
+      "path": "extend_exterior_pole.py",
+      "expected": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "actual": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:input_sha256",
+      "path": "exterior_extension\\diagnostic.json",
+      "expected": "1a06d381872879c083cc574e97bd181452c050c5a69398b6803c061f87f50de6",
+      "actual": "1a06d381872879c083cc574e97bd181452c050c5a69398b6803c061f87f50de6",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:input_sha256",
+      "path": "mode_analysis\\diagnostic.json",
+      "expected": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+      "actual": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:input_sha256",
+      "path": "mode_analysis\\exterior_searches.json",
+      "expected": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+      "actual": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:input_sha256",
+      "path": "mode_analysis\\exterior_refinement.csv",
+      "expected": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32",
+      "actual": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:output_sha256",
+      "path": "exterior_kz_retry\\reference_record.json",
+      "expected": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+      "actual": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:output_sha256",
+      "path": "exterior_kz_retry\\execution.log",
+      "expected": "cee4fd935b1671c453c0816da7c5a1d1e5bd73d8833a0ccb514d114898598b26",
+      "actual": "cee4fd935b1671c453c0816da7c5a1d1e5bd73d8833a0ccb514d114898598b26",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:output_sha256",
+      "path": "exterior_kz_retry\\exterior_search.json",
+      "expected": "690db901494b8ab166689bc78b1a2565266e5b089ce54afb253b9daf737c2b04",
+      "actual": "690db901494b8ab166689bc78b1a2565266e5b089ce54afb253b9daf737c2b04",
+      "pass_": true
+    },
+    {
+      "owner": "exterior_kz_retry:output_sha256",
+      "path": "exterior_kz_retry\\comparison.csv",
+      "expected": "b3238c8bcf2c4c36f26983899ad0bff2deacbb8566b997d5152f4c22bc61c198",
+      "actual": "b3238c8bcf2c4c36f26983899ad0bff2deacbb8566b997d5152f4c22bc61c198",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:source_sha256",
+      "path": "lattice_response.py",
+      "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:source_sha256",
+      "path": "bloch_response.py",
+      "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:source_sha256",
+      "path": "pole_zero_analysis.py",
+      "expected": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "actual": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:source_sha256",
+      "path": "run_pole_zero_experiment.py",
+      "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:source_sha256",
+      "path": "extend_transverse.py",
+      "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:source_sha256",
+      "path": "extend_exterior_pole.py",
+      "expected": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "actual": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:source_sha256",
+      "path": "stream_exterior_pole.py",
+      "expected": "a2b43098edc92750ddbba55ec44f51495bec9b2ffd932b497e434f0b64b2da08",
+      "actual": "a2b43098edc92750ddbba55ec44f51495bec9b2ffd932b497e434f0b64b2da08",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:source_sha256",
+      "path": "validate_stream_exterior.py",
+      "expected": "238b8428375ba87a7d0a8e56a2c094ac8f03a729b5f1da1828952d9336bf0a10",
+      "actual": "238b8428375ba87a7d0a8e56a2c094ac8f03a729b5f1da1828952d9336bf0a10",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:input_sha256",
+      "path": "exterior_kz_streamed\\diagnostic.json",
+      "expected": "c0940374ed70da2d55c1080746dfd3b29b5b70822f505e4ff32b0009e0d467ba",
+      "actual": "c0940374ed70da2d55c1080746dfd3b29b5b70822f505e4ff32b0009e0d467ba",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:output_sha256",
+      "path": "stream_path_validation\\direct_search.json",
+      "expected": "b615594781f01c20764047a34931176c35a24367b8b93282dd4ecefcea50feca",
+      "actual": "b615594781f01c20764047a34931176c35a24367b8b93282dd4ecefcea50feca",
+      "pass_": true
+    },
+    {
+      "owner": "stream_path_validation:output_sha256",
+      "path": "stream_path_validation\\streamed_search.json",
+      "expected": "8cadc1a312d4385a9b9a8a2f755455115f4a1b8c3e110f9bb243e02d5138d8e6",
+      "actual": "8cadc1a312d4385a9b9a8a2f755455115f4a1b8c3e110f9bb243e02d5138d8e6",
+      "pass_": true
+    }
+  ],
+  "hash_count": 61,
+  "recomputed_relative_errors": {
+    "pole_relative_error": 1.4388586646044247e-14,
+    "charge_residue_relative_error": 1.2219683653469506e-10,
+    "axial_residue_relative_error": 1.1089960866932007e-14
+  },
+  "recorded_metrics_match_exactly": true,
+  "settings_match": true,
+  "criteria_unchanged": true,
+  "final_mesh_correct": true,
+  "statuses": {
+    "exterior_extension": "EXTERIOR_EXTENSION_CONVERGED",
+    "exterior_kz_continuation": "EXTERIOR_EXTENSION_FAILED",
+    "exterior_kz_streamed": "STREAMED_EXTERIOR_FAILED",
+    "exterior_kz_retry": "EXTERIOR_EXTENSION_CONVERGED",
+    "stream_path_validation": "CLASS_AWARE_SMALL_STREAM_VALIDATION_PASS"
+  },
+  "scope": "Final large calculation used the frozen full-array runner. Streamed failure preserved; class-aware streamed validation is small-grid evidence only.",
+  "final_elapsed_seconds": 80.80384659999982,
+  "final_calculation": {
+    "L": 72,
+    "Nkz": 384,
+    "q": 0.2617993877991494,
+    "Ua": 8.0,
+    "stage": "exterior_extension",
+    "density": 2.0054268838613476,
+    "active_transitions": 24174126,
+    "raw_band_pair_slots": 31850496,
+    "exactly_zero_weights_removed": 7676370,
+    "vertex_error": 1.4597615722347763e-14,
+    "factorization_max_error": 2.6469779601696886e-22,
+    "moment0_max": 4.494571461271558e-18,
+    "roots": [
+      {
+        "pole": 15.555451502664793,
+        "dielectric_channel": 0,
+        "determinant_residual": 2.232936058277346e-14,
+        "charge_numerator": {
+          "real": 1.5529341050937728e-12,
+          "imag": 0.0
+        },
+        "nearest_bare_distance": 1.5697185482329932,
+        "cofactor_charge_residue": {
+          "real": 8.347297391953388e-12,
+          "imag": 0.0
+        },
+        "residue_matrix": [
+          [
+            {
+              "real": 8.347314923964564e-12,
+              "imag": 0.0
+            },
+            {
+              "real": -2.366197051043842e-06,
+              "imag": -2.0861463465201502e-18
+            }
+          ],
+          [
+            {
+              "real": -2.366197051043842e-06,
+              "imag": 2.0861463465201502e-18
+            },
+            {
+              "real": 0.6707412545673281,
+              "imag": 0.0
+            }
+          ]
+        ],
+        "residue_status": "isolated_nullspace_checked",
+        "nullspace_eigenvalue_residual": 2.2534416798157315e-14,
+        "nearby_root_cluster": false
+      }
+    ],
+    "positive_bare_edge": 13.9857329544318,
+    "eigenvalue_bound": 38.39294192990057,
+    "search_margin": 1.39857329544318e-09,
+    "near_edge_unresolved": true,
+    "excluded_edge_interval": [
+      13.9857329544318,
+      13.985732955830374
+    ],
+    "samples": 64,
+    "scope": "Positive exterior only; no conclusion about internal or continuum poles",
+    "status": "bounded_exterior_search_completed"
+  },
+  "final_report_sha256": "69d8bad3142eaaf8e52f3da31e28034388432d23026cecb8c14be835ec21db22",
+  "validation_report_sha256": "b03c77a292787b6d4a995f834885d66139e0a7f31256aa470bbe63ac82d074e8"
+}

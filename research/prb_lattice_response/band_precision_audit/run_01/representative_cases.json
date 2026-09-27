@@ -1,0 +1,1313 @@
+[
+  {
+    "index": 886,
+    "selection_stratum": "negative_scale2",
+    "association": {
+      "index": 886,
+      "endpoint_index": 886,
+      "modal_endpoint": -2.053724621648001,
+      "modal_weight": "1.21778565501015795920764537893721976564671646579700929382894938329786859170129897922407735677552409470081329345703125E-28",
+      "nearest_raw_index": 398,
+      "nearest_bare_distance": 1.1102230246251565e-14,
+      "near_bare_window": 5.837036444654589e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        398
+      ],
+      "second_transition_distance": 0.0003177926624222671,
+      "occupation_restored": false,
+      "raw_weight_original": "8.92633202864030394436561647613e-29",
+      "raw_weight_high_precision": "8.92633202864043199318902699922e-29",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "5.6781629237121978109e-79",
+      "aa_relative_80_110": "3.3621475967757509181e-79",
+      "ca_relative_80_110": "1.1732695408856052184e-79",
+      "df_over_volume_relative_80_110": "3.2051945039538720674e-79",
+      "charge_vertex_abs_80": "0.00887366893107523385528486889439",
+      "charge_vertex_abs_110": "0.00887366893107523385528486889439",
+      "delta_absolute_80_110": "1.0196117681660335036e-83"
+    },
+    "input_stage_weights": {
+      "original_float": "8.926332028640303944365616476130507606073e-29",
+      "stable_occupation_float_eigenpairs": "8.926332028640292839298387625856586056995e-29",
+      "literal_matrix": "8.926332028640331615071529937249467305121e-29",
+      "literal_trig": "8.926332028640432157958256151738709517092e-29",
+      "literal_k": "8.92633202864043199318902699922133357683e-29"
+    },
+    "raw_indices_in_near_bare_group": [
+      398
+    ],
+    "positive_group_charge": "8.92633202864043199318902699922133357683e-29",
+    "positive_group_axial": "7.487964778483960159044459379428248976178e-26",
+    "positive_group_determinant": "1.72234094749341087789400753724733673708e-134",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-2.053724621648011846022461489884011575654341829836732577716372016317795822718582",
+      "nearest_other_bare_distance": "0.00031779266242288421161",
+      "pole_shift_estimate": "-1.02762520200193327864049071558383172807e-25",
+      "shift_to_bare_separation": "3.23363413795401e-22",
+      "charge_residue_estimate": "-6.711106019847469738117404747039479086006e-29",
+      "weighted_charge_estimate": "1.378276367145093946649794926101918420299e-28",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 936,
+    "selection_stratum": "negative_scale0",
+    "association": {
+      "index": 936,
+      "endpoint_index": 937,
+      "modal_endpoint": -1.924945780740532,
+      "modal_weight": "9.460328252597652407775296434853605032673847403099007299145866493184439287134104775193652579820921264975105383849608188528979013653952279128134250640869140625E-46",
+      "nearest_raw_index": 3454,
+      "nearest_bare_distance": 7.105427357601002e-15,
+      "near_bare_window": 5.471024964948958e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        3454
+      ],
+      "second_transition_distance": 0.0006909853383707532,
+      "occupation_restored": false,
+      "raw_weight_original": "5.25399915809184384710505460527e-49",
+      "raw_weight_high_precision": "5.25399915809180065184101027167e-49",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "3.2686415751376578409e-78",
+      "aa_relative_80_110": "8.0194958335902805303e-80",
+      "ca_relative_80_110": "1.6094236123438009507e-78",
+      "df_over_volume_relative_80_110": "5.0138465076913777749e-80",
+      "charge_vertex_abs_80": "0.00568995487487867844481403356609",
+      "charge_vertex_abs_110": "0.00568995487487867844481403356609",
+      "delta_absolute_80_110": "2.8920531616979577213e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "5.25399915809184384710505460526830461172e-49",
+      "stable_occupation_float_eigenpairs": "5.253999158091859606119837911409107194616e-49",
+      "literal_matrix": "5.253999158091845048090160766792205403574e-49",
+      "literal_trig": "5.253999158091800922530085268923052735013e-49",
+      "literal_k": "5.253999158091800651841010271670244968325e-49"
+    },
+    "raw_indices_in_near_bare_group": [
+      3454
+    ],
+    "positive_group_charge": "5.253999158091800651841010271670244968325e-49",
+    "positive_group_axial": "8.252880387310477315128511256303886022796e-46",
+    "positive_group_determinant": "9.082026092032980289282386417368931069768e-175",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-1.9249457807405270099769916401514410320734262369148114787034339975122059447152586",
+      "nearest_other_bare_distance": "0.0006909853383731034585",
+      "pole_shift_estimate": "6.702201619041788185505201432854750296342e-45",
+      "shift_to_bare_separation": "9.6994845575477e-42",
+      "charge_residue_estimate": "-5.971967677030201155804525708031818332699e-46",
+      "weighted_charge_estimate": "1.149571398261809201496745962686675672175e-45",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 954,
+    "selection_stratum": "negative_scale1",
+    "association": {
+      "index": 954,
+      "endpoint_index": 955,
+      "modal_endpoint": -1.8712505891228224,
+      "modal_weight": "3.08951095555095944093034766441702366791226590830120313863061037104074258552751285253214012230496862853890423258169072029399870871202438138425350189208984375E-45",
+      "nearest_raw_index": 3310,
+      "nearest_bare_distance": 1.687538997430238e-14,
+      "near_bare_window": 5.3184140515521176e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        3310
+      ],
+      "second_transition_distance": 0.00040565674618653347,
+      "occupation_restored": false,
+      "raw_weight_original": "9.3157473377853296142006876734e-49",
+      "raw_weight_high_precision": "9.31574733778515757901726642478e-49",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "3.9025310543504685065e-78",
+      "aa_relative_80_110": "1.4433987766266888875e-79",
+      "ca_relative_80_110": "2.0359216501705825149e-78",
+      "df_over_volume_relative_80_110": "1.2311979670527645034e-79",
+      "charge_vertex_abs_80": "0.00554701084306844022163097373915",
+      "charge_vertex_abs_110": "0.00554701084306844022163097373915",
+      "delta_absolute_80_110": "1.8155201030247332147e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "9.315747337785329614200687673397797471934e-49",
+      "stable_occupation_float_eigenpairs": "9.315747337785318653945063962135196581852e-49",
+      "literal_matrix": "9.315747337785268504732450622044948813514e-49",
+      "literal_trig": "9.315747337785141885612121915992822057616e-49",
+      "literal_k": "9.315747337785157579017266424777771198125e-49"
+    },
+    "raw_indices_in_near_bare_group": [
+      3310
+    ],
+    "positive_group_charge": "9.315747337785157579017266424777771198125e-49",
+    "positive_group_axial": "1.558863131345342962264565841413956541419e-45",
+    "positive_group_determinant": "-3.900947928606660800302558113438037559326e-174",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-1.8712505891228402809014776976198801172265273239338208844983886458989620112358442",
+      "nearest_other_bare_distance": "0.00040565674618357825262",
+      "pole_shift_estimate": "-2.268028636653870647596546714818703657654e-45",
+      "shift_to_bare_separation": "5.59100436019246e-42",
+      "charge_residue_estimate": "-6.664951723233306665398851451690988466224e-49",
+      "weighted_charge_estimate": "1.247179483857561462392199392921174217934e-48",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 974,
+    "selection_stratum": "negative_scale0",
+    "association": {
+      "index": 974,
+      "endpoint_index": 975,
+      "modal_endpoint": -1.8131863268584312,
+      "modal_weight": "2.50294355613273885731166590026176302874831968920631930490772706150857852783570264824574673279794824938271081280201737530310968082858380512334406375885009765625E-46",
+      "nearest_raw_index": 3118,
+      "nearest_bare_distance": 2.2426505097428162e-14,
+      "near_bare_window": 5.1533854925151876e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        3118
+      ],
+      "second_transition_distance": 8.198770704570535e-05,
+      "occupation_restored": false,
+      "raw_weight_original": "8.60902487137413986162070524546e-47",
+      "raw_weight_high_precision": "8.60902487137433646576135265338e-47",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "7.4813068913241014358e-79",
+      "aa_relative_80_110": "6.8419621512762966969e-79",
+      "ca_relative_80_110": "6.5226072877112987169e-80",
+      "df_over_volume_relative_80_110": "6.9023260204635165717e-79",
+      "charge_vertex_abs_80": "0.00574962854086795594780642959984",
+      "charge_vertex_abs_110": "0.00574962854086795594780642959984",
+      "delta_absolute_80_110": "3.1028641088359447893e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "8.609024871374139861620705245462067433872e-47",
+      "stable_occupation_float_eigenpairs": "8.609024871374177379519609104676285984232e-47",
+      "literal_matrix": "8.609024871374314693090254800577414638797e-47",
+      "literal_trig": "8.609024871374340993617480386629636714273e-47",
+      "literal_k": "8.609024871374336465761352653377969832214e-47"
+    },
+    "raw_indices_in_near_bare_group": [
+      3118
+    ],
+    "positive_group_charge": "8.609024871374336465761352653377969832214e-47",
+    "positive_group_axial": "1.573412731213746672552166443824820803069e-43",
+    "positive_group_determinant": "-1.589313532176804961496538008564514523149e-170",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-1.8131863268584114098214084389299988471681483561106443147416202132827876682343584",
+      "nearest_other_bare_distance": "0.000081987707041411274888",
+      "pole_shift_estimate": "-2.356118910608594254246892042271325455133e-43",
+      "shift_to_bare_separation": "2.87374655985749e-39",
+      "charge_residue_estimate": "-7.969888739215930344777036696855193031065e-47",
+      "weighted_charge_estimate": "1.445089328852914829126830264776908909656e-46",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1065,
+    "selection_stratum": "negative_scale2",
+    "association": {
+      "index": 1065,
+      "endpoint_index": 1066,
+      "modal_endpoint": -1.5885301714955102,
+      "modal_weight": "8.049939305979190472003771570610667635782909259532208576422285251084076662664301693439483642578125E-21",
+      "nearest_raw_index": 2334,
+      "nearest_bare_distance": 3.3306690738754696e-15,
+      "near_bare_window": 4.514874295567524e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        2334
+      ],
+      "second_transition_distance": 0.0022304664293741894,
+      "occupation_restored": false,
+      "raw_weight_original": "2.50373909483567184638905447141e-21",
+      "raw_weight_high_precision": "2.50373909483544743955640693837e-21",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "9.879536180604872536e-79",
+      "aa_relative_80_110": "2.5485498368817918269e-79",
+      "ca_relative_80_110": "1.6834279669779252729e-78",
+      "df_over_volume_relative_80_110": "2.5034855430337076052e-79",
+      "charge_vertex_abs_80": "0.0010717786909875077197788936695",
+      "charge_vertex_abs_110": "0.0010717786909875077197788936695",
+      "delta_absolute_80_110": "1.3225588937796605891e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "2.503739094835671846389054471406378879911e-21",
+      "stable_occupation_float_eigenpairs": "2.503739094835642612074528302426174753753e-21",
+      "literal_matrix": "2.503739094835467852655575144720609990104e-21",
+      "literal_trig": "2.503739094835444474130895934749107844197e-21",
+      "literal_k": "2.503739094835447439556406938367022571994e-21"
+    },
+    "raw_indices_in_near_bare_group": [
+      2334
+    ],
+    "positive_group_charge": "2.503739094835447439556406938367022571994e-21",
+    "positive_group_axial": "3.350711452820054373237404565459855473646e-16",
+    "positive_group_determinant": "4.290793056141365628310264203334509860212e-118",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-1.5885301714955068918830597432766354809267908830904052635846963406058877044060374",
+      "nearest_other_bare_distance": "0.002230466429375082737",
+      "pole_shift_estimate": "-4.930210348423198516448107485004112865947e-16",
+      "shift_to_bare_separation": "2.21039432985526e-13",
+      "charge_residue_estimate": "-5.067542150210825974056258467252953191434e-21",
+      "weighted_charge_estimate": "8.049943600935113130956193669760896265952e-21",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1121,
+    "selection_stratum": "negative_scale1",
+    "association": {
+      "index": 1121,
+      "endpoint_index": 1122,
+      "modal_endpoint": -0.24242905029033238,
+      "modal_weight": "8.9807461727718755088764997831552842081288935146176322797749929804615977564465471882394764779888873817981220781803131103515625E-33",
+      "nearest_raw_index": 1199,
+      "nearest_bare_distance": 4.163336342344337e-16,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        1199
+      ],
+      "second_transition_distance": 0.00010181468486658574,
+      "occupation_restored": false,
+      "raw_weight_original": "1.54022019934449499447303419301e-31",
+      "raw_weight_high_precision": "1.54022019934449255002810777825e-31",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "2.3307137757085242749e-79",
+      "aa_relative_80_110": "2.37126351426033746e-79",
+      "ca_relative_80_110": "2.3636273524151283476e-79",
+      "df_over_volume_relative_80_110": "2.3094421391953853217e-79",
+      "charge_vertex_abs_80": "0.999802888415684856802731731071",
+      "charge_vertex_abs_110": "0.999802888415684856802731731071",
+      "delta_absolute_80_110": "2.181855643498264603e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "1.540220199344494994473034193011140339094e-31",
+      "stable_occupation_float_eigenpairs": "1.540220199344493676051533049017915469607e-31",
+      "literal_matrix": "1.540220199344496820179505719556948834105e-31",
+      "literal_trig": "1.540220199344493083956154557557059616536e-31",
+      "literal_k": "1.540220199344492550028107778247842647903e-31"
+    },
+    "raw_indices_in_near_bare_group": [
+      1199
+    ],
+    "positive_group_charge": "1.540220199344492550028107778247842647903e-31",
+    "positive_group_axial": "2.039492017231163420314089780397069490226e-32",
+    "positive_group_determinant": "7.591366029749649433232626478870870126185e-144",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-0.24242905029033269197219401333902673755184729901149539340321716373697495065732198",
+      "nearest_other_bare_distance": "0.0001018146848680524894",
+      "pole_shift_estimate": "-8.220154622904369277022581425495155017507e-31",
+      "shift_to_bare_separation": "8.0736434371499e-27",
+      "charge_residue_estimate": "-3.671972135089838832099406731355023971115e-32",
+      "weighted_charge_estimate": "8.901927174023948475464864412077868729052e-33",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1199,
+    "selection_stratum": "negative_scale3",
+    "association": {
+      "index": 1199,
+      "endpoint_index": 1200,
+      "modal_endpoint": -0.1797708774996869,
+      "modal_weight": "3.8758551492414681924188766477784769205251237667031460887301363982260227203369140625E-14",
+      "nearest_raw_index": 2453,
+      "nearest_bare_distance": 4.809780351777704e-11,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": false,
+      "nearby_raw_indices": [
+        2453
+      ],
+      "second_transition_distance": 9.52300973577902e-07,
+      "occupation_restored": false,
+      "raw_weight_original": "1.96168914428835709767067392419e-11",
+      "raw_weight_high_precision": "1.96168916390059149253962709257e-11",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "6.5005587322828583783e-80",
+      "aa_relative_80_110": "6.1332952517511852946e-80",
+      "ca_relative_80_110": "6.3369667326400059945e-80",
+      "df_over_volume_relative_80_110": "6.608796466636549177e-80",
+      "charge_vertex_abs_80": "0.991225298833355070751512680114",
+      "charge_vertex_abs_110": "0.991225298833355070751512680114",
+      "delta_absolute_80_110": "5.3142761562483999346e-81"
+    },
+    "input_stage_weights": {
+      "original_float": "0.00000000001961689144288357097670673924191093399211",
+      "stable_occupation_float_eigenpairs": "0.00000000001961689163900579506844157902025146142427",
+      "literal_matrix": "0.00000000001961689163900592268775240488969820561679",
+      "literal_trig": "0.00000000001961689163900590758208355204663887376456",
+      "literal_k": "0.00000000001961689163900591492539627092574160950126"
+    },
+    "raw_indices_in_near_bare_group": [
+      2453
+    ],
+    "positive_group_charge": "0.00000000001961689163900591492539627092574160950126",
+    "positive_group_axial": "0.00000000001094621912378567270197637970315725836624",
+    "positive_group_determinant": "8.558811610851078968719400520310844089338e-104",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-0.17977087745158901064356467620004011324280980549349734183656919561452929154707129",
+      "nearest_other_bare_distance": "9.5230097386608861888e-7",
+      "pole_shift_estimate": "-0.00000000004810103044257825230197190260405454986007",
+      "shift_to_bare_separation": "5.05103236924151e-5",
+      "charge_residue_estimate": "-2.155997407546243749117325840793064299038e-13",
+      "weighted_charge_estimate": "3.875855457379393930584881596523373738211e-14",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1210,
+    "selection_stratum": "negative_scale2",
+    "association": {
+      "index": 1210,
+      "endpoint_index": 1211,
+      "modal_endpoint": -0.17017451367814154,
+      "modal_weight": "1.0994763987164421158760913402455856750813994689978873808772970460707080011023527299496294062919332645833492279052734375E-32",
+      "nearest_raw_index": 522,
+      "nearest_bare_distance": 2.581268532253489e-15,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        522
+      ],
+      "second_transition_distance": 6.277489872674735e-05,
+      "occupation_restored": false,
+      "raw_weight_original": "5.09914135706983611301013459102e-39",
+      "raw_weight_high_precision": "5.09914135706969930396215832878e-39",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "1.1822887522493145922e-79",
+      "aa_relative_80_110": "1.1378567838525017425e-79",
+      "ca_relative_80_110": "1.1603836554536480484e-79",
+      "df_over_volume_relative_80_110": "1.1179307473077004081e-79",
+      "charge_vertex_abs_80": "0.999770835002176021599725044455",
+      "charge_vertex_abs_110": "0.999770835002176021599725044455",
+      "delta_absolute_80_110": "6.3124392734406977662e-81"
+    },
+    "input_stage_weights": {
+      "original_float": "5.099141357069836113010134591017032675701e-39",
+      "stable_occupation_float_eigenpairs": "5.099141357069818692917948021379760135981e-39",
+      "literal_matrix": "5.099141357069655691744825425211892611025e-39",
+      "literal_trig": "5.099141357069701561669098415330894050454e-39",
+      "literal_k": "5.099141357069699303962158328775486257421e-39"
+    },
+    "raw_indices_in_near_bare_group": [
+      522
+    ],
+    "positive_group_charge": "5.099141357069699303962158328775486257421e-39",
+    "positive_group_axial": "1.449312094503218237285997783812336111222e-40",
+    "positive_group_determinant": "3.232107665202234982318104908743333668839e-160",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-0.17017451367813755670949023943450120464312149925875577228503813408632868589932607",
+      "nearest_other_bare_distance": "0.000062774898724712785483",
+      "pole_shift_estimate": "2.475365764888201546809128455562353322979e-39",
+      "shift_to_bare_separation": "3.94324135152084e-35",
+      "charge_residue_estimate": "-4.785530504157007703577611315291742364811e-42",
+      "weighted_charge_estimate": "8.143753262368112251413365908758201615719e-43",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1230,
+    "selection_stratum": "negative_scale3",
+    "association": {
+      "index": 1230,
+      "endpoint_index": 1231,
+      "modal_endpoint": -0.142053863258765,
+      "modal_weight": "2.015162049378925487473739187037543328154717814891527805087889646529220044612884521484375E-17",
+      "nearest_raw_index": 2741,
+      "nearest_bare_distance": 1.199040866595169e-14,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        2741
+      ],
+      "second_transition_distance": 0.00018931776144126555,
+      "occupation_restored": false,
+      "raw_weight_original": "3.42040495257798404765222151229e-15",
+      "raw_weight_high_precision": "3.42066213035643766066941500796e-15",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "1.1673101557887397438e-79",
+      "aa_relative_80_110": "1.1021155674032887848e-79",
+      "ca_relative_80_110": "1.128638725929241684e-79",
+      "df_over_volume_relative_80_110": "1.1811024605524376978e-79",
+      "charge_vertex_abs_80": "0.997648003649083939424351859185",
+      "charge_vertex_abs_110": "0.997648003649083939424351859185",
+      "delta_absolute_80_110": "4.9896009387055990535e-81"
+    },
+    "input_stage_weights": {
+      "original_float": "3.420404952577984047652221512290017514963e-15",
+      "stable_occupation_float_eigenpairs": "3.420662130356385946058336376659157965574e-15",
+      "literal_matrix": "3.420662130356443486937465680059664025604e-15",
+      "literal_trig": "3.420662130356437016898794767182026854234e-15",
+      "literal_k": "3.420662130356437660669415007960915489887e-15"
+    },
+    "raw_indices_in_near_bare_group": [
+      2741
+    ],
+    "positive_group_charge": "3.420662130356437660669415007960915489887e-15",
+    "positive_group_axial": "1.037222578948158718327217499623167188504e-15",
+    "positive_group_determinant": "4.315631050966345403385761178249476260922e-111",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-0.14205386325875386957215876698323729545416690602696584195969730612742922479311705",
+      "nearest_other_bare_distance": "0.0001893177614424018059",
+      "pole_shift_estimate": "-1.038480915321512277313249406596091221635e-14",
+      "shift_to_bare_separation": "5.48538556239722e-11",
+      "charge_residue_estimate": "-1.41869676874879339812543260868105702795e-16",
+      "weighted_charge_estimate": "2.015313567934770574558830353863370891731e-17",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1255,
+    "selection_stratum": "negative_scale1",
+    "association": {
+      "index": 1255,
+      "endpoint_index": 1256,
+      "modal_endpoint": -0.11602802973011658,
+      "modal_weight": "5.35832892117896359276310452534222277338947707093836911248432436535529376461341945572192601264516209624844123027287423610687255859375E-35",
+      "nearest_raw_index": 319,
+      "nearest_bare_distance": 1.304512053934559e-15,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        319
+      ],
+      "second_transition_distance": 0.00018347305135435477,
+      "occupation_restored": false,
+      "raw_weight_original": "4.44206535004703309582974600616e-44",
+      "raw_weight_high_precision": "4.44206535004711530893862867418e-44",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "3.0620793470524833262e-79",
+      "aa_relative_80_110": "2.9427730390918325839e-79",
+      "ca_relative_80_110": "3.0005367207894026052e-79",
+      "df_over_volume_relative_80_110": "3.0371023853079059542e-79",
+      "charge_vertex_abs_80": "0.999349382144258322957738186274",
+      "charge_vertex_abs_110": "0.999349382144258322957738186274",
+      "delta_absolute_80_110": "2.5249398091273895541e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "4.442065350047033095829746006156092847025e-44",
+      "stable_occupation_float_eigenpairs": "4.442065350047050882751602957815685036983e-44",
+      "literal_matrix": "4.442065350047120518166249904597392878881e-44",
+      "literal_trig": "4.442065350047123286426731676618545672254e-44",
+      "literal_k": "4.442065350047115308938628674179325074773e-44"
+    },
+    "raw_indices_in_near_bare_group": [
+      319
+    ],
+    "positive_group_charge": "4.442065350047115308938628674179325074773e-44",
+    "positive_group_axial": "1.594140138981442386301307845285426419294e-45",
+    "positive_group_determinant": "3.805708626540371834120579121080680856117e-170",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-0.11602802973011558421364617250047700904812134356258864667577303892067274895042536",
+      "nearest_other_bare_distance": "0.00018347305135303540966",
+      "pole_shift_estimate": "-1.931460671077944603571435624274755644525e-43",
+      "shift_to_bare_separation": "1.05272172498045e-39",
+      "charge_residue_estimate": "-5.881715209102559519464680050698887154696e-45",
+      "weighted_charge_estimate": "6.824438271458247759708772630095308243022e-46",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1293,
+    "selection_stratum": "negative_scale3",
+    "association": {
+      "index": 1293,
+      "endpoint_index": 1294,
+      "modal_endpoint": -0.049743672672516434,
+      "modal_weight": "1.0593403698354196406376392868446448023032514435942867225652619378450935982982628047466278076171875E-20",
+      "nearest_raw_index": 3173,
+      "nearest_bare_distance": 2.2343238370581275e-15,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        3173
+      ],
+      "second_transition_distance": 0.00019357675176068234,
+      "occupation_restored": false,
+      "raw_weight_original": "1.02361839842306366055837097114e-18",
+      "raw_weight_high_precision": "5.34201439150773897657863576752e-19",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "3.4370281185982704538e-79",
+      "aa_relative_80_110": "3.432346012268612742e-79",
+      "ca_relative_80_110": "3.4300737035510314156e-79",
+      "df_over_volume_relative_80_110": "3.3499020193675383514e-79",
+      "charge_vertex_abs_80": "0.997874223810226457400675838516",
+      "charge_vertex_abs_110": "0.997874223810226457400675838516",
+      "delta_absolute_80_110": "1.2237474195270640377e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "1.023618398423063660558370971139296967e-18",
+      "stable_occupation_float_eigenpairs": "5.34201439150776353281746436925171980095e-19",
+      "literal_matrix": "5.342014391507762889135394237473329586941e-19",
+      "literal_trig": "5.342014391507750170650873858580346594564e-19",
+      "literal_k": "5.342014391507738976578635767516019505494e-19"
+    },
+    "raw_indices_in_near_bare_group": [
+      3173
+    ],
+    "positive_group_charge": "5.342014391507738976578635767516019505494e-19",
+    "positive_group_axial": "1.941697113855914687052711665602706859165e-20",
+    "positive_group_determinant": "1.086377777535467044114366140236085080823e-119",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "-0.049743672672518826358793982822999883193396002308455662451362829026337797763641325",
+      "nearest_other_bare_distance": "0.00019357675175998098416",
+      "pole_shift_estimate": "-2.892131931045407265600911552144701022605e-18",
+      "shift_to_bare_separation": "1.49404921032636e-14",
+      "charge_residue_estimate": "-1.111385295047432244522767814441472757392e-19",
+      "weighted_charge_estimate": "5.528438632989022827148546255571328677383e-21",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1329,
+    "selection_stratum": "positive_scale2",
+    "association": {
+      "index": 1329,
+      "endpoint_index": 1329,
+      "modal_endpoint": 0.021125167802289957,
+      "modal_weight": "5.8241389007618505466472511883450291788906335538703391720860971131454821209973149453986707158037461340427398681640625E-28",
+      "nearest_raw_index": 3338,
+      "nearest_bare_distance": 3.0531133177191805e-15,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        3338
+      ],
+      "second_transition_distance": 0.0002450288176865101,
+      "occupation_restored": false,
+      "raw_weight_original": "1.24605411767725284646134086155e-25",
+      "raw_weight_high_precision": "1.24605411767723720836424945956e-25",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "8.5750428416673073404e-79",
+      "aa_relative_80_110": "8.5264029437887142563e-79",
+      "ca_relative_80_110": "8.5463067252432141134e-79",
+      "df_over_volume_relative_80_110": "8.6874208367672820882e-79",
+      "charge_vertex_abs_80": "0.99925873716540498356962076492",
+      "charge_vertex_abs_110": "0.99925873716540498356962076492",
+      "delta_absolute_80_110": "2.0530797411522929285e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "1.246054117677252846461340861548148544704e-25",
+      "stable_occupation_float_eigenpairs": "1.246054117677252868572489681861017327356e-25",
+      "literal_matrix": "1.246054117677230912857486737214466183699e-25",
+      "literal_trig": "1.246054117677233753992099717529333356814e-25",
+      "literal_k": "1.246054117677237208364249459563556309144e-25"
+    },
+    "raw_indices_in_near_bare_group": [
+      3338
+    ],
+    "positive_group_charge": "1.246054117677237208364249459563556309144e-25",
+    "positive_group_axial": "1.629054066323176517792318569506591722499e-28",
+    "positive_group_determinant": "-1.940557396404692103676650134736088315764e-134",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.021125167802293201751794646112825394312424550093233171505443096458403055670659071",
+      "nearest_other_bare_distance": "0.00024502881768753332799",
+      "pole_shift_estimate": "6.882366412843948876485464558573336303834e-25",
+      "shift_to_bare_separation": "2.8087987681598e-21",
+      "charge_residue_estimate": "2.756966913992949705066497004102621558881e-26",
+      "weighted_charge_estimate": "5.82413886834715118932987710765713140414e-28",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1339,
+    "selection_stratum": "positive_scale0",
+    "association": {
+      "index": 1339,
+      "endpoint_index": 1339,
+      "modal_endpoint": 0.02466259621651388,
+      "modal_weight": "7.82093625041894805342468872688468457593390286885076258854761281990872935401620282661689978822524779449128896243446408542698833343820297159254550933837890625E-46",
+      "nearest_raw_index": 3402,
+      "nearest_bare_distance": 2.0469737016526324e-16,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        3402
+      ],
+      "second_transition_distance": 0.00010051540518585256,
+      "occupation_restored": false,
+      "raw_weight_original": "1.78335619438846353420820928548e-43",
+      "raw_weight_high_precision": "1.78335619438853320709446417081e-43",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "3.4159615930507008025e-78",
+      "aa_relative_80_110": "3.3628736307841868499e-78",
+      "ca_relative_80_110": "3.3890720925991294792e-78",
+      "df_over_volume_relative_80_110": "3.4102352914066871282e-78",
+      "charge_vertex_abs_80": "0.999665883839623876178728857413",
+      "charge_vertex_abs_110": "0.999665883839623876178728857413",
+      "delta_absolute_80_110": "7.7204278347422998957e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "1.783356194388463534208209285477343003107e-43",
+      "stable_occupation_float_eigenpairs": "1.783356194388499501167761482104983578616e-43",
+      "literal_matrix": "1.783356194388542784738633383635210047965e-43",
+      "literal_trig": "1.783356194388526928939283416660275420026e-43",
+      "literal_k": "1.783356194388533207094464170808683759402e-43"
+    },
+    "raw_indices_in_near_bare_group": [
+      3402
+    ],
+    "positive_group_charge": "1.783356194388533207094464170808683759402e-43",
+    "positive_group_axial": "1.050571646900099396490576385145726673607e-46",
+    "positive_group_determinant": "1.345048310942834836917421147737947710371e-170",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.024662596216513837729523656487652117584845267031638265621773513864276055144432745",
+      "nearest_other_bare_distance": "0.00010051540518588918599",
+      "pole_shift_estimate": "9.823605931858813422480343908322689491601e-43",
+      "shift_to_bare_separation": "9.77323417608617e-39",
+      "charge_residue_estimate": "3.925995608300924249850089512016807865341e-44",
+      "weighted_charge_estimate": "9.682524443533231726314464970225151157918e-46",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1345,
+    "selection_stratum": "positive_scale0",
+    "association": {
+      "index": 1345,
+      "endpoint_index": 1345,
+      "modal_endpoint": 0.025443873447221807,
+      "modal_weight": "2.2108858836318555841572757661064791190662755196796292144110902919245963988444719795902602283079867302415468937858431791713822537551462162350896479775301460838344527921883742038744458113797008991241455078125E-66",
+      "nearest_raw_index": 3455,
+      "nearest_bare_distance": 1.824929096727601e-14,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        3455
+      ],
+      "second_transition_distance": 0.00018345483985471311,
+      "occupation_restored": false,
+      "raw_weight_original": "9.61294533099254177877445227713e-66",
+      "raw_weight_high_precision": "9.61294533099048622538587814827e-66",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "1.8035044094386388062e-78",
+      "aa_relative_80_110": "1.9558418469484642856e-78",
+      "ca_relative_80_110": "1.8802068997993531221e-78",
+      "df_over_volume_relative_80_110": "1.8094235672468176757e-78",
+      "charge_vertex_abs_80": "0.999681742610469786890854633354",
+      "charge_vertex_abs_110": "0.999681742610469786890854633354",
+      "delta_absolute_80_110": "3.6455540962381305146e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "9.612945330992541778774452277128680960747e-66",
+      "stable_occupation_float_eigenpairs": "9.612945330992574033654083953913108816987e-66",
+      "literal_matrix": "9.612945330990639021108404129599152920842e-66",
+      "literal_trig": "9.612945330990449255938326317743517738091e-66",
+      "literal_k": "9.61294533099048622538587814827155880152e-66"
+    },
+    "raw_indices_in_near_bare_group": [
+      3455
+    ],
+    "positive_group_charge": "9.61294533099048622538587814827155880152e-66",
+    "positive_group_axial": "5.398930069331844224282902846878946788714e-69",
+    "positive_group_determinant": "-4.107193652062461179604872817257057356588e-216",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.025443873447198274671392337050513421465563058595340690554203563824983339417036932",
+      "nearest_other_bare_distance": "0.00018345483984940986307",
+      "pole_shift_estimate": "5.294871749090865295290366409488746171237e-65",
+      "shift_to_bare_separation": "2.88619899776817e-61",
+      "charge_residue_estimate": "2.115442206057135370801517976984460791821e-66",
+      "weighted_charge_estimate": "5.38250437757796878342767014403922751164e-68",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1355,
+    "selection_stratum": "positive_scale1",
+    "association": {
+      "index": 1355,
+      "endpoint_index": 1355,
+      "modal_endpoint": 0.0458040530201023,
+      "modal_weight": "3.5174694020690268600272942991247001685878883885065095720681712437523994734709060536860348489368826956080749113198180566541850566864013671875E-39",
+      "nearest_raw_index": 1855,
+      "nearest_bare_distance": 1.8735013540549517e-16,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        1855
+      ],
+      "second_transition_distance": 0.00013196460502573615,
+      "occupation_restored": false,
+      "raw_weight_original": "9.7675217201254341690989389891e-43",
+      "raw_weight_high_precision": "9.7675217201257660609116055797e-43",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "6.6191659261514479677e-79",
+      "aa_relative_80_110": "5.828122701769525234e-79",
+      "ca_relative_80_110": "6.2458231106025520685e-79",
+      "df_over_volume_relative_80_110": "6.5963218151063947342e-79",
+      "charge_vertex_abs_80": "0.999066842553710183294517303586",
+      "charge_vertex_abs_110": "0.999066842553710183294517303586",
+      "delta_absolute_80_110": "2.5542334046998270669e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "9.767521720125434169098938989102517852941e-43",
+      "stable_occupation_float_eigenpairs": "9.76752172012537032734350193561837926497e-43",
+      "literal_matrix": "9.76752172012579588673274723006306635767e-43",
+      "literal_trig": "9.767521720125754392802370076842525997829e-43",
+      "literal_k": "9.767521720125766060911605579695990385299e-43"
+    },
+    "raw_indices_in_near_bare_group": [
+      1855
+    ],
+    "positive_group_charge": "9.767521720125766060911605579695990385299e-43",
+    "positive_group_axial": "2.056152932900409090903463109485913563313e-45",
+    "positive_group_determinant": "-6.980920189793129958416075579263379885406e-168",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.045804053020103371544651663123806622880537624056361605340128185417041277581449558",
+      "nearest_other_bare_distance": "0.00013196460502948106162",
+      "pole_shift_estimate": "5.260806223580785437779489047692038493144e-42",
+      "shift_to_bare_separation": "3.98652822278028e-38",
+      "charge_residue_estimate": "2.052780957185510388097903197291780028989e-43",
+      "weighted_charge_estimate": "9.402568780158366693057292075387619141332e-45",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1443,
+    "selection_stratum": "positive_scale0",
+    "association": {
+      "index": 1443,
+      "endpoint_index": 1443,
+      "modal_endpoint": 0.17023728857686604,
+      "modal_weight": "2.93242153686092022348918462585234718212309166884307542258284143240339668030984736844635951917492867004790812320442406012276840947261558056879948708228766918182373046875E-50",
+      "nearest_raw_index": 2959,
+      "nearest_bare_distance": 2.1094237467877974e-15,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        2959
+      ],
+      "second_transition_distance": 6.277489872585917e-05,
+      "occupation_restored": false,
+      "raw_weight_original": "4.06609292411081850446033328912e-58",
+      "raw_weight_high_precision": "4.06609292411035481145241035697e-58",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "2.5323054407326974087e-79",
+      "aa_relative_80_110": "2.3708852208899235504e-79",
+      "ca_relative_80_110": "2.4523090723911106993e-79",
+      "df_over_volume_relative_80_110": "2.4248027483757590157e-79",
+      "charge_vertex_abs_80": "0.999762416198890752214064480961",
+      "charge_vertex_abs_110": "0.999762416198890752214064480961",
+      "delta_absolute_80_110": "3.3106505295783552812e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "4.066092924110818504460333289119671134496e-58",
+      "stable_occupation_float_eigenpairs": "4.066092924110824419511096979142888777883e-58",
+      "literal_matrix": "4.066092924110394405833354207391293074984e-58",
+      "literal_trig": "4.066092924110361790175439027391373689175e-58",
+      "literal_k": "4.066092924110354811452410356971161632057e-58"
+    },
+    "raw_indices_in_near_bare_group": [
+      2959
+    ],
+    "positive_group_charge": "4.066092924110354811452410356971161632057e-58",
+    "positive_group_axial": "1.230294133141791246454894039293186222202e-59",
+    "positive_group_determinant": "-2.785234907622819074900809249444894246875e-200",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.17023728857686226949497294249547231811390004865182053604350774738871676717757048",
+      "nearest_other_bare_distance": "0.000062774898724712785483",
+      "pole_shift_estimate": "-1.569971900831154980705944640626267452657e-58",
+      "shift_to_bare_separation": "2.50095489236225e-54",
+      "charge_residue_estimate": "1.076718618772306198574821771948451524692e-60",
+      "weighted_charge_estimate": "1.832976582200216427834522545858842142327e-61",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1454,
+    "selection_stratum": "positive_scale3",
+    "association": {
+      "index": 1454,
+      "endpoint_index": 1454,
+      "modal_endpoint": 0.1797718298153481,
+      "modal_weight": "4.99239970365362790314840229386915026302848179262650063492401386611163616180419921875E-14",
+      "nearest_raw_index": 869,
+      "nearest_bare_distance": 6.278519371072377e-11,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": false,
+      "nearby_raw_indices": [
+        869
+      ],
+      "second_transition_distance": 9.52300973577902e-07,
+      "occupation_restored": false,
+      "raw_weight_original": "2.5558228905327390908521156889e-11",
+      "raw_weight_high_precision": "2.55582294699594891609448805169e-11",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "3.8989739356976148515e-80",
+      "aa_relative_80_110": "3.769089671460755942e-80",
+      "ca_relative_80_110": "3.848194520303662555e-80",
+      "df_over_volume_relative_80_110": "3.9851632543996859881e-80",
+      "charge_vertex_abs_80": "0.990182487894009906160671694943",
+      "charge_vertex_abs_110": "0.990182487894009906160671694943",
+      "delta_absolute_80_110": "4.5212229305854085641e-81"
+    },
+    "input_stage_weights": {
+      "original_float": "0.0000000000255582289053273909085211568890084695739",
+      "stable_occupation_float_eigenpairs": "0.00000000002555822946995973509524483323349711556934",
+      "literal_matrix": "0.00000000002555822946995949691131595256406021855464",
+      "literal_trig": "0.00000000002555822946995948413617328057397605194239",
+      "literal_k": "0.00000000002555822946995948916094488051690032845799"
+    },
+    "raw_indices_in_near_bare_group": [
+      869
+    ],
+    "positive_group_charge": "0.00000000002555822946995948916094488051690032845799",
+    "positive_group_axial": "0.00000000001446082638026235019681363427305851913849",
+    "positive_group_determinant": "-6.994871289939393590833952499200712489871e-104",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.17977182975256287673218355812776534601514072606057051978714618476422913940324056",
+      "nearest_other_bare_distance": "9.5230097386608861888e-7",
+      "pole_shift_estimate": "0.00000000006278432637192231773644070147178656233968",
+      "shift_to_bare_separation": "6.59290792458551e-5",
+      "charge_residue_estimate": "2.777075910498336242886464330408584948443e-13",
+      "weighted_charge_estimate": "4.992400177920504439489637695220592194592e-14",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1483,
+    "selection_stratum": "positive_scale1",
+    "association": {
+      "index": 1483,
+      "endpoint_index": 1483,
+      "modal_endpoint": 0.20992328089339907,
+      "modal_weight": "1.424142996167134937164707675976742184576689012130997078371951514241623038488329247915780257812017931680321182748663079442597023671623901464045047760009765625E-45",
+      "nearest_raw_index": 2831,
+      "nearest_bare_distance": 8.881784197001252e-16,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        2831
+      ],
+      "second_transition_distance": 0.00016856990485525358,
+      "occupation_restored": false,
+      "raw_weight_original": "7.58050911079305390174690867423e-58",
+      "raw_weight_high_precision": "7.58050911079266898493374200348e-58",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "1.0723476601622400455e-79",
+      "aa_relative_80_110": "1.1423886380842349881e-79",
+      "ca_relative_80_110": "1.1208217174389597937e-79",
+      "df_over_volume_relative_80_110": "1.0098549986876548283e-79",
+      "charge_vertex_abs_80": "0.999857263780386198306700685751",
+      "charge_vertex_abs_110": "0.999857263780386198306700685751",
+      "delta_absolute_80_110": "1.6195563494351452102e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "7.580509110793053901746908674232252977682e-58",
+      "stable_occupation_float_eigenpairs": "7.580509110793098273196088115843849940595e-58",
+      "literal_matrix": "7.580509110792668725110256872257349152577e-58",
+      "literal_trig": "7.580509110792667620957847206056266898996e-58",
+      "literal_k": "7.58050911079266898493374200348000934476e-58"
+    },
+    "raw_indices_in_near_bare_group": [
+      2831
+    ],
+    "positive_group_charge": "7.58050911079266898493374200348000934476e-58",
+    "positive_group_axial": "3.104023642754973229494019871451691100907e-59",
+    "positive_group_determinant": "-3.278492511525930373509711438098845222057e-197",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.20992328089339500569073676321662439971642914119757854049064106583068682457118723",
+      "nearest_other_bare_distance": "0.00016856990485221033727",
+      "pole_shift_estimate": "7.43151778761710467852667085029950909164e-57",
+      "shift_to_bare_separation": "4.40856735022335e-53",
+      "charge_residue_estimate": "5.98343304062449265398575447258679619464e-58",
+      "weighted_charge_estimate": "1.256061894893835941639455641294523873836e-58",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1494,
+    "selection_stratum": "positive_scale2",
+    "association": {
+      "index": 1494,
+      "endpoint_index": 1494,
+      "modal_endpoint": 0.21753892105621092,
+      "modal_weight": "4.98883742286382429032249063828332759061499987372552370888841022367188315911334939301013946533203125E-21",
+      "nearest_raw_index": 2319,
+      "nearest_bare_distance": 8.1601392309949e-15,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        2319
+      ],
+      "second_transition_distance": 0.00027587697127984256,
+      "occupation_restored": false,
+      "raw_weight_original": "1.55659162494023984647966746474e-19",
+      "raw_weight_high_precision": "1.55659162494022551034952798062e-19",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "8.8115634092265320047e-80",
+      "aa_relative_80_110": "9.1379061696512221752e-80",
+      "ca_relative_80_110": "8.9578593135632865298e-80",
+      "df_over_volume_relative_80_110": "1.0217541385515631988e-79",
+      "charge_vertex_abs_80": "0.997921759432355057823709673463",
+      "charge_vertex_abs_110": "0.997921759432355057823709673463",
+      "delta_absolute_80_110": "4.4251278296320220251e-82"
+    },
+    "input_stage_weights": {
+      "original_float": "1.556591624940239846479667464735440522532e-19",
+      "stable_occupation_float_eigenpairs": "1.556591624940239152410923139616186153689e-19",
+      "literal_matrix": "1.556591624940232711852655990202874326307e-19",
+      "literal_trig": "1.556591624940224001970636075316795499109e-19",
+      "literal_k": "1.556591624940225510349527980621240110941e-19"
+    },
+    "raw_indices_in_near_bare_group": [
+      2319
+    ],
+    "positive_group_charge": "1.556591624940225510349527980621240110941e-19",
+    "positive_group_axial": "1.06396061823133598677215245637525065418e-19",
+    "positive_group_determinant": "-6.854803865042090092816172510346145053714e-120",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.21753892105621870103326192126840905138978837705706796085828967617755298491071851",
+      "nearest_other_bare_distance": "0.0002758769712821873505",
+      "pole_shift_estimate": "6.170772063636839244162554370181965891826e-19",
+      "shift_to_bare_separation": "2.23678403998604e-15",
+      "charge_residue_estimate": "2.293307972597137812699221971299456998421e-20",
+      "weighted_charge_estimate": "4.98883742008405722751523358552649186481e-21",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1533,
+    "selection_stratum": "positive_scale2",
+    "association": {
+      "index": 1533,
+      "endpoint_index": 1533,
+      "modal_endpoint": 0.24375262602514394,
+      "modal_weight": "1.271959657412722581524396114930327224401992261214365372834898715353605978930204818493597540562944914199761115014553070068359375E-32",
+      "nearest_raw_index": 2207,
+      "nearest_bare_distance": 4.163336342344337e-16,
+      "near_bare_window": 2.842170943040401e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        2207
+      ],
+      "second_transition_distance": 0.00013053453699329864,
+      "occupation_restored": false,
+      "raw_weight_original": "1.08767087577198364312327694605e-31",
+      "raw_weight_high_precision": "1.08767087577198336852940957805e-31",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "7.9520138983306294336e-80",
+      "aa_relative_80_110": "1.0136656175801416085e-79",
+      "ca_relative_80_110": "8.8962905418775023532e-80",
+      "df_over_volume_relative_80_110": "7.5660413221620499163e-80",
+      "charge_vertex_abs_80": "0.999822806100087283603542325457",
+      "charge_vertex_abs_110": "0.999822806100087283603542325457",
+      "delta_absolute_80_110": "1.9811305726964484351e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "1.087670875771983643123276946052608141473e-31",
+      "stable_occupation_float_eigenpairs": "1.087670875771986796187279044352740836879e-31",
+      "literal_matrix": "1.087670875771994145606495025741556247602e-31",
+      "literal_trig": "1.087670875771983013172309806147495463886e-31",
+      "literal_k": "1.087670875771983368529409578050119725074e-31"
+    },
+    "raw_indices_in_near_bare_group": [
+      2207
+    ],
+    "positive_group_charge": "1.087670875771983368529409578050119725074e-31",
+    "positive_group_axial": "1.455617318478816505592663070564443294263e-32",
+    "positive_group_determinant": "-4.687845096658172530071084863618149844555e-144",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "0.24375262602514337003196100205068678653294524502636114249903724787929346551152818",
+      "nearest_other_bare_distance": "0.00013053453699565746796",
+      "pole_shift_estimate": "8.427730624476513625131568198721933031006e-31",
+      "shift_to_bare_separation": "6.4563224556861e-27",
+      "charge_residue_estimate": "5.231142554073631834589306094322143260011e-32",
+      "weighted_charge_estimate": "1.275104734667323309965351882367866091923e-32",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1595,
+    "selection_stratum": "positive_scale3",
+    "association": {
+      "index": 1595,
+      "endpoint_index": 1595,
+      "modal_endpoint": 1.6225617396258551,
+      "modal_weight": "3.12249534226961381894787302772803253671043242239470372201282089008600451052188873291015625E-17",
+      "nearest_raw_index": 1195,
+      "nearest_bare_distance": 2.1760371282653068e-14,
+      "near_bare_window": 4.61159782965369e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        1195
+      ],
+      "second_transition_distance": 0.0006281528033427186,
+      "occupation_restored": false,
+      "raw_weight_original": "3.09796537443393236079143856485e-18",
+      "raw_weight_high_precision": "3.09796537443396979038048565073e-18",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "8.5263362873241048709e-79",
+      "aa_relative_80_110": "5.9641376837894855606e-80",
+      "ca_relative_80_110": "4.0051321864568385033e-79",
+      "df_over_volume_relative_80_110": "7.0718043514339747499e-80",
+      "charge_vertex_abs_80": "0.0069628012912620710108933504987",
+      "charge_vertex_abs_110": "0.0069628012912620710108933504987",
+      "delta_absolute_80_110": "4.2990499932978681162e-81"
+    },
+    "input_stage_weights": {
+      "original_float": "3.097965374433932360791438564851276720313e-18",
+      "stable_occupation_float_eigenpairs": "3.097965374433934330222755138736059564069e-18",
+      "literal_matrix": "3.097965374433981546361355443794365914448e-18",
+      "literal_trig": "3.097965374433966003408312032260043524703e-18",
+      "literal_k": "3.0979653744339697903804856507277537742e-18"
+    },
+    "raw_indices_in_near_bare_group": [
+      1195
+    ],
+    "positive_group_charge": "3.0979653744339697903804856507277537742e-18",
+    "positive_group_axial": "8.862258442154974759718259172711149919444e-15",
+    "positive_group_determinant": "-7.161234232886913069734408637338689318314e-113",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "1.6225617396258332884921155823781044204258946772807612200898576897409857728697198",
+      "nearest_other_bare_distance": "0.00062815280334256096605",
+      "pole_shift_estimate": "1.104445414569879666490385415355031697679e-14",
+      "shift_to_bare_separation": "1.75824323109416e-11",
+      "charge_residue_estimate": "1.92442312849796191967079591450356904792e-17",
+      "weighted_charge_estimate": "3.122495339151841605294989544660040608419e-17",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1599,
+    "selection_stratum": "positive_scale1",
+    "association": {
+      "index": 1599,
+      "endpoint_index": 1600,
+      "modal_endpoint": 1.6326152983233173,
+      "modal_weight": "8.614638325411225686401417766041511422584733187094575863444571688243895801456975050750496103457720664664520882070064544677734375E-33",
+      "nearest_raw_index": 1083,
+      "nearest_bare_distance": 4.6629367034256575e-15,
+      "near_bare_window": 4.640171762057768e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        1083
+      ],
+      "second_transition_distance": 4.760585744389978e-05,
+      "occupation_restored": false,
+      "raw_weight_original": "1.79166856439506575700665200444e-35",
+      "raw_weight_high_precision": "1.79166856439534355712401258399e-35",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "1.3168750646286835434e-77",
+      "aa_relative_80_110": "4.3163638192194443312e-79",
+      "ca_relative_80_110": "6.4089559573748687469e-78",
+      "df_over_volume_relative_80_110": "4.0046512923374846486e-79",
+      "charge_vertex_abs_80": "0.00184273560274953197443412499882",
+      "charge_vertex_abs_110": "0.00184273560274953197443412499882",
+      "delta_absolute_80_110": "3.5881919436317313096e-80"
+    },
+    "input_stage_weights": {
+      "original_float": "1.791668564395065757006652004443008356649e-35",
+      "stable_occupation_float_eigenpairs": "1.791668564395063010425933297929130258377e-35",
+      "literal_matrix": "1.79166856439536466249368819365552859316e-35",
+      "literal_trig": "1.791668564395346067663137867089930093702e-35",
+      "literal_k": "1.79166856439534355712401258399085065469e-35"
+    },
+    "raw_indices_in_near_bare_group": [
+      1083
+    ],
+    "positive_group_charge": "1.79166856439534355712401258399085065469e-35",
+    "positive_group_axial": "6.263941798866352060096540250584544755928e-31",
+    "positive_group_determinant": "1.067033965024140137576274507778686843579e-146",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "1.6326152983233222113703925414813816624540004400343396145842452607479185546301741",
+      "nearest_other_bare_distance": "0.000047605857443509838013",
+      "pole_shift_estimate": "1.046747750779172701398937637474589393532e-30",
+      "shift_to_bare_separation": "2.19877932462674e-26",
+      "charge_residue_estimate": "3.455698095582612714203484292286012459433e-35",
+      "weighted_charge_estimate": "5.641825577234943690110134816617043470797e-35",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  },
+  {
+    "index": 1803,
+    "selection_stratum": "positive_scale3",
+    "association": {
+      "index": 1803,
+      "endpoint_index": 1803,
+      "modal_endpoint": 2.1210831282092744,
+      "modal_weight": "1.03376972890511212175824805285102080199260031061041310352678623818434289205470122396945953369140625E-20",
+      "nearest_raw_index": 2347,
+      "nearest_bare_distance": 5.773159728050814e-15,
+      "near_bare_window": 6.028480834769637e-14,
+      "within_roundoff_scale_window": true,
+      "nearby_raw_indices": [
+        2347
+      ],
+      "second_transition_distance": 0.0013977397653990309,
+      "occupation_restored": false,
+      "raw_weight_original": "6.14483081566857893063957371002e-22",
+      "raw_weight_high_precision": "6.14483081566274277556898643964e-22",
+      "modal_identity_certified": false
+    },
+    "classification": "ROBUST_NONZERO_RAW_TRANSITION",
+    "precision_comparison": {
+      "cc_relative_80_110": "7.9462805006482197193e-78",
+      "aa_relative_80_110": "2.0911270844842493862e-79",
+      "ca_relative_80_110": "3.9902398423577903608e-78",
+      "df_over_volume_relative_80_110": "1.8762592188723438464e-79",
+      "charge_vertex_abs_80": "0.000115786647452342802022793824264",
+      "charge_vertex_abs_110": "0.000115786647452342802022793824264",
+      "delta_absolute_80_110": "4.4554915035038725721e-81"
+    },
+    "input_stage_weights": {
+      "original_float": "6.144830815668578930639573710021598842718e-22",
+      "stable_occupation_float_eigenpairs": "6.144830815668050294833082969571647239775e-22",
+      "literal_matrix": "6.144830815662910773108104298748735039903e-22",
+      "literal_trig": "6.144830815662637882043774852601390989167e-22",
+      "literal_k": "6.144830815662742775568986439636945650102e-22"
+    },
+    "raw_indices_in_near_bare_group": [
+      2347
+    ],
+    "positive_group_charge": "6.144830815662742775568986439636945650102e-22",
+    "positive_group_axial": "5.663943468563553033211413477935482361473e-15",
+    "positive_group_determinant": "1.560983299812827884877140264241434688976e-117",
+    "weak_transition_dressing_estimate": {
+      "status": "LEADING_WEAK_TRANSITION_ESTIMATE_ONLY",
+      "bare": "2.1210831282092690098366859453116265553504470716956026944764420292246175674546154",
+      "nearest_other_bare_distance": "0.0013977397653987911092",
+      "pole_shift_estimate": "8.093064798428070267063942800929846832843e-15",
+      "shift_to_bare_separation": "5.79010842989004e-12",
+      "charge_residue_estimate": "4.873781992823360440433811402800997533166e-21",
+      "weighted_charge_estimate": "1.033769675554777844626482101254279149366e-20",
+      "scope": "lambda*R_cc; first order in this raw W, no eigensystem or certified mode matching"
+    },
+    "exact_symmetry_zero_proved": false,
+    "note": "Raw positive weight stability is not proof of this CSV modal residue or zero interval."
+  }
+]

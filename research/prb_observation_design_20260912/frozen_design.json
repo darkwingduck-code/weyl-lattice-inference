@@ -1,0 +1,108 @@
+{
+  "status": "DESIGN_FROZEN_BEFORE_VALIDATION",
+  "pilot_sha256": "559e7671e8e41b71585959cd4e5342758e6ed9ce3537df5caeb67d5fd514e673",
+  "pilot_source_sha256": "4063dba3122eaea21a4d771d419494aba0bf265a131fd663de6b9a5294b6251b",
+  "selection": "Single Bplus baseline fixed_lab, complete complex response matrix with known charge calibration and independent unknown factorized axial source/readout transfers",
+  "selection_reason": "Large pilot separation with fewer physical controls; cross/aa amplitude6.05%, greater than B0 baseline1.82%; q/mu expansion alone retains subpercent diagonal ambiguity. This does not select by higher/noise outcomes.",
+  "matrix_transform": "Y=diag(1,d) chi diag(1,s); d,s nonzero complex functions of condition and frequency. No arbitrary elementwise transfer. Axial source preparation is required.",
+  "primary_estimators": [
+    "cc and W=YcaYac/Yaa",
+    "cc and cross product F=W_model Yaa-YcaYac",
+    "selected raw-matrix LS with complex factorized source/readout gains"
+  ],
+  "full_profiles": {
+    "Ua_grid": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0,
+      8.5,
+      9.0,
+      9.5,
+      10.0,
+      10.5,
+      11.0,
+      11.5,
+      12.0,
+      12.5,
+      13.0,
+      13.5,
+      14.0,
+      14.5,
+      15.0,
+      15.5,
+      16.0,
+      16.5,
+      17.0,
+      17.5,
+      18.0,
+      18.5,
+      19.0,
+      19.5,
+      20.0,
+      20.5,
+      21.0,
+      21.5,
+      22.0,
+      22.5,
+      23.0,
+      23.5,
+      24.0
+    ],
+    "g_range": [
+      0.2,
+      1.6
+    ],
+    "g_grid": 65,
+    "denser_check": 129,
+    "common_g_candidate": 0.8
+  },
+  "held_out_parameter_tests": {
+    "g_truths": [
+      0.6,
+      1.0
+    ],
+    "Ua_truths": [
+      4,
+      12,
+      16
+    ],
+    "note": "New parameter combinations on existing prior bare data; not newly blind collected data"
+  },
+  "noise": {
+    "seed": 20260912,
+    "replicas_per_configuration": 100,
+    "absolute_sigma_multipliers": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "scale": "Complex RMS per raw matrix sample is multiplier times L2(physical chi_aa)/sqrt(N). Four entries independent circular Gaussian; real/imag SD=complex RMS/sqrt2.",
+    "relative_control": 0.01,
+    "weight": "Fixed clean-reference noise scales for synthetic comparison, not inferred experimental uncertainty",
+    "gains": "d=.7 exp(.4i)(1+.1x), s=1.3 exp(-.25i)(1+.1ix), x=(omega-mean)/ptp; same gains act on all corresponding entries"
+  },
+  "numerical_comparison": "coarse/fine models versus identical higher reference for4 datasets, including Ua8 control; report relative L2/RMS separately from old scaled kernel metric",
+  "reporting_criteria": "Report all outcomes, empirical bias and Ua4/16 discrimination vs truth8, with no new PASS threshold or continuum error bound. Report failure at weak coupling/high common absolute noise.",
+  "limits": [
+    "Known bare Pi and operator basis assumed",
+    "eta used only in separate robustness tests, not joint experimental knob",
+    "Prior data already available; new split is analytical validation, not blinded measurement",
+    "No microscopic material source, continuum or magnetic transverse certification",
+    "No global parameter optimum or experimental statistical CI",
+    "No intensity-only interpretation"
+  ]
+}

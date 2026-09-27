@@ -1,0 +1,76 @@
+{
+  "design_id": "mixed_source_absolute_noise_v1",
+  "status": "DESIGN_FROZEN_BEFORE_MONTE_CARLO",
+  "frozen_at_local_date": "2026-09-15",
+  "seed": 2026091501,
+  "fields": ["Bplus", "B0"],
+  "epsilon_realizations": {
+    "0.001": 50,
+    "0.01": 25
+  },
+  "realization_count_reason": "The recommended 100/50 design would require 1200 three-start nonlinear raw-affine fits across two fields, two meshes, and two lambda treatments. The pre-run reduced 50/25 design retains paired comparisons while limiting the run to 600 fits.",
+  "truth": {"g": 0.8, "Ua": 8.0, "lambda": 0.7},
+  "inputs": {
+    "Bplus": {
+      "truth_mesh": "production/Bplus_final/response_3channel.npz",
+      "coarse_model": "production/Bplus_coarse/response_3channel.npz"
+    },
+    "B0": {
+      "truth_mesh": "production/B0_final/response_3channel.npz",
+      "coarse_model": "production/B0_coarse/response_3channel.npz"
+    }
+  },
+  "transfer_model": {
+    "x": "(omega-mean(omega))/ptp(omega)",
+    "readout_gain": "0.7 exp(0.4 i) (1+0.1 x)",
+    "source_gain": "1.3 exp(-0.25 i) (1+0.1 i x)",
+    "fit_nuisance": "independent affine complex readout and source gains, identical to analyze_inference.raw_affine_fit"
+  },
+  "noise": {
+    "definition": "sigma_epsilon = epsilon*A_common, where A_common is sqrt(mean(|Y_clean|^2)) over every complex frequency/channel entry of both Bplus-final and B0-final transferred truth responses. Each datum receives (sigma_epsilon/sqrt(2))*(N(0,1)+i N(0,1)), so E|noise|^2=sigma_epsilon^2.",
+    "common_absolute_rms": "The same sigma_epsilon is used for all four response entries, all frequencies, and both fields.",
+    "independence": "Noise is independent across fields, epsilon levels, realizations, frequencies, channels, and real/imaginary parts.",
+    "pairing": "Within one field/epsilon/realization, the identical noisy data are fitted by final/coarse templates and known/joint-lambda variants.",
+    "noise_free_data": "Bplus-final and B0-final at the declared truth and transfer gains."
+  },
+  "fit_variants": [
+    {"model_mesh": "final", "lambda_mode": "known", "lambda": 0.7},
+    {"model_mesh": "final", "lambda_mode": "joint", "lambda_bounds": [-1.0, 1.0]},
+    {"model_mesh": "coarse", "lambda_mode": "known", "lambda": 0.7},
+    {"model_mesh": "coarse", "lambda_mode": "joint", "lambda_bounds": [-1.0, 1.0]}
+  ],
+  "parameter_bounds": {"g": [0.2, 1.6], "Ua": [0.0, 24.0], "lambda": [-1.0, 1.0]},
+  "optimizer": {
+    "implementation": "analyze_inference.raw_affine_fit",
+    "known_lambda_starts_g_Ua": [[0.6, 4.0], [0.8, 8.0], [1.0, 16.0]],
+    "joint_lambda_starts_g_Ua_lambda": [[0.6, 4.0, 0.0], [0.8, 8.0, 0.7], [1.0, 16.0, 0.0]],
+    "global_minimum_certified": false,
+    "post_fit_clipping": false
+  },
+  "boundary_handling": {
+    "optimizer_bounds_enforced": true,
+    "hit_tolerance_fraction_of_parameter_range": 1e-5,
+    "boundary_estimates_retained": true,
+    "failed_finite_estimates_retained": true,
+    "nonfinite_estimates": "Count and exclude only from parameter summaries."
+  },
+  "reported_metrics": {
+    "per_field_epsilon_mesh_lambda_mode": [
+      "count", "optimizer success fraction", "all starts success fraction",
+      "bias", "RMSE", "sample standard deviation",
+      "2.5/16/50/84/97.5 percent quantiles", "lower/upper bound hit counts and rates",
+      "residual quantiles"
+    ],
+    "paired_mesh_effect": "For each field, epsilon, and lambda mode, report coarse-minus-final estimate bias/RMSE/quantiles.",
+    "noise_check": "Aggregate empirical complex RMS and its ratio to declared sigma for every field/epsilon group."
+  },
+  "numerical_acceptance": {
+    "expected_fit_rows": 600,
+    "minimum_optimizer_success_fraction": 0.99,
+    "maximum_empirical_noise_rms_relative_error": 0.03,
+    "require_all_estimates_finite": true,
+    "require_inputs_unchanged": true,
+    "inference_bias_threshold_predeclared": false
+  },
+  "claim_rule": "No bias-size pass threshold is selected. Results remain manuscript-ready=false because this is a finite synthetic-noise study with an assumed real lambda and no material-specific vertex or confidence-region coverage validation."
+}

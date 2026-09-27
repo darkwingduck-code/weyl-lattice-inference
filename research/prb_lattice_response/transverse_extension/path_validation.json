@@ -1,0 +1,160 @@
+{
+  "method": "Tiled bare sum versus complete direct Bloch Transitions",
+  "rpa_order": "Sum all bare tile polarizations before applying RPA",
+  "parameters": {
+    "Lx": 3,
+    "Ly": 4,
+    "Nkz": 24,
+    "mass": 0.14,
+    "wilson": 1.13,
+    "hopping": 0.93,
+    "exchange": 0.79,
+    "theta_x": 0.29,
+    "theta_y": -0.43,
+    "theta_z": 0.19
+  },
+  "frequency_points": 161,
+  "records": [
+    {
+      "qshift": -1,
+      "errors": {
+        "bare_max_absolute": 4.441434166503682e-16,
+        "rpa_max_absolute": 6.890150443143122e-16,
+        "current_contact_probe_max_absolute": 8.355534721610418e-17,
+        "moments_max_absolute": 1.4210854715202004e-14,
+        "density_absolute": 0.0
+      },
+      "roundoff_budget": 2.1794073506791976e-10,
+      "checks": {
+        "L": 3,
+        "Ly": 4,
+        "Nkz": 24,
+        "flux": 0,
+        "ensemble": "fixed_mu",
+        "parameters": {
+          "Lx": 3,
+          "Ly": 4,
+          "Nkz": 24,
+          "mass": 0.14,
+          "wilson": 1.13,
+          "hopping": 0.93,
+          "exchange": 0.79,
+          "theta_x": 0.29,
+          "theta_y": -0.43,
+          "theta_z": 0.19
+        },
+        "density": 2.025439638855893,
+        "q": -0.2617993877991494,
+        "Q": -0.26105238444010315,
+        "retained_transition_count": 4608,
+        "expected_transition_count": 4608,
+        "vertex_error": 1.0050987983038529e-14,
+        "vertex_tolerance": 2e-11,
+        "charge_ward_bare": 4.5136158114056657e-17,
+        "charge_ward_rpa": 2.4532694666933986e-17,
+        "ward_tolerance": 2e-10,
+        "equal_time_density_commutator_max": 5.551115123125783e-17,
+        "minimum_rpa_weighted_loss_eigenvalue": 0.00010581582137205077,
+        "weighted_passivity_tolerance": 2e-10,
+        "weighted_passivity_frequency_points": 161,
+        "probe_frequency": {
+          "real": 0.45,
+          "imag": 0.015
+        },
+        "probe_bare_ca": {
+          "real": 0.019507989889061973,
+          "imag": 0.03903014364535182
+        },
+        "probe_rpa_ca": {
+          "real": 0.006653575093348544,
+          "imag": 0.0060912426360692565
+        },
+        "tile_blocks": 5,
+        "tile_count": 3,
+        "estimated_tile_peak_bytes": 134709248,
+        "estimated_untiled_peak_bytes": 135397376,
+        "minimum_observed_available_bytes": 18974470144,
+        "memory_before": {
+          "total_physical_bytes": 68095827968,
+          "available_physical_bytes": 18974470144
+        },
+        "elapsed_seconds": 0.6728082999979961,
+        "all_exact_identity_checks_pass": true
+      },
+      "incorrect_tilewise_rpa_scaled_error": 0.09662199648203137,
+      "negative_control_detection_threshold": 1e-06,
+      "passed": true
+    },
+    {
+      "qshift": 1,
+      "errors": {
+        "bare_max_absolute": 4.440900568822021e-16,
+        "rpa_max_absolute": 6.389813363550566e-16,
+        "current_contact_probe_max_absolute": 2.482534153247273e-16,
+        "moments_max_absolute": 8.326672684688674e-17,
+        "density_absolute": 0.0
+      },
+      "roundoff_budget": 2.179407350679199e-10,
+      "checks": {
+        "L": 3,
+        "Ly": 4,
+        "Nkz": 24,
+        "flux": 0,
+        "ensemble": "fixed_mu",
+        "parameters": {
+          "Lx": 3,
+          "Ly": 4,
+          "Nkz": 24,
+          "mass": 0.14,
+          "wilson": 1.13,
+          "hopping": 0.93,
+          "exchange": 0.79,
+          "theta_x": 0.29,
+          "theta_y": -0.43,
+          "theta_z": 0.19
+        },
+        "density": 2.025439638855893,
+        "q": 0.2617993877991494,
+        "Q": 0.26105238444010315,
+        "retained_transition_count": 4608,
+        "expected_transition_count": 4608,
+        "vertex_error": 1.0050987983038529e-14,
+        "vertex_tolerance": 2e-11,
+        "charge_ward_bare": 3.1809833969824884e-17,
+        "charge_ward_rpa": 7.757919228897728e-18,
+        "ward_tolerance": 2e-10,
+        "equal_time_density_commutator_max": 8.326672684688674e-17,
+        "minimum_rpa_weighted_loss_eigenvalue": 0.00010675777933558057,
+        "weighted_passivity_tolerance": 2e-10,
+        "weighted_passivity_frequency_points": 161,
+        "probe_frequency": {
+          "real": 0.45,
+          "imag": 0.015
+        },
+        "probe_bare_ca": {
+          "real": 0.012728707133415519,
+          "imag": -0.03660343660179494
+        },
+        "probe_rpa_ca": {
+          "real": -0.0014042214914853305,
+          "imag": -0.010561066930119954
+        },
+        "tile_blocks": 5,
+        "tile_count": 3,
+        "estimated_tile_peak_bytes": 134709248,
+        "estimated_untiled_peak_bytes": 135397376,
+        "minimum_observed_available_bytes": 19009650688,
+        "memory_before": {
+          "total_physical_bytes": 68095827968,
+          "available_physical_bytes": 19104247808
+        },
+        "elapsed_seconds": 0.3772026000006008,
+        "all_exact_identity_checks_pass": true
+      },
+      "incorrect_tilewise_rpa_scaled_error": 0.09722828438611571,
+      "negative_control_detection_threshold": 1e-06,
+      "passed": true
+    }
+  ],
+  "all_checks_pass": true
+}

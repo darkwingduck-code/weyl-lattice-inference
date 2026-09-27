@@ -1,0 +1,3404 @@
+{
+  "phase": "deterministic",
+  "design": {
+    "design_id": "prb_independent_source_readout_20260927_v1",
+    "status": "FIXED_BEFORE_NEW_FITS",
+    "question": "Does cross spectroscopy distinguish interaction and independent source/readout directions after complex calibration is profiled?",
+    "input_basis": [
+      "charge",
+      "Gamma5",
+      "Gamma3"
+    ],
+    "interacting_basis": [
+      "charge",
+      "Gamma5"
+    ],
+    "truths": {
+      "symmetric": [
+        0.7,
+        0.7
+      ],
+      "asymmetric": [
+        0.7,
+        -0.3
+      ]
+    },
+    "lambda_order": [
+      "readout",
+      "source"
+    ],
+    "truth_g_Ua": [
+      0.8,
+      8.0
+    ],
+    "field_groups": {
+      "B0": [
+        "B0"
+      ],
+      "Bplus": [
+        "Bplus"
+      ],
+      "joint": [
+        "B0",
+        "Bplus"
+      ]
+    },
+    "observations": [
+      "diagonal",
+      "full"
+    ],
+    "source_models": [
+      "pure",
+      "shared",
+      "independent",
+      "known"
+    ],
+    "gain_model": "independent complex affine source/readout per field; charge is calibrated",
+    "noise": "One common absolute circular-complex RMS sigma=epsilon*A over all entries, frequencies, both fields and both truth directions. A is the clean transferred RMS over all four complete truth datasets. E|noise|^2=sigma^2.",
+    "epsilon": 0.001,
+    "seed": 2026092703,
+    "raw_norm": "sqrt(sum|prediction-observation|^2/(number_of_complex_observations*sigma^2))",
+    "bounds": {
+      "g": [
+        0.2,
+        1.6
+      ],
+      "Ua": [
+        0.0,
+        24.0
+      ],
+      "lambda_readout": [
+        -1.0,
+        1.0
+      ],
+      "lambda_source": [
+        -1.0,
+        1.0
+      ]
+    },
+    "physical_scales": [
+      0.8,
+      8.0,
+      1.0,
+      1.0
+    ],
+    "multistarts": [
+      [
+        0.55,
+        3.0,
+        -0.8,
+        0.4
+      ],
+      [
+        0.8,
+        8.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.1,
+        16.0,
+        0.8,
+        -0.4
+      ],
+      [
+        1.4,
+        22.0,
+        -0.4,
+        0.8
+      ],
+      [
+        0.65,
+        12.0,
+        0.5,
+        0.5
+      ]
+    ],
+    "Ua_profile": [
+      0.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      16.0,
+      24.0
+    ],
+    "profile_cases": "both truths, independent source model, full observations, Bplus and joint; symmetric diagonal Bplus control",
+    "noise_repetitions": 30,
+    "noise_cases": [
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "known"
+      ],
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "shared"
+      ],
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "independent"
+      ],
+      [
+        "symmetric",
+        "joint",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "Bplus",
+        "diagonal",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "Bplus",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "B0",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "joint",
+        "full",
+        "independent"
+      ]
+    ],
+    "noise_multistarts": 3,
+    "mesh_comparison": "identical higher observation, clean transfer functions and common absolute sigma; refit known, shared and independent directions on lower templates",
+    "reporting": "Report every result, failed optimizer and boundary hit. Local normalized Jacobian singular values are after projecting affine gain nuisance columns. Neither local rank nor multistart/profile results prove global identifiability or statistical coverage. No material vertex is claimed."
+  },
+  "absolute_sigma": 0.00012931669440932318,
+  "common_clean_complex_rms": 0.12931669440932317,
+  "results": [
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "source_model": "pure",
+      "g": 0.795170458231012,
+      "Ua": 5.581173394534995,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 15.570213973926597,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 231,
+      "bound_hits": "",
+      "best_start": 0,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        35.971229132509286,
+        5.461138676771022
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 6.586763541734084,
+      "start_solutions": [
+        {
+          "g": 0.795170458231012,
+          "Ua": 5.581173394534995,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 15.570213973926597,
+          "success": true
+        },
+        {
+          "g": 0.7951704660145057,
+          "Ua": 5.581172810557534,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 15.570213973960126,
+          "success": true
+        },
+        {
+          "g": 0.7951704585550586,
+          "Ua": 5.581173390308744,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 15.570213973942987,
+          "success": true
+        },
+        {
+          "g": 0.7951704573580471,
+          "Ua": 5.581171904810479,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 15.570213973934226,
+          "success": true
+        },
+        {
+          "g": 0.7951704575430049,
+          "Ua": 5.581173327853936,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 15.570213973946379,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "source_model": "shared",
+      "g": 0.8,
+      "Ua": 7.999999999999918,
+      "lambda_r": 0.7000000000000004,
+      "lambda_s": 0.7000000000000004,
+      "rms_noise_units": 4.023488582061566e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 722,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        36.387438879832175,
+        5.637386432523542,
+        2.850796525767597
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 3,
+      "local_condition_number": 12.763955109014525,
+      "start_solutions": [
+        {
+          "g": 0.8310363860032957,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999993,
+          "lambda_s": -0.9999999999999993,
+          "rms": 9.68760420981572,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999918,
+          "lambda_r": 0.7000000000000004,
+          "lambda_s": 0.7000000000000004,
+          "rms": 4.023488582061566e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000096,
+          "lambda_r": 0.6999999999999946,
+          "lambda_s": 0.6999999999999946,
+          "rms": 4.719414675239816e-13,
+          "success": true
+        },
+        {
+          "g": 0.8310363852011005,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999956,
+          "lambda_s": -0.9999999999999956,
+          "rms": 9.687604209810194,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999998,
+          "Ua": 8.000000000000112,
+          "lambda_r": 0.6999999999999956,
+          "lambda_s": 0.6999999999999956,
+          "rms": 4.458321907048992e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "g": 0.8,
+      "Ua": 8.000000000000068,
+      "lambda_r": 0.6999999999999925,
+      "lambda_s": 0.699999999999994,
+      "rms_noise_units": 4.860142285147603e-13,
+      "success": true,
+      "all_starts_success": false,
+      "evaluations": 1322,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        36.386647179541406,
+        4.510831326686609,
+        2.5193116233753234,
+        4.46395918916478e-13
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 4,
+      "local_condition_number": 81512051606254.62,
+      "start_solutions": [
+        {
+          "g": 0.8005265038887807,
+          "Ua": 13.585847832463662,
+          "lambda_r": 0.2824413883030387,
+          "lambda_s": 0.9999958001880479,
+          "rms": 0.7589804402981031,
+          "success": false
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000107,
+          "lambda_r": 0.6999999999999913,
+          "lambda_s": 0.6999999999999912,
+          "rms": 4.920257572093087e-13,
+          "success": true
+        },
+        {
+          "g": 0.80736938896667,
+          "Ua": 23.999999999999993,
+          "lambda_r": 0.36456489123734204,
+          "lambda_s": -0.9999999999999999,
+          "rms": 4.826171528726333,
+          "success": true
+        },
+        {
+          "g": 0.8073693886210287,
+          "Ua": 23.99999999999973,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.3645648951987424,
+          "rms": 4.82617152873711,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000068,
+          "lambda_r": 0.6999999999999925,
+          "lambda_s": 0.699999999999994,
+          "rms": 4.860142285147603e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "source_model": "known",
+      "g": 0.7999999999999999,
+      "Ua": 7.999999999999878,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 3.9451996270481616e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 395,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        36.38587130935298,
+        3.671612829342488
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 9.910051250112053,
+      "start_solutions": [
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999923,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.0111513195310673e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.99999999999999,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.771944845774173e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.9999999999999645,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 5.000133529560962e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.9999999999999485,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.0748102725518327e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999999,
+          "Ua": 7.999999999999878,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.9451996270481616e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "pure",
+      "g": 0.7404071838617993,
+      "Ua": 23.999999999999996,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 45.73393517124867,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 143,
+      "bound_hits": "Ua",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        26.50207985427564,
+        0.666241808158304
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 39.778470113629595,
+      "start_solutions": [
+        {
+          "g": 0.7404072977660912,
+          "Ua": 23.99999999999999,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 45.73393517124927,
+          "success": true
+        },
+        {
+          "g": 0.7404071838617993,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 45.73393517124867,
+          "success": true
+        },
+        {
+          "g": 0.7404072620593438,
+          "Ua": 23.99999999999999,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 45.733935171249115,
+          "success": true
+        },
+        {
+          "g": 0.7404072201028589,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 45.73393517124875,
+          "success": true
+        },
+        {
+          "g": 0.7404073290314516,
+          "Ua": 23.999999999999993,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 45.73393517124952,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "shared",
+      "g": 0.8000000000000003,
+      "Ua": 8.000000000000043,
+      "lambda_r": 0.6999999999999981,
+      "lambda_s": 0.6999999999999981,
+      "rms_noise_units": 3.2825995875702574e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 394,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        30.020598341970942,
+        17.071575951968303,
+        3.751227245630228
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 3,
+      "local_condition_number": 8.00287382667677,
+      "start_solutions": [
+        {
+          "g": 0.9773675986275177,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999996,
+          "lambda_s": -0.9999999999999996,
+          "rms": 12.426745635625124,
+          "success": true
+        },
+        {
+          "g": 0.9773675959876421,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 12.42674563562511,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000075,
+          "lambda_r": 0.699999999999997,
+          "lambda_s": 0.699999999999997,
+          "rms": 3.831355004990417e-13,
+          "success": true
+        },
+        {
+          "g": 0.977367592790346,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 12.426745635625117,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000043,
+          "lambda_r": 0.6999999999999981,
+          "lambda_s": 0.6999999999999981,
+          "rms": 3.2825995875702574e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "independent",
+      "g": 0.8,
+      "Ua": 8.000000000000002,
+      "lambda_r": 0.6999999999999994,
+      "lambda_s": 0.7000000000000002,
+      "rms_noise_units": 3.6718498446358023e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 510,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        29.618253517079157,
+        13.151987087001704,
+        6.222498302952966,
+        3.4484189768751987
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 4,
+      "local_condition_number": 8.588937050775042,
+      "start_solutions": [
+        {
+          "g": 0.9366068861391178,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.8917102412891446,
+          "rms": 10.692933066202308,
+          "success": true
+        },
+        {
+          "g": 0.9773675971322581,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999973,
+          "rms": 12.426745635625126,
+          "success": true
+        },
+        {
+          "g": 0.9494118012148425,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.9999999999998219,
+          "lambda_s": -0.9999999999999999,
+          "rms": 11.72262290583644,
+          "success": true
+        },
+        {
+          "g": 0.9366068334919184,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999997,
+          "lambda_s": 0.8917090979993266,
+          "rms": 10.692933066203665,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000002,
+          "lambda_r": 0.6999999999999994,
+          "lambda_s": 0.7000000000000002,
+          "rms": 3.6718498446358023e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "known",
+      "g": 0.8,
+      "Ua": 7.999999999999994,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 3.1552063966392626e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 89,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        29.28313798938139,
+        6.795275070617857
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 4.309338133492047,
+      "start_solutions": [
+        {
+          "g": 0.8,
+          "Ua": 8.00000000000001,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.277905080031111e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999994,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.1552063966392626e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999973,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.7093256872956134e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999998,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.6097383140752234e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999998,
+          "Ua": 8.000000000000007,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.510269457718774e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "pure",
+      "g": 0.8946921980995356,
+      "Ua": 0.08668933236926056,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 10.219071524837998,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 152,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        319.5631707782341,
+        129.97881708052134
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 2.458578851200546,
+      "start_solutions": [
+        {
+          "g": 0.8946921984489684,
+          "Ua": 0.08668933163208972,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 10.219071524890499,
+          "success": true
+        },
+        {
+          "g": 0.8946921980995356,
+          "Ua": 0.08668933236926056,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 10.219071524837998,
+          "success": true
+        },
+        {
+          "g": 0.8946921985026187,
+          "Ua": 0.08668932956788021,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 10.21907152487962,
+          "success": true
+        },
+        {
+          "g": 0.8946921983534222,
+          "Ua": 0.08668933214770495,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 10.219071524894947,
+          "success": true
+        },
+        {
+          "g": 0.8946921981351056,
+          "Ua": 0.08668933328405319,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 10.219071524866768,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "shared",
+      "g": 0.8000000000000003,
+      "Ua": 7.999999999999971,
+      "lambda_r": 0.6999999999999934,
+      "lambda_s": 0.6999999999999934,
+      "rms_noise_units": 3.8173741967766253e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 1165,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        136.82891657479823,
+        15.150077271949616,
+        0.550594279691549
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 3,
+      "local_condition_number": 248.5113297062436,
+      "start_solutions": [
+        {
+          "g": 0.7928910411030765,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 31.890125759251884,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999971,
+          "lambda_r": 0.6999999999999934,
+          "lambda_s": 0.6999999999999934,
+          "rms": 3.8173741967766253e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999995,
+          "Ua": 8.000000000000362,
+          "lambda_r": 0.7000000000001134,
+          "lambda_s": 0.7000000000001134,
+          "rms": 4.30307971741042e-13,
+          "success": true
+        },
+        {
+          "g": 0.7928910499626058,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 31.890125759324192,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999998,
+          "Ua": 8.000000000000256,
+          "lambda_r": 0.7000000000000696,
+          "lambda_s": 0.7000000000000696,
+          "rms": 4.599924729597056e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "g": 0.7999999999999994,
+      "Ua": 8.000000000000288,
+      "lambda_r": 0.7000000000000851,
+      "lambda_s": 0.7000000000000851,
+      "rms_noise_units": 4.565764710933988e-13,
+      "success": true,
+      "all_starts_success": false,
+      "evaluations": 2019,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        136.8287171558188,
+        14.726028283468299,
+        0.4005406034988829,
+        8.504986058650152e-14
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 4,
+      "local_condition_number": 1608805895885680.2,
+      "start_solutions": [
+        {
+          "g": 0.7057238141572957,
+          "Ua": 23.999999999999925,
+          "lambda_r": -0.7735360579956572,
+          "lambda_s": 0.0823126222124972,
+          "rms": 118.27729686491249,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999997,
+          "Ua": 8.000000000000187,
+          "lambda_r": 0.7000000000000688,
+          "lambda_s": 0.7000000000000673,
+          "rms": 4.715578633884585e-13,
+          "success": true
+        },
+        {
+          "g": 0.8003758578059259,
+          "Ua": 7.878651594223046,
+          "lambda_r": 0.7909721264950614,
+          "lambda_s": -0.9513094147696392,
+          "rms": 0.5032289225309285,
+          "success": false
+        },
+        {
+          "g": 0.7976509385731121,
+          "Ua": 8.967393599265582,
+          "lambda_r": -0.9217668679474388,
+          "lambda_s": 0.7565007691032843,
+          "rms": 0.5254971342145561,
+          "success": false
+        },
+        {
+          "g": 0.7999999999999994,
+          "Ua": 8.000000000000288,
+          "lambda_r": 0.7000000000000851,
+          "lambda_s": 0.7000000000000851,
+          "rms": 4.565764710933988e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "known",
+      "g": 0.8000000000000003,
+      "Ua": 8.0,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 2.9239060596169123e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 316,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        136.82851801244723,
+        14.290017937455032
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 9.57511170464042,
+      "start_solutions": [
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999988,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.0169045319276427e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000014,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.9920893630737445e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999999,
+          "Ua": 8.00000000000003,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.414859635460784e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000006,
+          "Ua": 8.000000000000004,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.0607786340800293e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 2.9239060596169123e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "pure",
+      "g": 0.8976014785436635,
+      "Ua": 0.05149090778666593,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 16.89819683964146,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 89,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        329.368252704586,
+        127.60620641731906
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 2.5811303537026333,
+      "start_solutions": [
+        {
+          "g": 0.8976014760130634,
+          "Ua": 0.05149093041278009,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 16.898196839643916,
+          "success": true
+        },
+        {
+          "g": 0.9030923214041744,
+          "Ua": 0.04430521502810091,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 17.32771772118556,
+          "success": true
+        },
+        {
+          "g": 0.9030923213838504,
+          "Ua": 0.044305326307129966,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 17.32771772120875,
+          "success": true
+        },
+        {
+          "g": 0.9030923189005211,
+          "Ua": 0.044305079055775305,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 17.327717721186954,
+          "success": true
+        },
+        {
+          "g": 0.8976014785436635,
+          "Ua": 0.05149090778666593,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 16.89819683964146,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "shared",
+      "g": 0.8,
+      "Ua": 8.00000000000001,
+      "lambda_r": 0.7000000000000002,
+      "lambda_s": 0.7000000000000002,
+      "rms_noise_units": 3.182794503999272e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 241,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        134.25409962068133,
+        15.686275317665183,
+        5.5067979200921995
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 3,
+      "local_condition_number": 24.379703335551767,
+      "start_solutions": [
+        {
+          "g": 0.7916895417235773,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 34.18565904686601,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.00000000000001,
+          "lambda_r": 0.7000000000000002,
+          "lambda_s": 0.7000000000000002,
+          "rms": 3.182794503999272e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.00000000000001,
+          "lambda_r": 0.7000000000000015,
+          "lambda_s": 0.7000000000000015,
+          "rms": 3.4646602086945015e-13,
+          "success": true
+        },
+        {
+          "g": 0.7916895662428325,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 34.18565904686637,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000009,
+          "lambda_r": 0.6999999999999987,
+          "lambda_s": 0.6999999999999987,
+          "rms": 3.580223210791196e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "independent",
+      "g": 0.8000000000000003,
+      "Ua": 8.000000000000018,
+      "lambda_r": 0.6999999999999943,
+      "lambda_s": 0.7000000000000043,
+      "rms_noise_units": 3.0988494881022026e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 553,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        134.2539183466452,
+        15.362905751325641,
+        4.477523360890329,
+        2.4033913505685156
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 4,
+      "local_condition_number": 55.860198679207116,
+      "start_solutions": [
+        {
+          "g": 0.7839887911188623,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.4499946853730704,
+          "rms": 3.322712822529757,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000014,
+          "lambda_r": 0.6999999999999985,
+          "lambda_s": 0.7000000000000031,
+          "rms": 3.4110026877533476e-13,
+          "success": true
+        },
+        {
+          "g": 0.7832129692879681,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.4473623907146601,
+          "lambda_s": -0.9999999999999999,
+          "rms": 5.391883092774879,
+          "success": true
+        },
+        {
+          "g": 0.783988791119375,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.44999468537941156,
+          "rms": 3.322712822529763,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000018,
+          "lambda_r": 0.6999999999999943,
+          "lambda_s": 0.7000000000000043,
+          "rms": 3.0988494881022026e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "known",
+      "g": 0.8,
+      "Ua": 8.000000000000004,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 2.4447325453915687e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 78,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        134.25364683472944,
+        15.05787297985728
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 8.915844024871161,
+      "start_solutions": [
+        {
+          "g": 0.8,
+          "Ua": 8.00000000000001,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.2977338682976495e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999993,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 2.6934193853616756e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000004,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 2.4447325453915687e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000016,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.0702089799382767e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000023,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.323657914749352e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "source_model": "pure",
+      "g": 0.8836092378302584,
+      "Ua": 0.16665780347346437,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 16.455557264524266,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 164,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        214.77798958319678,
+        94.37720258572072
+      ],
+      "nuisance_rank": 12,
+      "physical_parameter_count": 2,
+      "local_condition_number": 2.275740154388648,
+      "start_solutions": [
+        {
+          "g": 0.8836092367063231,
+          "Ua": 0.1666578037810562,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 16.45555726457842,
+          "success": true
+        },
+        {
+          "g": 0.8836092376297066,
+          "Ua": 0.16665780725693063,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 16.455557264543174,
+          "success": true
+        },
+        {
+          "g": 0.8836092378302584,
+          "Ua": 0.16665780347346437,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 16.455557264524266,
+          "success": true
+        },
+        {
+          "g": 0.8836092384789164,
+          "Ua": 0.1666577983664918,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 16.455557264533585,
+          "success": true
+        },
+        {
+          "g": 0.8836092377904268,
+          "Ua": 0.16665780730486823,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 16.45555726454039,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "source_model": "shared",
+      "g": 0.7999999999999999,
+      "Ua": 7.999999999999977,
+      "lambda_r": 0.699999999999999,
+      "lambda_s": 0.699999999999999,
+      "rms_noise_units": 4.2615872017694314e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 562,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        100.11128667789299,
+        10.939843839236511,
+        4.002091592786231
+      ],
+      "nuisance_rank": 12,
+      "physical_parameter_count": 3,
+      "local_condition_number": 25.01474150625227,
+      "start_solutions": [
+        {
+          "g": 0.7956117929442148,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 23.595923439056346,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000012,
+          "lambda_r": 0.6999999999999954,
+          "lambda_s": 0.6999999999999954,
+          "rms": 4.5042884640047477e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999999,
+          "Ua": 7.999999999999977,
+          "lambda_r": 0.699999999999999,
+          "lambda_s": 0.699999999999999,
+          "rms": 4.2615872017694314e-13,
+          "success": true
+        },
+        {
+          "g": 0.7956117896870858,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 23.59592343900596,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999998,
+          "Ua": 7.999999999999981,
+          "lambda_r": 0.6999999999999955,
+          "lambda_s": 0.6999999999999955,
+          "rms": 4.642511697395199e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "g": 0.8,
+      "Ua": 7.999999999999999,
+      "lambda_r": 0.6999999999999985,
+      "lambda_s": 0.6999999999999983,
+      "rms_noise_units": 4.5000415194139403e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 1163,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        100.11121655333538,
+        10.688966575819205,
+        2.896327940169431,
+        3.4385614636140036e-13
+      ],
+      "nuisance_rank": 12,
+      "physical_parameter_count": 4,
+      "local_condition_number": 291142728180627.9,
+      "start_solutions": [
+        {
+          "g": 0.20000000000000007,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.8903349319489905,
+          "lambda_s": 0.07085860954985253,
+          "rms": 289.1116964389092,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000004,
+          "Ua": 7.999999999999992,
+          "lambda_r": 0.6999999999999945,
+          "lambda_s": 0.6999999999999936,
+          "rms": 5.290547263964763e-13,
+          "success": true
+        },
+        {
+          "g": 0.7851534370854375,
+          "Ua": 23.99999999999922,
+          "lambda_r": 0.44372274252640903,
+          "lambda_s": -0.9999999999999999,
+          "rms": 3.7035350756917125,
+          "success": true
+        },
+        {
+          "g": 0.7851534370918409,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.44372274257186495,
+          "rms": 3.7035350756930083,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999999,
+          "lambda_r": 0.6999999999999985,
+          "lambda_s": 0.6999999999999983,
+          "rms": 4.5000415194139403e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "source_model": "known",
+      "g": 0.8000000000000004,
+      "Ua": 7.999999999999998,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 4.1530426418633263e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 327,
+      "bound_hits": "",
+      "best_start": 3,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        100.11114661207303,
+        10.468451983861165
+      ],
+      "nuisance_rank": 12,
+      "physical_parameter_count": 2,
+      "local_condition_number": 9.56312803138523,
+      "start_solutions": [
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000021,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.621393433806922e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999999,
+          "Ua": 7.999999999999986,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.3174230506143476e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000012,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.3456887787452734e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000004,
+          "Ua": 7.999999999999998,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.1530426418633263e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000012,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 4.59917095959134e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "pure",
+      "g": 0.8805153650884615,
+      "Ua": 0.20889073344466627,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 38.828888684768536,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 310,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        210.72613576550555,
+        90.04780900121004
+      ],
+      "nuisance_rank": 16,
+      "physical_parameter_count": 2,
+      "local_condition_number": 2.3401583903354477,
+      "start_solutions": [
+        {
+          "g": 0.8805153399477883,
+          "Ua": 0.20889111088470438,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 38.82888868525922,
+          "success": true
+        },
+        {
+          "g": 0.8805153650884615,
+          "Ua": 0.20889073344466627,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 38.828888684768536,
+          "success": true
+        },
+        {
+          "g": 0.8863221624546633,
+          "Ua": 0.2015691724751648,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 38.96560560755309,
+          "success": true
+        },
+        {
+          "g": 0.8863221642716721,
+          "Ua": 0.2015691561027785,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 38.96560560755437,
+          "success": true
+        },
+        {
+          "g": 0.8805153417835895,
+          "Ua": 0.20889101501528914,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 38.82888868497171,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "shared",
+      "g": 0.8,
+      "Ua": 8.000000000000004,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 2.7641093797261595e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 255,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        97.1284053082378,
+        13.769813440217078,
+        11.40667124924887
+      ],
+      "nuisance_rank": 16,
+      "physical_parameter_count": 3,
+      "local_condition_number": 8.515052567560735,
+      "start_solutions": [
+        {
+          "g": 0.8006764553152476,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 26.099586225086203,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999999,
+          "Ua": 8.00000000000001,
+          "lambda_r": 0.6999999999999997,
+          "lambda_s": 0.6999999999999997,
+          "rms": 3.4843978372612826e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000004,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 2.7641093797261595e-13,
+          "success": true
+        },
+        {
+          "g": 0.8006764630482088,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 26.0995862250866,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000012,
+          "lambda_r": 0.6999999999999998,
+          "lambda_s": 0.6999999999999998,
+          "rms": 3.8044784987540736e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "independent",
+      "g": 0.8000000000000003,
+      "Ua": 8.00000000000001,
+      "lambda_r": 0.6999999999999972,
+      "lambda_s": 0.7000000000000014,
+      "rms_noise_units": 3.294623795337399e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 564,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        97.12774466887554,
+        12.318745135585186,
+        9.220945023873954,
+        4.776639387158189
+      ],
+      "nuisance_rank": 16,
+      "physical_parameter_count": 4,
+      "local_condition_number": 20.333907753220753,
+      "start_solutions": [
+        {
+          "g": 0.7899941307261407,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.46512203778356,
+          "rms": 8.950251215364938,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.00000000000001,
+          "lambda_r": 0.6999999999999972,
+          "lambda_s": 0.7000000000000014,
+          "rms": 3.294623795337399e-13,
+          "success": true
+        },
+        {
+          "g": 0.7901784049351143,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.4701695633890462,
+          "lambda_s": -0.9999999999999999,
+          "rms": 10.493405332925908,
+          "success": true
+        },
+        {
+          "g": 0.7899941307213997,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.46512203707772193,
+          "rms": 8.950251215364933,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999989,
+          "lambda_r": 0.6999999999999997,
+          "lambda_s": 0.7000000000000002,
+          "rms": 3.412681743922771e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "known",
+      "g": 0.8,
+      "Ua": 7.999999999999997,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 3.0972290203961214e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 71,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        97.12701060481749,
+        11.982211457732665
+      ],
+      "nuisance_rank": 16,
+      "physical_parameter_count": 2,
+      "local_condition_number": 8.105933612291327,
+      "start_solutions": [
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999995,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.263353412793799e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999993,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.518972664221946e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999997,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.0972290203961214e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000014,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.34622553340271e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999998,
+          "Ua": 8.000000000000023,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 3.693400471340829e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "source_model": "pure",
+      "g": 0.7960004494298977,
+      "Ua": 0.11467070716487733,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 2.5785701785059043,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 320,
+      "bound_hits": "",
+      "best_start": 3,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        35.86675004396666,
+        6.181005029088528
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 5.802737560505705,
+      "start_solutions": [
+        {
+          "g": 0.7960004492709691,
+          "Ua": 0.11467063332888106,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 2.5785701785073027,
+          "success": true
+        },
+        {
+          "g": 0.7960004490015483,
+          "Ua": 0.11467061446941153,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 2.5785701785137505,
+          "success": true
+        },
+        {
+          "g": 0.7960004497502841,
+          "Ua": 0.11467089569507896,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 2.5785701785309274,
+          "success": true
+        },
+        {
+          "g": 0.7960004494298977,
+          "Ua": 0.11467070716487733,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 2.5785701785059043,
+          "success": true
+        },
+        {
+          "g": 0.796000449822737,
+          "Ua": 0.11467088364563438,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 2.578570178511846,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "source_model": "shared",
+      "g": 0.800765766492276,
+      "Ua": 23.999999999999996,
+      "lambda_r": -0.9999999999999999,
+      "lambda_s": -0.9999999999999999,
+      "rms_noise_units": 2.328097772572782,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 631,
+      "bound_hits": "Ua;lambda_r;lambda_s",
+      "best_start": 0,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        35.88665670980929,
+        0.2563859533992538,
+        0.03245352799005002
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 3,
+      "local_condition_number": 1105.7859940778037,
+      "start_solutions": [
+        {
+          "g": 0.800765766492276,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 2.328097772572782,
+          "success": true
+        },
+        {
+          "g": 0.8005712344747833,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 2.39107797134623,
+          "success": true
+        },
+        {
+          "g": 0.8005712344741763,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.9999999999998583,
+          "lambda_s": 0.9999999999998583,
+          "rms": 2.3910779713455614,
+          "success": true
+        },
+        {
+          "g": 0.8007657665122446,
+          "Ua": 23.999999999998597,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 2.3280977725729053,
+          "success": true
+        },
+        {
+          "g": 0.8005712345053088,
+          "Ua": 23.999999999999915,
+          "lambda_r": 0.9999999999999992,
+          "lambda_s": 0.9999999999999992,
+          "rms": 2.3910779713474555,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "g": 0.8,
+      "Ua": 8.000000000000309,
+      "lambda_r": 0.6999999999999936,
+      "lambda_s": -0.29999999999999444,
+      "rms_noise_units": 3.527489273518319e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 990,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        39.20140959151963,
+        35.94724045889317,
+        7.580963190204813,
+        0.5223506812987261
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 4,
+      "local_condition_number": 75.04806827101812,
+      "start_solutions": [
+        {
+          "g": 0.7956431257674565,
+          "Ua": 0.005356084157227276,
+          "lambda_r": 0.14555196904269194,
+          "lambda_s": 0.1455913270543252,
+          "rms": 2.534850720303692,
+          "success": true
+        },
+        {
+          "g": 0.8005712344595604,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 2.3910779713450845,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000309,
+          "lambda_r": 0.6999999999999936,
+          "lambda_s": -0.29999999999999444,
+          "rms": 3.527489273518319e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999844,
+          "lambda_r": -0.3000000000000014,
+          "lambda_s": 0.7000000000000044,
+          "rms": 4.225302745543604e-13,
+          "success": true
+        },
+        {
+          "g": 0.8005712345714303,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.9999999999996947,
+          "lambda_s": 0.9999999999996947,
+          "rms": 2.3910779713461503,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "source_model": "known",
+      "g": 0.8,
+      "Ua": 7.99999999999996,
+      "lambda_r": 0.7,
+      "lambda_s": -0.3,
+      "rms_noise_units": 2.831071041799876e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 366,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        35.945617184064616,
+        7.656327291263698
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 4.694890358864439,
+      "start_solutions": [
+        {
+          "g": 0.7954719352011379,
+          "Ua": 2.382450323762616e-13,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 2.6055637581411073,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999991,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 4.040741691418141e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.99999999999996,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 2.831071041799876e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000021,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 3.8858796928595094e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999966,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 3.418775466858013e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "pure",
+      "g": 0.786339378559315,
+      "Ua": 23.999999999999996,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 26.77048042653305,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 113,
+      "bound_hits": "Ua",
+      "best_start": 0,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        25.678910901056405,
+        0.07476537776214397
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 343.4599231578876,
+      "start_solutions": [
+        {
+          "g": 0.786339378559315,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 26.77048042653305,
+          "success": true
+        },
+        {
+          "g": 0.7863393732630368,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 26.770480426535798,
+          "success": true
+        },
+        {
+          "g": 0.7863392240025853,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 26.770480427233228,
+          "success": true
+        },
+        {
+          "g": 0.7863394114754606,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 26.770480426915352,
+          "success": true
+        },
+        {
+          "g": 0.7863393100056957,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 26.77048042674697,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "shared",
+      "g": 0.7907689310516602,
+      "Ua": 23.999999999999996,
+      "lambda_r": 0.9999999999995343,
+      "lambda_s": 0.9999999999995343,
+      "rms_noise_units": 16.05651302432613,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 130,
+      "bound_hits": "Ua;lambda_r;lambda_s",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        25.849029276161364,
+        1.0441353422864836,
+        0.07807616800041574
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 3,
+      "local_condition_number": 331.0745127248525,
+      "start_solutions": [
+        {
+          "g": 0.8028867925608343,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 16.306205626074377,
+          "success": true
+        },
+        {
+          "g": 0.7907689725620839,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.999999999998938,
+          "lambda_s": 0.999999999998938,
+          "rms": 16.056513024327085,
+          "success": true
+        },
+        {
+          "g": 0.7907689310516602,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.9999999999995343,
+          "lambda_s": 0.9999999999995343,
+          "rms": 16.05651302432613,
+          "success": true
+        },
+        {
+          "g": 0.802886920085454,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999986192,
+          "lambda_s": -0.9999999999986192,
+          "rms": 16.306205626084154,
+          "success": true
+        },
+        {
+          "g": 0.7907689217743337,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.9999999999842842,
+          "lambda_s": 0.9999999999842842,
+          "rms": 16.056513024341424,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "independent",
+      "g": 0.8000000000000003,
+      "Ua": 8.000000000000068,
+      "lambda_r": 0.7000000000000005,
+      "lambda_s": -0.29999999999999766,
+      "rms_noise_units": 2.3032943347958165e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 221,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        201.26375626651523,
+        27.219741420869585,
+        13.726019735323812,
+        2.025449308823803
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 4,
+      "local_condition_number": 99.36746152555698,
+      "start_solutions": [
+        {
+          "g": 0.7841333514838933,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.25748303940866496,
+          "lambda_s": 0.3295802059335521,
+          "rms": 10.763693156536187,
+          "success": true
+        },
+        {
+          "g": 0.7907689250868675,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.9999999999995045,
+          "lambda_s": 0.9999999999999999,
+          "rms": 16.056513024324445,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000068,
+          "lambda_r": 0.7000000000000005,
+          "lambda_s": -0.29999999999999766,
+          "rms": 2.3032943347958165e-13,
+          "success": true
+        },
+        {
+          "g": 0.7841333150221953,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.2574832743903741,
+          "lambda_s": 0.3295799401313972,
+          "rms": 10.763693156566802,
+          "success": true
+        },
+        {
+          "g": 0.7907689257250181,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.999999999999762,
+          "lambda_s": 0.9999999999999997,
+          "rms": 16.056513024324417,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "known",
+      "g": 0.8,
+      "Ua": 8.0,
+      "lambda_r": 0.7,
+      "lambda_s": -0.3,
+      "rms_noise_units": 3.302506406771352e-14,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 82,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        43.25341576325676,
+        26.888259637138095
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 1.6086357520705838,
+      "start_solutions": [
+        {
+          "g": 0.7666830661717967,
+          "Ua": 0.5174453442410157,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 24.12397830800854,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 5.505304727422329e-14,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999999,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 1.5904089762000085e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 4.100598374662389e-14,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 3.302506406771352e-14,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "pure",
+      "g": 0.9026607780556187,
+      "Ua": 7.040984997456113e-17,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 3.985935253819533,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 209,
+      "bound_hits": "Ua",
+      "best_start": 3,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        129.62722020016892,
+        24.421157196818783
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 5.307988444423706,
+      "start_solutions": [
+        {
+          "g": 0.9026607781057465,
+          "Ua": 1.3852799668439098e-15,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 3.9859352538213937,
+          "success": true
+        },
+        {
+          "g": 0.9026607781271418,
+          "Ua": 2.2569337222626656e-17,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 3.9859352538196298,
+          "success": true
+        },
+        {
+          "g": 0.9026607781283421,
+          "Ua": 1.665638154291623e-15,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 3.985935253827827,
+          "success": true
+        },
+        {
+          "g": 0.9026607780556187,
+          "Ua": 7.040984997456113e-17,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 3.985935253819533,
+          "success": true
+        },
+        {
+          "g": 0.9026607781926996,
+          "Ua": 2.944709688423175e-15,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 3.9859352538215966,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "shared",
+      "g": 0.8367007868127594,
+      "Ua": 2.1705963459889714,
+      "lambda_r": 0.7821056607544037,
+      "lambda_s": 0.7821056607544037,
+      "rms_noise_units": 1.346857228613207,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 299,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        112.89083927918901,
+        6.868536627348221,
+        0.15530579281652124
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 3,
+      "local_condition_number": 726.8939376431284,
+      "start_solutions": [
+        {
+          "g": 0.7837209035450952,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 4.8794213249830145,
+          "success": true
+        },
+        {
+          "g": 0.8367007871752201,
+          "Ua": 2.17059632215652,
+          "lambda_r": 0.7821064464581098,
+          "lambda_s": 0.7821064464581098,
+          "rms": 1.3468572286144533,
+          "success": true
+        },
+        {
+          "g": 0.8367007692951427,
+          "Ua": 2.170597522595397,
+          "lambda_r": 0.7821018523281544,
+          "lambda_s": 0.7821018523281544,
+          "rms": 1.3468572286385085,
+          "success": true
+        },
+        {
+          "g": 0.7837209038461398,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 4.8794213249948015,
+          "success": true
+        },
+        {
+          "g": 0.8367007868127594,
+          "Ua": 2.1705963459889714,
+          "lambda_r": 0.7821056607544037,
+          "lambda_s": 0.7821056607544037,
+          "rms": 1.346857228613207,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "g": 0.7999999999999993,
+      "Ua": 8.000000000000341,
+      "lambda_r": -0.2999999999999906,
+      "lambda_s": 0.6999999999999982,
+      "rms_noise_units": 3.648583278684131e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 904,
+      "bound_hits": "",
+      "best_start": 3,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        112.90344911712089,
+        58.45163186772858,
+        1.9129138097475114,
+        0.8166589832912786
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 4,
+      "local_condition_number": 138.25042205756463,
+      "start_solutions": [
+        {
+          "g": 0.7829799907135877,
+          "Ua": 23.99999999999983,
+          "lambda_r": -0.7290987160437096,
+          "lambda_s": 0.08727657643222582,
+          "rms": 8.547801209111116,
+          "success": true
+        },
+        {
+          "g": 0.836700783953276,
+          "Ua": 2.1705965324465457,
+          "lambda_r": 0.7820967908529393,
+          "lambda_s": 0.7820967908501147,
+          "rms": 1.346857228738905,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999988,
+          "Ua": 8.00000000000049,
+          "lambda_r": 0.6999999999999988,
+          "lambda_s": -0.299999999999983,
+          "rms": 3.718551947780265e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999993,
+          "Ua": 8.000000000000341,
+          "lambda_r": -0.2999999999999906,
+          "lambda_s": 0.6999999999999982,
+          "rms": 3.648583278684131e-13,
+          "success": true
+        },
+        {
+          "g": 0.8367007870493414,
+          "Ua": 2.1705963303596807,
+          "lambda_r": 0.7821073053629313,
+          "lambda_s": 0.7821073053639419,
+          "rms": 1.3468572286181293,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "known",
+      "g": 0.8000000000000003,
+      "Ua": 7.999999999999975,
+      "lambda_r": 0.7,
+      "lambda_s": -0.3,
+      "rms_noise_units": 2.9878790306454426e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 300,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        112.9023081861355,
+        9.776451633648442
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 11.548393263415743,
+      "start_solutions": [
+        {
+          "g": 0.8561363956517666,
+          "Ua": 1.1708171644566716,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 2.0641618671840725,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.000000000000023,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 4.132878325097381e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999975,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 2.9878790306454426e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.000000000000004,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 4.58572992072602e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999976,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 3.6322401006592627e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "pure",
+      "g": 0.9039514429290375,
+      "Ua": 1.5376590374684733e-39,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 9.8288656790101,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 134,
+      "bound_hits": "Ua",
+      "best_start": 3,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        100.02067553297671,
+        34.19217766929075
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 2.925250228294437,
+      "start_solutions": [
+        {
+          "g": 0.9039514479050038,
+          "Ua": 4.6439145191046534e-39,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 9.828865679035589,
+          "success": true
+        },
+        {
+          "g": 0.9039514216578036,
+          "Ua": 3.535434642577809e-40,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 9.828865679137749,
+          "success": true
+        },
+        {
+          "g": 0.9039514338207861,
+          "Ua": 1.2022444429016718e-38,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 9.8288656790549,
+          "success": true
+        },
+        {
+          "g": 0.9039514429290375,
+          "Ua": 1.5376590374684733e-39,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 9.8288656790101,
+          "success": true
+        },
+        {
+          "g": 0.9039514359195366,
+          "Ua": 4.9873296933011986e-39,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 9.828865679115117,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "shared",
+      "g": 0.8422618596039024,
+      "Ua": 1.8340980873969979,
+      "lambda_r": 0.9999999999999999,
+      "lambda_s": 0.9999999999999999,
+      "rms_noise_units": 5.017744289438226,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 128,
+      "bound_hits": "lambda_r;lambda_s",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        85.82551448079367,
+        11.919044260754132,
+        1.28584810031314
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 3,
+      "local_condition_number": 66.74623111384055,
+      "start_solutions": [
+        {
+          "g": 0.7811897875870306,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 9.460254314543214,
+          "success": true
+        },
+        {
+          "g": 0.8422618596039024,
+          "Ua": 1.8340980873969979,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 5.017744289438226,
+          "success": true
+        },
+        {
+          "g": 0.8422618578938963,
+          "Ua": 1.8340982399170296,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 5.0177442894383875,
+          "success": true
+        },
+        {
+          "g": 0.7811897953924228,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999996917,
+          "lambda_s": -0.9999999999996917,
+          "rms": 9.460254314537707,
+          "success": true
+        },
+        {
+          "g": 0.8422618676095702,
+          "Ua": 1.8340977403334053,
+          "lambda_r": 0.9999999999999984,
+          "lambda_s": 0.9999999999999984,
+          "rms": 5.017744289440687,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "independent",
+      "g": 0.8000000000000003,
+      "Ua": 7.999999999999959,
+      "lambda_r": 0.7000000000000002,
+      "lambda_s": -0.30000000000000115,
+      "rms_noise_units": 2.3915765187465746e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 237,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        112.39656026287037,
+        85.88974266792486,
+        28.879059879664915,
+        1.1972643730407226
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 4,
+      "local_condition_number": 93.8778124479007,
+      "start_solutions": [
+        {
+          "g": 0.7811608224006984,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.22093767586188093,
+          "rms": 4.885723611056944,
+          "success": true
+        },
+        {
+          "g": 0.8422618589769657,
+          "Ua": 1.8340979908713937,
+          "lambda_r": 0.9999999999999899,
+          "lambda_s": 0.9999999999999976,
+          "rms": 5.017744289438491,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999959,
+          "lambda_r": 0.7000000000000002,
+          "lambda_s": -0.30000000000000115,
+          "rms": 2.3915765187465746e-13,
+          "success": true
+        },
+        {
+          "g": 0.7811608221179361,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.999999999999701,
+          "lambda_s": 0.22093767746254384,
+          "rms": 4.885723611056984,
+          "success": true
+        },
+        {
+          "g": 0.8422618587598389,
+          "Ua": 1.834098084119489,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 5.017744289438244,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "known",
+      "g": 0.8,
+      "Ua": 8.0,
+      "lambda_r": 0.7,
+      "lambda_s": -0.3,
+      "rms_noise_units": 4.73929374903782e-14,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 95,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        85.9192282525825,
+        21.63656751913469
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 3.971019348452488,
+      "start_solutions": [
+        {
+          "g": 0.8712103712841612,
+          "Ua": 0.7321331001355352,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 7.533028287973496,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 4.73929374903782e-14,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999998,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 1.916958370579144e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 9.61142557331375e-14,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999991,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 2.0892404961893984e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "source_model": "pure",
+      "g": 0.8640014682650137,
+      "Ua": 0.686765971874047,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 4.306933773783712,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 192,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        86.0412598857654,
+        14.014123512157868
+      ],
+      "nuisance_rank": 12,
+      "physical_parameter_count": 2,
+      "local_condition_number": 6.139610501585834,
+      "start_solutions": [
+        {
+          "g": 0.8640014643723005,
+          "Ua": 0.686766097694789,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 4.306933773785142,
+          "success": true
+        },
+        {
+          "g": 0.8640014682650137,
+          "Ua": 0.686765971874047,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 4.306933773783712,
+          "success": true
+        },
+        {
+          "g": 0.8640014580763469,
+          "Ua": 0.6867662926500077,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 4.306933773789752,
+          "success": true
+        },
+        {
+          "g": 0.8640014694892731,
+          "Ua": 0.6867659460496662,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 4.306933773796939,
+          "success": true
+        },
+        {
+          "g": 0.8640014648814889,
+          "Ua": 0.6867660887190314,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 4.306933773783815,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "source_model": "shared",
+      "g": 0.8190727903991798,
+      "Ua": 3.562192702719695,
+      "lambda_r": 0.8970611343126821,
+      "lambda_s": 0.8970611343126821,
+      "rms_noise_units": 2.2925953007787014,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 361,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        83.41736310417218,
+        3.538420446335639,
+        0.2987411116395951
+      ],
+      "nuisance_rank": 12,
+      "physical_parameter_count": 3,
+      "local_condition_number": 279.22960668636694,
+      "start_solutions": [
+        {
+          "g": 0.7852932898488676,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 3.8576484609904598,
+          "success": true
+        },
+        {
+          "g": 0.8190727442493282,
+          "Ua": 3.562198724226407,
+          "lambda_r": 0.89705566774979,
+          "lambda_s": 0.89705566774979,
+          "rms": 2.2925953008024655,
+          "success": true
+        },
+        {
+          "g": 0.8190728173710774,
+          "Ua": 3.5621891989925376,
+          "lambda_r": 0.8970647664924718,
+          "lambda_s": 0.8970647664924718,
+          "rms": 2.292595300781774,
+          "success": true
+        },
+        {
+          "g": 0.7852932900769088,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 3.857648460994795,
+          "success": true
+        },
+        {
+          "g": 0.8190727903991798,
+          "Ua": 3.562192702719695,
+          "lambda_r": 0.8970611343126821,
+          "lambda_s": 0.8970611343126821,
+          "rms": 2.2925953007787014,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "g": 0.7999999999999997,
+      "Ua": 8.000000000000178,
+      "lambda_r": 0.6999999999999988,
+      "lambda_s": -0.29999999999999466,
+      "rms_noise_units": 3.75090012969391e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 757,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        83.78064386245295,
+        48.15488118506337,
+        13.71710859286777,
+        1.0749077104248987
+      ],
+      "nuisance_rank": 12,
+      "physical_parameter_count": 4,
+      "local_condition_number": 77.94217405821325,
+      "start_solutions": [
+        {
+          "g": 0.7805513293497635,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.7181882089242811,
+          "lambda_s": 0.08791923310795038,
+          "rms": 21.313526512923687,
+          "success": true
+        },
+        {
+          "g": 0.8190728138100429,
+          "Ua": 3.562189628907613,
+          "lambda_r": 0.8970597080328009,
+          "lambda_s": 0.8970597080311056,
+          "rms": 2.292595300780983,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999997,
+          "Ua": 8.000000000000178,
+          "lambda_r": 0.6999999999999988,
+          "lambda_s": -0.29999999999999466,
+          "rms": 3.75090012969391e-13,
+          "success": true
+        },
+        {
+          "g": 0.7999999999999997,
+          "Ua": 8.000000000000144,
+          "lambda_r": -0.2999999999999936,
+          "lambda_s": 0.7000000000000003,
+          "rms": 8.709252847905698e-13,
+          "success": true
+        },
+        {
+          "g": 0.8190728081432733,
+          "Ua": 3.562190393242768,
+          "lambda_r": 0.8970638602613215,
+          "lambda_s": 0.8970638602554265,
+          "rms": 2.2925953007796323,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "source_model": "known",
+      "g": 0.8000000000000003,
+      "Ua": 7.999999999999995,
+      "lambda_r": 0.7,
+      "lambda_s": -0.3,
+      "rms_noise_units": 2.829968692009691e-13,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 335,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        83.77969155922015,
+        8.807482816341835
+      ],
+      "nuisance_rank": 12,
+      "physical_parameter_count": 2,
+      "local_condition_number": 9.512330969726243,
+      "start_solutions": [
+        {
+          "g": 0.8436693500862031,
+          "Ua": 1.51303133324859,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 3.0029857649785114,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999985,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 8.567096134730589e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999985,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 3.561554136863573e-13,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999985,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 3.977640270244175e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 7.999999999999995,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 2.829968692009691e-13,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "pure",
+      "g": 0.8828389458213656,
+      "Ua": 0.21650641828557285,
+      "lambda_r": 0.0,
+      "lambda_s": 0.0,
+      "rms_noise_units": 20.99747359618572,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 146,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        68.51046715596587,
+        23.613155929002446
+      ],
+      "nuisance_rank": 16,
+      "physical_parameter_count": 2,
+      "local_condition_number": 2.901368515159767,
+      "start_solutions": [
+        {
+          "g": 0.8828389422930757,
+          "Ua": 0.21650571968966673,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 20.99747359633607,
+          "success": true
+        },
+        {
+          "g": 0.8828389458213656,
+          "Ua": 0.21650641828557285,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 20.99747359618572,
+          "success": true
+        },
+        {
+          "g": 0.8828389033819954,
+          "Ua": 0.2165064519973037,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 20.997473596347238,
+          "success": true
+        },
+        {
+          "g": 0.8828389099015981,
+          "Ua": 0.21650674029285338,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 20.99747359626739,
+          "success": true
+        },
+        {
+          "g": 0.882838936415967,
+          "Ua": 0.21650656330251578,
+          "lambda_r": 0.0,
+          "lambda_s": 0.0,
+          "rms": 20.997473596213617,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "shared",
+      "g": 0.7957107449095493,
+      "Ua": 9.015871915445718,
+      "lambda_r": 0.9999999999999999,
+      "lambda_s": 0.9999999999999999,
+      "rms_noise_units": 12.376458087297518,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 169,
+      "bound_hits": "lambda_r;lambda_s",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        62.79017121698794,
+        2.3069078170291473,
+        0.65833293721682
+      ],
+      "nuisance_rank": 16,
+      "physical_parameter_count": 3,
+      "local_condition_number": 95.3775326545878,
+      "start_solutions": [
+        {
+          "g": 0.7830493081304196,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 13.338781146838267,
+          "success": true
+        },
+        {
+          "g": 0.7957105786374906,
+          "Ua": 9.015941528514801,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 12.37645808736375,
+          "success": true
+        },
+        {
+          "g": 0.7957107449095493,
+          "Ua": 9.015871915445718,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 12.376458087297518,
+          "success": true
+        },
+        {
+          "g": 0.7830493269261072,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999096,
+          "lambda_s": -0.9999999999999096,
+          "rms": 13.33878114684004,
+          "success": true
+        },
+        {
+          "g": 0.7957107027346552,
+          "Ua": 9.015889370568754,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 12.376458087310356,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "independent",
+      "g": 0.8000000000000003,
+      "Ua": 8.0,
+      "lambda_r": 0.6999999999999998,
+      "lambda_s": -0.30000000000000004,
+      "rms_noise_units": 7.7971765012184e-14,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 218,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        161.1073463059126,
+        63.666190503735955,
+        33.612645308757315,
+        2.055069939851346
+      ],
+      "nuisance_rank": 16,
+      "physical_parameter_count": 4,
+      "local_condition_number": 78.39506733165798,
+      "start_solutions": [
+        {
+          "g": 0.7805193280161182,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.24707597771957676,
+          "lambda_s": 0.40771900306734976,
+          "rms": 9.820405154952638,
+          "success": true
+        },
+        {
+          "g": 0.7957106817673263,
+          "Ua": 9.01589976698904,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 12.376458087315005,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.0,
+          "lambda_r": 0.6999999999999998,
+          "lambda_s": -0.30000000000000004,
+          "rms": 7.7971765012184e-14,
+          "success": true
+        },
+        {
+          "g": 0.7805193216075035,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.24707342488603437,
+          "lambda_s": 0.40772241376222723,
+          "rms": 9.820405154851027,
+          "success": true
+        },
+        {
+          "g": 0.7957106655124309,
+          "Ua": 9.01590616244799,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 12.37645808732059,
+          "success": true
+        }
+      ]
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "known",
+      "g": 0.8,
+      "Ua": 8.0,
+      "lambda_r": 0.7,
+      "lambda_s": -0.3,
+      "rms_noise_units": 5.136598357933371e-14,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 90,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        63.70716694652983,
+        34.10927350682434
+      ],
+      "nuisance_rank": 16,
+      "physical_parameter_count": 2,
+      "local_condition_number": 1.8677374331582806,
+      "start_solutions": [
+        {
+          "g": 0.8646842632243449,
+          "Ua": 0.6793425964198195,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 18.019707113289215,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 5.136598357933371e-14,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 6.607806708031249e-14,
+          "success": true
+        },
+        {
+          "g": 0.8,
+          "Ua": 7.999999999999998,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 1.9274263647792993e-13,
+          "success": true
+        },
+        {
+          "g": 0.8000000000000003,
+          "Ua": 8.0,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 9.581021425808107e-14,
+          "success": true
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 85.66645569999673,
+  "input_source_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\run_study.py": "8f5df93e1b0ee5fa1b57da74a254f6abfb074b4f41430f78214f2cb47a13ea03",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\frozen_design.json": "47696caa78139bb2aab0739ecc17e164516da823d55a1d996578db25d96355ae",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\response_derivatives.py": "6ccd9ab5b830052bd2379ea254e8543c771680b7eab0ec2f17792f45f3db79e5",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "170704298b9e79a20550a2069b00b2e5ce719a95414f3bd8646cb8e44332ff43",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\analyze_inference.py": "5d0d9c5bab94bb3bd1929cf9622f10d29991182ad13beb75c119d270aa0bebea",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\B0_final\\response_3channel.npz": "9e3496fca6f784caa0a8196fc163e8a11e261e314ea9ee4d158ddb5e9b206f6b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\Bplus_final\\response_3channel.npz": "9452692506a410d7e9c6b3632607e3d458948de3452802e5201c8f8c0ba1a10b"
+  },
+  "inputs_sources_unchanged": true,
+  "global_identifiability_certified": false,
+  "statistical_coverage_claimed": false
+}

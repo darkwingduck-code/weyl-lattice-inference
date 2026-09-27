@@ -1,0 +1,62 @@
+{
+  "L": 48,
+  "Nkz": 192,
+  "q": 0.2617993877991494,
+  "Ua": 8.0,
+  "stage": "refinement",
+  "density": 2.005425848343045,
+  "active_transitions": 5370193,
+  "raw_band_pair_slots": 7077888,
+  "roots": [
+    {
+      "pole": 15.55545150187627,
+      "dielectric_channel": 0,
+      "determinant_residual": 2.103460634839127e-14,
+      "charge_numerator": {
+        "real": 1.5525095315230275e-12,
+        "imag": 0.0
+      },
+      "nearest_bare_distance": 1.5697185474444701,
+      "cofactor_charge_residue": {
+        "real": 8.345015229924477e-12,
+        "imag": 0.0
+      },
+      "residue_matrix": [
+        [
+          {
+            "real": 8.344998631812373e-12,
+            "imag": 1.1303727708281385e-39
+          },
+          {
+            "real": -2.3658687303402992e-06,
+            "imag": -1.3157831206953655e-18
+          }
+        ],
+        [
+          {
+            "real": -2.3658687303402992e-06,
+            "imag": 1.3157831206953649e-18
+          },
+          {
+            "real": 0.6707412542722473,
+            "imag": 5.048709793414476e-29
+          }
+        ]
+      ],
+      "residue_status": "isolated_nullspace_checked",
+      "nullspace_eigenvalue_residual": 2.0937948134769654e-14,
+      "nearby_root_cluster": false
+    }
+  ],
+  "positive_bare_edge": 13.9857329544318,
+  "eigenvalue_bound": 38.39293125856936,
+  "search_margin": 1.39857329544318e-09,
+  "near_edge_unresolved": true,
+  "excluded_edge_interval": [
+    13.9857329544318,
+    13.985732955830374
+  ],
+  "samples": 64,
+  "scope": "Positive exterior only; no conclusion about internal or continuum poles",
+  "status": "bounded_exterior_search_completed"
+}

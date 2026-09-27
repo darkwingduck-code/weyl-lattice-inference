@@ -1,0 +1,16 @@
+{
+  "id": "unordered_source_class_20260927_v1",
+  "fixed_before_execution": true,
+  "conditional_parameters": {"g": 0.8, "Ua": 8.0},
+  "truths": {"symmetric": [0.7, 0.7], "asymmetric": [0.7, -0.3]},
+  "method": "Real linear least squares for p=lambda_r+lambda_s and q=lambda_r*lambda_s, using the cross-multiplied equation and both real/imaginary parts",
+  "gain_seed": 2026092704,
+  "gains": "Independent nonzero amplitude and phase at each frequency and for each source/readout; amplitude ranges [0.35,1.05] and [0.65,1.95], phases uniform [-pi,pi]",
+  "noise_seed": 2026092705,
+  "noise_repetitions": 500,
+  "sigma": 0.00012931669440932318,
+  "noise_policy": "Independent circular-complex entry noise; paired field observations across single/joint-field estimators",
+  "groups": {"B0": ["B0"], "Bplus": ["Bplus"], "joint": ["B0", "Bplus"]},
+  "diagnostics": ["real design rank and singular values", "sum/product bias and RMSE", "negative discriminant count", "unordered-root error conditional on nonnegative discriminant", "noiseless charge-only interaction recovery followed by source-class recovery"],
+  "limitations": "Conditional on bare response and the interaction values in the noisy source recovery. Cross multiplication avoids division by noisy axial data but leaves an errors-in-variables least-squares problem; no unbiasedness or coverage claim. Negative discriminants are reported without clipping."
+}

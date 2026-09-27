@@ -1,0 +1,3 @@
+kind,flux,coarse_L,fine_L,coarse_Nkz,fine_Nkz,maximum_scaled_response_error,tolerance,converged
+zero_B_transverse,0,48,72,192,192,0.00036972969171602,0.001,True
+zero_B_kz,0,72,72,192,384,2.2279976248733083e-05,0.001,True

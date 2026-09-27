@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN_BEFORE_CALCULATION",
+  "question": "Does splitting a fixed acquisition budget between zero and finite field improve interaction inference after independent source directions and affine gains are fitted?",
+  "inputs": {"B0": "research/prb_refinement_20260927/B0_higher/response_3channel.npz", "Bplus": "research/prb_refinement_20260927/Bplus_combined/response_3channel.npz"},
+  "truths": {"symmetric": [0.7, 0.7], "asymmetric": [0.7, -0.3]},
+  "g_Ua": [0.8, 8.0],
+  "sigma0": 0.00012931669440932318,
+  "time_model": "A total budget T is shared among fields. Each field measures the same four complex entries on the same 45 frequencies with equal per-entry dwell allocation. sigma0 is the per-entry circular-complex RMS for allocating all T to one full-matrix field. Allocating fraction f gives sigma_field=sigma0/sqrt(f). Independent equal white detector noise, no switching overhead, drift, or field-dependent noise prefactor is assumed. Charge calibration is known. This is a declared acquisition model, not an apparatus claim.",
+  "policies": {"B0_only": {"B0": 1.0}, "Bplus_only": {"Bplus": 1.0}, "Bplus_25pct": {"B0": 0.75, "Bplus": 0.25}, "Bplus_50pct": {"B0": 0.5, "Bplus": 0.5}, "Bplus_75pct": {"B0": 0.25, "Bplus": 0.75}},
+  "observations": "full four-entry matrix only; no comparison with a different per-entry time allocation",
+  "parameters": "g/.8, Ua/8, lambda_readout, lambda_source; source directions shared across fields, independent complex affine source/readout gains in each field",
+  "bounds": {"g": [0.2, 1.6], "Ua": [0.0, 24.0], "lambda_r": [-1.0, 1.0], "lambda_s": [-1.0, 1.0]},
+  "multistarts": [[0.55, 3.0, -0.8, 0.4], [0.8, 8.0, 0.0, 0.0], [1.1, 16.0, 0.8, -0.4], [1.4, 22.0, -0.4, 0.8], [0.65, 12.0, 0.5, 0.5]],
+  "repetitions": 30,
+  "seed": 2026092711,
+  "pairing": "For each truth and repetition one independent standard circular-complex noise array per field is reused across policies, multiplied by that policy's sigma_field. This couples Monte Carlo comparisons, not physical measurements between policies.",
+  "information": "Analytic derivatives; true Gaussian Fisher 2 Re(J^H Sigma^-1 J); project affine gains and both source-direction nuisance columns; report Ua local bound after also fitting g. Local information does not establish confidence coverage or global uniqueness.",
+  "optimizer": "Five frozen starts, all attempts retained; best residual selected even if a status is false, reported honestly. Feasible exact-truth residual is a diagnostic upper bound, not an extra start or fitted estimate.",
+  "selection": "Report all five policies and both truths. Best and minimax choices refer only to this grid, source family, noise model and 30-realization empirical experiment. No predetermined improvement claim. No uniform source-angle robustness claim."
+}

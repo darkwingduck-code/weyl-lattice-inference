@@ -1,0 +1,371 @@
+{
+  "status": "CLASS_AWARE_SMALL_STREAM_VALIDATION_PASS",
+  "all_tests_pass": true,
+  "completed_utc": "2026-09-10T14:00:06.639662+00:00",
+  "parameters": {
+    "Lx": 3,
+    "Ly": 4,
+    "Nkz": 24,
+    "mass": 0.0,
+    "wilson": 1.0,
+    "hopping": 1.0,
+    "exchange": 1.0,
+    "theta_x": 0.21,
+    "theta_y": 0.37,
+    "theta_z": 0.19
+  },
+  "roundoff_budget": 3.104767046997453e-10,
+  "budget_definition": "128 eps times volume times max(1, direct exterior spectral bound); unchanged from original validator",
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "pole_zero_analysis.py": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "extend_exterior_pole.py": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977",
+    "stream_exterior_pole.py": "a2b43098edc92750ddbba55ec44f51495bec9b2ffd932b497e434f0b64b2da08",
+    "validate_stream_exterior.py": "238b8428375ba87a7d0a8e56a2c094ac8f03a729b5f1da1828952d9336bf0a10"
+  },
+  "input_sha256": {
+    "exterior_kz_streamed\\diagnostic.json": "c0940374ed70da2d55c1080746dfd3b29b5b70822f505e4ff32b0009e0d467ba"
+  },
+  "raw_count": 4608,
+  "active_count": 3518,
+  "exactly_zero_weights_removed": 1090,
+  "counts_pass": true,
+  "response_absolute_errors": {
+    "z=(0.47+0.03j);derivative=0": 5.551284527130373e-17,
+    "z=(0.47+0.03j);derivative=1": 7.044344449510712e-17,
+    "z=15.5;derivative=0": 2.7755575615628914e-17,
+    "z=15.5;derivative=1": 3.469446951953614e-18,
+    "z=(18.1+0.2j);derivative=0": 2.7758963540648015e-17,
+    "z=(18.1+0.2j);derivative=1": 1.0842021724855044e-19
+  },
+  "comparison": {
+    "passed": true,
+    "failures": [],
+    "absolute_errors": {
+      "positive_bare_edge": 0.0,
+      "eigenvalue_bound": 7.105427357601002e-15,
+      "search_margin": 0.0,
+      "excluded_edge_interval": 0.0,
+      "root0_pole": 0.0,
+      "root0_determinant_residual": 2.220446049250313e-16,
+      "root0_charge_numerator": 2.7755575615628914e-17,
+      "root0_nearest_bare_distance": 0.0,
+      "root0_cofactor_charge_residue": 5.169878828456423e-26,
+      "root1_pole": 0.0,
+      "root1_determinant_residual": 1.1492543028346347e-16,
+      "root1_charge_numerator": 2.710505431213761e-20,
+      "root1_nearest_bare_distance": 0.0,
+      "root1_cofactor_charge_residue": 1.4701713671452241e-19,
+      "root1_nullspace_eigenvalue_residual": 1.7701665108634792e-22,
+      "root1_residue_matrix": 1.7245590806097555e-18
+    },
+    "roots": [
+      {
+        "index": 0,
+        "direct_status": "unresolved",
+        "streamed_status": "unresolved",
+        "pole_direct": 13.189683659050957,
+        "pole_streamed": 13.189683659050957,
+        "direct_has_matrix": false,
+        "streamed_has_matrix": false,
+        "matrix_compared": false,
+        "unresolved_preserved": true,
+        "direct_failure": "No declared RPA nullspace at the supplied pole",
+        "streamed_failure": "No declared RPA nullspace at the supplied pole"
+      },
+      {
+        "index": 1,
+        "direct_status": "isolated_nullspace_checked",
+        "streamed_status": "isolated_nullspace_checked",
+        "pole_direct": 15.545493798238368,
+        "pole_streamed": 15.545493798238368,
+        "direct_has_matrix": true,
+        "streamed_has_matrix": true,
+        "matrix_compared": true,
+        "charge_residue_direct": {
+          "real": 3.8165653515638343e-10,
+          "imag": 0.0
+        },
+        "charge_residue_streamed": {
+          "real": 3.8165653515630164e-10,
+          "imag": 0.0
+        },
+        "charge_residue_absolute_difference": 8.178748306618061e-23,
+        "charge_residue_relative_difference": 2.1429603722799679e-13,
+        "axial_residue_absolute_difference": 0.0
+      }
+    ]
+  },
+  "negative_controls": {
+    "one_sided_classification_change": {
+      "passed": false,
+      "failures": [
+        "root0 classification: residue_status"
+      ],
+      "absolute_errors": {
+        "positive_bare_edge": 0.0,
+        "eigenvalue_bound": 7.105427357601002e-15,
+        "search_margin": 0.0,
+        "excluded_edge_interval": 0.0,
+        "root0_pole": 0.0,
+        "root0_determinant_residual": 2.220446049250313e-16,
+        "root0_charge_numerator": 2.7755575615628914e-17,
+        "root0_nearest_bare_distance": 0.0,
+        "root0_cofactor_charge_residue": 5.169878828456423e-26,
+        "root1_pole": 0.0,
+        "root1_determinant_residual": 1.1492543028346347e-16,
+        "root1_charge_numerator": 2.710505431213761e-20,
+        "root1_nearest_bare_distance": 0.0,
+        "root1_cofactor_charge_residue": 1.4701713671452241e-19,
+        "root1_nullspace_eigenvalue_residual": 1.7701665108634792e-22,
+        "root1_residue_matrix": 1.7245590806097555e-18
+      },
+      "roots": [
+        {
+          "index": 0,
+          "direct_status": "unresolved",
+          "streamed_status": "isolated_nullspace_checked",
+          "pole_direct": 13.189683659050957,
+          "pole_streamed": 13.189683659050957,
+          "direct_has_matrix": false,
+          "streamed_has_matrix": false,
+          "matrix_compared": false,
+          "unresolved_preserved": true,
+          "direct_failure": "No declared RPA nullspace at the supplied pole",
+          "streamed_failure": "No declared RPA nullspace at the supplied pole"
+        },
+        {
+          "index": 1,
+          "direct_status": "isolated_nullspace_checked",
+          "streamed_status": "isolated_nullspace_checked",
+          "pole_direct": 15.545493798238368,
+          "pole_streamed": 15.545493798238368,
+          "direct_has_matrix": true,
+          "streamed_has_matrix": true,
+          "matrix_compared": true,
+          "charge_residue_direct": {
+            "real": 3.8165653515638343e-10,
+            "imag": 0.0
+          },
+          "charge_residue_streamed": {
+            "real": 3.8165653515630164e-10,
+            "imag": 0.0
+          },
+          "charge_residue_absolute_difference": 8.178748306618061e-23,
+          "charge_residue_relative_difference": 2.1429603722799679e-13,
+          "axial_residue_absolute_difference": 0.0
+        }
+      ]
+    },
+    "missing_root": {
+      "passed": false,
+      "failures": [
+        "root count"
+      ],
+      "absolute_errors": {
+        "positive_bare_edge": 0.0,
+        "eigenvalue_bound": 7.105427357601002e-15,
+        "search_margin": 0.0,
+        "excluded_edge_interval": 0.0,
+        "root0_pole": 0.0,
+        "root0_determinant_residual": 2.220446049250313e-16,
+        "root0_charge_numerator": 2.7755575615628914e-17,
+        "root0_nearest_bare_distance": 0.0,
+        "root0_cofactor_charge_residue": 5.169878828456423e-26
+      },
+      "roots": [
+        {
+          "index": 0,
+          "direct_status": "unresolved",
+          "streamed_status": "unresolved",
+          "pole_direct": 13.189683659050957,
+          "pole_streamed": 13.189683659050957,
+          "direct_has_matrix": false,
+          "streamed_has_matrix": false,
+          "matrix_compared": false,
+          "unresolved_preserved": true,
+          "direct_failure": "No declared RPA nullspace at the supplied pole",
+          "streamed_failure": "No declared RPA nullspace at the supplied pole"
+        }
+      ]
+    },
+    "one_sided_missing_matrix": {
+      "passed": false,
+      "failures": [
+        "root1 matrix presence"
+      ],
+      "absolute_errors": {
+        "positive_bare_edge": 0.0,
+        "eigenvalue_bound": 7.105427357601002e-15,
+        "search_margin": 0.0,
+        "excluded_edge_interval": 0.0,
+        "root0_pole": 0.0,
+        "root0_determinant_residual": 2.220446049250313e-16,
+        "root0_charge_numerator": 2.7755575615628914e-17,
+        "root0_nearest_bare_distance": 0.0,
+        "root0_cofactor_charge_residue": 5.169878828456423e-26,
+        "root1_pole": 0.0,
+        "root1_determinant_residual": 1.1492543028346347e-16,
+        "root1_charge_numerator": 2.710505431213761e-20,
+        "root1_nearest_bare_distance": 0.0,
+        "root1_cofactor_charge_residue": 1.4701713671452241e-19,
+        "root1_nullspace_eigenvalue_residual": 1.7701665108634792e-22
+      },
+      "roots": [
+        {
+          "index": 0,
+          "direct_status": "unresolved",
+          "streamed_status": "unresolved",
+          "pole_direct": 13.189683659050957,
+          "pole_streamed": 13.189683659050957,
+          "direct_has_matrix": false,
+          "streamed_has_matrix": false,
+          "matrix_compared": false,
+          "unresolved_preserved": true,
+          "direct_failure": "No declared RPA nullspace at the supplied pole",
+          "streamed_failure": "No declared RPA nullspace at the supplied pole"
+        },
+        {
+          "index": 1,
+          "direct_status": "isolated_nullspace_checked",
+          "streamed_status": "isolated_nullspace_checked",
+          "pole_direct": 15.545493798238368,
+          "pole_streamed": 15.545493798238368,
+          "direct_has_matrix": true,
+          "streamed_has_matrix": false
+        }
+      ]
+    },
+    "pole_beyond_budget": {
+      "passed": false,
+      "failures": [
+        "root1_pole: numeric difference exceeds budget"
+      ],
+      "absolute_errors": {
+        "positive_bare_edge": 0.0,
+        "eigenvalue_bound": 7.105427357601002e-15,
+        "search_margin": 0.0,
+        "excluded_edge_interval": 0.0,
+        "root0_pole": 0.0,
+        "root0_determinant_residual": 2.220446049250313e-16,
+        "root0_charge_numerator": 2.7755575615628914e-17,
+        "root0_nearest_bare_distance": 0.0,
+        "root0_cofactor_charge_residue": 5.169878828456423e-26,
+        "root1_pole": 3.104766221895261e-09,
+        "root1_determinant_residual": 1.1492543028346347e-16,
+        "root1_charge_numerator": 2.710505431213761e-20,
+        "root1_nearest_bare_distance": 0.0,
+        "root1_cofactor_charge_residue": 1.4701713671452241e-19,
+        "root1_nullspace_eigenvalue_residual": 1.7701665108634792e-22,
+        "root1_residue_matrix": 1.7245590806097555e-18
+      },
+      "roots": [
+        {
+          "index": 0,
+          "direct_status": "unresolved",
+          "streamed_status": "unresolved",
+          "pole_direct": 13.189683659050957,
+          "pole_streamed": 13.189683659050957,
+          "direct_has_matrix": false,
+          "streamed_has_matrix": false,
+          "matrix_compared": false,
+          "unresolved_preserved": true,
+          "direct_failure": "No declared RPA nullspace at the supplied pole",
+          "streamed_failure": "No declared RPA nullspace at the supplied pole"
+        },
+        {
+          "index": 1,
+          "direct_status": "isolated_nullspace_checked",
+          "streamed_status": "isolated_nullspace_checked",
+          "pole_direct": 15.545493798238368,
+          "pole_streamed": 15.545493801343135,
+          "direct_has_matrix": true,
+          "streamed_has_matrix": true,
+          "matrix_compared": true,
+          "charge_residue_direct": {
+            "real": 3.8165653515638343e-10,
+            "imag": 0.0
+          },
+          "charge_residue_streamed": {
+            "real": 3.8165653515630164e-10,
+            "imag": 0.0
+          },
+          "charge_residue_absolute_difference": 8.178748306618061e-23,
+          "charge_residue_relative_difference": 2.1429603722799679e-13,
+          "axial_residue_absolute_difference": 0.0
+        }
+      ]
+    },
+    "different_unresolved_reason": {
+      "passed": false,
+      "failures": [
+        "root0 classification: residue_failure"
+      ],
+      "absolute_errors": {
+        "positive_bare_edge": 0.0,
+        "eigenvalue_bound": 7.105427357601002e-15,
+        "search_margin": 0.0,
+        "excluded_edge_interval": 0.0,
+        "root0_pole": 0.0,
+        "root0_determinant_residual": 2.220446049250313e-16,
+        "root0_charge_numerator": 2.7755575615628914e-17,
+        "root0_nearest_bare_distance": 0.0,
+        "root0_cofactor_charge_residue": 5.169878828456423e-26,
+        "root1_pole": 0.0,
+        "root1_determinant_residual": 1.1492543028346347e-16,
+        "root1_charge_numerator": 2.710505431213761e-20,
+        "root1_nearest_bare_distance": 0.0,
+        "root1_cofactor_charge_residue": 1.4701713671452241e-19,
+        "root1_nullspace_eigenvalue_residual": 1.7701665108634792e-22,
+        "root1_residue_matrix": 1.7245590806097555e-18
+      },
+      "roots": [
+        {
+          "index": 0,
+          "direct_status": "unresolved",
+          "streamed_status": "unresolved",
+          "pole_direct": 13.189683659050957,
+          "pole_streamed": 13.189683659050957,
+          "direct_has_matrix": false,
+          "streamed_has_matrix": false,
+          "matrix_compared": false,
+          "unresolved_preserved": true,
+          "direct_failure": "No declared RPA nullspace at the supplied pole",
+          "streamed_failure": "Different unresolved condition"
+        },
+        {
+          "index": 1,
+          "direct_status": "isolated_nullspace_checked",
+          "streamed_status": "isolated_nullspace_checked",
+          "pole_direct": 15.545493798238368,
+          "pole_streamed": 15.545493798238368,
+          "direct_has_matrix": true,
+          "streamed_has_matrix": true,
+          "matrix_compared": true,
+          "charge_residue_direct": {
+            "real": 3.8165653515638343e-10,
+            "imag": 0.0
+          },
+          "charge_residue_streamed": {
+            "real": 3.8165653515630164e-10,
+            "imag": 0.0
+          },
+          "charge_residue_absolute_difference": 8.178748306618061e-23,
+          "charge_residue_relative_difference": 2.1429603722799679e-13,
+          "axial_residue_absolute_difference": 0.0
+        }
+      ]
+    }
+  },
+  "all_negative_controls_rejected": true,
+  "gram_factorization_error": 3.469446951953614e-18,
+  "scope": "Small direct-versus-streamed path validation only. Both unresolved near-edge roots remain unresolved. No large streamed production or low-energy pole/gap certification.",
+  "sources_unchanged": true,
+  "output_sha256": {
+    "direct_search.json": "b615594781f01c20764047a34931176c35a24367b8b93282dd4ecefcea50feca",
+    "streamed_search.json": "8cadc1a312d4385a9b9a8a2f755455115f4a1b8c3e110f9bb243e02d5138d8e6"
+  }
+}

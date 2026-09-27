@@ -1,0 +1,300 @@
+{
+  "completed_utc": "2026-09-10T06:20:07.528818+00:00",
+  "status": "FINITE_SYSTEM_IDENTITIES_PASS",
+  "identity_cases": 26,
+  "response_rows": 4186,
+  "all_exact_identity_checks_pass": true,
+  "response_mesh_converged": false,
+  "collective_pole_or_gap_certified": false,
+  "submission_ready": false,
+  "settings": {
+    "mu0": 0.5,
+    "temperature": 0.04,
+    "eta": 0.015,
+    "coulomb": 0.8,
+    "axial_interaction": 8.0,
+    "common_target_density": 2.005991339968491,
+    "target_reference": {
+      "Lx": 8,
+      "Ly": 8,
+      "Nkz": 48,
+      "mass": 0.0,
+      "wilson": 1.0,
+      "hopping": 1.0,
+      "exchange": 1.0,
+      "theta_x": 0.0,
+      "theta_y": 0.0,
+      "theta_z": 0.0
+    },
+    "frequency_points": 161,
+    "refinement_tolerance": 0.001
+  },
+  "maxima": {
+    "vertex_error": 4.0778223216977627e-14,
+    "charge_ward_bare": 5.759649316310163e-16,
+    "charge_ward_rpa": 5.724898041046259e-16,
+    "axial_vertex_error": 4.1010382221227806e-14,
+    "axial_ward_with_torque": 3.5446464619509247e-17,
+    "cofactor_identity_error": 9.550499576785472e-16
+  },
+  "minimum_rpa_power_eigenvalue": 6.925767927636543e-05,
+  "meshes": [
+    {
+      "parameters": {
+        "Lx": 4,
+        "Ly": 4,
+        "Nkz": 24,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": -1,
+      "field": -0.39269908169872414,
+      "mu_fixed_density": -0.5833017671015543,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 4,
+        "Ly": 4,
+        "Nkz": 24,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 0,
+      "field": 0.0,
+      "mu_fixed_density": 0.13938971966485322,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 4,
+        "Ly": 4,
+        "Nkz": 24,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 1,
+      "field": 0.39269908169872414,
+      "mu_fixed_density": 0.695658431907976,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 4,
+        "Ly": 4,
+        "Nkz": 48,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": -1,
+      "field": -0.39269908169872414,
+      "mu_fixed_density": -0.5740519628455332,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 4,
+        "Ly": 4,
+        "Nkz": 48,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 0,
+      "field": 0.0,
+      "mu_fixed_density": 0.12955957406125168,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 4,
+        "Ly": 4,
+        "Nkz": 48,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 1,
+      "field": 0.39269908169872414,
+      "mu_fixed_density": 0.6974338697181071,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 6,
+        "Ly": 6,
+        "Nkz": 24,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": -1,
+      "field": -0.17453292519943295,
+      "mu_fixed_density": -0.28299635442732674,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 6,
+        "Ly": 6,
+        "Nkz": 24,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 0,
+      "field": 0.0,
+      "mu_fixed_density": 0.2764129295110451,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 6,
+        "Ly": 6,
+        "Nkz": 24,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 1,
+      "field": 0.17453292519943295,
+      "mu_fixed_density": 0.6560983571968081,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 6,
+        "Ly": 6,
+        "Nkz": 48,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": -1,
+      "field": -0.17453292519943295,
+      "mu_fixed_density": -0.30150749132684496,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 6,
+        "Ly": 6,
+        "Nkz": 48,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 0,
+      "field": 0.0,
+      "mu_fixed_density": 0.2900267499350427,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 6,
+        "Ly": 6,
+        "Nkz": 48,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 1,
+      "field": 0.17453292519943295,
+      "mu_fixed_density": 0.6531157312348848,
+      "target_density": 2.005991339968491
+    },
+    {
+      "parameters": {
+        "Lx": 8,
+        "Ly": 8,
+        "Nkz": 48,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "flux": 0,
+      "field": 0.0,
+      "mu_fixed_density": 0.4999999999999933,
+      "target_density": 2.005991339968491
+    }
+  ],
+  "limitations": [
+    "Repulsive direct RPA for an explicit local axial bilinear; no exchange/self-energy or material fit.",
+    "tau_x is not a conserved axial charge; Wilson torque is included in its continuity check.",
+    "Fixed internal exchange breaks time reversal; no external-B parity is assumed.",
+    "Fixed-density runs share a finite-grid L=8,Nkz=48,B=0 reference density, not a continuum density.",
+    "Field is quantized; changing L at fixed flux changes B. Only B=0 is used for transverse refinement.",
+    "eta is a resolvent regulator, not a microscopic or Mermin collision rate.",
+    "Finite-system passivity and Ward checks do not establish continuum convergence, collective poles, or an avoided-crossing gap."
+  ],
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "run_experiment.py": "59a86fb9c5c2de1edc067c938bd12f33f48602a6dc9c90533a1099627e1c5f58"
+  },
+  "python": "3.11.0rc2 (main, Sep 11 2022, 20:22:52) [MSC v.1933 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "output_sha256": {
+    "response.csv": "3860a3a1bfa42cf760bae6753049f1fd59e27a9e15e775a2167463855eccd2ba",
+    "diagnostics.csv": "8157474411e01253465d3523a9fa555706baca9e201bf03d42f67627b84db966",
+    "kz_refinement.csv": "a9aa587e88f09a4f590c748aa112f798735eb2b7919b8b21457113aeea045b3d",
+    "transverse_refinement.csv": "cf6edb1341a2a208520d97529218a4e254d9d46d0b6e7e4d26d7c91c0a54ae30",
+    "lattice_response.pdf": "6bffa8c4834d6f9fc8cd23f579927a04b8ecb63384467ae94860f49df1380f5d",
+    "lattice_response.png": "5f8967f806abb0d4646e0edbdca750f27580515e3e7552a1fee9c276107ce1c9"
+  }
+}

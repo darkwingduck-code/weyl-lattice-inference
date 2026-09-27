@@ -1,0 +1,311 @@
+{
+  "plan": {
+    "status": "FROZEN_BEFORE_CALCULATION",
+    "question": "Does splitting a fixed acquisition budget between zero and finite field improve interaction inference after independent source directions and affine gains are fitted?",
+    "inputs": {
+      "B0": "research/prb_refinement_20260927/B0_higher/response_3channel.npz",
+      "Bplus": "research/prb_refinement_20260927/Bplus_combined/response_3channel.npz"
+    },
+    "truths": {
+      "symmetric": [
+        0.7,
+        0.7
+      ],
+      "asymmetric": [
+        0.7,
+        -0.3
+      ]
+    },
+    "g_Ua": [
+      0.8,
+      8.0
+    ],
+    "sigma0": 0.00012931669440932318,
+    "time_model": "A total budget T is shared among fields. Each field measures the same four complex entries on the same 45 frequencies with equal per-entry dwell allocation. sigma0 is the per-entry circular-complex RMS for allocating all T to one full-matrix field. Allocating fraction f gives sigma_field=sigma0/sqrt(f). Independent equal white detector noise, no switching overhead, drift, or field-dependent noise prefactor is assumed. Charge calibration is known. This is a declared acquisition model, not an apparatus claim.",
+    "policies": {
+      "B0_only": {
+        "B0": 1.0
+      },
+      "Bplus_only": {
+        "Bplus": 1.0
+      },
+      "Bplus_25pct": {
+        "B0": 0.75,
+        "Bplus": 0.25
+      },
+      "Bplus_50pct": {
+        "B0": 0.5,
+        "Bplus": 0.5
+      },
+      "Bplus_75pct": {
+        "B0": 0.25,
+        "Bplus": 0.75
+      }
+    },
+    "observations": "full four-entry matrix only; no comparison with a different per-entry time allocation",
+    "parameters": "g/.8, Ua/8, lambda_readout, lambda_source; source directions shared across fields, independent complex affine source/readout gains in each field",
+    "bounds": {
+      "g": [
+        0.2,
+        1.6
+      ],
+      "Ua": [
+        0.0,
+        24.0
+      ],
+      "lambda_r": [
+        -1.0,
+        1.0
+      ],
+      "lambda_s": [
+        -1.0,
+        1.0
+      ]
+    },
+    "multistarts": [
+      [
+        0.55,
+        3.0,
+        -0.8,
+        0.4
+      ],
+      [
+        0.8,
+        8.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.1,
+        16.0,
+        0.8,
+        -0.4
+      ],
+      [
+        1.4,
+        22.0,
+        -0.4,
+        0.8
+      ],
+      [
+        0.65,
+        12.0,
+        0.5,
+        0.5
+      ]
+    ],
+    "repetitions": 30,
+    "seed": 2026092711,
+    "pairing": "For each truth and repetition one independent standard circular-complex noise array per field is reused across policies, multiplied by that policy's sigma_field. This couples Monte Carlo comparisons, not physical measurements between policies.",
+    "information": "Analytic derivatives; true Gaussian Fisher 2 Re(J^H Sigma^-1 J); project affine gains and both source-direction nuisance columns; report Ua local bound after also fitting g. Local information does not establish confidence coverage or global uniqueness.",
+    "optimizer": "Five frozen starts, all attempts retained; best residual selected even if a status is false, reported honestly. Feasible exact-truth residual is a diagnostic upper bound, not an extra start or fitted estimate.",
+    "selection": "Report all five policies and both truths. Best and minimax choices refer only to this grid, source family, noise model and 30-realization empirical experiment. No predetermined improvement claim. No uniform source-angle robustness claim."
+  },
+  "results": [
+    {
+      "truth": "symmetric",
+      "policy": "B0_only",
+      "interaction_fisher": [
+        [
+          276879.9179862611,
+          -13787.067979035142
+        ],
+        [
+          -13787.067979035142,
+          6020.459928935593
+        ]
+      ],
+      "gain_rank": 8,
+      "source_rank": 2,
+      "Ua_local_sd": 0.10953826914777177,
+      "g_local_sd": 0.0016152322620708343,
+      "minimum_interaction_fisher_eigenvalue": 5320.490698050458
+    },
+    {
+      "truth": "symmetric",
+      "policy": "Bplus_only",
+      "interaction_fisher": [
+        [
+          6467261.092070548,
+          135259.4523969092
+        ],
+        [
+          135259.4523969092,
+          45169.20169260748
+        ]
+      ],
+      "gain_rank": 8,
+      "source_rank": 2,
+      "Ua_local_sd": 0.03887880621603214,
+      "g_local_sd": 0.0003249181199714145,
+      "minimum_interaction_fisher_eigenvalue": 42321.68542750535
+    },
+    {
+      "truth": "symmetric",
+      "policy": "Bplus_25pct",
+      "interaction_fisher": [
+        [
+          1834574.4492362463,
+          15312.220090966304
+        ],
+        [
+          15312.220090966304,
+          28748.010044478455
+        ]
+      ],
+      "gain_rank": 16,
+      "source_rank": 2,
+      "Ua_local_sd": 0.04728828907917233,
+      "g_local_sd": 0.0005919565424963893,
+      "minimum_interaction_fisher_eigenvalue": 28618.181826406224
+    },
+    {
+      "truth": "symmetric",
+      "policy": "Bplus_50pct",
+      "interaction_fisher": [
+        [
+          3390281.253066832,
+          45842.92568989588
+        ],
+        [
+          45842.92568989588,
+          48925.02819323115
+        ]
+      ],
+      "gain_rank": 16,
+      "source_rank": 2,
+      "Ua_local_sd": 0.036399321303768536,
+      "g_local_sd": 0.00043726122199283106,
+      "minimum_interaction_fisher_eigenvalue": 48296.18820890325
+    },
+    {
+      "truth": "symmetric",
+      "policy": "Bplus_75pct",
+      "interaction_fisher": [
+        [
+          4940774.627872467,
+          80341.9425134226
+        ],
+        [
+          80341.9425134226,
+          62416.90670365971
+        ]
+      ],
+      "gain_rank": 16,
+      "source_rank": 2,
+      "Ua_local_sd": 0.03236176413736585,
+      "g_local_sd": 0.000363735581723156,
+      "minimum_interaction_fisher_eigenvalue": 61094.1095036111
+    },
+    {
+      "truth": "asymmetric",
+      "policy": "B0_only",
+      "interaction_fisher": [
+        [
+          244480.2357201655,
+          -1908.4324807804949
+        ],
+        [
+          -1908.4324807804949,
+          1566.525873107931
+        ]
+      ],
+      "gain_rank": 8,
+      "source_rank": 2,
+      "Ua_local_sd": 0.2030935419186342,
+      "g_local_sd": 0.001625709793409639,
+      "minimum_interaction_fisher_eigenvalue": 1551.5333485600218
+    },
+    {
+      "truth": "asymmetric",
+      "policy": "Bplus_only",
+      "interaction_fisher": [
+        [
+          2643329.5468662786,
+          72603.50350506786
+        ],
+        [
+          72603.50350506786,
+          2539.0336135662155
+        ]
+      ],
+      "gain_rank": 8,
+      "source_rank": 2,
+      "Ua_local_sd": 0.34272764378551385,
+      "g_local_sd": 0.001062203444001263,
+      "minimum_interaction_fisher_eigenvalue": 544.4451327424404
+    },
+    {
+      "truth": "asymmetric",
+      "policy": "Bplus_25pct",
+      "interaction_fisher": [
+        [
+          853296.1863119602,
+          15400.383345374317
+        ],
+        [
+          15400.383345374317,
+          2213.6182874895226
+        ]
+      ],
+      "gain_rank": 16,
+      "source_rank": 2,
+      "Ua_local_sd": 0.1818336572904641,
+      "g_local_sd": 0.0009261380740274212,
+      "minimum_interaction_fisher_eigenvalue": 1935.0387353692563
+    },
+    {
+      "truth": "asymmetric",
+      "policy": "Bplus_50pct",
+      "interaction_fisher": [
+        [
+          1452746.4070961596,
+          34657.18949660575
+        ],
+        [
+          34657.18949660575,
+          2422.6987533909005
+        ]
+      ],
+      "gain_rank": 16,
+      "source_rank": 2,
+      "Ua_local_sd": 0.2002563922204661,
+      "g_local_sd": 0.000817788860731091,
+      "minimum_interaction_fisher_eigenvalue": 1594.9968503894656
+    },
+    {
+      "truth": "asymmetric",
+      "policy": "Bplus_75pct",
+      "interaction_fisher": [
+        [
+          2050542.0971015291,
+          54016.34842087328
+        ],
+        [
+          54016.34842087328,
+          2563.5735343898286
+        ]
+      ],
+      "gain_rank": 16,
+      "source_rank": 2,
+      "Ua_local_sd": 0.23687209666470652,
+      "g_local_sd": 0.0008375340051374145,
+      "minimum_interaction_fisher_eigenvalue": 1139.8579547972201
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\run_fixed_budget.py": "75f7f4b1fc49798b68c068fee368dcf7fbca0ee15d7c31aac1b9b63e5c096edc",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\frozen_plan.json": "daff5e04e867c5b19df54c460941a8bc31deee9187fe4b3f0d1a5a10008ecc6a",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\run_study.py": "8f5df93e1b0ee5fa1b57da74a254f6abfb074b4f41430f78214f2cb47a13ea03",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\response_derivatives.py": "6ccd9ab5b830052bd2379ea254e8543c771680b7eab0ec2f17792f45f3db79e5",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\analyze_information.py": "96fd54b07915598cf1e57c920d8a2fdadc17cf55dc8360e97bb90bbb24e28090",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\frozen_design.json": "47696caa78139bb2aab0739ecc17e164516da823d55a1d996578db25d96355ae",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "170704298b9e79a20550a2069b00b2e5ce719a95414f3bd8646cb8e44332ff43",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\noise_sensitivity.py": "096ce6696240942d6f975b596f8fa439952a63554abb53da15c77a88cbaa7e45",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\analyze_inference.py": "5d0d9c5bab94bb3bd1929cf9622f10d29991182ad13beb75c119d270aa0bebea",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_refinement_20260927\\B0_higher\\response_3channel.npz": "a54c7efcdb24c50475343df9418c3a5d1da035c3f3d28f5d43c73d7b8f730c7c",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_refinement_20260927\\Bplus_combined\\response_3channel.npz": "9fd110214b9acc3f3124bff31b8b7a487ae6ff5083afd9bbd640e0d2f976190d"
+  },
+  "sources_unchanged": true,
+  "elapsed_seconds": 0.046985599998151883
+}

@@ -1,0 +1,104 @@
+{
+  "status": "MIXED_SOURCE_INFERENCE_PASS",
+  "truth": {
+    "g": 0.8,
+    "ua": 8.0,
+    "lambda_source": 0.7,
+    "lambda_readout": 0.7
+  },
+  "transfer_closure_scaled_error": 3.6477486829490355e-18,
+  "fixed_lambda_fits": [
+    {
+      "method": "correct_lambda",
+      "lambda_model": 0.7,
+      "invariant_g": 0.8,
+      "invariant_ua": 8.0,
+      "invariant_rms": 0.0,
+      "invariant_success": true,
+      "invariant_all_starts_success": true,
+      "invariant_global_minimum_certified": false,
+      "raw_g": 0.8,
+      "raw_ua": 8.000000000000002,
+      "raw_lambda": 0.7,
+      "raw_rms_noise_units": 6.70611351482901e-14,
+      "raw_success": true,
+      "raw_all_starts_success": true,
+      "raw_global_minimum_certified": false
+    },
+    {
+      "method": "pure_Gamma5_model",
+      "lambda_model": 0.0,
+      "invariant_g": 0.9030967377761655,
+      "invariant_ua": 3.018438203169788e-25,
+      "invariant_rms": 0.022152427943904204,
+      "invariant_success": true,
+      "invariant_all_starts_success": true,
+      "invariant_global_minimum_certified": false,
+      "raw_g": 0.897600587990302,
+      "raw_ua": 0.05162889421043905,
+      "raw_lambda": 0.0,
+      "raw_rms_noise_units": 3.8895650827393373,
+      "raw_success": true,
+      "raw_all_starts_success": true,
+      "raw_global_minimum_certified": false
+    },
+    {
+      "method": "sign_reversed_model",
+      "lambda_model": -0.7,
+      "invariant_g": 0.8134312427966344,
+      "invariant_ua": 23.999999999999996,
+      "invariant_rms": 0.3174612100798764,
+      "invariant_success": true,
+      "invariant_all_starts_success": true,
+      "invariant_global_minimum_certified": false,
+      "raw_g": 0.7926628747259904,
+      "raw_ua": 23.999999999999996,
+      "raw_lambda": -0.7,
+      "raw_rms_noise_units": 9.602451805631075,
+      "raw_success": true,
+      "raw_all_starts_success": true,
+      "raw_global_minimum_certified": false
+    }
+  ],
+  "unknown_lambda_invariant_fit": {
+    "g": 0.8,
+    "ua": 8.0,
+    "lambda": 0.7,
+    "rms": 0.0,
+    "success": true,
+    "all_starts_success": true,
+    "global_minimum_certified": false
+  },
+  "unknown_lambda_raw_affine_fit": {
+    "g": 0.8,
+    "ua": 8.000000000000004,
+    "lambda": 0.7000000000000001,
+    "rms_noise_units": 6.697005989670905e-14,
+    "success": true,
+    "all_starts_success": true,
+    "global_minimum_certified": false
+  },
+  "mesh_convergence": null,
+  "local_invariant_jacobian_singular_values": [
+    1.1851194313304305,
+    0.12190475023149491,
+    0.005916298143320058
+  ],
+  "local_condition_number": 200.31435242466927,
+  "elapsed_seconds": 12.446484199957922,
+  "input_source_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_mixed_source_response_20260914\\analyze_inference.py": "053a77eb008f9c36d75d2e953b1b93ae62290e8c4dd3a17cdcd99ec889648a14",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "f180263e83395d632c11ecded364d21775651c77097257360ce310a64de29486",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_mixed_source_response_20260914\\frozen_design.json": "214717a0d530a74472fff898d0b58532e35cc273171c421104dddf0ff5b613b6",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_mixed_source_response_20260914\\production\\Bplus_coarse\\response_3channel.npz": "3548bcf5885a5c0455ca82cd52873f338bdd2a8ae56042cced5b79b0dfd3c52c"
+  },
+  "inputs_sources_unchanged": true,
+  "scientific_claim_ready": false,
+  "global_optimum_certified": false,
+  "limitations": [
+    "Pilot data are a finite mesh, not production evidence.",
+    "Lambda is a real local-operator coefficient, not a material vertex.",
+    "No statistical confidence level or global inverse theorem is claimed.",
+    "The fitted interaction still acts only in charge/Gamma5 space."
+  ]
+}

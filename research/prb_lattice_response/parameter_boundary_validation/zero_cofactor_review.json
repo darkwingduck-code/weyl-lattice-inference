@@ -1,0 +1,110 @@
+{
+  "status": "INDEPENDENT_DIRECT_COFACTOR_REVIEW_PASS",
+  "arithmetic_digits": 200,
+  "input_digits": 110,
+  "root_module_imported": false,
+  "checks": [
+    {
+      "raw_index": 3455,
+      "old_interval_index": 1345,
+      "absolute_charge_response": "9.81310491686545713430030767875943763024e-141",
+      "charge_only_normalized_residual": "8.226270166345605904604284242229475799212e-141",
+      "normalized_dielectric_denominator": "0.9998959861636495483847719081438856222458",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 139,
+      "old_interval_index": 1716,
+      "absolute_charge_response": "1.946248260449027222818078342949551083292e-160",
+      "charge_only_normalized_residual": "1.919975921166421453271883242578396923685e-160",
+      "normalized_dielectric_denominator": "0.9948651091581577002539277097656557878936",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 234,
+      "old_interval_index": 1277,
+      "absolute_charge_response": "2.450785450814632499105511305416149815958e-162",
+      "charge_only_normalized_residual": "1.990372511692378849963930502065375604879e-162",
+      "normalized_dielectric_denominator": "0.999999688712940338579737576855020908137",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 2559,
+      "old_interval_index": 1534,
+      "absolute_charge_response": "5.200592389148607036917441248878881619019e-161",
+      "charge_only_normalized_residual": "2.94081294905500565393525996262523601009e-161",
+      "normalized_dielectric_denominator": "0.826470388168910453701210929212263548888",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 3355,
+      "old_interval_index": 1731,
+      "absolute_charge_response": "1.131187354891857892343778503243110421432e-163",
+      "charge_only_normalized_residual": "1.116006745076137798280581354645784624522e-163",
+      "normalized_dielectric_denominator": "0.9853348525551552217839680461763145826436",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 174,
+      "old_interval_index": 915,
+      "absolute_charge_response": "2.227856086530417010406476638612812803669e-163",
+      "charge_only_normalized_residual": "2.197455958342675667194083456860601338185e-163",
+      "normalized_dielectric_denominator": "0.9814587918108985353568425535284512952495",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 346,
+      "old_interval_index": 1261,
+      "absolute_charge_response": "4.904151976860726674091476167877084687534e-162",
+      "charge_only_normalized_residual": "3.756248233349467890077387652673926106457e-162",
+      "normalized_dielectric_denominator": "0.9998320074835168601553503763315666378609",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 2414,
+      "old_interval_index": 1054,
+      "absolute_charge_response": "1.254449863735423409959404330616972510414e-162",
+      "charge_only_normalized_residual": "1.23550101870336358911886542292051383547e-162",
+      "normalized_dielectric_denominator": "0.1793292677820975322112323188266834914728",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 869,
+      "old_interval_index": 1454,
+      "absolute_charge_response": "2.927546272358734928002758998341965967087e-159",
+      "charge_only_normalized_residual": "2.798997216358218010415049570743654057086e-162",
+      "normalized_dielectric_denominator": "0.1595915656754716277362402195548743753871",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 2453,
+      "old_interval_index": 1199,
+      "absolute_charge_response": "2.076048155635253555378413014651269858581e-158",
+      "charge_only_normalized_residual": "2.458861813289229142233596403771019819871e-161",
+      "normalized_dielectric_denominator": "0.1618258219976984300413822247983732260853",
+      "raw_slots": 3456
+    },
+    {
+      "raw_index": 2415,
+      "old_interval_index": 1548,
+      "absolute_charge_response": "1.745397758301845741982925170435905180869e-156",
+      "charge_only_normalized_residual": "3.643275895292292151764825725129868753712e-157",
+      "normalized_dielectric_denominator": "0.0001359305078293635307796046682797902113458",
+      "raw_slots": 3456
+    }
+  ],
+  "source_input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_boundary_validation\\zero_cofactor_review.py": "bfa5ee3cbf17186e7e9148cc28df4fe878633f3db9be96f778f0a8402e09eac8",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\all_3456_transitions_110.json": "0d40fc2293eee1786f536ef75cb2abcc079759cf32f8eac1faa703e4e2a85e58",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_full_input_followup\\representatives_01\\cases.json": "01d34bb5738d259c5697750b8a50059dc53028fc13dc7be0fad8ac8d995ebbb9",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_full_input_followup\\remaining_000_363\\cases.json": "63ef1d997a99fd481de850e12e3209914bb349f41fdffd91490aaa6dd69a4332",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_full_input_followup\\remaining_364_727\\cases.json": "0b47318d0e307abd66ad68de1f9d6eb24995b5e132eb17233149a17e04701f39"
+  },
+  "inputs_unchanged": true,
+  "selected_cases": 11,
+  "maximum_absolute_charge_response": "9.81310491686545713430030767875943763024e-141",
+  "limits": [
+    "Selected scale-spanning and worst-residual cases, not another full 751 recomputation",
+    "No outward rounding or physical input error bound; old interval mapping still uncertified"
+  ]
+}

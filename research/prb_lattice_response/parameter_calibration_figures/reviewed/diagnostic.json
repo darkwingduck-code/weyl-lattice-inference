@@ -1,0 +1,172 @@
+{
+  "status": "FIGURES_RENDERED_REQUIRES_VISUAL_REVIEW",
+  "source_input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_calibration_figures_reviewed.py": "04c63c72d3e6d6b9589b3ea2749b56bbdf42b3595903911a5e10e661ef6c9996",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_calibration_audit\\run_01\\profiles.csv": "96fbf54af1cf7c2a5c73de5865b8992ea279ab1205c6336d38c25b3dea1e0eda",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_calibration_audit\\run_01\\local_sensitivity.csv": "f19eb5f6ef899a3c67a0e87d591665cab0edf2a283528a7503928548495997e9",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_calibration_audit\\run_01\\tolerance_sets.json": "f8c0e4df7d8d77b4e9d8ad05b05fde7c71bc3468aa3ef2afc3504d21152cbbeb",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_calibration_audit\\run_01\\groups.json": "fb0f33103539253068792db5f128a3912470b9fc08ce7fad2bc61063b5c71b74",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_calibration_audit\\run_01\\diagnostic.json": "d46ffac48a305555c08dcb56805dede487e676da512f4e29522115ee4ae783c9"
+  },
+  "selected_ua4_comparisons": [
+    {
+      "group": "field_pair_baseline",
+      "window": "fixed_lab",
+      "mode": "charge_only",
+      "ua": 4.0,
+      "mismatch_percent": 0.5076029557491062,
+      "best_g": 0.8142244326946262,
+      "gains": {},
+      "all_declared_grid_comparisons_pass": true
+    },
+    {
+      "group": "field_pair_baseline",
+      "window": "fixed_lab",
+      "mode": "calibrated",
+      "ua": 4.0,
+      "mismatch_percent": 46.25285181723059,
+      "best_g": 0.8108472924218568,
+      "gains": {},
+      "all_declared_grid_comparisons_pass": true
+    },
+    {
+      "group": "field_pair_baseline",
+      "window": "fixed_lab",
+      "mode": "separate_axial_gains",
+      "ua": 4.0,
+      "mismatch_percent": 0.5884968706403879,
+      "best_g": 0.8142059652414995,
+      "gains": {
+        "B0_baseline": 0.605055873404,
+        "Bplus_baseline": 0.6040781454842423
+      },
+      "all_declared_grid_comparisons_pass": true
+    },
+    {
+      "group": "field_pair_baseline",
+      "window": "fixed_lab",
+      "mode": "shared_axial_gain",
+      "ua": 4.0,
+      "mismatch_percent": 0.5912678987754738,
+      "best_g": 0.8142034589314074,
+      "gains": {
+        "B0_baseline": 0.604566231662141,
+        "Bplus_baseline": 0.604566231662141
+      },
+      "all_declared_grid_comparisons_pass": true
+    },
+    {
+      "group": "q_scan_both",
+      "window": "fixed_lab",
+      "mode": "charge_only",
+      "ua": 4.0,
+      "mismatch_percent": 0.49935821439585726,
+      "best_g": 0.8055782209415892,
+      "gains": {},
+      "all_declared_grid_comparisons_pass": false
+    },
+    {
+      "group": "q_scan_both",
+      "window": "fixed_lab",
+      "mode": "calibrated",
+      "ua": 4.0,
+      "mismatch_percent": 46.330931400320566,
+      "best_g": 0.8048910490436202,
+      "gains": {},
+      "all_declared_grid_comparisons_pass": false
+    },
+    {
+      "group": "q_scan_both",
+      "window": "fixed_lab",
+      "mode": "separate_axial_gains",
+      "ua": 4.0,
+      "mismatch_percent": 0.4855055282310854,
+      "best_g": 0.8055731645536525,
+      "gains": {
+        "B0_baseline": 0.6050559015017967,
+        "B0_qdouble": 0.6026153552626976,
+        "B0_qhalf": 0.6057830017902409,
+        "Bplus_baseline": 0.6040908298136455,
+        "Bplus_qdouble": 0.6023824338996407,
+        "Bplus_qhalf": 0.6050710867853062
+      },
+      "all_declared_grid_comparisons_pass": false
+    },
+    {
+      "group": "q_scan_both",
+      "window": "fixed_lab",
+      "mode": "shared_axial_gain",
+      "ua": 4.0,
+      "mismatch_percent": 0.5080905646419619,
+      "best_g": 0.8055732216210447,
+      "gains": {
+        "B0_baseline": 0.6041610126960548,
+        "B0_qdouble": 0.6041610126960548,
+        "B0_qhalf": 0.6041610126960548,
+        "Bplus_baseline": 0.6041610126960548,
+        "Bplus_qdouble": 0.6041610126960548,
+        "Bplus_qhalf": 0.6041610126960548
+      },
+      "all_declared_grid_comparisons_pass": false
+    },
+    {
+      "group": "mu_scan_both",
+      "window": "fixed_lab",
+      "mode": "charge_only",
+      "ua": 4.0,
+      "mismatch_percent": 0.6804152109842929,
+      "best_g": 0.8074232818704367,
+      "gains": {},
+      "all_declared_grid_comparisons_pass": false
+    },
+    {
+      "group": "mu_scan_both",
+      "window": "fixed_lab",
+      "mode": "calibrated",
+      "ua": 4.0,
+      "mismatch_percent": 46.318853340911616,
+      "best_g": 0.805561490188587,
+      "gains": {},
+      "all_declared_grid_comparisons_pass": false
+    },
+    {
+      "group": "mu_scan_both",
+      "window": "fixed_lab",
+      "mode": "separate_axial_gains",
+      "ua": 4.0,
+      "mismatch_percent": 0.7024463902238285,
+      "best_g": 0.8074054698014982,
+      "gains": {
+        "B0_baseline": 0.6050558955326582,
+        "B0_mu_high": 0.6042361098239377,
+        "B0_mu_low": 0.6051803719700409,
+        "Bplus_baseline": 0.6040881457421613,
+        "Bplus_mu_high": 0.602511853551878,
+        "Bplus_mu_low": 0.6043430415936291
+      },
+      "all_declared_grid_comparisons_pass": false
+    },
+    {
+      "group": "mu_scan_both",
+      "window": "fixed_lab",
+      "mode": "shared_axial_gain",
+      "ua": 4.0,
+      "mismatch_percent": 0.7098518734892001,
+      "best_g": 0.8074042907078192,
+      "gains": {
+        "B0_baseline": 0.6042333987819121,
+        "B0_mu_high": 0.6042333987819121,
+        "B0_mu_low": 0.6042333987819121,
+        "Bplus_baseline": 0.6042333987819121,
+        "Bplus_mu_high": 0.6042333987819121,
+        "Bplus_mu_low": 0.6042333987819121
+      },
+      "all_declared_grid_comparisons_pass": false
+    }
+  ],
+  "figure_scope": "Explicit finite-grid calculations, not confidence regions",
+  "visibility": {
+    "red_series": "Thin dashed line on foreground; markers staggered along Ua samples",
+    "zero_values": "Preserved on symmetric-log axes; 0.01 percent linear region, no artificial positive floor"
+  }
+}

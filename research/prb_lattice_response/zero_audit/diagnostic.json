@@ -1,0 +1,109 @@
+{
+  "status": "NUMERICAL_AUDIT_COMPLETED",
+  "completed_utc": "2026-09-10T12:57:56.897171+00:00",
+  "production_status_at_start": "FINITE_POLES_ZEROS_AND_EXTERIOR_SCAN_COMPLETED",
+  "source_directory": "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis",
+  "input_sha256": {
+    "finite_poles.csv": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "finite_charge_zeros.csv": "45a1de0423a10862dfc7ea20215c0aeb383da408553be6243b8c227358d77ea0",
+    "diagnostic.json": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d"
+  },
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "pole_zero_analysis.py": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28"
+  },
+  "audit_script_sha256": "5b43c9c054607cf6321977c4c352445ae3fbf4947a6bb879996c02b9087e5af3",
+  "limits": {
+    "normalized_zero_residual": 1e-07,
+    "newton_to_pole_distance": 0.0001,
+    "bare_distance_relative": 1e-08,
+    "dielectric_condition": 1000000000000.0,
+    "matrix_residue_relative": 1e-06,
+    "kernel_residual": 1e-10,
+    "kernel_separation": 1e-08,
+    "moment0_relative": 1e-10
+  },
+  "zero_status_counts": {
+    "PASS_NUMERICAL_ZERO": 1809,
+    "FAIL_NUMERICAL_ZERO": 16,
+    "UNRESOLVED_NEAR_BARE_TRANSITION": 45,
+    "PRESERVED_UNRESOLVED_ZERO_TOO_CLOSE_TO_POLE": 782,
+    "PASS_MULTIPLICATION_ZERO": 1
+  },
+  "resolved_candidates_count": 1870,
+  "all_previously_resolved_zeros_pass": false,
+  "selected_residue_count": 8,
+  "all_selected_residues_pass": true,
+  "reconstruction_checks": [
+    {
+      "z_real": 0.17,
+      "z_imag": 0.13,
+      "absolute_error": 4.546431911745298e-16,
+      "relative_error": 4.445704571367532e-15
+    },
+    {
+      "z_real": 0.43,
+      "z_imag": 0.19,
+      "absolute_error": 1.184194975819842e-16,
+      "relative_error": 1.4218566458233053e-15
+    },
+    {
+      "z_real": 1.07,
+      "z_imag": 0.07,
+      "absolute_error": 2.0819945356174282e-16,
+      "relative_error": 2.2988039919725714e-15
+    },
+    {
+      "z_real": 2.31,
+      "z_imag": 0.11,
+      "absolute_error": 1.8052080126707268e-16,
+      "relative_error": 2.023541692003657e-15
+    },
+    {
+      "z_real": -0.31,
+      "z_imag": 0.23,
+      "absolute_error": 8.833763136652402e-16,
+      "relative_error": 8.849854161962796e-15
+    }
+  ],
+  "moment_checks": {
+    "raw_moment0_error": 8.881784197001252e-16,
+    "modal_moment0_error": 3.552713678800501e-15,
+    "first_moment_absolute_error": 8.526512829121202e-14,
+    "charge_weight_relation_max_error": 5.421010862427522e-20,
+    "factorization_assessment": "No re-factorization or modal diagonalization in this audit"
+  },
+  "eigensystem": {
+    "status": "INDEPENDENT_EIGENPAIR_AUDIT_COMPLETED",
+    "retained_transitions": 2654,
+    "factorization_absolute_error": 8.673617379884035e-19,
+    "cholesky_relative_frobenius_error": 1.860386695961792e-16,
+    "hermitian_max_defect": 2.465190328815662e-32,
+    "maximum_eigenpair_relative_residual": 3.4834569455645418e-15,
+    "orthogonality_max_entry_error": 1.8207657603852567e-14,
+    "orthogonality_frobenius_error": 2.287160350522566e-13,
+    "csv_eigenvalue_max_absolute_difference": 3.8191672047105385e-14,
+    "csv_eigenvalue_max_relative_difference": 2.459472238185593e-15,
+    "eigensystem_numerical_checks_pass": true,
+    "comparison_group_separation": 1e-08,
+    "comparison_groups": 2654,
+    "maximum_group_residue_absolute_difference": 1.3824011380059176e-14,
+    "scope": "Every eigenpair retained. Close comparison groups are not asserted to be exactly degenerate; raw individual-basis residues may rotate."
+  },
+  "input_csv_and_source_bytes_unchanged": true,
+  "complete_scalar_zero_catalog_certified": false,
+  "submission_ready": false,
+  "continuum_or_collectivity_certified": false,
+  "scope": [
+    "Existing installed Python/numpy/scipy environment; no environment reinstallation.",
+    "All raw transition slots are regenerated; only identically zero matrix weights are skipped during sums.",
+    "No nonzero modal charge weight is removed or classified as structurally dark.",
+    "Newton correction is a local numerical error estimate, not an interval-arithmetic proof.",
+    "Cofactor term-cancellation ratio is supplementary; acceptance uses the dressed spectral scale.",
+    "Near bare transitions, unresolved modal intervals and multiplicities remain explicit.",
+    "The running production diagnostic is snapshotted; its later updates are not treated as an input mutation.",
+    "Numerical audit completion is not a blanket scientific PASS."
+  ]
+}

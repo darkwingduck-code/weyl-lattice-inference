@@ -1,0 +1,12 @@
+{
+  "self_test.json": "0f16be9bda094840986160a5b636ca832648ec81caa80452da7f5c2d8837fa14",
+  "eigensystem.json": "96880d6356923aeb9fdcdc5add83cb2ea2dc94e97ed7159774908542eeef573a",
+  "eigenpairs.json": "147c893c52246d37527dd3bb0a1cbc067f8d26479938781086913c6642ee1e67",
+  "residue_comparison_groups.json": "03d26b595be75f4b80d21be68a0568489d702208ca7f49d8a227e295acf3a910",
+  "zero_checks.json": "26637c5eb0448450d6ce250c207ff310a5ff578713afc090d658cf17fd513ffc",
+  "residue_checks.json": "f8a48b4391dbb9c0ff0db5f9c85c4dd46dddb857cf78dac8184f2f213cf2e03b",
+  "diagnostic.json": "04e3d76ee1b4b302adf5163e5c51af1541aef30d42cf19a666b2545e5c9e81d6",
+  "inputs/finite_poles.csv": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+  "inputs/finite_charge_zeros.csv": "45a1de0423a10862dfc7ea20215c0aeb383da408553be6243b8c227358d77ea0",
+  "inputs/diagnostic.json": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d"
+}

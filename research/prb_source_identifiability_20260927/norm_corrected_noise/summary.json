@@ -1,0 +1,1734 @@
+{
+  "status": "ABSOLUTE_NOISE_SENSITIVITY_PASS",
+  "design_id": "mixed_source_absolute_noise_v1",
+  "seed": 2026091501,
+  "workers": 4,
+  "common_clean_response_rms": 0.18176086363415025,
+  "fit_row_count": 600,
+  "expected_fit_rows": 600,
+  "overall_optimizer_success_fraction": 1.0,
+  "all_estimates_finite": true,
+  "noise_checks": [
+    {
+      "field": "Bplus",
+      "epsilon": 0.001,
+      "declared_absolute_complex_rms": 0.00018176086363415025,
+      "aggregate_empirical_complex_rms": 0.00018034975831538561,
+      "empirical_to_declared_ratio": 0.9922364732949063,
+      "within_predeclared_tolerance": true
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.01,
+      "declared_absolute_complex_rms": 0.0018176086363415026,
+      "aggregate_empirical_complex_rms": 0.0018009468497482582,
+      "empirical_to_declared_ratio": 0.9908331275170538,
+      "within_predeclared_tolerance": true
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.001,
+      "declared_absolute_complex_rms": 0.00018176086363415025,
+      "aggregate_empirical_complex_rms": 0.00018291552205099994,
+      "empirical_to_declared_ratio": 1.0063526239574532,
+      "within_predeclared_tolerance": true
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.01,
+      "declared_absolute_complex_rms": 0.0018176086363415026,
+      "aggregate_empirical_complex_rms": 0.0018241746719620995,
+      "empirical_to_declared_ratio": 1.0036124584188888,
+      "within_predeclared_tolerance": true
+    }
+  ],
+  "group_summaries": [
+    {
+      "field": "Bplus",
+      "epsilon": 0.001,
+      "model_mesh": "final",
+      "lambda_mode": "known",
+      "count": 50,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -5.0778437328373724e-05,
+          "rmse": 0.000492417900937946,
+          "sample_standard_deviation": 0.0004947653942770282,
+          "quantiles": {
+            "q025": 0.7991248928227215,
+            "q16": 0.7993711324394994,
+            "q50": 0.7999717326635636,
+            "q84": 0.8003691678374375,
+            "q975": 0.8008697975258767
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.007641863373534808,
+          "rmse": 0.04121153055450174,
+          "sample_standard_deviation": 0.04090796258532693,
+          "quantiles": {
+            "q025": 7.936279297430359,
+            "q16": 7.963922071279789,
+            "q50": 8.009108977779684,
+            "q84": 8.050060631539155,
+            "q975": 8.083402957239809
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 50,
+        "nonfinite_count": 0,
+        "bias": 0.9786511376562413,
+        "rmse": 0.9791654701218968,
+        "sample_standard_deviation": 0.032054937586169764,
+        "quantiles": {
+          "q025": 0.9225078597321751,
+          "q16": 0.946266349168829,
+          "q50": 0.9792196064960237,
+          "q84": 1.0091536031912731,
+          "q975": 1.042272618791411
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.001,
+      "model_mesh": "final",
+      "lambda_mode": "joint",
+      "count": 50,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -3.1577317952484754e-05,
+          "rmse": 0.0005043248259451587,
+          "sample_standard_deviation": 0.000508445412814176,
+          "quantiles": {
+            "q025": 0.7990984856278228,
+            "q16": 0.7993769499660983,
+            "q50": 0.8000098215040132,
+            "q84": 0.800407354673079,
+            "q975": 0.8008896889145336
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.0008070731285699573,
+          "rmse": 0.04784516452508222,
+          "sample_standard_deviation": 0.04832403806064916,
+          "quantiles": {
+            "q025": 7.908738288898853,
+            "q16": 7.959233046641271,
+            "q50": 8.002251758981402,
+            "q84": 8.049465271003353,
+            "q975": 8.103269797453482
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "lambda": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.0018455529886020861,
+          "rmse": 0.011786627658971184,
+          "sample_standard_deviation": 0.011759430680785983,
+          "quantiles": {
+            "q025": 0.6790434878449197,
+            "q16": 0.6873731511348579,
+            "q50": 0.697118717705717,
+            "q84": 0.7102962566088317,
+            "q975": 0.7172181071196043
+          },
+          "bounds": [
+            -1.0,
+            1.0
+          ],
+          "boundary_tolerance": 2e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 50,
+        "nonfinite_count": 0,
+        "bias": 0.9774284655729589,
+        "rmse": 0.9779486853173429,
+        "sample_standard_deviation": 0.032217782540815615,
+        "quantiles": {
+          "q025": 0.9223557051174182,
+          "q16": 0.9448362220531218,
+          "q50": 0.9777844392108883,
+          "q84": 1.008743411139025,
+          "q975": 1.0419241923857954
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.001,
+      "model_mesh": "coarse",
+      "lambda_mode": "known",
+      "count": 50,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -8.04828802501678e-05,
+          "rmse": 0.0004963691319522399,
+          "sample_standard_deviation": 0.0004947735218255422,
+          "quantiles": {
+            "q025": 0.7990947464459371,
+            "q16": 0.7993407804901919,
+            "q50": 0.7999415191770907,
+            "q84": 0.8003405407699707,
+            "q975": 0.8008402215421198
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.009624314899934826,
+          "rmse": 0.04169431862637376,
+          "sample_standard_deviation": 0.04098019392719712,
+          "quantiles": {
+            "q025": 7.938086489237687,
+            "q16": 7.9659137856152755,
+            "q50": 8.01087351018052,
+            "q84": 8.051953814644826,
+            "q975": 8.085751523166351
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 50,
+        "nonfinite_count": 0,
+        "bias": 1.0614699025421894,
+        "rmse": 1.0621800969328992,
+        "sample_standard_deviation": 0.03922988653318071,
+        "quantiles": {
+          "q025": 0.9873720078370941,
+          "q16": 1.0223283845020361,
+          "q50": 1.0583293604099653,
+          "q84": 1.0996868931028954,
+          "q975": 1.1303080413021396
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.001,
+      "model_mesh": "coarse",
+      "lambda_mode": "joint",
+      "count": 50,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -7.89507614267304e-05,
+          "rmse": 0.0005092312194007804,
+          "sample_standard_deviation": 0.0005081812428597044,
+          "quantiles": {
+            "q025": 0.7990513985052695,
+            "q16": 0.7993269588877582,
+            "q50": 0.7999626788521943,
+            "q84": 0.8003640569389296,
+            "q975": 0.8008392144711713
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.009050528597075119,
+          "rmse": 0.048443765858961645,
+          "sample_standard_deviation": 0.048073990408402406,
+          "quantiles": {
+            "q025": 7.919973939787601,
+            "q16": 7.967163541621754,
+            "q50": 8.01017765237138,
+            "q84": 8.056921737780492,
+            "q975": 8.111687521602972
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "lambda": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.0010310700842753229,
+          "rmse": 0.011876536927415414,
+          "sample_standard_deviation": 0.011951817548977875,
+          "quantiles": {
+            "q025": 0.6821039029843398,
+            "q16": 0.6901279714614291,
+            "q50": 0.6999706305780167,
+            "q84": 0.7132795438672348,
+            "q975": 0.7205683168628001
+          },
+          "bounds": [
+            -1.0,
+            1.0
+          ],
+          "boundary_tolerance": 2e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 50,
+        "nonfinite_count": 0,
+        "bias": 1.0603619570544964,
+        "rmse": 1.061081170036894,
+        "sample_standard_deviation": 0.03945766833236396,
+        "quantiles": {
+          "q025": 0.9871787417023283,
+          "q16": 1.021951210862718,
+          "q50": 1.0580691455497195,
+          "q84": 1.0994386366030753,
+          "q975": 1.1296476395765847
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.01,
+      "model_mesh": "final",
+      "lambda_mode": "known",
+      "count": 25,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.00015343583204179277,
+          "rmse": 0.00391846582101505,
+          "sample_standard_deviation": 0.003996200257211634,
+          "quantiles": {
+            "q025": 0.7923785370183904,
+            "q16": 0.7960444475066284,
+            "q50": 0.8011776745703737,
+            "q84": 0.8041276966591188,
+            "q975": 0.8049389823068329
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.015165566497246062,
+          "rmse": 0.32434451169753836,
+          "sample_standard_deviation": 0.33067066927989347,
+          "quantiles": {
+            "q025": 7.3991466662524905,
+            "q16": 7.710005677739572,
+            "q50": 8.021933186299362,
+            "q84": 8.288732439074609,
+            "q975": 8.587824559455951
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 25,
+        "nonfinite_count": 0,
+        "bias": 0.9772032819129838,
+        "rmse": 0.9781388430781445,
+        "sample_standard_deviation": 0.04365277478704979,
+        "quantiles": {
+          "q025": 0.9013366344819483,
+          "q16": 0.9416996201808018,
+          "q50": 0.9752366108068559,
+          "q84": 1.0142502918493184,
+          "q975": 1.0588065693838102
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.01,
+      "model_mesh": "final",
+      "lambda_mode": "joint",
+      "count": 25,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.0010099904348947275,
+          "rmse": 0.004228704780761208,
+          "sample_standard_deviation": 0.004190995238337122,
+          "quantiles": {
+            "q025": 0.7930513187407079,
+            "q16": 0.7969226256037767,
+            "q50": 0.8020989898621005,
+            "q84": 0.8049893221401985,
+            "q975": 0.8069282110587447
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.3270094727523022,
+          "rmse": 0.5434341181361892,
+          "sample_standard_deviation": 0.4429840166942622,
+          "quantiles": {
+            "q025": 6.726946222217934,
+            "q16": 7.291694156668265,
+            "q50": 7.736781534981069,
+            "q84": 7.981037187394448,
+            "q975": 8.36249610633288
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "lambda": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.06939819814170496,
+          "rmse": 0.17790844798213754,
+          "sample_standard_deviation": 0.167192833896527,
+          "quantiles": {
+            "q025": 0.5355188989669667,
+            "q16": 0.6020379631571932,
+            "q50": 0.7509711465116047,
+            "q84": 0.9999999999999989,
+            "q975": 0.9999999999999999
+          },
+          "bounds": [
+            -1.0,
+            1.0
+          ],
+          "boundary_tolerance": 2e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 5,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.2
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 25,
+        "nonfinite_count": 0,
+        "bias": 0.9751890826950455,
+        "rmse": 0.9760933937102096,
+        "sample_standard_deviation": 0.04287294986728885,
+        "quantiles": {
+          "q025": 0.9007379182245431,
+          "q16": 0.9393587881393388,
+          "q50": 0.9752316440961944,
+          "q84": 1.0124572537295788,
+          "q975": 1.0557103040772422
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.01,
+      "model_mesh": "coarse",
+      "lambda_mode": "known",
+      "count": 25,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.00011994558695003654,
+          "rmse": 0.003915029054627843,
+          "sample_standard_deviation": 0.003993884068531037,
+          "quantiles": {
+            "q025": 0.792353674075074,
+            "q16": 0.7960077969930145,
+            "q50": 0.8011345186268795,
+            "q84": 0.8040842343761443,
+            "q975": 0.8048925599863193
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.012682491922773877,
+          "rmse": 0.324442954877319,
+          "sample_standard_deviation": 0.3308801163943843,
+          "quantiles": {
+            "q025": 7.400824085201794,
+            "q16": 7.714287443303273,
+            "q50": 8.02687885435633,
+            "q84": 8.292924840718275,
+            "q975": 8.592963916410236
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 25,
+        "nonfinite_count": 0,
+        "bias": 0.977941541781377,
+        "rmse": 0.9788585875229551,
+        "sample_standard_deviation": 0.04323476641279171,
+        "quantiles": {
+          "q025": 0.903219690150585,
+          "q16": 0.9401243685662319,
+          "q50": 0.9755637670663083,
+          "q84": 1.016018131985469,
+          "q975": 1.057529944036894
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.01,
+      "model_mesh": "coarse",
+      "lambda_mode": "joint",
+      "count": 25,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.0009636162843418239,
+          "rmse": 0.0041935447210976005,
+          "sample_standard_deviation": 0.004165490790460752,
+          "quantiles": {
+            "q025": 0.7930287111805392,
+            "q16": 0.7968910380638645,
+            "q50": 0.8021247415245241,
+            "q84": 0.8049395570803118,
+            "q975": 0.8068165641089807
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.32114027348075735,
+          "rmse": 0.535334184862993,
+          "sample_standard_deviation": 0.43714463452189445,
+          "quantiles": {
+            "q025": 6.738295919482649,
+            "q16": 7.311808934342662,
+            "q50": 7.769878483034061,
+            "q84": 7.9873964782691536,
+            "q975": 8.36709675226927
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "lambda": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.07405006956492675,
+          "rmse": 0.17988675151953462,
+          "sample_standard_deviation": 0.1673190271410188,
+          "quantiles": {
+            "q025": 0.5372472928270754,
+            "q16": 0.6051045616899543,
+            "q50": 0.7685403895431518,
+            "q84": 0.9999999999998949,
+            "q975": 0.9999999999999999
+          },
+          "bounds": [
+            -1.0,
+            1.0
+          ],
+          "boundary_tolerance": 2e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 5,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.2
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 25,
+        "nonfinite_count": 0,
+        "bias": 0.975919109696819,
+        "rmse": 0.9768039256193879,
+        "sample_standard_deviation": 0.04242395689661293,
+        "quantiles": {
+          "q025": 0.9026792776917114,
+          "q16": 0.9387899169394753,
+          "q50": 0.9755636600185602,
+          "q84": 1.0143699983546932,
+          "q975": 1.0543296856278799
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.001,
+      "model_mesh": "final",
+      "lambda_mode": "known",
+      "count": 50,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.00017786966542199245,
+          "rmse": 0.0023059588460537755,
+          "sample_standard_deviation": 0.0023224302414374455,
+          "quantiles": {
+            "q025": 0.7956997907633366,
+            "q16": 0.7976943997941823,
+            "q50": 0.8005519200628383,
+            "q84": 0.8025496980259871,
+            "q975": 0.8039761390471726
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.011830180105036786,
+          "rmse": 0.10057831233866896,
+          "sample_standard_deviation": 0.10089418457572896,
+          "quantiles": {
+            "q025": 7.814205160755716,
+            "q16": 7.86492494507448,
+            "q50": 7.998597940744297,
+            "q84": 8.08326529147689,
+            "q975": 8.151938787857032
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 50,
+        "nonfinite_count": 0,
+        "bias": 0.9909576266250525,
+        "rmse": 0.9917876640333495,
+        "sample_standard_deviation": 0.04097974564879505,
+        "quantiles": {
+          "q025": 0.9167314880134768,
+          "q16": 0.9492831958246087,
+          "q50": 0.9971032756596081,
+          "q84": 1.0338556174732385,
+          "q975": 1.0511559557520944
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.001,
+      "model_mesh": "final",
+      "lambda_mode": "joint",
+      "count": 50,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.00014128651869428356,
+          "rmse": 0.002230981481888411,
+          "sample_standard_deviation": 0.00224910787124454,
+          "quantiles": {
+            "q025": 0.7959370100424855,
+            "q16": 0.7977822832623293,
+            "q50": 0.8001309477104053,
+            "q84": 0.8024329568585608,
+            "q975": 0.8039150536073716
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.02771080335612929,
+          "rmse": 0.14285087955210818,
+          "sample_standard_deviation": 0.14156013060789158,
+          "quantiles": {
+            "q025": 7.693405137699624,
+            "q16": 7.826426559145085,
+            "q50": 7.977890109911862,
+            "q84": 8.132745076085403,
+            "q975": 8.168753883088366
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "lambda": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.001069587022824745,
+          "rmse": 0.006979782162090101,
+          "sample_standard_deviation": 0.006967368741090321,
+          "quantiles": {
+            "q025": 0.6897410658468773,
+            "q16": 0.6937694570868929,
+            "q50": 0.7006777855114045,
+            "q84": 0.708799509551915,
+            "q975": 0.7143656696202124
+          },
+          "bounds": [
+            -1.0,
+            1.0
+          ],
+          "boundary_tolerance": 2e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 50,
+        "nonfinite_count": 0,
+        "bias": 0.989802651815607,
+        "rmse": 0.9906372696126914,
+        "sample_standard_deviation": 0.04106876270206094,
+        "quantiles": {
+          "q025": 0.916150086036906,
+          "q16": 0.9477100095750473,
+          "q50": 0.9961218864882608,
+          "q84": 1.0336713531071624,
+          "q975": 1.050981666009231
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.001,
+      "model_mesh": "coarse",
+      "lambda_mode": "known",
+      "count": 50,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.0006283502586470635,
+          "rmse": 0.002384017577640416,
+          "sample_standard_deviation": 0.0023230688189786507,
+          "quantiles": {
+            "q025": 0.7948726766342539,
+            "q16": 0.7969079164897038,
+            "q50": 0.7997452502032882,
+            "q84": 0.8017498165480036,
+            "q975": 0.8031663070362517
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.02507657135132414,
+          "rmse": 0.1027883293330887,
+          "sample_standard_deviation": 0.10069455843448427,
+          "quantiles": {
+            "q025": 7.800091481794089,
+            "q16": 7.851850025166348,
+            "q50": 7.985218012199793,
+            "q84": 8.06985896277952,
+            "q975": 8.138411785415125
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 50,
+        "nonfinite_count": 0,
+        "bias": 0.9992214848573603,
+        "rmse": 1.0000321891714208,
+        "sample_standard_deviation": 0.040667938262053595,
+        "quantiles": {
+          "q025": 0.9225143733376457,
+          "q16": 0.956931092535344,
+          "q50": 1.006461530633351,
+          "q84": 1.042585322875203,
+          "q975": 1.0638021617921147
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.001,
+      "model_mesh": "coarse",
+      "lambda_mode": "joint",
+      "count": 50,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.0006734904066568093,
+          "rmse": 0.0023265825505548827,
+          "sample_standard_deviation": 0.0022495797876736687,
+          "quantiles": {
+            "q025": 0.7951010771368979,
+            "q16": 0.7969666680598171,
+            "q50": 0.7993222246415197,
+            "q84": 0.8016238976124191,
+            "q975": 0.8030951421794024
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.04471567508197978,
+          "rmse": 0.14669346174884187,
+          "sample_standard_deviation": 0.14113056670686824,
+          "quantiles": {
+            "q025": 7.677389157685346,
+            "q16": 7.80961237488196,
+            "q50": 7.960961298719651,
+            "q84": 8.115254831130242,
+            "q975": 8.151110548449095
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "lambda": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.0013095537094763654,
+          "rmse": 0.0070204483335685125,
+          "sample_standard_deviation": 0.006967253132369443,
+          "quantiles": {
+            "q025": 0.6899672212074263,
+            "q16": 0.6940110986452117,
+            "q50": 0.7009035219167483,
+            "q84": 0.7090473139428215,
+            "q975": 0.7145984149512342
+          },
+          "bounds": [
+            -1.0,
+            1.0
+          ],
+          "boundary_tolerance": 2e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 50,
+        "nonfinite_count": 0,
+        "bias": 0.9980601718756276,
+        "rmse": 0.998877485524774,
+        "sample_standard_deviation": 0.040809717778875335,
+        "quantiles": {
+          "q025": 0.9208102251423764,
+          "q16": 0.9555585079414316,
+          "q50": 1.005805024373875,
+          "q84": 1.0401982872184925,
+          "q975": 1.0604675209503753
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.01,
+      "model_mesh": "final",
+      "lambda_mode": "known",
+      "count": 25,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.004241605218986227,
+          "rmse": 0.022863082107556873,
+          "sample_standard_deviation": 0.022929450418238424,
+          "quantiles": {
+            "q025": 0.7558938158719896,
+            "q16": 0.7741816349788837,
+            "q50": 0.7982089014395567,
+            "q84": 0.8193631985662567,
+            "q975": 0.8344190680275436
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.10914026838762216,
+          "rmse": 0.7848970453636285,
+          "sample_standard_deviation": 0.7932999207141224,
+          "quantiles": {
+            "q025": 6.759886867281054,
+            "q16": 7.011378366399869,
+            "q50": 7.907582133208942,
+            "q84": 8.66282925200865,
+            "q975": 9.235984124069017
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 25,
+        "nonfinite_count": 0,
+        "bias": 0.9900704074987946,
+        "rmse": 0.9906600534546791,
+        "sample_standard_deviation": 0.034879699593720635,
+        "quantiles": {
+          "q025": 0.9333628955879757,
+          "q16": 0.9620927106144527,
+          "q50": 0.9880475727717491,
+          "q84": 1.0084745370689694,
+          "q975": 1.060186393910843
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.01,
+      "model_mesh": "final",
+      "lambda_mode": "joint",
+      "count": 25,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.00391201610228133,
+          "rmse": 0.023459427354670517,
+          "sample_standard_deviation": 0.023607927292908303,
+          "quantiles": {
+            "q025": 0.7558388716225253,
+            "q16": 0.7745339869422831,
+            "q50": 0.7949792083754704,
+            "q84": 0.8208202348287043,
+            "q975": 0.8369522263129443
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.19680670552332483,
+          "rmse": 2.0505996806048348,
+          "sample_standard_deviation": 2.08322320644539,
+          "quantiles": {
+            "q025": 5.20217354608898,
+            "q16": 6.097976024271719,
+            "q50": 8.322682260548392,
+            "q84": 10.363575220611324,
+            "q975": 11.518007354098934
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "lambda": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.0004583680914393895,
+          "rmse": 0.09761810983739005,
+          "sample_standard_deviation": 0.09962996781276402,
+          "quantiles": {
+            "q025": 0.5719336817948357,
+            "q16": 0.597199816705661,
+            "q50": 0.684753207408865,
+            "q84": 0.8218346521614587,
+            "q975": 0.8601841564943647
+          },
+          "bounds": [
+            -1.0,
+            1.0
+          ],
+          "boundary_tolerance": 2e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 25,
+        "nonfinite_count": 0,
+        "bias": 0.987854813149561,
+        "rmse": 0.9884489651891926,
+        "sample_standard_deviation": 0.03497357515609927,
+        "quantiles": {
+          "q025": 0.9311056428437132,
+          "q16": 0.9580627059254891,
+          "q50": 0.9879361726570227,
+          "q84": 1.0081731301138446,
+          "q975": 1.058160255648146
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.01,
+      "model_mesh": "coarse",
+      "lambda_mode": "known",
+      "count": 25,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.005032659441812744,
+          "rmse": 0.022992720930786414,
+          "sample_standard_deviation": 0.022897815460390103,
+          "quantiles": {
+            "q025": 0.7552109936816855,
+            "q16": 0.7735535999654606,
+            "q50": 0.7975999041474904,
+            "q84": 0.8184803165964586,
+            "q975": 0.8334887130885034
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.12271614984893318,
+          "rmse": 0.7847400312578402,
+          "sample_standard_deviation": 0.7910684120389613,
+          "quantiles": {
+            "q025": 6.749580235045152,
+            "q16": 6.999839131053692,
+            "q50": 7.885492118514542,
+            "q84": 8.652947319202983,
+            "q975": 9.216362632980035
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 25,
+        "nonfinite_count": 0,
+        "bias": 0.9902087958594571,
+        "rmse": 0.990790129382941,
+        "sample_standard_deviation": 0.03463531863739216,
+        "quantiles": {
+          "q025": 0.9346028527972088,
+          "q16": 0.9626418606043918,
+          "q50": 0.9875977283132158,
+          "q84": 1.009023034325394,
+          "q975": 1.060239235180116
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.01,
+      "model_mesh": "coarse",
+      "lambda_mode": "joint",
+      "count": 25,
+      "success_fraction": 1.0,
+      "all_starts_success_fraction": 1.0,
+      "parameters": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.004713370318635977,
+          "rmse": 0.02357677428034846,
+          "sample_standard_deviation": 0.02357718763502088,
+          "quantiles": {
+            "q025": 0.7551500304138286,
+            "q16": 0.773658381218518,
+            "q50": 0.7941095788444312,
+            "q84": 0.8200559784591603,
+            "q975": 0.8360067434986269
+          },
+          "bounds": [
+            0.2,
+            1.6
+          ],
+          "boundary_tolerance": 1.4000000000000003e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.17767424405646548,
+          "rmse": 2.0428896494518054,
+          "sample_standard_deviation": 2.077114881782211,
+          "quantiles": {
+            "q025": 5.191919424873718,
+            "q16": 6.0805752897467285,
+            "q50": 8.30942811995649,
+            "q84": 10.348188464104899,
+            "q975": 11.492964037837226
+          },
+          "bounds": [
+            0.0,
+            24.0
+          ],
+          "boundary_tolerance": 0.00024000000000000003,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        },
+        "lambda": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.00018013086209421657,
+          "rmse": 0.09755000986568242,
+          "sample_standard_deviation": 0.09956139216619093,
+          "quantiles": {
+            "q025": 0.5722792426880656,
+            "q16": 0.5975962226614989,
+            "q50": 0.6851136935715447,
+            "q84": 0.8221004753532175,
+            "q975": 0.8602610156472985
+          },
+          "bounds": [
+            -1.0,
+            1.0
+          ],
+          "boundary_tolerance": 2e-05,
+          "lower_bound_hits": 0,
+          "upper_bound_hits": 0,
+          "lower_bound_hit_rate": 0.0,
+          "upper_bound_hit_rate": 0.0
+        }
+      },
+      "residual_noise_units": {
+        "finite_count": 25,
+        "nonfinite_count": 0,
+        "bias": 0.9879951968315623,
+        "rmse": 0.9885811641797876,
+        "sample_standard_deviation": 0.03473424716128284,
+        "quantiles": {
+          "q025": 0.9323319437721282,
+          "q16": 0.9580879054213772,
+          "q50": 0.9874850486231324,
+          "q84": 1.0083383309286695,
+          "q975": 1.0582246481296522
+        }
+      }
+    }
+  ],
+  "paired_mesh_effects": [
+    {
+      "field": "Bplus",
+      "epsilon": 0.001,
+      "lambda_mode": "known",
+      "count": 50,
+      "coarse_minus_final": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -2.9704442921794082e-05,
+          "rmse": 2.9717507523479664e-05,
+          "sample_standard_deviation": 8.90037899873939e-07,
+          "quantiles": {
+            "q025": -3.130801593780874e-05,
+            "q16": -3.039352239670112e-05,
+            "q50": -2.9832081841818514e-05,
+            "q84": -2.884944877100004e-05,
+            "q975": -2.7925570558029467e-05
+          }
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.0019824515264000196,
+          "rmse": 0.0020029359192422903,
+          "sample_standard_deviation": 0.00028862489261660874,
+          "quantiles": {
+            "q025": 0.0015407202230679705,
+            "q16": 0.0016986377465575942,
+            "q50": 0.00197883429708412,
+            "q84": 0.0022403805404533723,
+            "q975": 0.0024832632460666916
+          }
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.001,
+      "lambda_mode": "joint",
+      "count": 50,
+      "coarse_minus_final": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -4.737344347424566e-05,
+          "rmse": 4.7576804332973814e-05,
+          "sample_standard_deviation": 4.4388318846897235e-06,
+          "quantiles": {
+            "q025": -5.7439533372996564e-05,
+            "q16": -5.059243167109262e-05,
+            "q50": -4.6691321339276115e-05,
+            "q84": -4.407925756559017e-05,
+            "q975": -4.009102083179228e-05
+          }
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.00824345546850516,
+          "rmse": 0.008406509632472867,
+          "sample_standard_deviation": 0.00166440715057622,
+          "quantiles": {
+            "q025": 0.005578838855566248,
+            "q16": 0.007186441634760641,
+            "q50": 0.007991235112946526,
+            "q84": 0.009625271850628997,
+            "q975": 0.012056376163613323
+          }
+        },
+        "lambda": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.002876623072877409,
+          "rmse": 0.00292185522273675,
+          "sample_standard_deviation": 0.0005173299180459849,
+          "quantiles": {
+            "q025": 0.002026832832953909,
+            "q16": 0.0023675358020301207,
+            "q50": 0.002914767201220414,
+            "q84": 0.003457191249779119,
+            "q975": 0.00371010284162733
+          }
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.01,
+      "lambda_mode": "known",
+      "count": 25,
+      "coarse_minus_final": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -3.349024509175624e-05,
+          "rmse": 3.5074639264187385e-05,
+          "sample_standard_deviation": 1.063767886683599e-05,
+          "quantiles": {
+            "q025": -5.5841243744758626e-05,
+            "q16": -4.02003858885136e-05,
+            "q50": -3.3646151366806265e-05,
+            "q84": -2.2002613162475092e-05,
+            "q975": -1.7665151255874536e-05
+          }
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.002483074574472184,
+          "rmse": 0.003388960936944146,
+          "sample_standard_deviation": 0.002353941041491005,
+          "quantiles": {
+            "q025": -0.0008413609827584879,
+            "q16": -0.0004551751444184049,
+            "q50": 0.002076225051608205,
+            "q84": 0.004929994028364355,
+            "q975": 0.006849649528051669
+          }
+        }
+      }
+    },
+    {
+      "field": "Bplus",
+      "epsilon": 0.01,
+      "lambda_mode": "joint",
+      "count": 25,
+      "coarse_minus_final": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -4.637415055290361e-05,
+          "rmse": 6.954017974565188e-05,
+          "sample_standard_deviation": 5.288819535462482e-05,
+          "quantiles": {
+            "q025": -0.00013638527837542825,
+            "q16": -0.00010387859060867922,
+            "q50": -3.368683220961177e-05,
+            "q84": -1.664537993590897e-06,
+            "q975": 4.277015866045447e-05
+          }
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.005869199271544758,
+          "rmse": 0.019006872214356676,
+          "sample_standard_deviation": 0.018450770401818094,
+          "quantiles": {
+            "q025": -0.02799314109171167,
+            "q16": -0.009103499475591158,
+            "q50": 0.00264938208744514,
+            "q84": 0.025745689413492485,
+            "q975": 0.034342838706087696
+          }
+        },
+        "lambda": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.004651871423221805,
+          "rmse": 0.007010903895846963,
+          "sample_standard_deviation": 0.0053534320863090614,
+          "quantiles": {
+            "q025": -0.0022214692596764785,
+            "q16": 0.0,
+            "q50": 0.003351503023317215,
+            "q84": 0.009537428451002907,
+            "q975": 0.015730004563613172
+          }
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.001,
+      "lambda_mode": "known",
+      "count": 50,
+      "coarse_minus_final": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.0008062199240690559,
+          "rmse": 0.0008063009883241497,
+          "sample_standard_deviation": 1.1549264778524717e-05,
+          "quantiles": {
+            "q025": -0.0008279251230645324,
+            "q16": -0.0008168177609832039,
+            "q50": -0.0008069025162139587,
+            "q84": -0.0007937581461139498,
+            "q975": -0.0007858070693840785
+          }
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.013246391246287353,
+          "rmse": 0.013255573180804638,
+          "sample_standard_deviation": 0.0004983025287433571,
+          "quantiles": {
+            "q025": -0.014272126282383413,
+            "q16": -0.013745933718081318,
+            "q50": -0.013252370151731085,
+            "q84": -0.01276651882095699,
+            "q975": -0.012584647003575556
+          }
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.001,
+      "lambda_mode": "joint",
+      "count": 50,
+      "coarse_minus_final": {
+        "g": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.0008147769253510928,
+          "rmse": 0.0008148606182109448,
+          "sample_standard_deviation": 1.179713846931189e-05,
+          "quantiles": {
+            "q025": -0.0008372903306036378,
+            "q16": -0.0008261568569361444,
+            "q50": -0.0008154870231376621,
+            "q84": -0.0008021113587450035,
+            "q975": -0.000793967967748177
+          }
+        },
+        "Ua": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": -0.017004871725850492,
+          "rmse": 0.017018232050798648,
+          "sample_standard_deviation": 0.000681055395122425,
+          "quantiles": {
+            "q025": -0.018198801924889364,
+            "q16": -0.017800193331146658,
+            "q50": -0.016899588849520253,
+            "q84": -0.016439603783245396,
+            "q975": -0.01586579344595409
+          }
+        },
+        "lambda": {
+          "finite_count": 50,
+          "nonfinite_count": 0,
+          "bias": 0.00023996668665162034,
+          "rmse": 0.0002403602299912797,
+          "sample_standard_deviation": 1.3888383741932875e-05,
+          "quantiles": {
+            "q025": 0.00021750297254643225,
+            "q16": 0.00022798668052189885,
+            "q50": 0.00023798970130195496,
+            "q84": 0.0002543932496677126,
+            "q975": 0.00026971131569137886
+          }
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.01,
+      "lambda_mode": "known",
+      "count": 25,
+      "coarse_minus_final": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.0007910542228265171,
+          "rmse": 0.000801561145204978,
+          "sample_standard_deviation": 0.00013202543177772452,
+          "quantiles": {
+            "q025": -0.0010216401589752567,
+            "q16": -0.0009194136698552003,
+            "q50": -0.0008124232335969817,
+            "q84": -0.0006474570222206033,
+            "q975": -0.0005725905235315576
+          }
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.013575881461311034,
+          "rmse": 0.014636875943252609,
+          "sample_standard_deviation": 0.00558397818974429,
+          "quantiles": {
+            "q025": -0.022621799827832766,
+            "q16": -0.01967051787385657,
+            "q50": -0.013547399953227846,
+            "q84": -0.008481384491538506,
+            "q975": -0.0047156898475126515
+          }
+        }
+      }
+    },
+    {
+      "field": "B0",
+      "epsilon": 0.01,
+      "lambda_mode": "joint",
+      "count": 25,
+      "coarse_minus_final": {
+        "g": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.0008013542163546461,
+          "rmse": 0.0008118094914136617,
+          "sample_standard_deviation": 0.00013254743757715493,
+          "quantiles": {
+            "q025": -0.001036294978749397,
+            "q16": -0.0009335052662916965,
+            "q50": -0.0008247933626288617,
+            "q84": -0.0006580170205437286,
+            "q975": -0.0005832499918640988
+          }
+        },
+        "Ua": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": -0.019132461466859353,
+          "rmse": 0.020984961379053316,
+          "sample_standard_deviation": 0.008798527475018027,
+          "quantiles": {
+            "q025": -0.03607273415956556,
+            "q16": -0.02831553712345425,
+            "q50": -0.017452358752827024,
+            "q84": -0.010487168716516067,
+            "q975": -0.007744098638314867
+          }
+        },
+        "lambda": {
+          "finite_count": 25,
+          "nonfinite_count": 0,
+          "bias": 0.0002782372293451729,
+          "rmse": 0.0003045845988667484,
+          "sample_standard_deviation": 0.0001264739024180633,
+          "quantiles": {
+            "q025": 1.4406056219540292e-05,
+            "q16": 0.00015838485354493947,
+            "q50": 0.0003018297051951002,
+            "q84": 0.0003870336392766927,
+            "q975": 0.0004435219578955206
+          }
+        }
+      }
+    }
+  ],
+  "elapsed_seconds": 400.7766504999963,
+  "input_source_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\noise_sensitivity.py": "096ce6696240942d6f975b596f8fa439952a63554abb53da15c77a88cbaa7e45",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\analyze_inference.py": "5d0d9c5bab94bb3bd1929cf9622f10d29991182ad13beb75c119d270aa0bebea",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "170704298b9e79a20550a2069b00b2e5ce719a95414f3bd8646cb8e44332ff43",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\noise_design.json": "a6fa6d6dfe39b4d33050cddf5fb4c6d75c4cb3c9988d354ea4450a2f87d539cd",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\Bplus_final\\response_3channel.npz": "9452692506a410d7e9c6b3632607e3d458948de3452802e5201c8f8c0ba1a10b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\Bplus_coarse\\response_3channel.npz": "3548bcf5885a5c0455ca82cd52873f338bdd2a8ae56042cced5b79b0dfd3c52c",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\B0_final\\response_3channel.npz": "9e3496fca6f784caa0a8196fc163e8a11e261e314ea9ee4d158ddb5e9b206f6b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\B0_coarse\\response_3channel.npz": "473376f60059aba19803aa7fe2d6a1b39f3e35a62138483551c8770e31a8f14d"
+  },
+  "inputs_sources_unchanged": true,
+  "global_minimum_certified": false,
+  "manuscript_ready": false,
+  "manuscript_readiness_reason": "No bias-size pass threshold is selected. Results remain manuscript-ready=false because this is a finite synthetic-noise study with an assumed real lambda and no material-specific vertex or confidence-region coverage validation.",
+  "limitations": [
+    "The noise is synthetic independent complex Gaussian noise.",
+    "Lambda is a real assumed local-operator coefficient, not a measured material vertex.",
+    "The reduced 50/25 realization design estimates sensitivity but not publication-grade tail probabilities.",
+    "Multistart local least squares does not certify a global optimum."
+  ]
+}

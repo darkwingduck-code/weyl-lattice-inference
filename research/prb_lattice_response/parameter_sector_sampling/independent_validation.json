@@ -1,0 +1,45 @@
+{
+  "status": "PARAMETER_EVIDENCE_AUDIT_PASS",
+  "all_checks_pass": true,
+  "checks_count": 1040,
+  "sha256_checks": 134,
+  "response_rows": 1648,
+  "physical_case_metadata": 28,
+  "numerical_maximum_errors": {
+    "full_rpa": 0.0,
+    "naive_rpa": 0.0,
+    "matched_rpa": 2.1764947476059158e-16,
+    "reported_detector_metric": 1.2474613356183717e-14,
+    "reported_convergence": 0.0
+  },
+  "failed_checks": [],
+  "final_convergence_status": {
+    "B0_baseline": "pass",
+    "B0_qhalf": "pass",
+    "B0_qdouble": "pass",
+    "B0_mu_low": "pass",
+    "B0_mu_high": "pass",
+    "B0_eta_low": "fail",
+    "B0_eta_high": "pass",
+    "Bplus_baseline": "pass",
+    "Bplus_qhalf": "pass",
+    "Bplus_qdouble": "fail",
+    "Bplus_mu_low": "fail",
+    "Bplus_mu_high": "fail",
+    "Bplus_eta_low": "fail",
+    "Bplus_eta_high": "pass"
+  },
+  "scope": "Evidence validity does not imply every physical case converged. Failed convergence must remain failed.",
+  "source_sha256": {
+    "audit_parameter_sector_outputs.py": "a0628310f29918a860696d1cb1675928906427c001bb39fde16098d1adb11249",
+    "extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28"
+  },
+  "index_sha256": "fdfd29e3e83a7adf3329d22df0988d43d81ad39c8a018ff002b962ecaff274db",
+  "input_diagnostic_sha256": {
+    "B0_coarse\\diagnostic.json": "1822b1bc5ef87823c48df05fb7316e4321ae043ceb8e7e1e7282c18e73baf3a2",
+    "B0_final\\diagnostic.json": "243a8cf70f9437bcf534f322ae27e99d1e95ca583c190ab2be66e4bcc567e58f",
+    "Bplus_coarse\\diagnostic.json": "207f806f86d97f59f1dfa92ffaf06a5e9396f1436fee5e75ddefc19d1964a1df",
+    "Bplus_final\\diagnostic.json": "241be955ab969a5d8937416cfae6d06043361a5ffd4ae01d68b74fa3899c955b"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "FIGURES_GENERATED_FROM_FROZEN_CSV",
+  "source_sha256": {
+    "render_low_energy_reviewed.py": "bd60a48abe975a6b867bcd553b8961878e9765c4aeb7d2dac094a38da91dac02"
+  },
+  "input_sha256": {
+    "low_energy_mode_audit\\cached_controls.csv": "064203b6fc2b0f0ceaf3f6d8c695038f0273cf043f0bf56e7c43b79621836b39",
+    "low_energy_mode_audit\\eta_controls.csv": "7dc552b1073520e90d2bbff3f3d65b33316598088a145baba2df2c1a248bc5a6",
+    "low_energy_mode_audit\\transition_sectors.csv": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "low_energy_mode_audit\\diagnostic.json": "86595a7dd4907b42b90d833dede04c5b148ba565dc7a688f02ab3f8df61aa108",
+    "low_energy_mode_audit\\independent_summary.json": "09a8caafaef8b2003a06edb9f39e411df33a58141e5034469dcec4aa14549c7a"
+  },
+  "inputs_unchanged": true,
+  "numeric_data_modified": false,
+  "visibility_changes": [
+    "Hollow staggered markers and thin foreground dashed lines for coincident sector curves",
+    "Separate fractional-remainder panel; explicit basis/degeneracy caveat",
+    "Log-scale axial interaction control; percent-difference inset for mixing control"
+  ],
+  "output_sha256": {
+    "low_energy_controls.png": "dbae218410476757b2c88d23636e2b8da2500379a7548d3fe4936a00502ebc16",
+    "low_energy_controls.pdf": "dc7167d3246602d68e84c656926a709ba8012a6430a633d23ec7a94bd4c59e75",
+    "low_energy_interaction_controls.png": "5f7851f0a4cf6ac602e124cee7b6022105c9f9d1b744b96a8e495cacb5cc5883",
+    "low_energy_interaction_controls.pdf": "b10b5b662976cb3239338cd883868756e618ad465e679530898c4fab110ec03d"
+  }
+}

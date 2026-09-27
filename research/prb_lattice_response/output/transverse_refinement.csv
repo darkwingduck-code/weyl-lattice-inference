@@ -1,0 +1,3 @@
+coarse_L,fine_L,Nkz,B,mu,q,maximum_scaled_response_error,tolerance,converged
+4,6,48,0,0.5,0.2617993877991494,0.16969742833977344,0.001,False
+6,8,48,0,0.5,0.2617993877991494,0.04620635927829265,0.001,False

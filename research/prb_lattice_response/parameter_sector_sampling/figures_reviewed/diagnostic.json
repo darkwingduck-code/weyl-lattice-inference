@@ -1,0 +1,40 @@
+{
+  "status": "PARAMETER_FIGURES_RENDERED",
+  "source_sha256": {
+    "render_parameter_sector_reviewed.py": "de59cc289082cc8e00b5b131f39ede3039d6c7590f2997a3e5bf69090d584b01",
+    "audit_parameter_sector_outputs.py": "a0628310f29918a860696d1cb1675928906427c001bb39fde16098d1adb11249"
+  },
+  "input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\calibration_inputs.json": "fdfd29e3e83a7adf3329d22df0988d43d81ad39c8a018ff002b962ecaff274db",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qhalf.csv": "4827c8e6c0b966bb0778489e6e671ac3f78e962824bc3b3fb46077d5a98ded2d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\baseline.csv": "d74f7ed6e81787eb4ac6ad3db81e3a4e8bd52d14cc4a0a9876e39cd77edc0d12",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qdouble.csv": "11a7a1be0ef52db23ba9ba89e3249342f33962ccfc9fbff2dd2e99d1ba03c34c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qhalf.csv": "8786a8c9700b9eeb5880a300453c4a27bd241a35da340f018c5a69b2a5150455",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\baseline.csv": "361a3224c44a6ac71610688b5a1b5e9fb6e2a48828d998a3af129f7b7435da26",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qdouble.csv": "49c160bdefe57aca5e163a737736e0b51cd1b7410fea9d8f1a1b1969fad12cd0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\baseline_metadata.json": "aa7a7d93374e18ced40e7f966b26e82fe60b4e60cfd2e8b9cbe9e7ace8e02820",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qhalf_metadata.json": "7db0786c84216f840fa8d37fede7edfc63f949cd4683d3b1ce4e26a1585fe1c1",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qdouble_metadata.json": "05921b3a9ebf63c15763139dbc3fd2959a26ca580bbba56ae3a2a3aaeabc73de",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\mu_low_metadata.json": "29ec2ecfd52bb4028f6cbb8c1dc7618bd0c649a704b59474c0f90b3818c3cc58",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\mu_high_metadata.json": "fbcf010b6bb0f58d54ac246d5317466a6ca94adbd3a6fc0564c98cca06f8a9ff",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\eta_low_metadata.json": "7f8a8af9807b7a92dd9403b123584fc5ae7180117e1c7a7be56217558c58faae",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\eta_high_metadata.json": "6370ecd8828e43e31e79d4da4a16d357ed2329a1e163d45894f9cb2ca615e7d0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\baseline_metadata.json": "8c1537db5cd79f5b8c3c816dc10c73702d19400db97c9f20e9d1c7c14d34e10c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qhalf_metadata.json": "2add72de7802542208a822e2860b1095eb08fc14bc83843fb499bcc1d9d9c50d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qdouble_metadata.json": "a3062db8f22d3156756ade58d197932463f8ff2aa9a1de2b0645d1229d48fb6e",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\mu_low_metadata.json": "46aff9525819f84a446af9db98159814f135008422632fe51b1f0a92bdb21d2e",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\mu_high_metadata.json": "3bafd1effe9471a77628266d20db71129c5303d86d3f8bdd8f2591ac389c45e7",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\eta_low_metadata.json": "0b17587b59acf2bcd671bd546ab4ea6b82215c612fea130a9c25dc4c05b357e7",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\eta_high_metadata.json": "7a6a10352e3524ca8766551401bd36626b7d4c122eac1fb1955d56c53f24394c"
+  },
+  "output_sha256": {
+    "q_window_responses.png": "20b62abb5dd657e44ace6c0bf20b406c7d8c23859a05feee4748c4d0df57723e",
+    "q_window_responses.pdf": "1effa3e9f404b9bd9682fe19b34cce8a964a38c2a67a3d4d378a2509065d358a",
+    "matching_scope_errors.png": "d5e9b61f4dee7d991a0fe76219f6c051be33590c3dccb4d6a0537bff972e9aa4",
+    "matching_scope_errors.pdf": "f4103c290b32b786382df247cf0c2ed3b85d85633fd0a6806ef89a89a8220f06"
+  },
+  "notes": [
+    "Data unchanged. Hollow foreground markers distinguish overlap.",
+    "No analytic pole/gap claim. Convergence labels refer only to the recorded comparison."
+  ]
+}

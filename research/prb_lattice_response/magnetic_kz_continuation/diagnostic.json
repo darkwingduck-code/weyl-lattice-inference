@@ -1,0 +1,130 @@
+{
+  "started_utc": "2026-09-10T12:36:04.584109+00:00",
+  "status": "SELECTED_MAGNETIC_MESHES_CONVERGED",
+  "settings": {
+    "mu": 0.5,
+    "temperature": 0.04,
+    "eta": 0.015,
+    "coulomb": 0.8,
+    "axial_interaction": 8.0,
+    "numerator": 1,
+    "denominator": 36,
+    "qprobe": 0.2617993877991494,
+    "tolerance": 0.001
+  },
+  "parameters": {
+    "Lx": 72,
+    "Ly": 13,
+    "Nkz": 192,
+    "mass": 0.0,
+    "wilson": 1.0,
+    "hopping": 1.0,
+    "exchange": 1.0,
+    "theta_x": 0.0,
+    "theta_y": 0.0,
+    "theta_z": 0.0
+  },
+  "Nkx": 2,
+  "Nky": 13,
+  "Nkz": 192,
+  "flux": 26,
+  "B": 0.17453292519943295,
+  "frequency_points": 161,
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "magnetic_bloch_response.py": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "run_magnetic_refinement.py": "e92de362cac5a8697081f207a3aef8a5899fd114c4a4f53160a671cdde708315",
+    "continue_magnetic_kz.py": "4598be23a0445633efc1f456a47eb964785589579ad7f274ff0d2202b413a783"
+  },
+  "input_sha256": {
+    "magnetic_refinement\\diagnostic.json": "7f5b303206d0ee39a422ae28e9fd7f6dea7df116ee52e72f6a788ebb1da696dd",
+    "magnetic_refinement\\Nkx2_Nky13_Nk96_B1of36_fixed_mu.csv": "3cdcd46d32fc2ace7776f878932c8b5db85208ea66520cb7f69962875de4e60d"
+  },
+  "prior_status": "BUDGET_LIMIT_REACHED",
+  "prior_evidence_verified": true,
+  "prior_elapsed_seconds": 298.05113960000017,
+  "total_computational_budget_seconds": 1200,
+  "predicted_seconds_with_25_percent_margin": 574.1407479999907,
+  "final_transverse_comparison": {
+    "kind": "magnetic_transverse",
+    "coarse_Nkx": 1,
+    "coarse_Nky": 7,
+    "coarse_Nkz": 96,
+    "fine_Nkx": 2,
+    "fine_Nky": 13,
+    "fine_Nkz": 96,
+    "B": 0.17453292519943295,
+    "maximum_scaled_response_error": 2.097062610649091e-06,
+    "tolerance": 0.001,
+    "converged": true
+  },
+  "collective_pole_or_gap_certified": false,
+  "all_selected_directions_converged": true,
+  "limitations": [
+    "The earlier600s budget-limited result is preserved without modification.",
+    "This confirms sampled responses only at B=+2*pi/36, fixed mu, and eta=.015.",
+    "Finite-eta grid convergence does not establish a collective pole, gap, or infinite-system theorem."
+  ],
+  "memory_before": {
+    "total_physical_bytes": 68095827968,
+    "available_physical_bytes": 10947481600
+  },
+  "estimated_peak_bytes": 1153433600,
+  "completed_blocks": 26,
+  "retained_transition_count": 103514112,
+  "checks": {
+    "density": 1.9975576172502454,
+    "retained_transition_count": 103514112,
+    "expected_transition_count": 103514112,
+    "bands_per_block": 144,
+    "vertex_error": 3.072135387740873e-14,
+    "vertex_tolerance": 2e-11,
+    "charge_ward_bare": 7.956148180518548e-15,
+    "charge_ward_rpa": 7.926177511090972e-15,
+    "ward_tolerance": 2e-10,
+    "equal_time_density_commutator_max": 3.7513395167998453e-16,
+    "minimum_rpa_weighted_loss_eigenvalue": 8.824890182461231e-05,
+    "weighted_passivity_tolerance": 2e-10,
+    "weighted_passivity_frequency_points": 161,
+    "probe_frequency": {
+      "real": 0.45,
+      "imag": 0.015
+    },
+    "probe_bare_ca": {
+      "real": 0.007241824772162759,
+      "imag": -0.0005026165256570837
+    },
+    "probe_rpa_ca": {
+      "real": 0.0015736068588369295,
+      "imag": -0.00012145174330005542
+    },
+    "minimum_observed_available_bytes": 9063858176,
+    "all_exact_identity_checks_pass": true
+  },
+  "csv": "Nkx2_Nky13_Nk192_B1of36_fixed_mu.csv",
+  "final_kz_comparison": {
+    "kind": "fixed_B_kz",
+    "coarse_Nkx": 2,
+    "coarse_Nky": 13,
+    "coarse_Nkz": 96,
+    "fine_Nkx": 2,
+    "fine_Nky": 13,
+    "fine_Nkz": 192,
+    "B": 0.17453292519943295,
+    "maximum_scaled_response_error": 0.00034109960951884364,
+    "tolerance": 0.001,
+    "converged": true
+  },
+  "sources_unchanged": true,
+  "inputs_unchanged": true,
+  "elapsed_seconds": 433.17791439999564,
+  "total_computational_seconds": 731.2290539999958,
+  "completed_utc": "2026-09-10T12:43:17.764818+00:00",
+  "output_sha256": {
+    "execution.log": "56dfcde4f567b293774eafcfd102c98c55f66459b04de9271e95f5cc8671889c",
+    "Nkx2_Nky13_Nk192_B1of36_fixed_mu.csv": "5608895bc266caf60cd16c1989d88da4574c89bd2c3d9b6aed7638b2d42dabd3",
+    "comparisons.csv": "32887d8596dfb1801b3bfc0389415cc1e1f449f261c33f9c74218fc633afc74e"
+  }
+}

@@ -1,0 +1,13 @@
+L,flux,ensemble,q,coarse_Nkz,fine_Nkz,maximum_scaled_response_error,tolerance,converged,ensemble_note
+4,-1,fixed_mu,0.2617993877991494,24,48,0.008239014928435947,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+4,-1,fixed_n,0.2617993877991494,24,48,0.023120956658414727,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+4,0,fixed_mu,0.2617993877991494,24,48,0.006610885278228378,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+4,0,fixed_n,0.2617993877991494,24,48,0.0033565753970467072,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+4,1,fixed_mu,0.2617993877991494,24,48,0.008900587919061027,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+4,1,fixed_n,0.2617993877991494,24,48,0.05637081055803901,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+6,-1,fixed_mu,0.2617993877991494,24,48,0.008675464592780784,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+6,-1,fixed_n,0.2617993877991494,24,48,0.003072738144178136,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+6,0,fixed_mu,0.2617993877991494,24,48,0.0060582129827079206,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+6,0,fixed_n,0.2617993877991494,24,48,0.003201602275139828,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+6,1,fixed_mu,0.2617993877991494,24,48,0.005634622205083227,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"
+6,1,fixed_n,0.2617993877991494,24,48,0.013640370818937564,0.001,False,"fixed_n uses one common L=8,Nkz=48,B=0 target for every grid"

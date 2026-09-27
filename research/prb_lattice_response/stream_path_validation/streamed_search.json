@@ -1,0 +1,71 @@
+{
+  "roots": [
+    {
+      "pole": 13.189683659050957,
+      "dielectric_channel": 1,
+      "determinant_residual": 5.38603969979512e-06,
+      "charge_numerator": {
+        "real": -0.06007431620409974,
+        "imag": 0.0
+      },
+      "nearest_bare_distance": 2.6009576714614013e-09,
+      "cofactor_charge_residue": {
+        "real": 2.2226712030848842e-10,
+        "imag": -0.0
+      },
+      "residue_status": "unresolved",
+      "residue_failure": "No declared RPA nullspace at the supplied pole",
+      "nearby_root_cluster": false
+    },
+    {
+      "pole": 15.545493798238368,
+      "dielectric_channel": 0,
+      "determinant_residual": 2.177077962350893e-16,
+      "charge_numerator": {
+        "real": 7.036468337249385e-11,
+        "imag": 0.0
+      },
+      "nearest_bare_distance": 2.3558101417883694,
+      "cofactor_charge_residue": {
+        "real": 3.8165653533810033e-10,
+        "imag": 0.0
+      },
+      "residue_matrix": [
+        [
+          {
+            "real": 3.8165653515630164e-10,
+            "imag": 0.0
+          },
+          {
+            "real": -1.6072118335554034e-05,
+            "imag": -1.0896270011780465e-18
+          }
+        ],
+        [
+          {
+            "real": -1.6072118335554034e-05,
+            "imag": 1.0896270011780465e-18
+          },
+          {
+            "real": 0.6768205546022263,
+            "imag": 0.0
+          }
+        ]
+      ],
+      "residue_status": "isolated_nullspace_checked",
+      "nullspace_eigenvalue_residual": 1.4039074719994193e-16,
+      "nearby_root_cluster": false
+    }
+  ],
+  "positive_bare_edge": 13.189683656449999,
+  "eigenvalue_bound": 37.930305218993944,
+  "search_margin": 1.318968365645e-09,
+  "near_edge_unresolved": true,
+  "excluded_edge_interval": [
+    13.189683656449999,
+    13.189683657768967
+  ],
+  "samples": 64,
+  "scope": "Positive exterior only; no conclusion about internal or continuum poles",
+  "status": "bounded_exterior_search_completed"
+}

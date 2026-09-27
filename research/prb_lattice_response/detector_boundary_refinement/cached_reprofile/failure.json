@@ -1,0 +1,1 @@
+{"status":"PROFILE_OUTPUT_ASSEMBLY_FAILED","exception":"TypeError: dict() got multiple values for keyword argument 'global_minimum_certified'","location":"profiles row constructor","scientific_result_written":false,"large_production_started":false,"fix":"Remove duplicate keyword; numerical_profile already stores global_minimum_certified=false."}

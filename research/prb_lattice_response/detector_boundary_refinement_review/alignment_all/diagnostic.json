@@ -1,0 +1,275 @@
+{
+  "started_utc": "2026-09-11T16:19:18.481506+00:00",
+  "status": "PASS",
+  "science_recomputed": false,
+  "global_g_optimum_certified": false,
+  "physical_convergence_certified": false,
+  "small_controls": {
+    "complex_adjugate_vs_solve": true,
+    "offdiagonal_conjugation_rejected": true,
+    "alignment_rejections": [
+      "q",
+      "window",
+      "nan",
+      "B"
+    ],
+    "per_dataset_vs_pooled_separation": 0.6971072811490507
+  },
+  "alignment_rows": [
+    {
+      "dataset": "B0_qhalf",
+      "window": "fixed_lab",
+      "level": "fine",
+      "points": 45,
+      "stored_rpa_error": 5.595670243448785e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qhalf",
+      "window": "scaled_q",
+      "level": "fine",
+      "points": 45,
+      "stored_rpa_error": 4.1681651591128217e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qhalf",
+      "window": "fixed_lab",
+      "level": "coarse",
+      "points": 45,
+      "stored_rpa_error": 4.267063052487216e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qhalf",
+      "window": "scaled_q",
+      "level": "coarse",
+      "points": 45,
+      "stored_rpa_error": 4.3077086510209384e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qhalf",
+      "window": "fixed_lab",
+      "level": "higher",
+      "points": 45,
+      "stored_rpa_error": 4.163844531097202e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qhalf",
+      "window": "scaled_q",
+      "level": "higher",
+      "points": 45,
+      "stored_rpa_error": 4.420368179975903e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_baseline",
+      "window": "fixed_lab",
+      "level": "fine",
+      "points": 45,
+      "stored_rpa_error": 4.199894710600969e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_baseline",
+      "window": "scaled_q",
+      "level": "fine",
+      "points": 45,
+      "stored_rpa_error": 4.199894710600969e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_baseline",
+      "window": "fixed_lab",
+      "level": "coarse",
+      "points": 45,
+      "stored_rpa_error": 2.8388918293363497e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_baseline",
+      "window": "scaled_q",
+      "level": "coarse",
+      "points": 45,
+      "stored_rpa_error": 2.8388918293363497e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_baseline",
+      "window": "fixed_lab",
+      "level": "higher",
+      "points": 45,
+      "stored_rpa_error": 4.17732066358874e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_baseline",
+      "window": "scaled_q",
+      "level": "higher",
+      "points": 45,
+      "stored_rpa_error": 4.17732066358874e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qdouble",
+      "window": "fixed_lab",
+      "level": "fine",
+      "points": 45,
+      "stored_rpa_error": 5.569760884784986e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qdouble",
+      "window": "scaled_q",
+      "level": "fine",
+      "points": 45,
+      "stored_rpa_error": 4.16520292570179e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qdouble",
+      "window": "fixed_lab",
+      "level": "coarse",
+      "points": 45,
+      "stored_rpa_error": 4.1635913267462135e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qdouble",
+      "window": "scaled_q",
+      "level": "coarse",
+      "points": 45,
+      "stored_rpa_error": 4.1633630326198826e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qdouble",
+      "window": "fixed_lab",
+      "level": "higher",
+      "points": 45,
+      "stored_rpa_error": 2.784880442392493e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "B0_qdouble",
+      "window": "scaled_q",
+      "level": "higher",
+      "points": 45,
+      "stored_rpa_error": 4.18700013134205e-17,
+      "blocks_higher": 9216,
+      "raw_pairs_higher": 113246208
+    },
+    {
+      "dataset": "Bplus_eta_low",
+      "window": "fixed_lab",
+      "level": "fine",
+      "points": 45,
+      "stored_rpa_error": 7.668184179750302e-17,
+      "blocks_higher": 26,
+      "raw_pairs_higher": 207028224
+    },
+    {
+      "dataset": "Bplus_eta_low",
+      "window": "scaled_q",
+      "level": "fine",
+      "points": 45,
+      "stored_rpa_error": 7.668184179750302e-17,
+      "blocks_higher": 26,
+      "raw_pairs_higher": 207028224
+    },
+    {
+      "dataset": "Bplus_eta_low",
+      "window": "fixed_lab",
+      "level": "coarse",
+      "points": 45,
+      "stored_rpa_error": 1.987753921271931e-16,
+      "blocks_higher": 26,
+      "raw_pairs_higher": 207028224
+    },
+    {
+      "dataset": "Bplus_eta_low",
+      "window": "scaled_q",
+      "level": "coarse",
+      "points": 45,
+      "stored_rpa_error": 1.987753921271931e-16,
+      "blocks_higher": 26,
+      "raw_pairs_higher": 207028224
+    },
+    {
+      "dataset": "Bplus_eta_low",
+      "window": "fixed_lab",
+      "level": "higher",
+      "points": 45,
+      "stored_rpa_error": 1.410683274285505e-16,
+      "blocks_higher": 26,
+      "raw_pairs_higher": 207028224
+    },
+    {
+      "dataset": "Bplus_eta_low",
+      "window": "scaled_q",
+      "level": "higher",
+      "points": 45,
+      "stored_rpa_error": 1.410683274285505e-16,
+      "blocks_higher": 26,
+      "raw_pairs_higher": 207028224
+    }
+  ],
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement_review\\independent_gate.py": "8ff46c8d8186246a37a40da49f614e611e20c505d98d6fa1408f11db92b7421a",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\calibration_inputs.json": "fdfd29e3e83a7adf3329d22df0988d43d81ad39c8a018ff002b962ecaff274db",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\B0_higher\\diagnostic.json": "3c3b3c04c72a02edee56e381f1cefb5b192472745a6484265fb6b61516205e16",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling.py": "a168d803486f1a7e40a44895df276d63f53005c0c80ccc0e63ddaa242d039687",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\test_parameter_sector_sampling.py": "50f1f9503b2c1752b63f0e164b2b470e10aba901b4ced36c4ae8fe008fadb211",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\magnetic_bloch_response.py": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\uv_matching_audit.py": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\low_energy_mode_audit.py": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement.py": "2deb2a80abe7eae90df6b1bcc7162149aace81e4905857d15b0627f09dbb7235",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\test_detector_boundary_refinement.py": "0a9e74c4b3b82cceb0f753170aad7421b22f99c0912864c7fe004de6b5355b0a",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_identifiability_audit.py": "1e39010e2d33b1ed6031ffb39009abb8f401e64372d757fbe23b40b27a99eacb",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_calibration_independent_review.py": "00a169e3f1fb40fbb6c54d313d493560909a323382c0be23977177cb005c8109",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\low_energy_mode_audit\\transition_sectors.csv": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\B0_higher\\execution.log": "4089fc8c8add10562df2e1934b286f4eb0e7354bea2f684207bc5c5560d2702e",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\B0_higher\\qhalf.csv": "6d08e9cdac693e255a4af76b8b302291d7304b94f87c9c9e492c72083a0cba71",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\B0_higher\\qhalf_metadata.json": "61eaa7b3a696853a7704ac54f4e144e649bd14f4d1847ac6be060d1a14c75425",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\B0_higher\\baseline.csv": "166ab247a1bb231c766d3394469ae4e20e7a8483574689e2cdd8c085a379fea2",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\B0_higher\\baseline_metadata.json": "4da0d8bd103eea6662c3faca4a2eb07e213448231f8debecda55b5f44a0b6f04",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\B0_higher\\qdouble.csv": "f4103e41a4aa03f81a8e88fdf418a6a8a61d0afed15c973b7a7c18f2a0268497",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\B0_higher\\qdouble_metadata.json": "7376574e57564ec7c3d618efec60d31bb527a8f437b067a10b562a94cda61fcf",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qhalf.csv": "4827c8e6c0b966bb0778489e6e671ac3f78e962824bc3b3fb46077d5a98ded2d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_coarse\\qhalf.csv": "a46c9a046c2e3946c7e9e7dda2a5f675b40c20c8d9643389b1692749f7424378",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\baseline.csv": "d74f7ed6e81787eb4ac6ad3db81e3a4e8bd52d14cc4a0a9876e39cd77edc0d12",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_coarse\\baseline.csv": "44cbcdf161c161a120171a12ee8f72fd21cc3354ed4bc8ff360bcfc5dcab9757",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qdouble.csv": "11a7a1be0ef52db23ba9ba89e3249342f33962ccfc9fbff2dd2e99d1ba03c34c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_coarse\\qdouble.csv": "162b6c1bc26cfa3e26bdcbfa72dd6df3b27559b31b09411d82c232ea5b612b68",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\Bplus_higher\\diagnostic.json": "5ff6da64b548fe5d84c6830c7764b42de3d1da96e98dc3f066ff2f234ba4e12f",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\Bplus_higher\\execution.log": "563c4889091441611b28e4fb1f8842935c886f5058759c5d2254f18ac3b7d539",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\Bplus_higher\\eta_low.csv": "1c9182beb882f8b57f0d98e2bf5678b2b86a00cbc2412044064d97d5676efd09",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\Bplus_higher\\eta_low_metadata.json": "61afd5bef6e1e32e63c2782347f1cada09c14db90dd384adde86fce67017ff3f",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\eta_low.csv": "20cada710d4a01cd4734e3f56f013eb9b7d49666a5839d201044cc8e40defdb5",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_coarse\\eta_low.csv": "edf25bb1111886a1fe7606415f38395f4ebaec843d4a73aaaa920967b15deac8"
+  },
+  "completed_utc": "2026-09-11T16:19:18.666494+00:00"
+}

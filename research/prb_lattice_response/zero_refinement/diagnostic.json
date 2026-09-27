@@ -1,0 +1,73 @@
+{
+  "status": "BOUNDED_ZERO_REFINEMENT_COMPLETED",
+  "completed_utc": "2026-09-10T13:11:32.217145+00:00",
+  "frozen_input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\self_test.json": "0f16be9bda094840986160a5b636ca832648ec81caa80452da7f5c2d8837fa14",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\eigensystem.json": "96880d6356923aeb9fdcdc5add83cb2ea2dc94e97ed7159774908542eeef573a",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\eigenpairs.json": "147c893c52246d37527dd3bb0a1cbc067f8d26479938781086913c6642ee1e67",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\residue_comparison_groups.json": "03d26b595be75f4b80d21be68a0568489d702208ca7f49d8a227e295acf3a910",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\zero_checks.json": "26637c5eb0448450d6ce250c207ff310a5ff578713afc090d658cf17fd513ffc",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\residue_checks.json": "f8a48b4391dbb9c0ff0db5f9c85c4dd46dddb857cf78dac8184f2f213cf2e03b",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\diagnostic.json": "04e3d76ee1b4b302adf5163e5c51af1541aef30d42cf19a666b2545e5c9e81d6",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\inputs\\finite_poles.csv": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\inputs\\finite_charge_zeros.csv": "45a1de0423a10862dfc7ea20215c0aeb383da408553be6243b8c227358d77ea0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\inputs\\diagnostic.json": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\manifest.json": "716d4f163282003ae22e939a5fb1782b7bce0e451a2daad47b149ec9157aef1f",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit.py": "5b43c9c054607cf6321977c4c352445ae3fbf4947a6bb879996c02b9087e5af3",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\pole_zero_analysis.py": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\execution.log": "0ec939ee6767f7b0c60fbca36d1aa9eed38691822b515828cb4ecffe277227e0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_poles.csv": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_charge_zeros.csv": "45a1de0423a10862dfc7ea20215c0aeb383da408553be6243b8c227358d77ea0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_regulator_scan.csv": "b0e31fc9276be3ceca41b1d9121991512d044934d7f65f630570a1969195073b",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\degenerate_counterexample.csv": "5a46104917982ca10554dd62af959eca2da5256ac7c7b3bd403e57f1a5b0af5c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\exterior_searches.json": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\exterior_refinement.csv": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_modes.pdf": "0e1f141a884995dc75ee0c6b15f1136b023a3e9a0fdbf7b23f69e1ae2c43c529",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_modes.png": "bb7b17a2012a983f642df65d864708fe53b90ea8ac9028b60178c537465a7538",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\exterior_modes.pdf": "a71393ae44f243cc06cc1e8f243514d67e51349d2f3a23febeb79a074915b370",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\exterior_modes.png": "ab6a3b216cffdcc7e3b6c812a0e6da8958044ac119b86c4bd2b2da92440e7d0c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\diagnostic.json": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d"
+  },
+  "script_sha256": "94dc17b5dad83d57e8108f5bdc120d3e91161a426200f4355b32d3d0f108ce58",
+  "unchanged_limits": {
+    "normalized_zero_residual": 1e-07,
+    "newton_to_pole_distance": 0.0001,
+    "bare_distance_relative": 1e-08,
+    "dielectric_condition": 1000000000000.0,
+    "matrix_residue_relative": 1e-06,
+    "kernel_residual": 1e-10,
+    "kernel_separation": 1e-08,
+    "moment0_relative": 1e-10
+  },
+  "originally_failed_candidates": 16,
+  "refinement_status_counts": {
+    "PASS_REFINED_DIRECT_AND_MODAL_CRITERIA": 12,
+    "DIRECT_CRITERIA_PASS_MODAL_CONSISTENCY_UNRESOLVED": 4
+  },
+  "original_audit_counts": {
+    "PASS_NUMERICAL_ZERO": 1809,
+    "FAIL_NUMERICAL_ZERO": 16,
+    "UNRESOLVED_NEAR_BARE_TRANSITION": 45,
+    "PRESERVED_UNRESOLVED_ZERO_TOO_CLOSE_TO_POLE": 782,
+    "PASS_MULTIPLICATION_ZERO": 1
+  },
+  "prior_passed_zeros_preserved": 1809,
+  "prior_bare_proximity_unresolved_preserved": 45,
+  "prior_edge_intervals_unresolved_preserved": 782,
+  "frozen_inputs_unchanged": true,
+  "complete_real_zero_catalog_certified": false,
+  "submission_ready": false,
+  "continuum_or_collectivity_certified": false,
+  "audit_metadata_clarification": "The frozen baseline moment_checks.factorization_assessment string predates its added dense eigensystem audit. The separate eigensystem section correctly records the performed Cholesky/eigenpair recomputation; no numerical result is changed.",
+  "limitations": [
+    "Same finite lattice and fixed float64 transition inputs.",
+    "All 16 previous failures and all prior unresolved records remain preserved.",
+    "No tolerance is enlarged. Direct and modal criteria are distinguished.",
+    "Local Newton and sampled neighboring ulps are numerical diagnostics, not interval-arithmetic certification.",
+    "Decimal arithmetic, where used, improves rational evaluation only; it does not improve the underlying band energies or input weights.",
+    "The attained smallest sampled residual is an upper bound on the best attainable residual in that sampled set, not a theorem of a global precision floor."
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "started_utc": "2026-09-10T06:37:57.083696+00:00",
+  "status": "ZERO_B_SELECTED_MESHES_CONVERGED",
+  "settings": {
+    "mu0": 0.5,
+    "temperature": 0.04,
+    "eta": 0.015,
+    "coulomb": 0.8,
+    "axial_interaction": 8.0
+  },
+  "q": 0.2617993877991494,
+  "frequency_points": 161,
+  "tolerance": 0.001,
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "refine_response.py": "3ad9ee0289f9b80902ac337b4dd3f514f936beae21fe87fe333e4d9751bd2e8c",
+    "extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339"
+  },
+  "input_sha256": {
+    "output_initial\\diagnostic.json": "dbde903e4a625a061791076fdf8c7e5fada86e271e22f1d57f5d3aabaa8a8b4a",
+    "refinement\\diagnostic.json": "03b5f9b32fa33d4e66f688d027f11abd8e0a6faf7389d58add409da18313f7c0",
+    "refinement\\refinement.csv": "01114870b8d4e978899f48ea8c4d1d5c7f93b83858f2684c003182462686237b",
+    "refinement\\L48_Nk192_flux+0_fixed_mu.csv": "83b0ba592de336cba001214576f7f7410cdda8ede1935520f024b57c19b909d8"
+  },
+  "preflight_memory": {
+    "total_physical_bytes": 68095827968,
+    "available_physical_bytes": 19048210432
+  },
+  "calculations": [
+    {
+      "csv": "L72_Nk192_flux+0_fixed_mu.csv",
+      "L": 72,
+      "Ly": 72,
+      "Nkz": 192,
+      "flux": 0,
+      "ensemble": "fixed_mu",
+      "parameters": {
+        "Lx": 72,
+        "Ly": 72,
+        "Nkz": 192,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "density": 2.005426883861348,
+      "q": 0.2617993877991494,
+      "Q": 0.26105238444010315,
+      "retained_transition_count": 15925248,
+      "expected_transition_count": 15925248,
+      "vertex_error": 1.4597615722347763e-14,
+      "vertex_tolerance": 2e-11,
+      "charge_ward_bare": 3.0428187210243126e-16,
+      "charge_ward_rpa": 3.0379359504159027e-16,
+      "ward_tolerance": 2e-10,
+      "equal_time_density_commutator_max": 9.367506770274758e-17,
+      "minimum_rpa_weighted_loss_eigenvalue": 9.156979917584462e-05,
+      "weighted_passivity_tolerance": 2e-10,
+      "weighted_passivity_frequency_points": 161,
+      "probe_frequency": {
+        "real": 0.45,
+        "imag": 0.015
+      },
+      "probe_bare_ca": {
+        "real": 0.001166509232919197,
+        "imag": -8.056390562504628e-05
+      },
+      "probe_rpa_ca": {
+        "real": 0.0002466716304323594,
+        "imag": -1.7964072340783042e-05
+      },
+      "tile_blocks": 128,
+      "tile_count": 41,
+      "estimated_tile_peak_bytes": 234881024,
+      "estimated_untiled_peak_bytes": 4211081216,
+      "minimum_observed_available_bytes": 18998005760,
+      "memory_before": {
+        "total_physical_bytes": 68095827968,
+        "available_physical_bytes": 19084337152
+      },
+      "elapsed_seconds": 123.45949719999771,
+      "all_exact_identity_checks_pass": true
+    },
+    {
+      "csv": "L72_Nk384_flux+0_fixed_mu.csv",
+      "L": 72,
+      "Ly": 72,
+      "Nkz": 384,
+      "flux": 0,
+      "ensemble": "fixed_mu",
+      "parameters": {
+        "Lx": 72,
+        "Ly": 72,
+        "Nkz": 384,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "density": 2.0054268838613476,
+      "q": 0.2617993877991494,
+      "Q": 0.26105238444010315,
+      "retained_transition_count": 31850496,
+      "expected_transition_count": 31850496,
+      "vertex_error": 1.4597615722347763e-14,
+      "vertex_tolerance": 2e-11,
+      "charge_ward_bare": 4.4241374813719307e-16,
+      "charge_ward_rpa": 4.4181589812217445e-16,
+      "ward_tolerance": 2e-10,
+      "equal_time_density_commutator_max": 1.1768775795065026e-16,
+      "minimum_rpa_weighted_loss_eigenvalue": 9.155567043095493e-05,
+      "weighted_passivity_tolerance": 2e-10,
+      "weighted_passivity_frequency_points": 161,
+      "probe_frequency": {
+        "real": 0.45,
+        "imag": 0.015
+      },
+      "probe_bare_ca": {
+        "real": 0.0011667629741229143,
+        "imag": -8.031248093910587e-05
+      },
+      "probe_rpa_ca": {
+        "real": 0.00024672601263502016,
+        "imag": -1.79104619214903e-05
+      },
+      "tile_blocks": 128,
+      "tile_count": 41,
+      "estimated_tile_peak_bytes": 335544320,
+      "estimated_untiled_peak_bytes": 8287944704,
+      "minimum_observed_available_bytes": 22274961408,
+      "memory_before": {
+        "total_physical_bytes": 68095827968,
+        "available_physical_bytes": 22640193536
+      },
+      "elapsed_seconds": 280.81063619999986,
+      "all_exact_identity_checks_pass": true
+    }
+  ],
+  "comparisons": [
+    {
+      "kind": "zero_B_transverse",
+      "flux": 0,
+      "coarse_L": 48,
+      "fine_L": 72,
+      "coarse_Nkz": 192,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 0.00036972969171602,
+      "tolerance": 0.001,
+      "converged": true
+    },
+    {
+      "kind": "zero_B_kz",
+      "flux": 0,
+      "coarse_L": 72,
+      "fine_L": 72,
+      "coarse_Nkz": 192,
+      "fine_Nkz": 384,
+      "maximum_scaled_response_error": 2.2279976248733083e-05,
+      "tolerance": 0.001,
+      "converged": true
+    }
+  ],
+  "all_selected_zero_B_directions_converged": true,
+  "collective_pole_or_gap_certified": false,
+  "limitations": [
+    "Convergence is assessed only at 161 sampled frequencies and eta=0.015.",
+    "Zero-field transverse convergence does not establish the magnetic thermodynamic limit.",
+    "A finite-grid nonzero charge-axial response is not proof of a nonzero infinite-grid limit.",
+    "No transition cutoff, broadening change, or tolerance relaxation is used."
+  ],
+  "tiled_path_validation_pass": true,
+  "final_comparisons": {
+    "zero_B_transverse": {
+      "kind": "zero_B_transverse",
+      "flux": 0,
+      "coarse_L": 48,
+      "fine_L": 72,
+      "coarse_Nkz": 192,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 0.00036972969171602,
+      "tolerance": 0.001,
+      "converged": true
+    },
+    "zero_B_kz": {
+      "kind": "zero_B_kz",
+      "flux": 0,
+      "coarse_L": 72,
+      "fine_L": 72,
+      "coarse_Nkz": 192,
+      "fine_Nkz": 384,
+      "maximum_scaled_response_error": 2.2279976248733083e-05,
+      "tolerance": 0.001,
+      "converged": true
+    }
+  },
+  "sources_unchanged": true,
+  "inputs_unchanged": true,
+  "all_exact_identity_checks_pass": true,
+  "completed_utc": "2026-09-10T06:44:48.417106+00:00",
+  "elapsed_seconds": 411.3310939999974,
+  "output_sha256": {
+    "execution.log": "cbdd9e678fa86de1cb274937a0ffbace1b6154647eb146708f96e915bce43950",
+    "path_validation.json": "0acd864a4ce933f3cb3acfe2d85b167d24fc2deb4ea161c8032ce8771632262f",
+    "L72_Nk192_flux+0_fixed_mu.csv": "e70e29b05004b555df788f720d83ea50bbe36fb6ea75830e287d724292ded344",
+    "comparisons.csv": "b5305d517f86476340d551522d6bc233b358ba7087d2633558bfe42a65ac3bc4",
+    "L72_Nk384_flux+0_fixed_mu.csv": "ed2034406209c72f7eb0621dd6343d6a5e88ce49dc46ce309d3628a1c7faddf1",
+    "convergence.pdf": "ac0f3dc4d10cd9d0cbff6069ac60bf17621b77ccf2405f358d500b80078bee13",
+    "convergence.png": "309ffe6a69ef73f67ae9c2b8fc1249710ac5eac563c87aca218d1430b566e320"
+  }
+}

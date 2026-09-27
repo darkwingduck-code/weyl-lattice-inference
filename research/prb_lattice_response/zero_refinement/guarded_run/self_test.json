@@ -1,0 +1,249 @@
+{
+  "status": "SELF_TEST_PASS",
+  "repaired_displaced_zero": {
+    "original_index": 0,
+    "original_zero": 1.055619467970425,
+    "protected_interval": [
+      0.7302361273400942,
+      1.299999987
+    ],
+    "history": [
+      {
+        "iteration": 0,
+        "zero": 1.055619467970425,
+        "proposed_step": -0.0009997477351792758,
+        "direct_normalized": 0.0028814846857711713,
+        "weighted_normalized": 0.0031327410321654666
+      },
+      {
+        "iteration": 1,
+        "zero": 1.0546197202352448,
+        "proposed_step": -2.5226480526535395e-07,
+        "direct_normalized": 7.265829636795286e-07,
+        "weighted_normalized": 7.898934647381694e-07
+      },
+      {
+        "iteration": 2,
+        "zero": 1.0546194679704386,
+        "proposed_step": -1.3598193988215439e-14,
+        "direct_normalized": 3.91660439399755e-14,
+        "weighted_normalized": 4.239753908809342e-14
+      }
+    ],
+    "best": {
+      "zero": 1.0546194679704386,
+      "nearest_modal_pole_distance": 0.26187405587513735,
+      "nearest_bare_distance": 0.24538053202956145,
+      "weighted_transfer_absolute": 1.8096635301390052e-14,
+      "weighted_transfer_normalized": 4.239753908809342e-14,
+      "weighted_newton_location_estimate": 1.3540318220268974e-14,
+      "weighted_newton_to_pole_distance": 5.1705458851277175e-14,
+      "dielectric_condition": 1.0253785900783217,
+      "direct_charge_absolute": 1.7232743010353482e-14,
+      "direct_charge_normalized": 3.91660439399755e-14,
+      "direct_newton_location_estimate": 1.3598193988215439e-14,
+      "direct_newton_to_pole_distance": 5.1926464967186805e-14,
+      "direct_charge_derivative_real": -1.2672817453029306,
+      "cofactor_numerator_normalized": 1.0,
+      "status": "PASS_NUMERICAL_ZERO"
+    },
+    "shift": -0.0009999999999863451,
+    "ulp_spacing": 2.220446049250313e-16,
+    "shift_in_ulps": -4503599627309.0,
+    "local_half_ulp_normalized_response_scale": 3.197707269312745e-16,
+    "float_candidates_evaluated": 31,
+    "original_audit_status": "FAIL_NUMERICAL_ZERO"
+  },
+  "decimal_neighbor_boundary_negative_control_pass": true,
+  "bare_pole_negative_control_rejected": true,
+  "decimal_reference": {
+    "decimal_precision": 80,
+    "iterations": 4,
+    "root_decimal": "1.0546194679704249717661233391420904562379920295641001214533982104685156582140983",
+    "charge_at_decimal_root": "1.3000000000000000000000000000000000000000000000000000000000000000000000000000001E-80",
+    "derivative_at_decimal_root": "-1.2672817453029223802991666145864002292767889321180263705823037625678391240474768",
+    "nearby_float_candidates": [
+      {
+        "zero": 1.0546194679704244,
+        "decimal_charge_at_float": "7.4408280189209917460917789840974823378355199798460040109288162552013442660528961E-16",
+        "decimal_charge_normalized_at_float": 1.691128318711472e-15,
+        "float64_charge_normalized": 1.66378805543283e-15,
+        "full_check": {
+          "zero": 1.0546194679704244,
+          "nearest_modal_pole_distance": 0.26187405587515156,
+          "nearest_bare_distance": 0.24538053202957566,
+          "weighted_transfer_absolute": 8.604228440844963e-16,
+          "weighted_transfer_normalized": 2.0158339136977133e-15,
+          "weighted_newton_location_estimate": 6.43788136239804e-16,
+          "weighted_newton_to_pole_distance": 2.458388380965581e-15,
+          "dielectric_condition": 1.0253785900783294,
+          "direct_charge_absolute": 7.320533068622129e-16,
+          "direct_charge_normalized": 1.66378805543283e-15,
+          "direct_newton_location_estimate": 5.776563180015093e-16,
+          "direct_newton_to_pole_distance": 2.2058554677020276e-15,
+          "direct_charge_derivative_real": -1.2672817453029228,
+          "cofactor_numerator_normalized": 1.0,
+          "status": "PASS_NUMERICAL_ZERO"
+        }
+      },
+      {
+        "zero": 1.0546194679704246,
+        "decimal_charge_at_float": "4.6268972742760768514419902319802472268317504917126594642318855712799273858104730E-16",
+        "decimal_charge_normalized_at_float": 1.0515868648489292e-15,
+        "float64_charge_normalized": 1.0329679396289132e-15,
+        "full_check": {
+          "zero": 1.0546194679704246,
+          "nearest_modal_pole_distance": 0.26187405587515133,
+          "nearest_bare_distance": 0.24538053202957544,
+          "weighted_transfer_absolute": 5.828670879282072e-16,
+          "weighted_transfer_normalized": 1.3655649092790957e-15,
+          "weighted_newton_location_estimate": 4.3611454390438306e-16,
+          "weighted_newton_to_pole_distance": 1.6653598709766843e-15,
+          "dielectric_condition": 1.0253785900783292,
+          "direct_charge_absolute": 4.544975507059236e-16,
+          "direct_charge_normalized": 1.0329679396289132e-15,
+          "direct_newton_location_estimate": 3.586397045412215e-16,
+          "direct_newton_to_pole_distance": 1.3695121624121608e-15,
+          "direct_charge_derivative_real": -1.2672817453029221,
+          "cofactor_numerator_normalized": 1.0,
+          "status": "PASS_NUMERICAL_ZERO"
+        }
+      },
+      {
+        "zero": 1.0546194679704248,
+        "decimal_charge_at_float": "1.8129665296311616719382128450641782259755273928793027432454991677252617354777547E-16",
+        "decimal_charge_normalized_at_float": 4.1204541098638635e-16,
+        "float64_charge_normalized": 4.0214782382499684e-16,
+        "full_check": {
+          "zero": 1.0546194679704248,
+          "nearest_modal_pole_distance": 0.2618740558751511,
+          "nearest_bare_distance": 0.24538053202957522,
+          "weighted_transfer_absolute": 2.498001805406602e-16,
+          "weighted_transfer_normalized": 5.852421039767552e-16,
+          "weighted_newton_location_estimate": 1.8690623310187837e-16,
+          "weighted_newton_to_pole_distance": 7.137256589900078e-16,
+          "dielectric_condition": 1.0253785900783292,
+          "direct_charge_absolute": 1.7694179454963437e-16,
+          "direct_charge_normalized": 4.0214782382499684e-16,
+          "direct_newton_location_estimate": 1.396230910809335e-16,
+          "direct_newton_to_pole_distance": 5.331688571222918e-16,
+          "direct_charge_derivative_real": -1.2672817453029228,
+          "cofactor_numerator_normalized": 1.0,
+          "status": "PASS_NUMERICAL_ZERO"
+        }
+      },
+      {
+        "zero": 1.054619467970425,
+        "decimal_charge_at_float": "-1.0009642150137537924195531766608820690045243078767017205450434140380971723064167E-16",
+        "decimal_charge_normalized_at_float": 2.274960428761567e-16,
+        "float64_charge_normalized": 2.2078704053137076e-16,
+        "full_check": {
+          "zero": 1.054619467970425,
+          "nearest_modal_pole_distance": 0.2618740558751509,
+          "nearest_bare_distance": 0.245380532029575,
+          "weighted_transfer_absolute": 2.7755575615628914e-17,
+          "weighted_transfer_normalized": 6.502690044186169e-17,
+          "weighted_newton_location_estimate": 2.076735923354203e-17,
+          "weighted_newton_to_pole_distance": 7.930285099888979e-17,
+          "dielectric_condition": 1.025378590078329,
+          "direct_charge_absolute": 9.71445146547012e-17,
+          "direct_charge_normalized": 2.2078704053137076e-16,
+          "direct_newton_location_estimate": 7.665581471110073e-17,
+          "direct_newton_to_pole_distance": 2.927201568514545e-16,
+          "direct_charge_derivative_real": -1.2672817453029226,
+          "cofactor_numerator_normalized": 1.0,
+          "status": "PASS_NUMERICAL_ZERO"
+        }
+      },
+      {
+        "zero": 1.0546194679704253,
+        "decimal_charge_at_float": "-3.8148949596586695416313078332050910623797796102987070793146131998165135647513394E-16",
+        "decimal_charge_normalized_at_float": 8.670374967386998e-16,
+        "float64_charge_normalized": 8.43721904887738e-16,
+        "full_check": {
+          "zero": 1.0546194679704253,
+          "nearest_modal_pole_distance": 0.26187405587515067,
+          "nearest_bare_distance": 0.24538053202957477,
+          "weighted_transfer_absolute": 3.3306690738754696e-16,
+          "weighted_transfer_normalized": 7.803228053023401e-16,
+          "weighted_newton_location_estimate": 2.492083108025042e-16,
+          "weighted_newton_to_pole_distance": 9.516342119866778e-16,
+          "dielectric_condition": 1.0253785900783288,
+          "direct_charge_absolute": 3.712308238590366e-16,
+          "direct_charge_normalized": 8.43721904887738e-16,
+          "direct_newton_location_estimate": 2.92934720503135e-16,
+          "direct_newton_to_pole_distance": 1.1186091708252023e-15,
+          "direct_charge_derivative_real": -1.2672817453029224,
+          "cofactor_numerator_normalized": 1.0,
+          "status": "PASS_NUMERICAL_ZERO"
+        }
+      },
+      {
+        "zero": 1.0546194679704255,
+        "decimal_charge_at_float": "-6.6288257043035855756970511245786061584216135226507840688983767118870653596503915E-16",
+        "decimal_charge_normalized_at_float": 1.506578950601243e-15,
+        "float64_charge_normalized": 1.4745420206916546e-15,
+        "full_check": {
+          "zero": 1.0546194679704255,
+          "nearest_modal_pole_distance": 0.26187405587515045,
+          "nearest_bare_distance": 0.24538053202957455,
+          "weighted_transfer_absolute": 6.106226635438361e-16,
+          "weighted_transfer_normalized": 1.4305918097209567e-15,
+          "weighted_newton_location_estimate": 4.568819031379242e-16,
+          "weighted_newton_to_pole_distance": 1.7446627219755764e-15,
+          "dielectric_condition": 1.0253785900783288,
+          "direct_charge_absolute": 6.487865800153258e-16,
+          "direct_charge_normalized": 1.4745420206916546e-15,
+          "direct_newton_location_estimate": 5.119513339634225e-16,
+          "direct_newton_to_pole_distance": 1.9549524761150737e-15,
+          "direct_charge_derivative_real": -1.2672817453029233,
+          "cofactor_numerator_normalized": 1.0,
+          "status": "PASS_NUMERICAL_ZERO"
+        }
+      },
+      {
+        "zero": 1.0546194679704257,
+        "decimal_charge_at_float": "-9.4427564489485018946167830507915847614014010617177210087919208970973381158412501E-16",
+        "decimal_charge_normalized_at_float": 2.1461204044637866e-15,
+        "float64_charge_normalized": 2.168444148075962e-15,
+        "full_check": {
+          "zero": 1.0546194679704257,
+          "nearest_modal_pole_distance": 0.2618740558751502,
+          "nearest_bare_distance": 0.24538053202957433,
+          "weighted_transfer_absolute": 9.43689570931383e-16,
+          "weighted_transfer_normalized": 2.2109146150232965e-15,
+          "weighted_newton_location_estimate": 7.060902139404279e-16,
+          "weighted_newton_to_pole_distance": 2.6962969339622557e-15,
+          "dielectric_condition": 1.0253785900783285,
+          "direct_charge_absolute": 9.540979117872435e-16,
+          "direct_charge_normalized": 2.168444148075962e-15,
+          "direct_newton_location_estimate": 7.528696087697391e-16,
+          "direct_newton_to_pole_distance": 2.8749301119339347e-15,
+          "direct_charge_derivative_real": -1.2672817453029226,
+          "cofactor_numerator_normalized": 1.0,
+          "status": "PASS_NUMERICAL_ZERO"
+        }
+      }
+    ],
+    "smallest_sampled_decimal_normalized_residual": 2.274960428761567e-16,
+    "smallest_sampled_float64_normalized_residual": 2.2078704053137076e-16,
+    "best_float_check": {
+      "zero": 1.054619467970425,
+      "nearest_modal_pole_distance": 0.2618740558751509,
+      "nearest_bare_distance": 0.245380532029575,
+      "weighted_transfer_absolute": 2.7755575615628914e-17,
+      "weighted_transfer_normalized": 6.502690044186169e-17,
+      "weighted_newton_location_estimate": 2.076735923354203e-17,
+      "weighted_newton_to_pole_distance": 7.930285099888979e-17,
+      "dielectric_condition": 1.025378590078329,
+      "direct_charge_absolute": 9.71445146547012e-17,
+      "direct_charge_normalized": 2.2078704053137076e-16,
+      "direct_newton_location_estimate": 7.665581471110073e-17,
+      "direct_newton_to_pole_distance": 2.927201568514545e-16,
+      "direct_charge_derivative_real": -1.2672817453029226,
+      "cofactor_numerator_normalized": 1.0,
+      "status": "PASS_NUMERICAL_ZERO"
+    },
+    "scope": "Exact Decimal conversion of the same float64 transition energies/weights and U; no higher-precision band calculation."
+  }
+}

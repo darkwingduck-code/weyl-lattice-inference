@@ -1,0 +1,3615 @@
+{
+  "status": "LOW_ENERGY_FINITE_RESPONSE_AUDIT_COMPLETE",
+  "started_utc": "2026-09-10T14:49:24.974839+00:00",
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "magnetic_bloch_response.py": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "run_magnetic_refinement.py": "e92de362cac5a8697081f207a3aef8a5899fd114c4a4f53160a671cdde708315",
+    "extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "low_energy_mode_audit.py": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "test_low_energy_mode_audit.py": "d8d076c56ce9dc172b432aab8f45e39b53d8e31adaf20425152cea7b88a51ef3"
+  },
+  "input_sha256": {
+    "transverse_extension\\L72_Nk384_flux+0_fixed_mu.csv": "ed2034406209c72f7eb0621dd6343d6a5e88ce49dc46ce309d3628a1c7faddf1",
+    "magnetic_kz_continuation\\Nkx2_Nky13_Nk192_B1of36_fixed_mu.csv": "5608895bc266caf60cd16c1989d88da4574c89bd2c3d9b6aed7638b2d42dabd3",
+    "transverse_extension\\diagnostic.json": "1bed4cfd8db8196776f64fb5944691301cc6497b34e8e8b916e8000027903a91",
+    "magnetic_kz_continuation\\diagnostic.json": "a78c70986dc1268b4ce2c9b4cdd489b12473d65994a2c3f368c4791134c6e352"
+  },
+  "settings": {
+    "mu": 0.5,
+    "temperature": 0.04,
+    "q": 0.2617993877991494,
+    "coulomb_controls": [
+      0.0,
+      0.4,
+      0.8
+    ],
+    "axial_controls": [
+      0.0,
+      4.0,
+      8.0,
+      12.0
+    ]
+  },
+  "low_energy_pair_certified": false,
+  "hybrid_gap_certified": false,
+  "analytic_continuum_sheet_constructed": false,
+  "unresolved_requirements": [
+    "Complex pole and matrix residue tracking on a justified continuum sheet",
+    "Intrinsic widths separated from artificial eta and finite mesh spacing",
+    "Two branches tracked through a detuning control with a stable minimum separation",
+    "q, B and density/ensemble controls; fixed-mu B0 and Bplus have different densities",
+    "Mesh refinement repeated at smaller eta; eta=.015 convergence is not transferred automatically"
+  ],
+  "limits": [
+    "This is a finite-response first-stage audit, not proof that no low-energy collective pole exists.",
+    "Equal sorted-band-index sectors are basis/label dependent near degeneracies; energy-positive sectors include inter-subband transitions.",
+    "Sector polarizations are added before RPA; sector losses alone are not dressed modes."
+  ],
+  "cached_cases": [
+    {
+      "dataset": "B0",
+      "case": 0,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.0,
+      "density": 2.0054268838613476,
+      "coulomb": 0.8,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.8521427076602309,
+      "minimum_at_omega": 0.26,
+      "minimum_tracked_branch_separation": 0.002518513691529795,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4570567279873528,
+      "minimum_weighted_loss_eigenvalue": 9.15067984839966e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 19,
+            "omega": 0.16453125,
+            "height": 0.03141008717469761,
+            "prominence": 0.028883911467066852,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.12879814764983527,
+            "left_half_height": 0.12077806203390347,
+            "right_half_height": 0.24957620968373873
+          },
+          {
+            "index": 120,
+            "omega": 0.9062500000000001,
+            "height": 0.0006098917756903832,
+            "prominence": 1.2118950333551417e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 127,
+            "omega": 0.9576562500000001,
+            "height": 0.0007065030315271165,
+            "prominence": 1.0286387088371748e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 139,
+            "omega": 1.0457812499999999,
+            "height": 0.0011774774427454635,
+            "prominence": 4.729729901013953e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 149,
+            "omega": 1.11921875,
+            "height": 0.0013390511710779367,
+            "prominence": 2.5353744224732933e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.001604743778774395,
+            "prominence": 1.5859222957356582e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.023296711354912954,
+            "prominence": 0.020218830330363504,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.1595584967967208,
+            "left_half_height": 0.09004220929812452,
+            "right_half_height": 0.24960070609484533
+          },
+          {
+            "index": 29,
+            "omega": 0.23796875,
+            "height": 0.01331113851785893,
+            "prominence": 0.0012150417153931666,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.21050430458188993,
+            "left_half_height": 0.053346262985200656,
+            "right_half_height": 0.2638505675670906
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "B0",
+      "case": 1,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.0,
+      "density": 2.0054268838613476,
+      "coulomb": 0.8,
+      "axial": 4.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.8515741274541293,
+      "minimum_at_omega": 0.26,
+      "minimum_tracked_branch_separation": 1.5922457812167106,
+      "maximum_offdiagonal_determinant_fraction": 0.0034488183411578873,
+      "maximum_bare_axial_real": -0.4570567279873528,
+      "minimum_weighted_loss_eigenvalue": 9.154704220916846e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 19,
+            "omega": 0.16453125,
+            "height": 0.031632047096800904,
+            "prominence": 0.029106028656637393,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.1284559816286389,
+            "left_half_height": 0.121237531007545,
+            "right_half_height": 0.2496935126361839
+          },
+          {
+            "index": 120,
+            "omega": 0.9062500000000001,
+            "height": 0.0006099275801981023,
+            "prominence": 1.2088622519773303e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 127,
+            "omega": 0.9576562500000001,
+            "height": 0.0007065368728753255,
+            "prominence": 1.0286930645803235e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 139,
+            "omega": 1.0457812499999999,
+            "height": 0.0011774856004825383,
+            "prominence": 4.730653060678702e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 149,
+            "omega": 1.11921875,
+            "height": 0.0013390223305732173,
+            "prominence": 2.5361945779476223e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.00160466502059053,
+            "prominence": 1.586669097930352e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.0027990772123048305,
+            "prominence": 0.002443927779665843,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.15843011437153387,
+            "left_half_height": 0.0927876629682891,
+            "right_half_height": 0.251217777339823
+          },
+          {
+            "index": 29,
+            "omega": 0.23796875,
+            "height": 0.0016410569366917295,
+            "prominence": 0.0001614133082080832,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.2073548855303362,
+            "left_half_height": 0.056750684905243605,
+            "right_half_height": 0.2641055704355798
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "B0",
+      "case": 2,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.0,
+      "density": 2.0054268838613476,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.8517097254397736,
+      "minimum_at_omega": 0.26,
+      "minimum_tracked_branch_separation": 3.5356726943866366,
+      "maximum_offdiagonal_determinant_fraction": 0.0041789591901839436,
+      "maximum_bare_axial_real": -0.4570567279873528,
+      "minimum_weighted_loss_eigenvalue": 9.155567043095493e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 19,
+            "omega": 0.16453125,
+            "height": 0.03167895908228896,
+            "prominence": 0.029152972818498272,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.1283836085260469,
+            "left_half_height": 0.12133482825414509,
+            "right_half_height": 0.24971843678019198
+          },
+          {
+            "index": 120,
+            "omega": 0.9062500000000001,
+            "height": 0.0006099350964617353,
+            "prominence": 1.2082394091496697e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 127,
+            "omega": 0.9576562500000001,
+            "height": 0.0007065439856352249,
+            "prominence": 1.0287044485686285e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 139,
+            "omega": 1.0457812499999999,
+            "height": 0.0011774874839086341,
+            "prominence": 4.730841439174859e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 149,
+            "omega": 1.11921875,
+            "height": 0.001339016706272306,
+            "prominence": 2.5363609190121993e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.0016046493287011508,
+            "prominence": 1.586819676154265e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.001023663748067824,
+            "prominence": 0.0008948300088010355,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.15824348671618738,
+            "left_half_height": 0.09333514554760974,
+            "right_half_height": 0.2515786322637971
+          },
+          {
+            "index": 29,
+            "omega": 0.23796875,
+            "height": 0.0006035395971860785,
+            "prominence": 6.025806385547873e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.20668225573230203,
+            "left_half_height": 0.057478339857188705,
+            "right_half_height": 0.26416059558949073
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "B0",
+      "case": 3,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.0,
+      "density": 2.0054268838613476,
+      "coulomb": 0.8,
+      "axial": 12.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.8517842309575273,
+      "minimum_at_omega": 0.26,
+      "minimum_tracked_branch_separation": 5.47943139522518,
+      "maximum_offdiagonal_determinant_fraction": 0.0044962201590437205,
+      "maximum_bare_axial_real": -0.4570567279873528,
+      "minimum_weighted_loss_eigenvalue": 9.155942973555875e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 19,
+            "omega": 0.16453125,
+            "height": 0.03169932916646967,
+            "prominence": 0.029173356768043807,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.12835218858659342,
+            "left_half_height": 0.12137709821839611,
+            "right_half_height": 0.24972928680498954
+          },
+          {
+            "index": 120,
+            "omega": 0.9062500000000001,
+            "height": 0.00060993835564959,
+            "prominence": 1.2079707906281463e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 127,
+            "omega": 0.9576562500000001,
+            "height": 0.0007065470706647633,
+            "prominence": 1.028709384764037e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 139,
+            "omega": 1.0457812499999999,
+            "height": 0.001177488317997351,
+            "prominence": 4.730922568849105e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 149,
+            "omega": 1.11921875,
+            "height": 0.0013390143113900252,
+            "prominence": 2.5364324515231903e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.001604642610315677,
+            "prominence": 1.586884337014178e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.0005258197038838577,
+            "prominence": 0.0004598721994348294,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.15816721029454955,
+            "left_half_height": 0.09357034574241853,
+            "right_half_height": 0.25173755603696807
+          },
+          {
+            "index": 29,
+            "omega": 0.23796875,
+            "height": 0.0003107799047271879,
+            "prominence": 3.122813070572869e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.20638893892842197,
+            "left_half_height": 0.05779568089069896,
+            "right_half_height": 0.26418461981912095
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "B0",
+      "case": 4,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.0,
+      "density": 2.0054268838613476,
+      "coulomb": 0.4,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.9244951387058015,
+      "minimum_at_omega": 0.26,
+      "minimum_tracked_branch_separation": 3.711224042224021,
+      "maximum_offdiagonal_determinant_fraction": 0.0020639791323516076,
+      "maximum_bare_axial_real": -0.4570567279873528,
+      "minimum_weighted_loss_eigenvalue": 9.239712025616427e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.03454847974476967,
+            "prominence": 0.031205894779252376,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.12383098083681039,
+            "left_half_height": 0.1087343009580632,
+            "right_half_height": 0.2325652817948736
+          },
+          {
+            "index": 120,
+            "omega": 0.9062500000000001,
+            "height": 0.0006293055854430372,
+            "prominence": 1.1087837336148888e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 127,
+            "omega": 0.9576562500000001,
+            "height": 0.000729738972242994,
+            "prominence": 1.023747952772641e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 139,
+            "omega": 1.0457812499999999,
+            "height": 0.0012186547012962418,
+            "prominence": 4.9607270515436563e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 149,
+            "omega": 1.11921875,
+            "height": 0.001385275272521765,
+            "prominence": 2.6408038887597253e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.0016596204714630644,
+            "prominence": 1.672044949984253e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.0009944343471151862,
+            "prominence": 0.0008655679003332266,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.15923743890436037,
+            "left_half_height": 0.09094066700967163,
+            "right_half_height": 0.250178105914032
+          },
+          {
+            "index": 28,
+            "omega": 0.230625,
+            "height": 0.0006107949172556183,
+            "prominence": 1.9360648696724325e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.20418318871368651,
+            "left_half_height": 0.058102324907107365,
+            "right_half_height": 0.2622855136207939
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "B0",
+      "case": 5,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.0,
+      "density": 2.0054268838613476,
+      "coulomb": 0.0,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.025,
+      "minimum_tracked_branch_separation": 3.656857634665701,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4570567279873528,
+      "minimum_weighted_loss_eigenvalue": 9.321491144468464e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 17,
+            "omega": 0.14984375,
+            "height": 0.037456809231004966,
+            "prominence": 0.03283099324407209,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10548716581416122,
+            "left_half_height": 0.09281656281111585,
+            "right_half_height": 0.19830372862527706
+          },
+          {
+            "index": 120,
+            "omega": 0.9062500000000001,
+            "height": 0.0006495956891786806,
+            "prominence": 9.975970103314477e-07,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 127,
+            "omega": 0.9576562500000001,
+            "height": 0.0007540670544205835,
+            "prominence": 1.0164237614551956e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 139,
+            "omega": 1.0457812499999999,
+            "height": 0.0012618877527139848,
+            "prominence": 5.204776791861579e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 149,
+            "omega": 1.11921875,
+            "height": 0.0014337800852626005,
+            "prominence": 2.75056713703824e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.0017171339068867836,
+            "prominence": 1.7623564228255728e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.000959084795255024,
+            "prominence": 0.0008301741544662847,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.16136364077777837,
+            "left_half_height": 0.087953628641959,
+            "right_half_height": 0.24931726941973736
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "B0",
+      "case": 6,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.0,
+      "density": 2.0054268838613476,
+      "coulomb": 0.0,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.025,
+      "minimum_tracked_branch_separation": 0.0,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4570567279873528,
+      "minimum_weighted_loss_eigenvalue": 9.316555150766886e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 17,
+            "omega": 0.14984375,
+            "height": 0.037289373841808596,
+            "prominence": 0.032663212210015106,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.1077337412766775,
+            "left_half_height": 0.092461563676164,
+            "right_half_height": 0.2001953049528415
+          },
+          {
+            "index": 120,
+            "omega": 0.9062500000000001,
+            "height": 0.0006495554200030841,
+            "prominence": 1.0015436619706256e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 127,
+            "omega": 0.9576562500000001,
+            "height": 0.000754030089937845,
+            "prominence": 1.0163659688813549e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 139,
+            "omega": 1.0457812499999999,
+            "height": 0.0012618883098803916,
+            "prominence": 5.2036222216742716e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 149,
+            "omega": 1.11921875,
+            "height": 0.0014338301631109344,
+            "prominence": 2.74954327722024e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.0017172503580872422,
+            "prominence": 1.7614176813148105e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.02181295790744433,
+            "prominence": 0.018733240533285428,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.1630503415715783,
+            "left_half_height": 0.08468443831545938,
+            "right_half_height": 0.24773477988703768
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "B0",
+      "case": 7,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.0,
+      "density": 2.0054268838613476,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": true,
+      "minimum_dielectric_singular_value": 0.8521427076602309,
+      "minimum_at_omega": 0.26,
+      "minimum_tracked_branch_separation": 3.5356739082995743,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4570567279873528,
+      "minimum_weighted_loss_eigenvalue": 9.151770802429693e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 19,
+            "omega": 0.16453125,
+            "height": 0.03141008717469761,
+            "prominence": 0.028883911467066852,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.12879814764983527,
+            "left_half_height": 0.12077806203390347,
+            "right_half_height": 0.24957620968373873
+          },
+          {
+            "index": 120,
+            "omega": 0.9062500000000001,
+            "height": 0.0006098917756903832,
+            "prominence": 1.2118950333551417e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 127,
+            "omega": 0.9576562500000001,
+            "height": 0.0007065030315271165,
+            "prominence": 1.0286387088371748e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 139,
+            "omega": 1.0457812499999999,
+            "height": 0.0011774774427454635,
+            "prominence": 4.729729901013953e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 149,
+            "omega": 1.11921875,
+            "height": 0.0013390511710779367,
+            "prominence": 2.5353744224732933e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.001604743778774395,
+            "prominence": 1.5859222957356582e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 18,
+            "omega": 0.1571875,
+            "height": 0.000959084795255024,
+            "prominence": 0.0008301741544662847,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.16136364077777837,
+            "left_half_height": 0.087953628641959,
+            "right_half_height": 0.24931726941973736
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "Bplus",
+      "case": 0,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.17453292519943295,
+      "density": 1.9975576172502454,
+      "coulomb": 0.8,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.6730850507951132,
+      "minimum_at_omega": 0.28203125,
+      "minimum_tracked_branch_separation": 0.002140352589531601,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 8.750707559502158e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 11,
+            "omega": 0.10578125,
+            "height": 0.015322411313357319,
+            "prominence": 0.011276370873829638,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10480396706731487,
+            "left_half_height": 0.04702160996175586,
+            "right_half_height": 0.15182557702907074
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.07136119008843034,
+            "prominence": 0.06763302073078209,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03158030582042104,
+            "left_half_height": 0.2566707827513114,
+            "right_half_height": 0.28825108857173243
+          },
+          {
+            "index": 155,
+            "omega": 1.16328125,
+            "height": 0.004077052999835024,
+            "prominence": 0.0010644207614235626,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.012680740546189548,
+            "prominence": 0.007933243398060081,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10662029133456108,
+            "left_half_height": 0.033868555494383557,
+            "right_half_height": 0.14048884682894464
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.06572470176195992,
+            "prominence": 0.06267618666966869,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03156779143437016,
+            "left_half_height": 0.2567090304289277,
+            "right_half_height": 0.28827682186329784
+          },
+          {
+            "index": 67,
+            "omega": 0.51703125,
+            "height": 0.0007155819252382679,
+            "prominence": 5.736916308523427e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 75,
+            "omega": 0.57578125,
+            "height": 0.0007816600744171455,
+            "prominence": 0.00015523559167342736,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 84,
+            "omega": 0.6418750000000001,
+            "height": 0.0009647233974490669,
+            "prominence": 0.00024749492421505183,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 92,
+            "omega": 0.700625,
+            "height": 0.0012712722119132284,
+            "prominence": 0.0004107835535675195,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 101,
+            "omega": 0.7667187500000001,
+            "height": 0.0016687101329712736,
+            "prominence": 0.0006397563650524071,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 110,
+            "omega": 0.8328125000000001,
+            "height": 0.0019897092082094645,
+            "prominence": 0.0008027253298542223,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 119,
+            "omega": 0.8989062500000001,
+            "height": 0.0022957613039833974,
+            "prominence": 0.0008975551274253725,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 128,
+            "omega": 0.9650000000000001,
+            "height": 0.002484749783967756,
+            "prominence": 0.0008718789327574411,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 136,
+            "omega": 1.02375,
+            "height": 0.003018417714260508,
+            "prominence": 0.0011124154188929844,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 145,
+            "omega": 1.08984375,
+            "height": 0.0033917198604424496,
+            "prominence": 0.0006174243605015063,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 154,
+            "omega": 1.1559375,
+            "height": 0.006867259866162893,
+            "prominence": 0.0017717570887972097,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.005132959386558026,
+            "prominence": 1.735501057441042e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "Bplus",
+      "case": 1,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.17453292519943295,
+      "density": 1.9975576172502454,
+      "coulomb": 0.8,
+      "axial": 4.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.6667006223488811,
+      "minimum_at_omega": 0.28203125,
+      "minimum_tracked_branch_separation": 1.4974456103299372,
+      "maximum_offdiagonal_determinant_fraction": 0.06801229616730534,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 8.811430081972138e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 11,
+            "omega": 0.10578125,
+            "height": 0.01533845566044484,
+            "prominence": 0.011292396326059705,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.1043515688529166,
+            "left_half_height": 0.04706379080285592,
+            "right_half_height": 0.15141535965577252
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.07290330214934845,
+            "prominence": 0.06923835477977902,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030711560340099142,
+            "left_half_height": 0.25849976673292746,
+            "right_half_height": 0.2892113270730266
+          },
+          {
+            "index": 155,
+            "omega": 1.16328125,
+            "height": 0.004072750544041325,
+            "prominence": 0.001062580566068237,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.001484230431128164,
+            "prominence": 0.000942758933465607,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10634101121906177,
+            "left_half_height": 0.03475715031422681,
+            "right_half_height": 0.14109816153328858
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.008006981813001721,
+            "prominence": 0.007650194406985491,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030701423986111198,
+            "left_half_height": 0.2585349518932862,
+            "right_half_height": 0.2892363758793974
+          },
+          {
+            "index": 67,
+            "omega": 0.51703125,
+            "height": 8.590131739050504e-05,
+            "prominence": 6.723282117250605e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 75,
+            "omega": 0.57578125,
+            "height": 9.333886998711533e-05,
+            "prominence": 1.872062103892456e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 84,
+            "omega": 0.6418750000000001,
+            "height": 0.00011459851261406376,
+            "prominence": 2.9557704499286858e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 92,
+            "omega": 0.700625,
+            "height": 0.00015024886119908878,
+            "prominence": 4.875786440187741e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 101,
+            "omega": 0.7667187500000001,
+            "height": 0.00019622503845476993,
+            "prominence": 7.551771645205685e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 110,
+            "omega": 0.8328125000000001,
+            "height": 0.00023275090315628402,
+            "prominence": 9.427101203258927e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 119,
+            "omega": 0.8989062500000001,
+            "height": 0.00026710838374721787,
+            "prominence": 0.00010478381211663328,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 128,
+            "omega": 0.9650000000000001,
+            "height": 0.00028729204372087086,
+            "prominence": 0.0001015023187066397,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 136,
+            "omega": 1.02375,
+            "height": 0.00034636003790089074,
+            "prominence": 0.0001282100732268687,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 145,
+            "omega": 1.08984375,
+            "height": 0.00038615539986277614,
+            "prominence": 7.145163812197252e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 154,
+            "omega": 1.1559375,
+            "height": 0.0007759523619960042,
+            "prominence": 0.0002007784412908593,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.0005800022672598285,
+            "prominence": 1.451718578140103e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "Bplus",
+      "case": 2,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.17453292519943295,
+      "density": 1.9975576172502454,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.6691723999823644,
+      "minimum_at_omega": 0.28203125,
+      "minimum_tracked_branch_separation": 3.456889178379479,
+      "maximum_offdiagonal_determinant_fraction": 0.0827952502131957,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 8.824890182461231e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 11,
+            "omega": 0.10578125,
+            "height": 0.015341942223482657,
+            "prominence": 0.011295878718356897,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10425678636522893,
+            "left_half_height": 0.047073022576962345,
+            "right_half_height": 0.15132980894219128
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.07307426401039678,
+            "prominence": 0.06942225441490853,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030600037460021712,
+            "left_half_height": 0.2588728757298017,
+            "right_half_height": 0.28947291318982343
+          },
+          {
+            "index": 155,
+            "omega": 1.16328125,
+            "height": 0.004071892529297419,
+            "prominence": 0.0010622053790222195,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.0005399611881161635,
+            "prominence": 0.0003440034886578458,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10628677436146163,
+            "left_half_height": 0.034937625663862895,
+            "right_half_height": 0.14122440002532452
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.0029312717284896463,
+            "prominence": 0.002801465936700986,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030604132310041665,
+            "left_half_height": 0.2589074284239064,
+            "right_half_height": 0.28951156073394807
+          },
+          {
+            "index": 67,
+            "omega": 0.51703125,
+            "height": 3.141792395272439e-05,
+            "prominence": 2.4464447193646563e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 75,
+            "omega": 0.57578125,
+            "height": 3.410043213485667e-05,
+            "prominence": 6.8533826657984865e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 84,
+            "omega": 0.6418750000000001,
+            "height": 4.182184642985583e-05,
+            "prominence": 1.0798838813774205e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 92,
+            "omega": 0.700625,
+            "height": 5.4774343038284466e-05,
+            "prominence": 1.7790758090202867e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 101,
+            "omega": 0.7667187500000001,
+            "height": 7.146022793496319e-05,
+            "prominence": 2.7523293106964048e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 110,
+            "omega": 0.8328125000000001,
+            "height": 8.467042572885843e-05,
+            "prominence": 3.4321695149964635e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 119,
+            "omega": 0.8989062500000001,
+            "height": 9.706116591407313e-05,
+            "prominence": 3.810242882640769e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 128,
+            "omega": 0.9650000000000001,
+            "height": 0.00010426132038053636,
+            "prominence": 3.688755965276032e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 136,
+            "omega": 1.02375,
+            "height": 0.0001255029497613351,
+            "prominence": 4.649790103492327e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 145,
+            "omega": 1.08984375,
+            "height": 0.00013969951141694793,
+            "prominence": 2.5933501341638895e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 154,
+            "omega": 1.1559375,
+            "height": 0.00028028171419980374,
+            "prominence": 7.256368620209286e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.00020950550683455568,
+            "prominence": 4.871717427124694e-07,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "Bplus",
+      "case": 3,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.17453292519943295,
+      "density": 1.9975576172502454,
+      "coulomb": 0.8,
+      "axial": 12.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.6705966716472218,
+      "minimum_at_omega": 0.28203125,
+      "minimum_tracked_branch_separation": 5.409355851031559,
+      "maximum_offdiagonal_determinant_fraction": 0.08925577285999414,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 8.830806515259824e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 11,
+            "omega": 0.10578125,
+            "height": 0.01534346641124077,
+            "prominence": 0.011297401077451915,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.1042157068296386,
+            "left_half_height": 0.04707706472490603,
+            "right_half_height": 0.15129277155454463
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.07313147947199639,
+            "prominence": 0.06948504517990324,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03059513956243215,
+            "left_half_height": 0.25903309289625537,
+            "right_half_height": 0.2896282324586875
+          },
+          {
+            "index": 155,
+            "omega": 1.16328125,
+            "height": 0.004071525091364083,
+            "prominence": 0.0010620438566238404,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.00027673501391827296,
+            "prominence": 0.00017653065702787334,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10626370545064297,
+            "left_half_height": 0.03501525597641057,
+            "right_half_height": 0.14127896142705354
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.0015060500937981447,
+            "prominence": 0.0014395214054226963,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030599303765584895,
+            "left_half_height": 0.2590673720795572,
+            "right_half_height": 0.2896666758451421
+          },
+          {
+            "index": 67,
+            "omega": 0.51703125,
+            "height": 1.6139297935404404e-05,
+            "prominence": 1.253934117895119e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 75,
+            "omega": 0.57578125,
+            "height": 1.7508902449446073e-05,
+            "prominence": 3.5219855087486457e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 84,
+            "omega": 0.6418750000000001,
+            "height": 2.1463344815049012e-05,
+            "prominence": 5.544720176496034e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 92,
+            "omega": 0.700625,
+            "height": 2.809785238136052e-05,
+            "prominence": 9.129692523846726e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 101,
+            "omega": 0.7667187500000001,
+            "height": 3.664065211587226e-05,
+            "prominence": 1.4117135123292886e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 110,
+            "omega": 0.8328125000000001,
+            "height": 4.3393798591767445e-05,
+            "prominence": 1.759606696619554e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 119,
+            "omega": 0.8989062500000001,
+            "height": 4.9720238007632325e-05,
+            "prominence": 1.952404326226783e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 128,
+            "omega": 0.9650000000000001,
+            "height": 5.337895999952625e-05,
+            "prominence": 1.889673193406242e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 136,
+            "omega": 1.02375,
+            "height": 6.421117676957359e-05,
+            "prominence": 2.3798821099810328e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 145,
+            "omega": 1.08984375,
+            "height": 7.142547903640729e-05,
+            "prominence": 1.3277804211192339e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 154,
+            "omega": 1.1559375,
+            "height": 0.00014320659903548257,
+            "prominence": 3.7084339019491895e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.00010704508116621443,
+            "prominence": 2.4074629750327203e-07,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "Bplus",
+      "case": 4,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.17453292519943295,
+      "density": 1.9975576172502454,
+      "coulomb": 0.4,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 0.8109754899930385,
+      "minimum_at_omega": 0.28203125,
+      "minimum_tracked_branch_separation": 3.6416922587076894,
+      "maximum_offdiagonal_determinant_fraction": 0.04433205910316462,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 8.933053226825614e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 10,
+            "omega": 0.09843750000000001,
+            "height": 0.01791458753226593,
+            "prominence": 0.012443987144706544,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10676778466584828,
+            "left_half_height": 0.04120933550097043,
+            "right_half_height": 0.14797712016681872
+          },
+          {
+            "index": 33,
+            "omega": 0.26734375000000005,
+            "height": 0.07487170756534257,
+            "prominence": 0.07065370896813349,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03094557864451425,
+            "left_half_height": 0.25226261905406233,
+            "right_half_height": 0.2832081976985766
+          },
+          {
+            "index": 155,
+            "omega": 1.16328125,
+            "height": 0.004266284448077811,
+            "prominence": 0.0011911330998292434,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.0005373538849327442,
+            "prominence": 0.0003413993035483679,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10858712210836263,
+            "left_half_height": 0.034764290729452835,
+            "right_half_height": 0.14335141283781547
+          },
+          {
+            "index": 33,
+            "omega": 0.26734375000000005,
+            "height": 0.002844067352183892,
+            "prominence": 0.0027017519787083137,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030917550251122028,
+            "left_half_height": 0.2523287769837445,
+            "right_half_height": 0.28324632723486654
+          },
+          {
+            "index": 67,
+            "omega": 0.51703125,
+            "height": 3.0395172252995406e-05,
+            "prominence": 2.6097654087368135e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 75,
+            "omega": 0.57578125,
+            "height": 3.344454227327423e-05,
+            "prominence": 6.64452192113466e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 84,
+            "omega": 0.6418750000000001,
+            "height": 4.136010347221197e-05,
+            "prominence": 1.0654588002104821e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 92,
+            "omega": 0.700625,
+            "height": 5.4413719020909336e-05,
+            "prominence": 1.7657498658057796e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 101,
+            "omega": 0.7667187500000001,
+            "height": 7.118898637028148e-05,
+            "prominence": 2.7414181318187155e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 110,
+            "omega": 0.8328125000000001,
+            "height": 8.450135909916041e-05,
+            "prominence": 3.426002526239606e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 119,
+            "omega": 0.8989062500000001,
+            "height": 9.697091720606982e-05,
+            "prominence": 3.808080999228702e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 128,
+            "omega": 0.9650000000000001,
+            "height": 0.00010425232296837252,
+            "prominence": 3.690374959204601e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 136,
+            "omega": 1.02375,
+            "height": 0.0001255525725289302,
+            "prominence": 4.651831376013046e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 145,
+            "omega": 1.08984375,
+            "height": 0.00013990358484745804,
+            "prominence": 2.579519709207563e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 154,
+            "omega": 1.1559375,
+            "height": 0.0002816115536570232,
+            "prominence": 7.343764663907733e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.00020993328808666806,
+            "prominence": 4.773180437732047e-07,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "Bplus",
+      "case": 5,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.17453292519943295,
+      "density": 1.9975576172502454,
+      "coulomb": 0.0,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.025,
+      "minimum_tracked_branch_separation": 3.5325620010759087,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 9.043335510718197e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.021349376428902982,
+            "prominence": 0.013564205421412973,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.1084930974040975,
+            "left_half_height": 0.03476877293789442,
+            "right_half_height": 0.14326187034199192
+          },
+          {
+            "index": 32,
+            "omega": 0.26,
+            "height": 0.07615026829183515,
+            "prominence": 0.07123029172305073,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03138415902009345,
+            "left_half_height": 0.24535779133612412,
+            "right_half_height": 0.27674195035621757
+          },
+          {
+            "index": 155,
+            "omega": 1.16328125,
+            "height": 0.004469192068982909,
+            "prominence": 0.001328486404562465,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.0005351066594645147,
+            "prominence": 0.00033915235063094323,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.11168627683309476,
+            "left_half_height": 0.0346168587579986,
+            "right_half_height": 0.14630313559109337
+          },
+          {
+            "index": 32,
+            "omega": 0.26,
+            "height": 0.0027384068901045167,
+            "prominence": 0.0025827686582460332,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031374177231006856,
+            "left_half_height": 0.24541397844916293,
+            "right_half_height": 0.2767881556801698
+          },
+          {
+            "index": 67,
+            "omega": 0.51703125,
+            "height": 2.941692931677641e-05,
+            "prominence": 2.7544361352050935e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 75,
+            "omega": 0.57578125,
+            "height": 3.280568388747953e-05,
+            "prominence": 6.442449288507064e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 84,
+            "omega": 0.6418750000000001,
+            "height": 4.090411321908019e-05,
+            "prominence": 1.0511938668185871e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 92,
+            "omega": 0.700625,
+            "height": 5.405444014163277e-05,
+            "prominence": 1.752432934955001e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 101,
+            "omega": 0.7667187500000001,
+            "height": 7.091707675405926e-05,
+            "prominence": 2.7304188259190702e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 110,
+            "omega": 0.8328125000000001,
+            "height": 8.433164652854857e-05,
+            "prominence": 3.41974838372124e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 119,
+            "omega": 0.8989062500000001,
+            "height": 9.688098304055318e-05,
+            "prominence": 3.8058772396059974e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 128,
+            "omega": 0.9650000000000001,
+            "height": 0.00010424577707477236,
+            "prominence": 3.692008534574563e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 136,
+            "omega": 1.02375,
+            "height": 0.00012560767782373227,
+            "prominence": 4.6538156095805167e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 145,
+            "omega": 1.08984375,
+            "height": 0.00014012604565709352,
+            "prominence": 2.563403846777808e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 154,
+            "omega": 1.1559375,
+            "height": 0.0002830732411008485,
+            "prominence": 7.437700196949275e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.0002104295935195866,
+            "prominence": 4.6246147945589594e-07,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "Bplus",
+      "case": 6,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.17453292519943295,
+      "density": 1.9975576172502454,
+      "coulomb": 0.0,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.025,
+      "minimum_tracked_branch_separation": 0.0,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 8.972445310209405e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.021337813802060266,
+            "prominence": 0.013552622318522865,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10899880870148809,
+            "left_half_height": 0.03475010051319544,
+            "right_half_height": 0.14374890921468353
+          },
+          {
+            "index": 32,
+            "omega": 0.26,
+            "height": 0.07580554551370301,
+            "prominence": 0.07076631155618715,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03129961949976834,
+            "left_half_height": 0.24348108822946601,
+            "right_half_height": 0.27478070772923435
+          },
+          {
+            "index": 112,
+            "omega": 0.8475,
+            "height": 8.303338957609555e-05,
+            "prominence": 4.718220819720112e-08,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 155,
+            "omega": 1.16328125,
+            "height": 0.004475615800020369,
+            "prominence": 0.0013310653916985779,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.012574884733160378,
+            "prominence": 0.007827430179821411,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.11184959857125065,
+            "left_half_height": 0.033573951436703275,
+            "right_half_height": 0.14542355000795393
+          },
+          {
+            "index": 32,
+            "omega": 0.26,
+            "height": 0.0625845055473898,
+            "prominence": 0.05893585595155038,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031264055262833435,
+            "left_half_height": 0.24356507325545385,
+            "right_half_height": 0.2748291285182873
+          },
+          {
+            "index": 67,
+            "omega": 0.51703125,
+            "height": 0.0006708847940190581,
+            "prominence": 6.421810126806143e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 75,
+            "omega": 0.57578125,
+            "height": 0.0007526967406549532,
+            "prominence": 0.0001460855533662132,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 84,
+            "omega": 0.6418750000000001,
+            "height": 0.0009442371653860694,
+            "prominence": 0.00024112197973587875,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 92,
+            "omega": 0.700625,
+            "height": 0.0012553052577025645,
+            "prominence": 0.00040490031911664373,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 101,
+            "omega": 0.7667187500000001,
+            "height": 0.001656852803377672,
+            "prominence": 0.0006350090962588093,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 110,
+            "omega": 0.8328125000000001,
+            "height": 0.0019826090640026363,
+            "prominence": 0.0008001934385175838,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 119,
+            "omega": 0.8989062500000001,
+            "height": 0.002292393962966365,
+            "prominence": 0.0008968977195483174,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 128,
+            "omega": 0.9650000000000001,
+            "height": 0.002485269040318474,
+            "prominence": 0.0008729766558840393,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 136,
+            "omega": 1.02375,
+            "height": 0.0030219931959326795,
+            "prominence": 0.0011137721414996114,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 145,
+            "omega": 1.08984375,
+            "height": 0.0034033182789054697,
+            "prominence": 0.0006101912764108776,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 154,
+            "omega": 1.1559375,
+            "height": 0.006936921350591187,
+            "prominence": 0.0018161659387747131,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.0051568146046040335,
+            "prominence": 1.6811708864410135e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "dataset": "Bplus",
+      "case": 7,
+      "q": 0.2617993877991494,
+      "eta": 0.015,
+      "B": 0.17453292519943295,
+      "density": 1.9975576172502454,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": true,
+      "minimum_dielectric_singular_value": 0.6730850507951133,
+      "minimum_at_omega": 0.28203125,
+      "minimum_tracked_branch_separation": 3.538262037694903,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 8.759497716042227e-05,
+      "peaks": {
+        "charge": [
+          {
+            "index": 11,
+            "omega": 0.10578125,
+            "height": 0.015322411313357319,
+            "prominence": 0.011276370873829638,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.10480396706731487,
+            "left_half_height": 0.04702160996175586,
+            "right_half_height": 0.15182557702907074
+          },
+          {
+            "index": 34,
+            "omega": 0.27468750000000003,
+            "height": 0.07136119008843034,
+            "prominence": 0.06763302073078209,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03158030582042104,
+            "left_half_height": 0.2566707827513114,
+            "right_half_height": 0.28825108857173243
+          },
+          {
+            "index": 155,
+            "omega": 1.16328125,
+            "height": 0.004077052999835024,
+            "prominence": 0.0010644207614235626,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ],
+        "axial": [
+          {
+            "index": 9,
+            "omega": 0.09109375,
+            "height": 0.0005351066594645147,
+            "prominence": 0.00033915235063094323,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.11168627683309476,
+            "left_half_height": 0.0346168587579986,
+            "right_half_height": 0.14630313559109337
+          },
+          {
+            "index": 32,
+            "omega": 0.26,
+            "height": 0.0027384068901045167,
+            "prominence": 0.0025827686582460332,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031374177231006856,
+            "left_half_height": 0.24541397844916293,
+            "right_half_height": 0.2767881556801698
+          },
+          {
+            "index": 67,
+            "omega": 0.51703125,
+            "height": 2.941692931677641e-05,
+            "prominence": 2.7544361352050935e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 75,
+            "omega": 0.57578125,
+            "height": 3.280568388747953e-05,
+            "prominence": 6.442449288507064e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 84,
+            "omega": 0.6418750000000001,
+            "height": 4.090411321908019e-05,
+            "prominence": 1.0511938668185871e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 92,
+            "omega": 0.700625,
+            "height": 5.405444014163277e-05,
+            "prominence": 1.752432934955001e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 101,
+            "omega": 0.7667187500000001,
+            "height": 7.091707675405926e-05,
+            "prominence": 2.7304188259190702e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 110,
+            "omega": 0.8328125000000001,
+            "height": 8.433164652854857e-05,
+            "prominence": 3.41974838372124e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 119,
+            "omega": 0.8989062500000001,
+            "height": 9.688098304055318e-05,
+            "prominence": 3.8058772396059974e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 128,
+            "omega": 0.9650000000000001,
+            "height": 0.00010424577707477236,
+            "prominence": 3.692008534574563e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 136,
+            "omega": 1.02375,
+            "height": 0.00012560767782373227,
+            "prominence": 4.6538156095805167e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 145,
+            "omega": 1.08984375,
+            "height": 0.00014012604565709352,
+            "prominence": 2.563403846777808e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 154,
+            "omega": 1.1559375,
+            "height": 0.0002830732411008485,
+            "prominence": 7.437700196949275e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 159,
+            "omega": 1.19265625,
+            "height": 0.0002104295935195866,
+            "prominence": 4.6246147945589594e-07,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    }
+  ],
+  "control_memory": {
+    "before": {
+      "total_physical_bytes": 68095827968,
+      "available_physical_bytes": 16152928256
+    },
+    "estimated_peak_bytes": 1797259264,
+    "admission_required_bytes": 4131389440
+  },
+  "completed_blocks": 26,
+  "control_raw_transition_count": 103514112,
+  "control_checks": {
+    "raw_transition_count": 103514112,
+    "expected_raw_transition_count": 103514112,
+    "vertex_error": 3.072135387740873e-14,
+    "moment0_max": 3.7513395167998453e-16,
+    "charge_ward_bare": 6.800132178209613e-15,
+    "charge_ward_rpa": 7.876243687312732e-15,
+    "density": 1.9975576172502454,
+    "all_identity_checks_pass": true
+  },
+  "eta_cases": [
+    {
+      "case": 0,
+      "coulomb": 0.8,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "eta": 0.0075,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.4717216403652016,
+      "minimum_at_omega": 0.27499999999999997,
+      "minimum_tracked_branch_separation": 0.10240418892405062,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4097446510544787,
+      "minimum_weighted_loss_eigenvalue": 0.00037849460727107994,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.01782957629544897,
+            "prominence": 0.009445189910993166,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.09168700283287687,
+            "left_half_height": 0.05194407871615284,
+            "right_half_height": 0.1436310815490297
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.1353344692280345,
+            "prominence": 0.13336205103862542,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.017330794884039435,
+            "left_half_height": 0.2637215398687924,
+            "right_half_height": 0.2810523347528318
+          }
+        ],
+        "axial": [
+          {
+            "index": 4,
+            "omega": 0.08,
+            "height": 0.014050396189146441,
+            "prominence": 6.625843512292687e-06,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.01453505294899065,
+            "prominence": 0.004937178845956345,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.12457861239803891,
+            "prominence": 0.12298731661464313,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.017320696127904156,
+            "left_half_height": 0.2637339898259189,
+            "right_half_height": 0.28105468595382305
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 1,
+      "coulomb": 0.8,
+      "axial": 4.0,
+      "remove_mixing": false,
+      "eta": 0.0075,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.47604496738711255,
+      "minimum_at_omega": 0.27499999999999997,
+      "minimum_tracked_branch_separation": 0.8504778133318889,
+      "maximum_offdiagonal_determinant_fraction": 0.1916758870611791,
+      "maximum_bare_axial_real": -0.4097446510544787,
+      "minimum_weighted_loss_eigenvalue": 0.00041373712341744403,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.017860560649623283,
+            "prominence": 0.009474183068404132,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.09127644975314432,
+            "left_half_height": 0.051993177070201416,
+            "right_half_height": 0.14326962682334574
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.14446138358755878,
+            "prominence": 0.1425291157536043,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.015720859749566996,
+            "left_half_height": 0.2660062564368692,
+            "right_half_height": 0.2817271161864362
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0017063340968004014,
+            "prominence": 0.0006082952822354139,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.015857407561987575,
+            "prominence": 0.015671024582756203,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.015714569133116973,
+            "left_half_height": 0.2660151489459346,
+            "right_half_height": 0.28172971807905156
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 2,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.0075,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.4844808917322202,
+      "minimum_at_omega": 0.27499999999999997,
+      "minimum_tracked_branch_separation": 3.151385834785617,
+      "maximum_offdiagonal_determinant_fraction": 0.23597381032857798,
+      "maximum_bare_axial_real": -0.4097446510544787,
+      "minimum_weighted_loss_eigenvalue": 0.0004188558831699254,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.017867179783625203,
+            "prominence": 0.009480396966825715,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.09119033036502157,
+            "left_half_height": 0.05200373752502134,
+            "right_half_height": 0.1431940678900429
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.1452607898076205,
+            "prominence": 0.14333671104912374,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.015470019810582991,
+            "left_half_height": 0.26648224386363284,
+            "right_half_height": 0.28195226367421583
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.000621128476243852,
+            "prominence": 0.00022351447658179244,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.005823669909446754,
+            "prominence": 0.0057558493849616185,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.015464688724118325,
+            "left_half_height": 0.26649030052139694,
+            "right_half_height": 0.28195498924551526
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 3,
+      "coulomb": 0.8,
+      "axial": 12.0,
+      "remove_mixing": false,
+      "eta": 0.0075,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.48910211399489834,
+      "minimum_at_omega": 0.27499999999999997,
+      "minimum_tracked_branch_separation": 4.750986512571419,
+      "maximum_offdiagonal_determinant_fraction": 0.2556330797169084,
+      "maximum_bare_axial_real": -0.4097446510544787,
+      "minimum_weighted_loss_eigenvalue": 0.00041328551785392077,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.017870061791624606,
+            "prominence": 0.009483104586133332,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.09115299564988105,
+            "left_half_height": 0.052008342905176703,
+            "right_half_height": 0.14316133855505775
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.14547504603257216,
+            "prominence": 0.14355449335625284,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.015379676568675393,
+            "left_half_height": 0.26668589279381155,
+            "right_half_height": 0.28206556936248695
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.00031841427374985215,
+            "prominence": 0.00011504037607597099,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.0029941902297298054,
+            "prominence": 0.002959428085652851,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.015375019985087557,
+            "left_half_height": 0.26669357908238217,
+            "right_half_height": 0.2820685990674697
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 4,
+      "coulomb": 0.4,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.0075,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.6584797137515129,
+      "minimum_at_omega": 0.2746875,
+      "minimum_tracked_branch_separation": 3.2923159511807483,
+      "maximum_offdiagonal_determinant_fraction": 0.14323629920273429,
+      "maximum_bare_axial_real": -0.4097446510544787,
+      "minimum_weighted_loss_eigenvalue": 0.00036843513963118153,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.02080684884885285,
+            "prominence": 0.00951447522120518,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.14756399720290736,
+            "prominence": 0.14531496539777788,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.015657042304836832,
+            "left_half_height": 0.26014776700257886,
+            "right_half_height": 0.2758048093074157
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0006168668326496634,
+            "prominence": 0.00021966777073970795,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.005606023378099775,
+            "prominence": 0.0055316273767103095,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.01564260968698311,
+            "left_half_height": 0.260167396985647,
+            "right_half_height": 0.2758100066726301
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 5,
+      "coulomb": 0.0,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.0075,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.05,
+      "minimum_tracked_branch_separation": 3.3131038137244824,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4097446510544787,
+      "minimum_weighted_loss_eigenvalue": 0.00032491229491344155,
+      "peaks": {
+        "charge": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.02462489217800332,
+            "prominence": 0.008777366814318892,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.14452181619947285,
+            "prominence": 0.141913513208741,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.017133303680816336,
+            "left_half_height": 0.25275647013513547,
+            "right_half_height": 0.2698897738159518
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0006129050722603543,
+            "prominence": 0.00021626810652477027,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.005199293514686926,
+            "prominence": 0.005116675674198273,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.017114600110001377,
+            "left_half_height": 0.252792504803882,
+            "right_half_height": 0.26990710491388337
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 6,
+      "coulomb": 0.0,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "eta": 0.0075,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.05,
+      "minimum_tracked_branch_separation": 0.0,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4097446510544787,
+      "minimum_weighted_loss_eigenvalue": 0.000299872492485081,
+      "peaks": {
+        "charge": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.024602721817177955,
+            "prominence": 0.008759561553842818,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.1458769063078231,
+            "prominence": 0.1432071052381789,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.016716069649511445,
+            "left_half_height": 0.25076002277026505,
+            "right_half_height": 0.2674760924197765
+          }
+        ],
+        "axial": [
+          {
+            "index": 4,
+            "omega": 0.08,
+            "height": 0.013932549002472996,
+            "prominence": 8.284188447675936e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.014352906029563935,
+            "prominence": 0.004778517628088289,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.12053055029589471,
+            "prominence": 0.11858535578583534,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.016664746577469525,
+            "left_half_height": 0.25082254493083295,
+            "right_half_height": 0.26748729150830247
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 7,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": true,
+      "eta": 0.0075,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.4717216403652016,
+      "minimum_at_omega": 0.27499999999999997,
+      "minimum_tracked_branch_separation": 3.413219193256478,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4097446510544787,
+      "minimum_weighted_loss_eigenvalue": 0.00041558075577073015,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.01782957629544897,
+            "prominence": 0.009445189910993166,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.09168700283287687,
+            "left_half_height": 0.05194407871615284,
+            "right_half_height": 0.1436310815490297
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.1353344692280345,
+            "prominence": 0.13336205103862542,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.017330794884039435,
+            "left_half_height": 0.2637215398687924,
+            "right_half_height": 0.2810523347528318
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0006129050722603543,
+            "prominence": 0.00021626810652477027,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.005199293514686926,
+            "prominence": 0.005116675674198273,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.017114600110001266,
+            "left_half_height": 0.2527925048038821,
+            "right_half_height": 0.26990710491388337
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 0,
+      "coulomb": 0.8,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "eta": 0.015,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.6729730580356075,
+      "minimum_at_omega": 0.2825,
+      "minimum_tracked_branch_separation": 0.1137144079804405,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 0.0007313128657850393,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.015322411313357319,
+            "prominence": 0.007179788367676434,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.07136119008843042,
+            "prominence": 0.06760998251460436,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031689190901587394,
+            "left_half_height": 0.25665398509690873,
+            "right_half_height": 0.2883431759984961
+          }
+        ],
+        "axial": [
+          {
+            "index": 6,
+            "omega": 0.09109375,
+            "height": 0.01268074054618955,
+            "prominence": 0.0037046316528915983,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.06572470176195999,
+            "prominence": 0.06268819321979818,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03167731343792696,
+            "left_half_height": 0.25669237669470146,
+            "right_half_height": 0.2883696901326284
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 1,
+      "coulomb": 0.8,
+      "axial": 4.0,
+      "remove_mixing": false,
+      "eta": 0.015,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.6658251130964294,
+      "minimum_at_omega": 0.2825,
+      "minimum_tracked_branch_separation": 1.4947691445254367,
+      "maximum_offdiagonal_determinant_fraction": 0.06802757721335607,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 0.0007456127653203993,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.01533845566044484,
+            "prominence": 0.00719443916595547,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.07290330214934847,
+            "prominence": 0.06922594785707314,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030823187755565973,
+            "left_half_height": 0.25849193324232195,
+            "right_half_height": 0.2893151209978879
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0014847560655206777,
+            "prominence": 0.0004543961624327731,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.008006981813001728,
+            "prominence": 0.007651324517105919,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030813469332917287,
+            "left_half_height": 0.25852728167131744,
+            "right_half_height": 0.28934075100423473
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 2,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.015,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.6680546815753142,
+      "minimum_at_omega": 0.2825,
+      "minimum_tracked_branch_separation": 3.4579529287937154,
+      "maximum_offdiagonal_determinant_fraction": 0.08282291811849835,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 0.0007456246010097161,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.015341942223482657,
+            "prominence": 0.007197638231910931,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.0730742640103968,
+            "prominence": 0.06941220057060982,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03067568615661803,
+            "left_half_height": 0.2588669601883344,
+            "right_half_height": 0.2895426463449524
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0005404045429962274,
+            "prominence": 0.0001670407618601464,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.0029312717284896497,
+            "prominence": 0.002801856420973523,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03066648815323808,
+            "left_half_height": 0.2589016791549114,
+            "right_half_height": 0.2895681673081495
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 3,
+      "coulomb": 0.8,
+      "axial": 12.0,
+      "remove_mixing": false,
+      "eta": 0.015,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.6693589797658609,
+      "minimum_at_omega": 0.2825,
+      "minimum_tracked_branch_separation": 5.409355851031559,
+      "maximum_offdiagonal_determinant_fraction": 0.08928997277370726,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 0.0007456283319750481,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.01534346641124077,
+            "prominence": 0.007199038290771894,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.07313147947199639,
+            "prominence": 0.06947600149781394,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030615959922006053,
+            "left_half_height": 0.25902800790216673,
+            "right_half_height": 0.2896439678241728
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0002770180584843879,
+            "prominence": 8.59910493202741e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.0015060500937981516,
+            "prominence": 0.001439716962602585,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030606995773015067,
+            "left_half_height": 0.2590624545585228,
+            "right_half_height": 0.28966945033153785
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 4,
+      "coulomb": 0.4,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.015,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.8109754899930385,
+      "minimum_at_omega": 0.28203125,
+      "minimum_tracked_branch_separation": 3.6416922587076903,
+      "maximum_offdiagonal_determinant_fraction": 0.044169629930573336,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 0.0007116820385979302,
+      "peaks": {
+        "charge": [
+          {
+            "index": 8,
+            "omega": 0.10250000000000001,
+            "height": 0.017956179863908975,
+            "prominence": 0.007168670997634744,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.07491537204037413,
+            "prominence": 0.07068505527030312,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03078468513217597,
+            "left_half_height": 0.25231316966008915,
+            "right_half_height": 0.2830978547922651
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0005376031823871568,
+            "prominence": 0.0001645194031587565,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0028457822614996256,
+            "prominence": 0.00270410524344559,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.030756058826746757,
+            "left_half_height": 0.25238101426002535,
+            "right_half_height": 0.2831370730867721
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 5,
+      "coulomb": 0.0,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.015,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.05,
+      "minimum_tracked_branch_separation": 3.5322985771956272,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 0.0006291617504867436,
+      "peaks": {
+        "charge": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.021368409321814275,
+            "prominence": 0.0065496109092281676,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.07615026829183515,
+            "prominence": 0.0712395612738674,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03137449245248913,
+            "left_half_height": 0.24530629020184141,
+            "right_half_height": 0.27668078265433055
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0005353994432987664,
+            "prominence": 0.00016264830575080796,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.0027384068901045167,
+            "prominence": 0.002581667577702363,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031364892775764625,
+            "left_half_height": 0.2453626138389753,
+            "right_half_height": 0.27672750661473994
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 6,
+      "coulomb": 0.0,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "eta": 0.015,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.05,
+      "minimum_tracked_branch_separation": 0.0,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 0.0005822682853183742,
+      "peaks": {
+        "charge": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.021358331272068903,
+            "prominence": 0.006541870175375223,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.07580554551370301,
+            "prominence": 0.07078124935049863,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031239887246249903,
+            "left_half_height": 0.2435206412244564,
+            "right_half_height": 0.2747605284707063
+          }
+        ],
+        "axial": [
+          {
+            "index": 6,
+            "omega": 0.09109375,
+            "height": 0.01257488473316038,
+            "prominence": 0.0036130681792839302,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.06258450554738978,
+            "prominence": 0.05891420542030178,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031191327513701073,
+            "left_half_height": 0.24360712654441408,
+            "right_half_height": 0.27479845405811515
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 7,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": true,
+      "eta": 0.015,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.6729730580356075,
+      "minimum_at_omega": 0.2825,
+      "minimum_tracked_branch_separation": 3.565108618388065,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4404438417289944,
+      "minimum_weighted_loss_eigenvalue": 0.0007455658554029905,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.015322411313357319,
+            "prominence": 0.007179788367676434,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.07136119008843042,
+            "prominence": 0.06760998251460436,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031689190901587394,
+            "left_half_height": 0.25665398509690873,
+            "right_half_height": 0.2883431759984961
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0005353994432987664,
+            "prominence": 0.00016264830575080796,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.0027384068901045167,
+            "prominence": 0.002581667577702363,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031364892775764625,
+            "left_half_height": 0.2453626138389753,
+            "right_half_height": 0.27672750661473994
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 0,
+      "coulomb": 0.8,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "eta": 0.03,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.8301458146776574,
+      "minimum_at_omega": 0.2975,
+      "minimum_tracked_branch_separation": 0.11022921370770553,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4563819017501355,
+      "minimum_weighted_loss_eigenvalue": 0.0009606638433382899,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.012095637293403193,
+            "prominence": 0.005078076662949857,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.036563492736664274,
+            "prominence": 0.030215024882599847,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06197926276705282,
+            "left_half_height": 0.24113022613999915,
+            "right_half_height": 0.30310948890705197
+          }
+        ],
+        "axial": [
+          {
+            "index": 6,
+            "omega": 0.09109375,
+            "height": 0.01009577302683714,
+            "prominence": 0.0028297317291773906,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.03378805836074096,
+            "prominence": 0.028591170758485378,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.062134697930143035,
+            "left_half_height": 0.24125083378022516,
+            "right_half_height": 0.3033855317103682
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 1,
+      "coulomb": 0.8,
+      "axial": 4.0,
+      "remove_mixing": false,
+      "eta": 0.03,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.8261976430615473,
+      "minimum_at_omega": 0.2975,
+      "minimum_tracked_branch_separation": 1.6490682861147237,
+      "maximum_offdiagonal_determinant_fraction": 0.01936253594514925,
+      "maximum_bare_axial_real": -0.4563819017501355,
+      "minimum_weighted_loss_eigenvalue": 0.0009606628685469371,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.01209087545851406,
+            "prominence": 0.0050735298807356175,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.03691319874823232,
+            "prominence": 0.030662492949085813,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06152614943643553,
+            "left_half_height": 0.24274542174184,
+            "right_half_height": 0.3042715711782755
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.001183413049531774,
+            "prominence": 0.0003447689031885904,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.004067755593597764,
+            "prominence": 0.0034571655586031437,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06168259813986812,
+            "left_half_height": 0.24285786045138216,
+            "right_half_height": 0.3045404585912503
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 2,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.03,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.8269812911630929,
+      "minimum_at_omega": 0.2975,
+      "minimum_tracked_branch_separation": 3.5896687433946703,
+      "maximum_offdiagonal_determinant_fraction": 0.023462720066700603,
+      "maximum_bare_axial_real": -0.4563819017501355,
+      "minimum_weighted_loss_eigenvalue": 0.0009606611438170973,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.012089990316488858,
+            "prominence": 0.005072683220141119,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.03696652614340298,
+            "prominence": 0.0307358853810799,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.061447982129220646,
+            "left_half_height": 0.24307697785589238,
+            "right_half_height": 0.30452495998511303
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.00043069474941129053,
+            "prominence": 0.00012645755391116256,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.0014878268813874468,
+            "prominence": 0.0012655067469020918,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06160486473516616,
+            "left_half_height": 0.2431876524773028,
+            "right_half_height": 0.30479251721246897
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 3,
+      "coulomb": 0.8,
+      "axial": 12.0,
+      "remove_mixing": false,
+      "eta": 0.03,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.8274224760784061,
+      "minimum_at_omega": 0.2975,
+      "minimum_tracked_branch_separation": 5.532408690140459,
+      "maximum_offdiagonal_determinant_fraction": 0.02524402107827428,
+      "maximum_bare_axial_real": -0.4563819017501355,
+      "minimum_weighted_loss_eigenvalue": 0.0009606585474861848,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.012089618507137741,
+            "prominence": 0.00507232741459565,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.036987467730624224,
+            "prominence": 0.03076547978601637,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06141596983271885,
+            "left_half_height": 0.24321986874250756,
+            "right_half_height": 0.3046358385752264
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0002207733675475363,
+            "prominence": 6.503805291154657e-05,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.0007642616334731372,
+            "prominence": 0.0006502780992870731,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.0615730645653666,
+            "left_half_height": 0.2433297730258514,
+            "right_half_height": 0.304902837591218
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 4,
+      "coulomb": 0.4,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.03,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.907473094416975,
+      "minimum_at_omega": 0.2975,
+      "minimum_tracked_branch_separation": 3.73097421703487,
+      "maximum_offdiagonal_determinant_fraction": 0.012054777467579728,
+      "maximum_bare_axial_real": -0.4563819017501355,
+      "minimum_weighted_loss_eigenvalue": 0.0011311150196190922,
+      "peaks": {
+        "charge": [
+          {
+            "index": 8,
+            "omega": 0.10250000000000001,
+            "height": 0.014174878778394533,
+            "prominence": 0.00514712264679411,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.038099222132856284,
+            "prominence": 0.03092792819327014,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.061681771009104575,
+            "left_half_height": 0.23631573538013043,
+            "right_half_height": 0.297997506389235
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0004309443250566612,
+            "prominence": 0.00012664777328826038,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0014504816066463512,
+            "prominence": 0.0012116760527576586,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.061786473897056604,
+            "left_half_height": 0.2365349170222606,
+            "right_half_height": 0.2983213909193172
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 5,
+      "coulomb": 0.0,
+      "axial": 8.0,
+      "remove_mixing": false,
+      "eta": 0.03,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.05,
+      "minimum_tracked_branch_separation": 3.6533072025953555,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4563819017501355,
+      "minimum_weighted_loss_eigenvalue": 0.0011675621685403128,
+      "peaks": {
+        "charge": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.016874855819502706,
+            "prominence": 0.004909566208845825,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.03912215119171344,
+            "prominence": 0.030910223045469865,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.062135704250276896,
+            "left_half_height": 0.2292707540290563,
+            "right_half_height": 0.2914064582793332
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0004320482295301197,
+            "prominence": 0.00012760950724268957,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.0014084425424950968,
+            "prominence": 0.0011513863718490228,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06208889496435946,
+            "left_half_height": 0.22962910300150544,
+            "right_half_height": 0.2917179979658649
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 6,
+      "coulomb": 0.0,
+      "axial": 0.0,
+      "remove_mixing": false,
+      "eta": 0.03,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 1.0,
+      "minimum_at_omega": 0.05,
+      "minimum_tracked_branch_separation": 0.0,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4563819017501355,
+      "minimum_weighted_loss_eigenvalue": 0.0010866480140740767,
+      "peaks": {
+        "charge": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.016886480940301946,
+            "prominence": 0.004919772291027243,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.0388598389349679,
+            "prominence": 0.030504463595715493,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06223296103347417,
+            "left_half_height": 0.22747271248152814,
+            "right_half_height": 0.2897056735150023
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.010131270640986744,
+            "prominence": 0.0028598167361675786,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.0321151567429943,
+            "prominence": 0.026113635318965434,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.062117117334311855,
+            "left_half_height": 0.22783872930184684,
+            "right_half_height": 0.2899558466361587
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    },
+    {
+      "case": 7,
+      "coulomb": 0.8,
+      "axial": 8.0,
+      "remove_mixing": true,
+      "eta": 0.03,
+      "q": 0.2617993877991494,
+      "minimum_dielectric_singular_value": 0.8301458146776574,
+      "minimum_at_omega": 0.2975,
+      "minimum_tracked_branch_separation": 3.589529048211902,
+      "maximum_offdiagonal_determinant_fraction": 0.0,
+      "maximum_bare_axial_real": -0.4563819017501355,
+      "minimum_weighted_loss_eigenvalue": 0.0009607910670375059,
+      "peaks": {
+        "charge": [
+          {
+            "index": 9,
+            "omega": 0.10578125,
+            "height": 0.012095637293403193,
+            "prominence": 0.005078076662949857,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.036563492736664274,
+            "prominence": 0.030215024882599847,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06197926276705282,
+            "left_half_height": 0.24113022613999915,
+            "right_half_height": 0.30310948890705197
+          }
+        ],
+        "axial": [
+          {
+            "index": 7,
+            "omega": 0.095,
+            "height": 0.0004320482295301197,
+            "prominence": 0.00012760950724268957,
+            "finite_eta_peak_only": true,
+            "half_height_width": null
+          },
+          {
+            "index": 30,
+            "omega": 0.26,
+            "height": 0.0014084425424950968,
+            "prominence": 0.0011513863718490228,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.06208889496435946,
+            "left_half_height": 0.22962910300150544,
+            "right_half_height": 0.2917179979658649
+          }
+        ]
+      },
+      "analytic_poles_residues_and_intrinsic_widths": null,
+      "hybrid_gap_certified": false
+    }
+  ],
+  "control_grid": {
+    "Nkx": 2,
+    "Nky": 13,
+    "Nkz": 192,
+    "B": 0.17453292519943295,
+    "q": 0.2617993877991494,
+    "frequency_points": 45,
+    "etas": [
+      0.0075,
+      0.015,
+      0.03
+    ]
+  },
+  "sector_definition": {
+    "positive_positive": "Both eigenenergies >0; includes different positive-energy subbands",
+    "equal_sorted_band_index": "Initial sorted index equals final sorted index; not a degeneracy-invariant band decomposition",
+    "complements": "All other transitions obtained as exact total minus displayed diagnostic sector"
+  },
+  "conclusion": "Existing finite-response evidence does not establish a pair of low-energy collective poles or a stable hybrid gap. Loss peaks remain candidates, not certified modes.",
+  "sources_unchanged": true,
+  "inputs_unchanged": true,
+  "elapsed_seconds": 446.28833309999754,
+  "output_sha256": {
+    "execution.log": "f6bc2a7428d8ec78a28f7c52cf06b2066f052da7cca19a2c0f8a8be1bc5d90e5",
+    "cached_controls.csv": "064203b6fc2b0f0ceaf3f6d8c695038f0273cf043f0bf56e7c43b79621836b39",
+    "cached_response_audit.png": "5f0001e9e495639269a8c8cd14dcbdd381bd663c14ed91759a2da394df92ee3d",
+    "cached_response_audit.pdf": "40d3f94a4ce22e5dca7fd63356ab919e6fc98df14f5df0b4f7769fe4d3f4613d",
+    "sector_path_validation.json": "776b304b87230a6587e9eda6b413886214faf76190c5925f1cfb48978ea92675",
+    "eta_controls.csv": "7dc552b1073520e90d2bbff3f3d65b33316598088a145baba2df2c1a248bc5a6",
+    "transition_sectors.csv": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "eta_sector_controls.png": "b557de40afb1c4b0a5d9c58839a8e2b1d9cb0b9c28b096178ea320fae7c8e503",
+    "eta_sector_controls.pdf": "3dd0dc061d367fc08afbe2df49297de3aaa49a0002afb228346e39b5a503f675"
+  }
+}

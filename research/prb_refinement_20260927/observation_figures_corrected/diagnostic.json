@@ -1,0 +1,30 @@
+{
+  "status": "FIGURES_AND_SUMMARIES_COMPLETE",
+  "source_sha256": "2bba37d56587e6d243a2a24d40ace66ae8ad5da3ae03b9e7f733957b4ddae483",
+  "input_sha256": {
+    "validation/full_profiles.csv": "124f7d26fab3c3e18a2eacd13ddae0488c6ac3165b5736c2692edf82b01c5739",
+    "validation/noise_replicas.csv": "abc06330b3d14e29f2ee84ebad87e573fcba054b5d4987a6c370c1712449ab62",
+    "validation/nonfactorizable_controls.csv": "5111a71104a4d317d2a8ea9284df40116b86859768e4d221c6e598a7e51471fc",
+    "validation/common_higher_joint_bias.csv": "991b59a14592d56756d4b4e584963bca1f337ab97274092e9c86eb86412f76a3",
+    "validation/raw_matrix_hypotheses.csv": "56bce367a3fdc65e617e10980d0d5d96a63c08da6ef2539774f5c70549e19210",
+    "nuisance_robustness/frequency_gain_raw_profiles.csv": "646ecba27816b40713ec03d3f4d35e9e23145d153a38c3499955179e8f0ec24f",
+    "nuisance_robustness/weak_signal_noise.csv": "1d9c020ff59d69bbf4e8e79a29e7ef8925c6c18afde714069be6f5652f322d6b",
+    "nuisance_robustness/baseline_same_reference_grid.csv": "b8a4bbdc8de31ce48550f0225f28060b3f39fbf7c2d224b673d485e4b67b7cd3",
+    "pilot/signal_amplitudes.csv": "78311f6e73dbe68e899d66f12d1ac98a56553292860c000695fec9be07abfd20"
+  },
+  "outputs_sha256": {
+    "noise_summary.csv": "f472e60094dba79a532f78024ddf3d98a5cb6e86f61efbfa0f1a1f39c6fb85ae",
+    "observation_limits.pdf": "22e88c4e62deda114dcf03ee015e772087073d70315211c44e869b3e1547d450",
+    "observation_limits.png": "fc2af98a0ee92e0f52f1be31bf57aa0494faae51afc9786142f8cf3137ff947d",
+    "observation_noise.pdf": "a54326fdb389ea422a4c512c8935507a7914347fb4409d779798a63b8a9fb99a",
+    "observation_noise.png": "c762e5a07bdd4a5d91b4de307b5501b4f985bce6a8f3137743974f2c29478151",
+    "observation_profiles.pdf": "69ce73c780e16f3a59915de9508ff588c76a1d55943dbd7fbcd203e3ed81119a",
+    "observation_profiles.png": "25e4612b8e72ba8e62b859063412319a0a66f4b4f8f4677e12a977a42526ce9a"
+  },
+  "figsize_inches": [
+    6.7,
+    3.7
+  ],
+  "font_base_points": 8.5,
+  "noise_distribution_not_confidence_interval": true
+}

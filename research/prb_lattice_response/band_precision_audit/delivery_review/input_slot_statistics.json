@@ -1,0 +1,24 @@
+{
+  "raw_slot_count": 3456,
+  "recorded_delta_zero_count": 0,
+  "distinct_recorded_delta_count": 3456,
+  "minimum_recorded_delta_separation": "0.000000329129218556477173840010483023",
+  "all_charge_weights_nonzero": true,
+  "min_abs_charge_weight": "1.33504045133763918968437170736e-76",
+  "minimum_squared_charge_vertex": "0.00000000708304131594648418010819291039",
+  "original_float_df_zero_count": 802,
+  "original_both_occupations_exactly_one": 802,
+  "observable_pole_count_certified": false,
+  "moment0_frobenius": {
+    "original_float": "2.41345620283117530104196614518e-17",
+    "high_precision_110": "6.48093567565818353268283404089e-112"
+  },
+  "all_751_intervals_resolved": false,
+  "old_nonzero_raw_charge_relative_errors": {
+    "count": 2654,
+    "max": "0.9161655574165458414441403",
+    "above_1percent": 11,
+    "above_1e_6": 40,
+    "note": "Reporting bins only; no weight has been deleted or replaced."
+  }
+}

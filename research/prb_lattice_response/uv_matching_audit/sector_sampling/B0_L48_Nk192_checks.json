@@ -1,0 +1,102 @@
+{
+  "raw_count": 7077888,
+  "expected_raw_count": 7077888,
+  "vertex_error": 1.2910682992681645e-14,
+  "density": 2.005425848343045,
+  "total_moment0": [
+    [
+      {
+        "real": 9.486769009248164e-20,
+        "imag": 0.0
+      },
+      {
+        "real": 3.898384436443192e-17,
+        "imag": -2.681305147731507e-18
+      }
+    ],
+    [
+      {
+        "real": 3.898384436443192e-17,
+        "imag": 2.681305147731507e-18
+      },
+      {
+        "real": -5.551115123125783e-17,
+        "imag": 0.0
+      }
+    ]
+  ],
+  "positive_positive_moment0": [
+    [
+      {
+        "real": -4.866151852843054e-09,
+        "imag": 0.0
+      },
+      {
+        "real": 0.00015703188883082288,
+        "imag": 4.9751948055757565e-21
+      }
+    ],
+    [
+      {
+        "real": 0.00015703188883082288,
+        "imag": -4.9751948055757565e-21
+      },
+      {
+        "real": 2.518174657639314e-07,
+        "imag": 0.0
+      }
+    ]
+  ],
+  "excluded_moment0": [
+    [
+      {
+        "real": 4.866151852937921e-09,
+        "imag": 0.0
+      },
+      {
+        "real": -0.0001570318888307839,
+        "imag": -2.686280342537083e-18
+      }
+    ],
+    [
+      {
+        "real": -0.0001570318888307839,
+        "imag": 2.686280342537083e-18
+      },
+      {
+        "real": -2.5181746581944255e-07,
+        "imag": 0.0
+      }
+    ]
+  ],
+  "total_moment0_max": 5.551115123125783e-17,
+  "positive_positive_moment0_max": 0.00015703188883082288,
+  "total_charge_ward_bare": 3.1182265186635687e-16,
+  "total_charge_ward_rpa": 3.0056344846435324e-16,
+  "positive_positive_charge_ward_bare": 0.00015703188883083746,
+  "positive_positive_charge_ward_rpa_naive": 0.0001693459210239863,
+  "minimum_total_weighted_loss_eigenvalue": 0.00022371752140789845,
+  "memory_before": {
+    "total_physical_bytes": 68095827968,
+    "available_physical_bytes": 24362381312
+  },
+  "estimated_peak_bytes": 419430400,
+  "admission_required_bytes": 1375731712,
+  "elapsed_seconds": 14.65296490000037,
+  "parameters": {
+    "Lx": 48,
+    "Ly": 48,
+    "Nkz": 192,
+    "mass": 0.0,
+    "wilson": 1.0,
+    "hopping": 1.0,
+    "exchange": 1.0,
+    "theta_x": 0.0,
+    "theta_y": 0.0,
+    "theta_z": 0.0
+  },
+  "magnetic": false,
+  "q": 0.2617993877991494,
+  "eta": 0.015,
+  "all_total_identity_checks_pass": true
+}

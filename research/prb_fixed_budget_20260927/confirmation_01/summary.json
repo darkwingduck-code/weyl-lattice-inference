@@ -1,0 +1,258 @@
+{
+  "plan": {
+    "status": "FROZEN_BEFORE_CONFIRMATION_EXECUTION",
+    "purpose": "Independent confirmation of exactly two policy contrasts selected from the 30-repetition pilot, not a new allocation search",
+    "pilot_results": "research/prb_fixed_budget_20260927/run_01/summary.json",
+    "truth_g_Ua": [
+      0.8,
+      8.0
+    ],
+    "contrasts": {
+      "symmetric": {
+        "directions": [
+          0.7,
+          0.7
+        ],
+        "candidate": "Bplus_75pct",
+        "baseline": "Bplus_only"
+      },
+      "asymmetric": {
+        "directions": [
+          0.7,
+          -0.3
+        ],
+        "candidate": "Bplus_25pct",
+        "baseline": "B0_only"
+      }
+    },
+    "policies": {
+      "Bplus_75pct": {
+        "B0": 0.25,
+        "Bplus": 0.75
+      },
+      "Bplus_only": {
+        "Bplus": 1.0
+      },
+      "Bplus_25pct": {
+        "B0": 0.75,
+        "Bplus": 0.25
+      },
+      "B0_only": {
+        "B0": 1.0
+      }
+    },
+    "repetitions_per_truth": 200,
+    "seed": 2026092721,
+    "total_fit_count": 800,
+    "reuse": "Unchanged pilot Problem, analytic derivatives, five starting points, bounds, higher B0/Bplus arrays, affine complex gains per field, shared interaction/source parameters, and sigma0=1.2931669440932318e-4",
+    "budget": "Same total acquisition budget as pilot: full four-entry matrices on 45 frequencies, sigma_field=sigma0/sqrt(field_time_fraction); equal detector prefactors, no switching overhead or drift",
+    "pairing": "Independent standard circular-complex noise per field, truth and repetition; identical draws reused within each candidate/baseline pair and rescaled by their time fractions. Confirmation seed differs from pilot. Different truth pairs use independent draws.",
+    "primary_statistic": "D_i=(Ua_candidate_i-8)^2-(Ua_baseline_i-8)^2; report mean D, sample SD/sqrt(200), and interval mean D +/- z*SE. Negative D favors candidate.",
+    "multiple_comparisons": "Exactly two primary contrasts. Bonferroni familywise 95% intervals use per-contrast two-sided 97.5% normal-approximation intervals, z=Phi^-1(0.9875) approximately 2.2414. These are Monte Carlo mean-loss comparisons, not parameter confidence intervals or exact finite-sample coverage.",
+    "failed_optimization": "Retain every estimate and every start. Report optimizer statuses, bounds, and feasible synthetic-truth objective failures. A contrast containing a retained optimizer failure, bound hit, or truth-objective failure cannot support the primary precision claim without an explicitly separate investigation; no silent deletions or reruns.",
+    "secondary_outputs": "RMSE and bias for each of the four declared truth/policy cases; all estimates and input/source hashes. No 50:50 contrast, new policy, or empirical allocation optimization.",
+    "stopping": "Run the fixed 200 repetitions per truth regardless of intermediate result direction. Four disjoint repetition shards with one BLAS thread each."
+  },
+  "inherited_pilot_plan": {
+    "status": "FROZEN_BEFORE_CALCULATION",
+    "question": "Does splitting a fixed acquisition budget between zero and finite field improve interaction inference after independent source directions and affine gains are fitted?",
+    "inputs": {
+      "B0": "research/prb_refinement_20260927/B0_higher/response_3channel.npz",
+      "Bplus": "research/prb_refinement_20260927/Bplus_combined/response_3channel.npz"
+    },
+    "truths": {
+      "symmetric": [
+        0.7,
+        0.7
+      ],
+      "asymmetric": [
+        0.7,
+        -0.3
+      ]
+    },
+    "g_Ua": [
+      0.8,
+      8.0
+    ],
+    "sigma0": 0.00012931669440932318,
+    "time_model": "A total budget T is shared among fields. Each field measures the same four complex entries on the same 45 frequencies with equal per-entry dwell allocation. sigma0 is the per-entry circular-complex RMS for allocating all T to one full-matrix field. Allocating fraction f gives sigma_field=sigma0/sqrt(f). Independent equal white detector noise, no switching overhead, drift, or field-dependent noise prefactor is assumed. Charge calibration is known. This is a declared acquisition model, not an apparatus claim.",
+    "policies": {
+      "B0_only": {
+        "B0": 1.0
+      },
+      "Bplus_only": {
+        "Bplus": 1.0
+      },
+      "Bplus_25pct": {
+        "B0": 0.75,
+        "Bplus": 0.25
+      },
+      "Bplus_50pct": {
+        "B0": 0.5,
+        "Bplus": 0.5
+      },
+      "Bplus_75pct": {
+        "B0": 0.25,
+        "Bplus": 0.75
+      }
+    },
+    "observations": "full four-entry matrix only; no comparison with a different per-entry time allocation",
+    "parameters": "g/.8, Ua/8, lambda_readout, lambda_source; source directions shared across fields, independent complex affine source/readout gains in each field",
+    "bounds": {
+      "g": [
+        0.2,
+        1.6
+      ],
+      "Ua": [
+        0.0,
+        24.0
+      ],
+      "lambda_r": [
+        -1.0,
+        1.0
+      ],
+      "lambda_s": [
+        -1.0,
+        1.0
+      ]
+    },
+    "multistarts": [
+      [
+        0.55,
+        3.0,
+        -0.8,
+        0.4
+      ],
+      [
+        0.8,
+        8.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.1,
+        16.0,
+        0.8,
+        -0.4
+      ],
+      [
+        1.4,
+        22.0,
+        -0.4,
+        0.8
+      ],
+      [
+        0.65,
+        12.0,
+        0.5,
+        0.5
+      ]
+    ],
+    "repetitions": 30,
+    "seed": 2026092711,
+    "pairing": "For each truth and repetition one independent standard circular-complex noise array per field is reused across policies, multiplied by that policy's sigma_field. This couples Monte Carlo comparisons, not physical measurements between policies.",
+    "information": "Analytic derivatives; true Gaussian Fisher 2 Re(J^H Sigma^-1 J); project affine gains and both source-direction nuisance columns; report Ua local bound after also fitting g. Local information does not establish confidence coverage or global uniqueness.",
+    "optimizer": "Five frozen starts, all attempts retained; best residual selected even if a status is false, reported honestly. Feasible exact-truth residual is a diagnostic upper bound, not an extra start or fitted estimate.",
+    "selection": "Report all five policies and both truths. Best and minimax choices refer only to this grid, source family, noise model and 30-realization empirical experiment. No predetermined improvement claim. No uniform source-angle robustness claim."
+  },
+  "z": 2.2414027276049464,
+  "summaries": [
+    {
+      "truth": "symmetric",
+      "role": "candidate",
+      "policy": "Bplus_75pct",
+      "count": 200,
+      "Ua_rmse": 0.03250728894557934,
+      "Ua_bias": 0.00023239913401987167,
+      "success_count": 200,
+      "bound_count": 0,
+      "truth_upper_bound_failures": 0,
+      "unsuccessful_starts": 0
+    },
+    {
+      "truth": "symmetric",
+      "role": "baseline",
+      "policy": "Bplus_only",
+      "count": 200,
+      "Ua_rmse": 0.037523425233037894,
+      "Ua_bias": 0.002596523652363656,
+      "success_count": 200,
+      "bound_count": 0,
+      "truth_upper_bound_failures": 0,
+      "unsuccessful_starts": 0
+    },
+    {
+      "truth": "asymmetric",
+      "role": "candidate",
+      "policy": "Bplus_25pct",
+      "count": 200,
+      "Ua_rmse": 0.17612622534404088,
+      "Ua_bias": 0.006031219693824723,
+      "success_count": 200,
+      "bound_count": 0,
+      "truth_upper_bound_failures": 0,
+      "unsuccessful_starts": 0
+    },
+    {
+      "truth": "asymmetric",
+      "role": "baseline",
+      "policy": "B0_only",
+      "count": 200,
+      "Ua_rmse": 0.18995733133204415,
+      "Ua_bias": -0.0005781133801501648,
+      "success_count": 200,
+      "bound_count": 0,
+      "truth_upper_bound_failures": 0,
+      "unsuccessful_starts": 0
+    }
+  ],
+  "contrasts": [
+    {
+      "truth": "symmetric",
+      "candidate": "Bplus_75pct",
+      "baseline": "Bplus_only",
+      "paired_count": 200,
+      "mean_squared_error_difference": -0.00035128360662800063,
+      "monte_carlo_se": 0.00013633719464926735,
+      "normal_interval_lower": -0.000656870166588875,
+      "normal_interval_upper": -4.5697046667126306e-05,
+      "optimization_checks_pass": true,
+      "lower_candidate_mse_supported": true
+    },
+    {
+      "truth": "asymmetric",
+      "candidate": "Bplus_25pct",
+      "baseline": "B0_only",
+      "paired_count": 200,
+      "mean_squared_error_difference": -0.00506334047285213,
+      "monte_carlo_se": 0.0029528335868346067,
+      "normal_interval_lower": -0.011681829728546715,
+      "normal_interval_upper": 0.001555148782842455,
+      "optimization_checks_pass": true,
+      "lower_candidate_mse_supported": false
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\run_fixed_budget.py": "75f7f4b1fc49798b68c068fee368dcf7fbca0ee15d7c31aac1b9b63e5c096edc",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\frozen_plan.json": "daff5e04e867c5b19df54c460941a8bc31deee9187fe4b3f0d1a5a10008ecc6a",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\run_study.py": "8f5df93e1b0ee5fa1b57da74a254f6abfb074b4f41430f78214f2cb47a13ea03",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\response_derivatives.py": "6ccd9ab5b830052bd2379ea254e8543c771680b7eab0ec2f17792f45f3db79e5",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\analyze_information.py": "96fd54b07915598cf1e57c920d8a2fdadc17cf55dc8360e97bb90bbb24e28090",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\frozen_design.json": "47696caa78139bb2aab0739ecc17e164516da823d55a1d996578db25d96355ae",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "170704298b9e79a20550a2069b00b2e5ce719a95414f3bd8646cb8e44332ff43",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\noise_sensitivity.py": "096ce6696240942d6f975b596f8fa439952a63554abb53da15c77a88cbaa7e45",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\analyze_inference.py": "5d0d9c5bab94bb3bd1929cf9622f10d29991182ad13beb75c119d270aa0bebea",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_refinement_20260927\\B0_higher\\response_3channel.npz": "a54c7efcdb24c50475343df9418c3a5d1da035c3f3d28f5d43c73d7b8f730c7c",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_refinement_20260927\\Bplus_combined\\response_3channel.npz": "9fd110214b9acc3f3124bff31b8b7a487ae6ff5083afd9bbd640e0d2f976190d",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\run_confirmation.py": "caefbf0491269e65238c6168415aa1ff50c89829a1888948a4675a1ab7fc50b0",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\confirmation_plan.json": "1278a0c3741ef79a78e1f0c8a9f757ec6cf9644ea52dfcf7dbf5ead7b66f1f0f",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\run_01\\summary.json": "3b033882053922b5238b058abc80f43922710e6896ecf5c0c5106cb2c1c02775"
+  },
+  "sources_unchanged": true,
+  "input_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\confirmation_01\\fits_0.json": "2d2072d11eccab9715d27440cb9d554d7255a464ce21f76e89dc42f3a187da43",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\confirmation_01\\fits_1.json": "1814c2914b23332a2c43143a1196f129aebd54c15d7718c5ddbf860b1aadfc4c",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\confirmation_01\\fits_2.json": "061d08a86e2bd4d974fd1be9af8eb1194dcfaed25bf3d4811b2e60b58fcfe5ee",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_fixed_budget_20260927\\confirmation_01\\fits_3.json": "3fc008466be584ec97ab1ccb18e6c414c6cebc1ff3ef46c77ae1e49c10c610e8"
+  }
+}

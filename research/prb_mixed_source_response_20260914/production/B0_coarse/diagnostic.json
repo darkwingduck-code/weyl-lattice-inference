@@ -1,0 +1,75 @@
+{
+  "status": "MIXED_VERTEX_RESPONSE_PASS",
+  "field": "B0",
+  "mesh": "coarse",
+  "parameters": {
+    "Lx": 48,
+    "Ly": 48,
+    "Nkz": 192,
+    "mass": 0.0,
+    "wilson": 1.0,
+    "hopping": 1.0,
+    "exchange": 1.0,
+    "theta_x": 0.0,
+    "theta_y": 0.0,
+    "theta_z": 0.0
+  },
+  "flux": "0/1",
+  "q": 0.2617993877991494,
+  "qshift": 8,
+  "mu": 0.5,
+  "temperature": 0.04,
+  "eta": 0.015,
+  "frequency_count": 45,
+  "frequency_range": [
+    0.05,
+    0.35
+  ],
+  "channels": [
+    "charge",
+    "Gamma5",
+    "Gamma3"
+  ],
+  "interacting_channels": [
+    "charge",
+    "Gamma5"
+  ],
+  "checks": {
+    "raw_pairs": 7077888,
+    "expected_raw_pairs": 7077888,
+    "charge_vertex_error": 1.4243814466008847e-14,
+    "moment0_max": 3.0089583966841373e-18,
+    "charge_ward_left": 8.889149915253151e-18,
+    "charge_ward_right": 9.035648106643771e-18,
+    "weighted_passivity_minimum": 0.00022020158487410306,
+    "generic_vs_legacy_rpa_error": 0.0,
+    "prior_two_channel_errors": {
+      "bare": 2.287121389069934e-16,
+      "rpa": 1.1372951381066436e-16
+    }
+  },
+  "chunks": 36,
+  "elapsed_seconds": 17.490761899971403,
+  "available_memory_before_or_end": 16275755008,
+  "peak_observed_process_rss_bytes": 96772096,
+  "source_sha256": {
+    "research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "f180263e83395d632c11ecded364d21775651c77097257360ce310a64de29486",
+    "research\\prb_mixed_source_response_20260914\\run_large_grid.py": "d4950cf86b5e9e652b7d8a8514c5162b5d3a112ecf5e9b30d4444dd09dd7cd30",
+    "research\\prb_mixed_source_response_20260914\\frozen_design.json": "214717a0d530a74472fff898d0b58532e35cc273171c421104dddf0ff5b613b6",
+    "research\\prb_lattice_response\\lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "research\\prb_lattice_response\\magnetic_bloch_response.py": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "research\\prb_lattice_response\\parameter_sector_sampling.py": "a168d803486f1a7e40a44895df276d63f53005c0c80ccc0e63ddaa242d039687"
+  },
+  "input_sha256": {
+    "research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\baseline_metadata.json": "aa7a7d93374e18ced40e7f966b26e82fe60b4e60cfd2e8b9cbe9e7ace8e02820",
+    "research\\prb_lattice_response\\parameter_sector_sampling\\B0_coarse\\baseline.csv": "44cbcdf161c161a120171a12ee8f72fd21cc3354ed4bc8ff360bcfc5dcab9757"
+  },
+  "sources_unchanged": true,
+  "scientific_claim_ready": false,
+  "limitations": [
+    "Gamma3 is an external vertex, not an interacting channel.",
+    "Pilot and coarse meshes do not certify the production mesh.",
+    "Bplus kz refinement does not certify transverse convergence.",
+    "Finite eta is a resolvent regulator, not intrinsic damping."
+  ]
+}

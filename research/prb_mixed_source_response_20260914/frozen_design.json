@@ -1,0 +1,67 @@
+{
+  "design_id": "prb_mixed_source_response_20260914_v1",
+  "status": "DESIGN_FROZEN_BEFORE_PILOT",
+  "frozen_at_local_date": "2026-09-15",
+  "scientific_question": "Does a symmetry-allowed Gamma3 admixture in the experimental source and readout change interaction inference based on the longitudinal charge/axial response?",
+  "operator_basis": [
+    "charge = I",
+    "Gamma5 = tau_x tensor I",
+    "Gamma3 = tau_x tensor sigma_z"
+  ],
+  "interaction_model": {
+    "interacting_subspace": ["charge", "Gamma5"],
+    "kernel": "diag(g/Q^2, Ua)",
+    "Gamma3_interaction": 0,
+    "interpretation": "Gamma3 is an external source/readout direction, not a new interaction channel."
+  },
+  "mixed_operator": "O(lambda) = Gamma5 + lambda Gamma3",
+  "primary_lambda": 0.7,
+  "predeclared_controls": [0.0, -0.7],
+  "truth_parameters": {"g": 0.8, "Ua": 8.0},
+  "response_parameters": {
+    "mu": 0.5,
+    "temperature": 0.04,
+    "eta": 0.015,
+    "q": "pi/12",
+    "frequency_points": 45,
+    "frequency_min": 0.05,
+    "frequency_max": 0.35,
+    "frequency_source": "research/prb_lattice_response/final_run/Bplus/response_metadata.json"
+  },
+  "meshes": {
+    "Bplus_pilot": {"Lx": 36, "Ly": 3, "Nkz": 48, "flux": "1/36", "qshift": 2, "blocks_per_chunk": 1},
+    "Bplus_coarse": {"Lx": 72, "Ly": 13, "Nkz": 96, "flux": "1/36", "qshift": 4, "blocks_per_chunk": 1},
+    "Bplus_final": {"Lx": 72, "Ly": 13, "Nkz": 192, "flux": "1/36", "qshift": 8, "blocks_per_chunk": 1},
+    "B0_pilot": {"Lx": 12, "Ly": 12, "Nkz": 48, "flux": "0", "qshift": 2, "blocks_per_chunk": 32},
+    "B0_coarse": {"Lx": 48, "Ly": 48, "Nkz": 192, "flux": "0", "qshift": 8, "blocks_per_chunk": 64},
+    "B0_final": {"Lx": 72, "Ly": 72, "Nkz": 384, "flux": "0", "qshift": 16, "blocks_per_chunk": 64}
+  },
+  "numerical_acceptance": {
+    "charge_vertex_max_abs": 5e-11,
+    "zeroth_moment_max_abs": 2e-10,
+    "ward_max_abs": 2e-10,
+    "weighted_passivity_minimum": -2e-10,
+    "embedded_vs_legacy_rpa_scaled_max": 5e-12,
+    "prior_charge_Gamma5_scaled_max": 5e-10,
+    "transfer_closure_scaled_max": 5e-12
+  },
+  "predeclared_inference": {
+    "invariant_data": ["chi_cc", "chi_cO chi_Oc / chi_OO"],
+    "fits": [
+      "g and Ua with lambda fixed to 0.7",
+      "g and Ua under lambda = 0 and -0.7 misspecification",
+      "g, Ua, and lambda jointly as a local sensitivity diagnostic",
+      "g with Ua fixed to 4, 8, and 16",
+      "raw 2x2 response with independent affine complex source/readout gains"
+    ],
+    "lambda_scan": {"min": -1.0, "max": 1.0, "points": 21},
+    "optimization_claim": "Multistart local least squares only; no global minimum certificate."
+  },
+  "reporting_rule": "Report all predeclared controls and failures. A pilot cannot support manuscript claims. Production Bplus and B0 meshes plus convergence checks are required before interpretation.",
+  "scope_limits": [
+    "No material-specific probe vertex is inferred.",
+    "No global inverse-problem uniqueness theorem is claimed.",
+    "No transverse-field or continuum-limit certification is supplied.",
+    "The regulator eta is numerical broadening, not a collision model."
+  ]
+}

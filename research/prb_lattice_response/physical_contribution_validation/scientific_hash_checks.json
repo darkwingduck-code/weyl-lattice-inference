@@ -1,0 +1,1538 @@
+[
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\finalize_review.py",
+    "expected": "a16c912f1fdaa5d57f0f5fe7765b36440d8d05ffeb5973aebd5a4c832311d470",
+    "actual": "a16c912f1fdaa5d57f0f5fe7765b36440d8d05ffeb5973aebd5a4c832311d470",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "expected": "dcc64f59a88933a7335c7fa6c2fab1a1e83395e69d9ba1b2b29fffbcc9ae6397",
+    "actual": "dcc64f59a88933a7335c7fa6c2fab1a1e83395e69d9ba1b2b29fffbcc9ae6397",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_stable_occupation_float_eigenpairs.json",
+    "expected": "7278666c69364afdee1fec68edf01402b3b2b3bce64614a923f9fdc18e805c1f",
+    "actual": "7278666c69364afdee1fec68edf01402b3b2b3bce64614a923f9fdc18e805c1f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\grid.json",
+    "expected": "fac0771a2838f5de245c4c2e2c5c65362663a8c44f418e072a2988c882788fc4",
+    "actual": "fac0771a2838f5de245c4c2e2c5c65362663a8c44f418e072a2988c882788fc4",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\execution.log",
+    "expected": "967c397695abeb4425718d35624dafa68395ce0df6a7f3bb0c04ac0783f6a2dd",
+    "actual": "967c397695abeb4425718d35624dafa68395ce0df6a7f3bb0c04ac0783f6a2dd",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_matrix.json",
+    "expected": "107b61fd206f2d90b20889f2e2c7a142ec9e8a283ad8ada6b189f61452b54e59",
+    "actual": "107b61fd206f2d90b20889f2e2c7a142ec9e8a283ad8ada6b189f61452b54e59",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_matrix.json",
+    "expected": "506e311e8cabbecfb54759f6c5791729f1f84cfedea82de0dd9c33cc7aa0e1bc",
+    "actual": "506e311e8cabbecfb54759f6c5791729f1f84cfedea82de0dd9c33cc7aa0e1bc",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_trig.json",
+    "expected": "a0fc5885887ff606bbbd3efd6a180caa9e880dad62cbe18b0536921f6c3638f5",
+    "actual": "a0fc5885887ff606bbbd3efd6a180caa9e880dad62cbe18b0536921f6c3638f5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_trig.json",
+    "expected": "05d0ea49b1ce740bd5fcc6dbf2830def2df48ddfea2c085b4f323e0cd6df3183",
+    "actual": "05d0ea49b1ce740bd5fcc6dbf2830def2df48ddfea2c085b4f323e0cd6df3183",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_k.json",
+    "expected": "c0ad2f0ce4ef3556f6671be57cbde99083dd7fabadb0602cd5dcd2a4dfbcf85f",
+    "actual": "c0ad2f0ce4ef3556f6671be57cbde99083dd7fabadb0602cd5dcd2a4dfbcf85f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_k.json",
+    "expected": "dc4c958be63de798f88b7638ee302a1335ae7a232bb7b4229612b0d935588064",
+    "actual": "dc4c958be63de798f88b7638ee302a1335ae7a232bb7b4229612b0d935588064",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\all_751_associations.json",
+    "expected": "af34b475a62f6341ef6070da940e9305d79c2b7d6abdfec2e91559b4bbc0df4e",
+    "actual": "af34b475a62f6341ef6070da940e9305d79c2b7d6abdfec2e91559b4bbc0df4e",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\repeat_110_blocks.json",
+    "expected": "296f45b0ff8f86515c0d7b974b6060de492e7176bf04d15321e366fdf88cad5f",
+    "actual": "296f45b0ff8f86515c0d7b974b6060de492e7176bf04d15321e366fdf88cad5f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\repeat_110_transitions.json",
+    "expected": "2d39ebec87e32da029936752f43c90bf099736b4a556523822225bf987288851",
+    "actual": "2d39ebec87e32da029936752f43c90bf099736b4a556523822225bf987288851",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\representative_cases.json",
+    "expected": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2",
+    "actual": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\finite_eta_response_comparison.json",
+    "expected": "640db275dcd4670a180a19b1521e52de7dc2b88db4381101b225c76b4d81852c",
+    "actual": "640db275dcd4670a180a19b1521e52de7dc2b88db4381101b225c76b4d81852c",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit.py",
+    "expected": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "actual": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\test_band_precision_audit.py",
+    "expected": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "actual": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\bloch_response.py",
+    "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\pole_zero_analysis.py",
+    "expected": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "actual": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\run_pole_zero_experiment.py",
+    "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\mode_analysis\\diagnostic.json",
+    "expected": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "actual": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\mode_analysis\\finite_poles.csv",
+    "expected": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "actual": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\zero_precision_followup\\diagnostic.json",
+    "expected": "4faa602050e188386968f8f68a09d725f1839277af43b6b07723e4f9c4f8d12b",
+    "actual": "4faa602050e188386968f8f68a09d725f1839277af43b6b07723e4f9c4f8d12b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\zero_precision_followup\\modal_interval_classification.json",
+    "expected": "768a9fb768cf97c80a23d54b3b18bc0bbc2018a883ec15a8b93e60385ccd9968",
+    "actual": "768a9fb768cf97c80a23d54b3b18bc0bbc2018a883ec15a8b93e60385ccd9968",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\zero_precision_followup\\direct_laurent_cases.json",
+    "expected": "dbfdd05f37b8abf8f310d37028fffe91ff4f28a99da07ec5bc0dbab63800fb0b",
+    "actual": "dbfdd05f37b8abf8f310d37028fffe91ff4f28a99da07ec5bc0dbab63800fb0b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "expected": "b767749c7880a6e583ca4860c517610a7c75d9d15a44f3c9d4c32f2f84875b15",
+    "actual": "b767749c7880a6e583ca4860c517610a7c75d9d15a44f3c9d4c32f2f84875b15",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\all_216_blocks_110.json",
+    "expected": "2ad72bb02b50a4b3896d6844f25f907bc0b4225c1383d02441f756d33a2324ac",
+    "actual": "2ad72bb02b50a4b3896d6844f25f907bc0b4225c1383d02441f756d33a2324ac",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\all_3456_transitions_110.json",
+    "expected": "0d40fc2293eee1786f536ef75cb2abcc079759cf32f8eac1faa703e4e2a85e58",
+    "actual": "0d40fc2293eee1786f536ef75cb2abcc079759cf32f8eac1faa703e4e2a85e58",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\selected_local_poles.json",
+    "expected": "ae628159716cf427039554f5e3ec969aa96d4fff10ad908dd8b00296c71d4e11",
+    "actual": "ae628159716cf427039554f5e3ec969aa96d4fff10ad908dd8b00296c71d4e11",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\isolated_802_restoration_response.json",
+    "expected": "1686ab5ba675b7e6a191588a8e89a678a870cd411bac166504c099f633accaac",
+    "actual": "1686ab5ba675b7e6a191588a8e89a678a870cd411bac166504c099f633accaac",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_pole_refinement.py",
+    "expected": "25a2303f09528e4aa9aec3ba1841860150cca56f94726ab08b19583d33b9b759",
+    "actual": "25a2303f09528e4aa9aec3ba1841860150cca56f94726ab08b19583d33b9b759",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "expected": "c04fa3b7a670798713ff8af7eb4f6bb4903606cd92e0dd9ed86198f720d3b174",
+    "actual": "c04fa3b7a670798713ff8af7eb4f6bb4903606cd92e0dd9ed86198f720d3b174",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\closer_residue_checks.json",
+    "expected": "424746d2c9c8a193970b30cb838dc253d4c12f41bbfa61fe6c6f135cfc406f65",
+    "actual": "424746d2c9c8a193970b30cb838dc253d4c12f41bbfa61fe6c6f135cfc406f65",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\input_slot_statistics.json",
+    "expected": "d26688163df9de57304b1c7054b37b046c298774e0f69ecd8cd24db356ced2bc",
+    "actual": "d26688163df9de57304b1c7054b37b046c298774e0f69ecd8cd24db356ced2bc",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\band_negative_controls.txt",
+    "expected": "8c43a5b465a18f721d03a4d6eed0ddddb663c6bf35dad4841060f4fcc1d7ffc5",
+    "actual": "8c43a5b465a18f721d03a4d6eed0ddddb663c6bf35dad4841060f4fcc1d7ffc5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\local_pole_negative_controls.txt",
+    "expected": "f43c907aa3fa885e147943f06d4dd8a308914a31ce9e8dee439c1f06784abd86",
+    "actual": "f43c907aa3fa885e147943f06d4dd8a308914a31ce9e8dee439c1f06784abd86",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "expected": "4c37ef19f7e3d7ec5a94b08b71e5de1e6e2c2a9f3abd1ec7ca4d678291e6c650",
+    "actual": "4c37ef19f7e3d7ec5a94b08b71e5de1e6e2c2a9f3abd1ec7ca4d678291e6c650",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_pole_refinement.py",
+    "expected": "25a2303f09528e4aa9aec3ba1841860150cca56f94726ab08b19583d33b9b759",
+    "actual": "25a2303f09528e4aa9aec3ba1841860150cca56f94726ab08b19583d33b9b759",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit.py",
+    "expected": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "actual": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\test_band_precision_audit.py",
+    "expected": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "actual": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\bloch_response.py",
+    "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "expected": "c04fa3b7a670798713ff8af7eb4f6bb4903606cd92e0dd9ed86198f720d3b174",
+    "actual": "c04fa3b7a670798713ff8af7eb4f6bb4903606cd92e0dd9ed86198f720d3b174",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\representative_cases.json",
+    "expected": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2",
+    "actual": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "expected": "b767749c7880a6e583ca4860c517610a7c75d9d15a44f3c9d4c32f2f84875b15",
+    "actual": "b767749c7880a6e583ca4860c517610a7c75d9d15a44f3c9d4c32f2f84875b15",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\all_216_blocks_110.json",
+    "expected": "2ad72bb02b50a4b3896d6844f25f907bc0b4225c1383d02441f756d33a2324ac",
+    "actual": "2ad72bb02b50a4b3896d6844f25f907bc0b4225c1383d02441f756d33a2324ac",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\all_3456_transitions_110.json",
+    "expected": "0d40fc2293eee1786f536ef75cb2abcc079759cf32f8eac1faa703e4e2a85e58",
+    "actual": "0d40fc2293eee1786f536ef75cb2abcc079759cf32f8eac1faa703e4e2a85e58",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\selected_local_poles.json",
+    "expected": "ae628159716cf427039554f5e3ec969aa96d4fff10ad908dd8b00296c71d4e11",
+    "actual": "ae628159716cf427039554f5e3ec969aa96d4fff10ad908dd8b00296c71d4e11",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\isolated_802_restoration_response.json",
+    "expected": "1686ab5ba675b7e6a191588a8e89a678a870cd411bac166504c099f633accaac",
+    "actual": "1686ab5ba675b7e6a191588a8e89a678a870cd411bac166504c099f633accaac",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\band_negative_controls.txt",
+    "expected": "8c43a5b465a18f721d03a4d6eed0ddddb663c6bf35dad4841060f4fcc1d7ffc5",
+    "actual": "8c43a5b465a18f721d03a4d6eed0ddddb663c6bf35dad4841060f4fcc1d7ffc5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\closer_residue_checks.json",
+    "expected": "424746d2c9c8a193970b30cb838dc253d4c12f41bbfa61fe6c6f135cfc406f65",
+    "actual": "424746d2c9c8a193970b30cb838dc253d4c12f41bbfa61fe6c6f135cfc406f65",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\diagnostic.json",
+    "expected": "4c37ef19f7e3d7ec5a94b08b71e5de1e6e2c2a9f3abd1ec7ca4d678291e6c650",
+    "actual": "4c37ef19f7e3d7ec5a94b08b71e5de1e6e2c2a9f3abd1ec7ca4d678291e6c650",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\input_slot_statistics.json",
+    "expected": "d26688163df9de57304b1c7054b37b046c298774e0f69ecd8cd24db356ced2bc",
+    "actual": "d26688163df9de57304b1c7054b37b046c298774e0f69ecd8cd24db356ced2bc",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\local_pole_negative_controls.txt",
+    "expected": "f43c907aa3fa885e147943f06d4dd8a308914a31ce9e8dee439c1f06784abd86",
+    "actual": "f43c907aa3fa885e147943f06d4dd8a308914a31ce9e8dee439c1f06784abd86",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\delivery_review\\manifest.json",
+    "expected": "6db42bf429d301877926b59df8ff7c891563487655ef531f0c90280c36678e62",
+    "actual": "6db42bf429d301877926b59df8ff7c891563487655ef531f0c90280c36678e62",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\finalize_review.py",
+    "expected": "a16c912f1fdaa5d57f0f5fe7765b36440d8d05ffeb5973aebd5a4c832311d470",
+    "actual": "a16c912f1fdaa5d57f0f5fe7765b36440d8d05ffeb5973aebd5a4c832311d470",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_pole_refinement.py",
+    "expected": "25a2303f09528e4aa9aec3ba1841860150cca56f94726ab08b19583d33b9b759",
+    "actual": "25a2303f09528e4aa9aec3ba1841860150cca56f94726ab08b19583d33b9b759",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\all_216_blocks_110.json",
+    "expected": "2ad72bb02b50a4b3896d6844f25f907bc0b4225c1383d02441f756d33a2324ac",
+    "actual": "2ad72bb02b50a4b3896d6844f25f907bc0b4225c1383d02441f756d33a2324ac",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\all_3456_transitions_110.json",
+    "expected": "0d40fc2293eee1786f536ef75cb2abcc079759cf32f8eac1faa703e4e2a85e58",
+    "actual": "0d40fc2293eee1786f536ef75cb2abcc079759cf32f8eac1faa703e4e2a85e58",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\diagnostic.json",
+    "expected": "b767749c7880a6e583ca4860c517610a7c75d9d15a44f3c9d4c32f2f84875b15",
+    "actual": "b767749c7880a6e583ca4860c517610a7c75d9d15a44f3c9d4c32f2f84875b15",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\isolated_802_restoration_response.json",
+    "expected": "1686ab5ba675b7e6a191588a8e89a678a870cd411bac166504c099f633accaac",
+    "actual": "1686ab5ba675b7e6a191588a8e89a678a870cd411bac166504c099f633accaac",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\manifest.json",
+    "expected": "81bdd4c0d89028bce57546e4ea4a75fb1469a27667f622ae87c1497a750d3063",
+    "actual": "81bdd4c0d89028bce57546e4ea4a75fb1469a27667f622ae87c1497a750d3063",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\selected_local_poles.json",
+    "expected": "ae628159716cf427039554f5e3ec969aa96d4fff10ad908dd8b00296c71d4e11",
+    "actual": "ae628159716cf427039554f5e3ec969aa96d4fff10ad908dd8b00296c71d4e11",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\all_751_associations.json",
+    "expected": "af34b475a62f6341ef6070da940e9305d79c2b7d6abdfec2e91559b4bbc0df4e",
+    "actual": "af34b475a62f6341ef6070da940e9305d79c2b7d6abdfec2e91559b4bbc0df4e",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_k.json",
+    "expected": "c0ad2f0ce4ef3556f6671be57cbde99083dd7fabadb0602cd5dcd2a4dfbcf85f",
+    "actual": "c0ad2f0ce4ef3556f6671be57cbde99083dd7fabadb0602cd5dcd2a4dfbcf85f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_matrix.json",
+    "expected": "107b61fd206f2d90b20889f2e2c7a142ec9e8a283ad8ada6b189f61452b54e59",
+    "actual": "107b61fd206f2d90b20889f2e2c7a142ec9e8a283ad8ada6b189f61452b54e59",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_trig.json",
+    "expected": "a0fc5885887ff606bbbd3efd6a180caa9e880dad62cbe18b0536921f6c3638f5",
+    "actual": "a0fc5885887ff606bbbd3efd6a180caa9e880dad62cbe18b0536921f6c3638f5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "expected": "dcc64f59a88933a7335c7fa6c2fab1a1e83395e69d9ba1b2b29fffbcc9ae6397",
+    "actual": "dcc64f59a88933a7335c7fa6c2fab1a1e83395e69d9ba1b2b29fffbcc9ae6397",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\execution.log",
+    "expected": "967c397695abeb4425718d35624dafa68395ce0df6a7f3bb0c04ac0783f6a2dd",
+    "actual": "967c397695abeb4425718d35624dafa68395ce0df6a7f3bb0c04ac0783f6a2dd",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\finite_eta_response_comparison.json",
+    "expected": "640db275dcd4670a180a19b1521e52de7dc2b88db4381101b225c76b4d81852c",
+    "actual": "640db275dcd4670a180a19b1521e52de7dc2b88db4381101b225c76b4d81852c",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\grid.json",
+    "expected": "fac0771a2838f5de245c4c2e2c5c65362663a8c44f418e072a2988c882788fc4",
+    "actual": "fac0771a2838f5de245c4c2e2c5c65362663a8c44f418e072a2988c882788fc4",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "expected": "c04fa3b7a670798713ff8af7eb4f6bb4903606cd92e0dd9ed86198f720d3b174",
+    "actual": "c04fa3b7a670798713ff8af7eb4f6bb4903606cd92e0dd9ed86198f720d3b174",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\repeat_110_blocks.json",
+    "expected": "296f45b0ff8f86515c0d7b974b6060de492e7176bf04d15321e366fdf88cad5f",
+    "actual": "296f45b0ff8f86515c0d7b974b6060de492e7176bf04d15321e366fdf88cad5f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\repeat_110_transitions.json",
+    "expected": "2d39ebec87e32da029936752f43c90bf099736b4a556523822225bf987288851",
+    "actual": "2d39ebec87e32da029936752f43c90bf099736b4a556523822225bf987288851",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\representative_cases.json",
+    "expected": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2",
+    "actual": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_k.json",
+    "expected": "dc4c958be63de798f88b7638ee302a1335ae7a232bb7b4229612b0d935588064",
+    "actual": "dc4c958be63de798f88b7638ee302a1335ae7a232bb7b4229612b0d935588064",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_matrix.json",
+    "expected": "506e311e8cabbecfb54759f6c5791729f1f84cfedea82de0dd9c33cc7aa0e1bc",
+    "actual": "506e311e8cabbecfb54759f6c5791729f1f84cfedea82de0dd9c33cc7aa0e1bc",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_trig.json",
+    "expected": "05d0ea49b1ce740bd5fcc6dbf2830def2df48ddfea2c085b4f323e0cd6df3183",
+    "actual": "05d0ea49b1ce740bd5fcc6dbf2830def2df48ddfea2c085b4f323e0cd6df3183",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_stable_occupation_float_eigenpairs.json",
+    "expected": "7278666c69364afdee1fec68edf01402b3b2b3bce64614a923f9fdc18e805c1f",
+    "actual": "7278666c69364afdee1fec68edf01402b3b2b3bce64614a923f9fdc18e805c1f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit.py",
+    "expected": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "actual": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detailed_band_precision_journal.md",
+    "expected": "aa8123fc33210d84cff1da789ec9c426baaeee26cf7a3107d3ae4f06445f4d56",
+    "actual": "aa8123fc33210d84cff1da789ec9c426baaeee26cf7a3107d3ae4f06445f4d56",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\test_band_precision_audit.py",
+    "expected": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "actual": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\band_precision_audit.py",
+    "expected": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "actual": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\test_band_precision_audit.py",
+    "expected": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "actual": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\bloch_response.py",
+    "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\pole_zero_analysis.py",
+    "expected": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "actual": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\run_pole_zero_experiment.py",
+    "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\mode_analysis\\diagnostic.json",
+    "expected": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "actual": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\mode_analysis\\finite_poles.csv",
+    "expected": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "actual": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\zero_precision_followup\\diagnostic.json",
+    "expected": "4faa602050e188386968f8f68a09d725f1839277af43b6b07723e4f9c4f8d12b",
+    "actual": "4faa602050e188386968f8f68a09d725f1839277af43b6b07723e4f9c4f8d12b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\zero_precision_followup\\modal_interval_classification.json",
+    "expected": "768a9fb768cf97c80a23d54b3b18bc0bbc2018a883ec15a8b93e60385ccd9968",
+    "actual": "768a9fb768cf97c80a23d54b3b18bc0bbc2018a883ec15a8b93e60385ccd9968",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\zero_precision_followup\\direct_laurent_cases.json",
+    "expected": "dbfdd05f37b8abf8f310d37028fffe91ff4f28a99da07ec5bc0dbab63800fb0b",
+    "actual": "dbfdd05f37b8abf8f310d37028fffe91ff4f28a99da07ec5bc0dbab63800fb0b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\diagnostic.json",
+    "expected": "dcc64f59a88933a7335c7fa6c2fab1a1e83395e69d9ba1b2b29fffbcc9ae6397",
+    "actual": "dcc64f59a88933a7335c7fa6c2fab1a1e83395e69d9ba1b2b29fffbcc9ae6397",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_stable_occupation_float_eigenpairs.json",
+    "expected": "7278666c69364afdee1fec68edf01402b3b2b3bce64614a923f9fdc18e805c1f",
+    "actual": "7278666c69364afdee1fec68edf01402b3b2b3bce64614a923f9fdc18e805c1f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\grid.json",
+    "expected": "fac0771a2838f5de245c4c2e2c5c65362663a8c44f418e072a2988c882788fc4",
+    "actual": "fac0771a2838f5de245c4c2e2c5c65362663a8c44f418e072a2988c882788fc4",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\execution.log",
+    "expected": "967c397695abeb4425718d35624dafa68395ce0df6a7f3bb0c04ac0783f6a2dd",
+    "actual": "967c397695abeb4425718d35624dafa68395ce0df6a7f3bb0c04ac0783f6a2dd",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_matrix.json",
+    "expected": "107b61fd206f2d90b20889f2e2c7a142ec9e8a283ad8ada6b189f61452b54e59",
+    "actual": "107b61fd206f2d90b20889f2e2c7a142ec9e8a283ad8ada6b189f61452b54e59",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_matrix.json",
+    "expected": "506e311e8cabbecfb54759f6c5791729f1f84cfedea82de0dd9c33cc7aa0e1bc",
+    "actual": "506e311e8cabbecfb54759f6c5791729f1f84cfedea82de0dd9c33cc7aa0e1bc",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_trig.json",
+    "expected": "a0fc5885887ff606bbbd3efd6a180caa9e880dad62cbe18b0536921f6c3638f5",
+    "actual": "a0fc5885887ff606bbbd3efd6a180caa9e880dad62cbe18b0536921f6c3638f5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_trig.json",
+    "expected": "05d0ea49b1ce740bd5fcc6dbf2830def2df48ddfea2c085b4f323e0cd6df3183",
+    "actual": "05d0ea49b1ce740bd5fcc6dbf2830def2df48ddfea2c085b4f323e0cd6df3183",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\blocks_literal_k.json",
+    "expected": "c0ad2f0ce4ef3556f6671be57cbde99083dd7fabadb0602cd5dcd2a4dfbcf85f",
+    "actual": "c0ad2f0ce4ef3556f6671be57cbde99083dd7fabadb0602cd5dcd2a4dfbcf85f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\transitions_literal_k.json",
+    "expected": "dc4c958be63de798f88b7638ee302a1335ae7a232bb7b4229612b0d935588064",
+    "actual": "dc4c958be63de798f88b7638ee302a1335ae7a232bb7b4229612b0d935588064",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\all_751_associations.json",
+    "expected": "af34b475a62f6341ef6070da940e9305d79c2b7d6abdfec2e91559b4bbc0df4e",
+    "actual": "af34b475a62f6341ef6070da940e9305d79c2b7d6abdfec2e91559b4bbc0df4e",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\repeat_110_blocks.json",
+    "expected": "296f45b0ff8f86515c0d7b974b6060de492e7176bf04d15321e366fdf88cad5f",
+    "actual": "296f45b0ff8f86515c0d7b974b6060de492e7176bf04d15321e366fdf88cad5f",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\repeat_110_transitions.json",
+    "expected": "2d39ebec87e32da029936752f43c90bf099736b4a556523822225bf987288851",
+    "actual": "2d39ebec87e32da029936752f43c90bf099736b4a556523822225bf987288851",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\representative_cases.json",
+    "expected": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2",
+    "actual": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\band_precision_audit\\run_01\\finite_eta_response_comparison.json",
+    "expected": "640db275dcd4670a180a19b1521e52de7dc2b88db4381101b225c76b4d81852c",
+    "actual": "640db275dcd4670a180a19b1521e52de7dc2b88db4381101b225c76b4d81852c",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit.py",
+    "expected": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "actual": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\extend_transverse.py",
+    "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\run_pole_zero_experiment.py",
+    "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit.py",
+    "expected": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "actual": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\test_uv_matching_audit.py",
+    "expected": "19a6efb8fcd8378174c29a0a9b40b0f7d2a3db9dbaa3126ad86e94fcd030fc93",
+    "actual": "19a6efb8fcd8378174c29a0a9b40b0f7d2a3db9dbaa3126ad86e94fcd030fc93",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "input_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\B0_L72_Nk384.csv",
+    "expected": "5a19b5088042c0c03e455b0440258936617c2df8967fbd32116c6c3633c0c43e",
+    "actual": "5a19b5088042c0c03e455b0440258936617c2df8967fbd32116c6c3633c0c43e",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\responses.csv",
+    "expected": "8d5e0a1b0492df6c7274e81496fcb7f31b97dc0ef9263120878f420769f4cacf",
+    "actual": "8d5e0a1b0492df6c7274e81496fcb7f31b97dc0ef9263120878f420769f4cacf",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\B0_zero_real_reference.png",
+    "expected": "feacaba6972e50fe510bdb14eb027fe20256c84604a51ec3f288366f6efc235a",
+    "actual": "feacaba6972e50fe510bdb14eb027fe20256c84604a51ec3f288366f6efc235a",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\B0_zero_real_reference.pdf",
+    "expected": "22ae3718dafc7b8cc7b6752403ae325d4f10b4d5567f508ef0cfcfa7a23f75b1",
+    "actual": "22ae3718dafc7b8cc7b6752403ae325d4f10b4d5567f508ef0cfcfa7a23f75b1",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit.py",
+    "expected": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "actual": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\extend_transverse.py",
+    "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\run_pole_zero_experiment.py",
+    "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit.py",
+    "expected": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "actual": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\test_uv_matching_audit.py",
+    "expected": "19a6efb8fcd8378174c29a0a9b40b0f7d2a3db9dbaa3126ad86e94fcd030fc93",
+    "actual": "19a6efb8fcd8378174c29a0a9b40b0f7d2a3db9dbaa3126ad86e94fcd030fc93",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "input_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit\\transition_sectors.csv",
+    "expected": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "actual": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "input_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\Bplus_final_reference.csv",
+    "expected": "aa06db70b0876f0bf765c942faafc28c4b8063174b86e64d8ae4a1344f6bc980",
+    "actual": "aa06db70b0876f0bf765c942faafc28c4b8063174b86e64d8ae4a1344f6bc980",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\responses.csv",
+    "expected": "5f283182fd34cde94d57634cfab2a450f8e68c7118b5c054f7b2a7319ae314ae",
+    "actual": "5f283182fd34cde94d57634cfab2a450f8e68c7118b5c054f7b2a7319ae314ae",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\Bplus_zero_real_reference.png",
+    "expected": "3cf35fa0c82065890749482ffa1bfd8d91d509d5ea39444f8079b9ad585100d4",
+    "actual": "3cf35fa0c82065890749482ffa1bfd8d91d509d5ea39444f8079b9ad585100d4",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\Bplus_zero_real_reference.pdf",
+    "expected": "0d9afaa0a8948b82c61db1741073ebd90762ffa4f0ca1393a65d5678fd678a6b",
+    "actual": "0d9afaa0a8948b82c61db1741073ebd90762ffa4f0ca1393a65d5678fd678a6b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit.py",
+    "expected": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "actual": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\extend_transverse.py",
+    "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\run_pole_zero_experiment.py",
+    "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit.py",
+    "expected": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "actual": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\test_uv_matching_audit.py",
+    "expected": "19a6efb8fcd8378174c29a0a9b40b0f7d2a3db9dbaa3126ad86e94fcd030fc93",
+    "actual": "19a6efb8fcd8378174c29a0a9b40b0f7d2a3db9dbaa3126ad86e94fcd030fc93",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "input_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit\\transition_sectors.csv",
+    "expected": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "actual": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\responses.csv",
+    "expected": "f3b1d714f6e1d1217ffdb9c661ed84e735b7b479977710d3ec5f0b2b0c1d4e31",
+    "actual": "f3b1d714f6e1d1217ffdb9c661ed84e735b7b479977710d3ec5f0b2b0c1d4e31",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\Bplus_cached.png",
+    "expected": "e201c36fb9558d97be1e3ff91a18ed62108a89314c7414e4136746bbc6079ee5",
+    "actual": "e201c36fb9558d97be1e3ff91a18ed62108a89314c7414e4136746bbc6079ee5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\cached_reference\\Bplus_cached.pdf",
+    "expected": "57efad38556af529ec8a85f5538dec2a00c6c117963c390d10eae4aee0fac8b2",
+    "actual": "57efad38556af529ec8a85f5538dec2a00c6c117963c390d10eae4aee0fac8b2",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\independent_validation.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\audit_uv_matching_outputs.py",
+    "expected": "f007fe1a77f12aa425d897e52aadd78ecf594df678065b575ed006b4d6f4907a",
+    "actual": "f007fe1a77f12aa425d897e52aadd78ecf594df678065b575ed006b4d6f4907a",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\magnetic_bloch_response.py",
+    "expected": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "actual": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\bloch_response.py",
+    "expected": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "actual": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit.py",
+    "expected": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "actual": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\extend_transverse.py",
+    "expected": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "actual": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\run_pole_zero_experiment.py",
+    "expected": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "actual": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit.py",
+    "expected": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "actual": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "source_sha256",
+    "path": "research\\prb_lattice_response\\sample_uv_sectors.py",
+    "expected": "b15c5bb65b0919037edbdb8b6850ad215bb6daf743a48baedf4a959b256e3b46",
+    "actual": "b15c5bb65b0919037edbdb8b6850ad215bb6daf743a48baedf4a959b256e3b46",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "input_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit\\transition_sectors.csv",
+    "expected": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "actual": "098a08f20376214dec62a9a9594930794c26e2d484a3badccfdd1aea63ea76c1",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\execution.log",
+    "expected": "eb9718bb9c7e57788338b6f1683144c2478ac2a80e71ded99499a1c2053e97ef",
+    "actual": "eb9718bb9c7e57788338b6f1683144c2478ac2a80e71ded99499a1c2053e97ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\Bplus_final_reference.csv",
+    "expected": "aa06db70b0876f0bf765c942faafc28c4b8063174b86e64d8ae4a1344f6bc980",
+    "actual": "aa06db70b0876f0bf765c942faafc28c4b8063174b86e64d8ae4a1344f6bc980",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\Bplus_final_reference_checks.json",
+    "expected": "428a6e186d2b1f5a7cb2f614add9cd985241aee81cb8927a91d193bc614e3250",
+    "actual": "428a6e186d2b1f5a7cb2f614add9cd985241aee81cb8927a91d193bc614e3250",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\B0_L48_Nk192.csv",
+    "expected": "c08f0b66e1a5c20470624ec818844ebb006297d7790091423007253ada085ef4",
+    "actual": "c08f0b66e1a5c20470624ec818844ebb006297d7790091423007253ada085ef4",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\B0_L48_Nk192_checks.json",
+    "expected": "18e03f9ecce9e0ab3dac46e81fb4d3ec0606896f0cc1a7e8f8235b9fa81c6b22",
+    "actual": "18e03f9ecce9e0ab3dac46e81fb4d3ec0606896f0cc1a7e8f8235b9fa81c6b22",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\B0_L72_Nk192.csv",
+    "expected": "3538bd0f2f519e9c639ed5f06c10059495e159a293cd6ad362fb898a2115e58e",
+    "actual": "3538bd0f2f519e9c639ed5f06c10059495e159a293cd6ad362fb898a2115e58e",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\B0_L72_Nk192_checks.json",
+    "expected": "ad3ecfe24d88075051ac4733431b0f9cb838427767f4651149381d1b1dc5851e",
+    "actual": "ad3ecfe24d88075051ac4733431b0f9cb838427767f4651149381d1b1dc5851e",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\B0_L72_Nk384.csv",
+    "expected": "5a19b5088042c0c03e455b0440258936617c2df8967fbd32116c6c3633c0c43e",
+    "actual": "5a19b5088042c0c03e455b0440258936617c2df8967fbd32116c6c3633c0c43e",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\diagnostic.json",
+    "field": "output_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\sector_sampling\\B0_L72_Nk384_checks.json",
+    "expected": "7942ab7d51334b7f4bd499a55621895a541fbf157cac1fe8d0e3e0aeef695292",
+    "actual": "7942ab7d51334b7f4bd499a55621895a541fbf157cac1fe8d0e3e0aeef695292",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\transverse_extension\\L72_Nk384_flux+0_fixed_mu.csv",
+    "expected": "ed2034406209c72f7eb0621dd6343d6a5e88ce49dc46ce309d3628a1c7faddf1",
+    "actual": "ed2034406209c72f7eb0621dd6343d6a5e88ce49dc46ce309d3628a1c7faddf1",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\magnetic_kz_continuation\\Nkx2_Nky13_Nk192_B1of36_fixed_mu.csv",
+    "expected": "5608895bc266caf60cd16c1989d88da4574c89bd2c3d9b6aed7638b2d42dabd3",
+    "actual": "5608895bc266caf60cd16c1989d88da4574c89bd2c3d9b6aed7638b2d42dabd3",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit.py",
+    "expected": "1e39010e2d33b1ed6031ffb39009abb8f401e64372d757fbe23b40b27a99eacb",
+    "actual": "1e39010e2d33b1ed6031ffb39009abb8f401e64372d757fbe23b40b27a99eacb",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\test_detector_identifiability_audit.py",
+    "expected": "898e2c8ee21f978b5dd5e00b38fc6353f479ef7299017d879a7a74d83bb8cc49",
+    "actual": "898e2c8ee21f978b5dd5e00b38fc6353f479ef7299017d879a7a74d83bb8cc49",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit.py",
+    "expected": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "actual": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit\\same_coulomb_hypotheses.csv",
+    "expected": "76cad34e94478f3d4a84c495d3d2177d65f01373ca190ae9fc949c6367fdd317",
+    "actual": "76cad34e94478f3d4a84c495d3d2177d65f01373ca190ae9fc949c6367fdd317",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit\\profiled_coulomb.csv",
+    "expected": "b54f2a882c71775853e8adc4d2fd61684ad96dd87fe1a8cd631fa9e902fcda46",
+    "actual": "b54f2a882c71775853e8adc4d2fd61684ad96dd87fe1a8cd631fa9e902fcda46",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit\\local_sensitivity.csv",
+    "expected": "7034d389efbe8ccc7a1aad325ac3f38cde674f9127e7b4c2dfb110ab83da7aaf",
+    "actual": "7034d389efbe8ccc7a1aad325ac3f38cde674f9127e7b4c2dfb110ab83da7aaf",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit\\detector_profiles.pdf",
+    "expected": "2d824be835d0cf09c8437df04c95fff0c6c81ca8c36a23b2c499f55f9b651e5a",
+    "actual": "2d824be835d0cf09c8437df04c95fff0c6c81ca8c36a23b2c499f55f9b651e5a",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit\\detector_profiles.png",
+    "expected": "68d20ec922216227a57a421ceb5009ef181e9ffd7273002fa47f0bfd95365434",
+    "actual": "68d20ec922216227a57a421ceb5009ef181e9ffd7273002fa47f0bfd95365434",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_identifiability_audit\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit\\diagnostic.json",
+    "expected": "76e00009ac812f02e28e751c056cd12b4de920c31e2cc02af24d0311a0eaece9",
+    "actual": "76e00009ac812f02e28e751c056cd12b4de920c31e2cc02af24d0311a0eaece9",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_followup\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\transverse_extension\\L72_Nk384_flux+0_fixed_mu.csv",
+    "expected": "ed2034406209c72f7eb0621dd6343d6a5e88ce49dc46ce309d3628a1c7faddf1",
+    "actual": "ed2034406209c72f7eb0621dd6343d6a5e88ce49dc46ce309d3628a1c7faddf1",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_followup\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\magnetic_kz_continuation\\Nkx2_Nky13_Nk192_B1of36_fixed_mu.csv",
+    "expected": "5608895bc266caf60cd16c1989d88da4574c89bd2c3d9b6aed7638b2d42dabd3",
+    "actual": "5608895bc266caf60cd16c1989d88da4574c89bd2c3d9b6aed7638b2d42dabd3",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_followup\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\detector_calibration_followup.py",
+    "expected": "1580110edb969e87dc803ed15d06d2b14e7ed5c8716aa2ed55d267341e9d82b8",
+    "actual": "1580110edb969e87dc803ed15d06d2b14e7ed5c8716aa2ed55d267341e9d82b8",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_followup\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit.py",
+    "expected": "1e39010e2d33b1ed6031ffb39009abb8f401e64372d757fbe23b40b27a99eacb",
+    "actual": "1e39010e2d33b1ed6031ffb39009abb8f401e64372d757fbe23b40b27a99eacb",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_followup\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\low_energy_mode_audit.py",
+    "expected": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "actual": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_followup\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\lattice_response.py",
+    "expected": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "actual": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_followup\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_calibration_followup\\calibration_profiles.csv",
+    "expected": "18046abcccefd513650fdb51e406bb0559ef0087b58af00e33e33f58a109f6c8",
+    "actual": "18046abcccefd513650fdb51e406bb0559ef0087b58af00e33e33f58a109f6c8",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_followup\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_calibration_followup\\diagnostic.json",
+    "expected": "ab05aadcf00533505df834f5efc43d6a3e8cbd7fd3c3b0e24c41e2a80f971c82",
+    "actual": "ab05aadcf00533505df834f5efc43d6a3e8cbd7fd3c3b0e24c41e2a80f971c82",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\diagnostic.json",
+    "field": "input_source_sha256",
+    "path": "research\\prb_lattice_response\\detector_identifiability_audit\\profiled_coulomb.csv",
+    "expected": "b54f2a882c71775853e8adc4d2fd61684ad96dd87fe1a8cd631fa9e902fcda46",
+    "actual": "b54f2a882c71775853e8adc4d2fd61684ad96dd87fe1a8cd631fa9e902fcda46",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\diagnostic.json",
+    "field": "input_source_sha256",
+    "path": "research\\prb_lattice_response\\detector_calibration_followup\\calibration_profiles.csv",
+    "expected": "18046abcccefd513650fdb51e406bb0559ef0087b58af00e33e33f58a109f6c8",
+    "actual": "18046abcccefd513650fdb51e406bb0559ef0087b58af00e33e33f58a109f6c8",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\diagnostic.json",
+    "field": "input_source_sha256",
+    "path": "research\\prb_lattice_response\\render_detector_calibration_followup.py",
+    "expected": "02d08f3ea4c8475be967fc9005b23c3ceb8c08519df5847eb6c156c1389461fc",
+    "actual": "02d08f3ea4c8475be967fc9005b23c3ceb8c08519df5847eb6c156c1389461fc",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\calibration_counter_control.png",
+    "expected": "e96abe2fa990212c61011ace7d3285070a660e8b2e51717ae2aae53807a74165",
+    "actual": "e96abe2fa990212c61011ace7d3285070a660e8b2e51717ae2aae53807a74165",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\calibration_counter_control.pdf",
+    "expected": "21a9db4242f0ecf77611f240fcea3357de6cf2336488214460e85e6508af6a90",
+    "actual": "21a9db4242f0ecf77611f240fcea3357de6cf2336488214460e85e6508af6a90",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\detector_calibration_figure_reviewed\\diagnostic.json",
+    "expected": "172ac45f4811aa1dbe4ca5421336b43fae7beacdf28dcd023008a36c3bb4a84d",
+    "actual": "172ac45f4811aa1dbe4ca5421336b43fae7beacdf28dcd023008a36c3bb4a84d",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\scalar_screening_explanation\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\B0_zero_real_reference\\diagnostic.json",
+    "expected": "a2337e9f409a5604d84111e2d86cd667f2d412eecce757f7fd520b8855a8b7dc",
+    "actual": "a2337e9f409a5604d84111e2d86cd667f2d412eecce757f7fd520b8855a8b7dc",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\scalar_screening_explanation\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json",
+    "expected": "cbd0b5b53c2a1cb6e811a5a7c5619b3a7fb6571699454fc2fc5e1a191e0a4134",
+    "actual": "cbd0b5b53c2a1cb6e811a5a7c5619b3a7fb6571699454fc2fc5e1a191e0a4134",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\scalar_screening_explanation\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\detector_calibration_followup\\calibration_profiles.csv",
+    "expected": "18046abcccefd513650fdb51e406bb0559ef0087b58af00e33e33f58a109f6c8",
+    "actual": "18046abcccefd513650fdb51e406bb0559ef0087b58af00e33e33f58a109f6c8",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\scalar_screening_explanation\\diagnostic.json",
+    "field": "source_input_sha256",
+    "path": "research\\prb_lattice_response\\explain_scalar_screening.py",
+    "expected": "16a6b7c12bca4006d0d72ea774f34d2316fdf1098a15536c7fb7065a78981ff3",
+    "actual": "16a6b7c12bca4006d0d72ea774f34d2316fdf1098a15536c7fb7065a78981ff3",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\scalar_screening_explanation\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\scalar_screening_explanation\\gain_comparison.csv",
+    "expected": "95e0c18c77b07deab4937caf437c0e85fb7e8bcf5122c1bb6be3169fe00f3fd5",
+    "actual": "95e0c18c77b07deab4937caf437c0e85fb7e8bcf5122c1bb6be3169fe00f3fd5",
+    "pass_check": true
+  },
+  {
+    "record": "research\\prb_lattice_response\\scalar_screening_explanation\\manifest.json",
+    "field": "manifest",
+    "path": "research\\prb_lattice_response\\scalar_screening_explanation\\diagnostic.json",
+    "expected": "20e2468a2464a7e625ec832a25349b93ed537f0290c795d9dab64a3ff1f523d3",
+    "actual": "20e2468a2464a7e625ec832a25349b93ed537f0290c795d9dab64a3ff1f523d3",
+    "pass_check": true
+  }
+]

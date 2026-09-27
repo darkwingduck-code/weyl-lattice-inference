@@ -1,0 +1,17 @@
+operator,P,T,A_C2xT,C4z,allowed_P_odd_A_even_C4_even
+tau_I_sigma_I,1,1,1,1,False
+tau_I_sigma_x,1,-1,-1,mixes,False
+tau_I_sigma_y,1,-1,1,mixes,False
+tau_I_sigma_z,1,-1,1,1,False
+tau_x_sigma_I,-1,1,1,1,True
+tau_x_sigma_x,-1,-1,-1,mixes,False
+tau_x_sigma_y,-1,-1,1,mixes,False
+tau_x_sigma_z,-1,-1,1,1,True
+tau_y_sigma_I,-1,-1,-1,1,False
+tau_y_sigma_x,-1,1,1,mixes,False
+tau_y_sigma_y,-1,1,-1,mixes,False
+tau_y_sigma_z,-1,1,-1,1,False
+tau_z_sigma_I,1,1,1,1,False
+tau_z_sigma_x,1,-1,-1,mixes,False
+tau_z_sigma_y,1,-1,1,mixes,False
+tau_z_sigma_z,1,-1,1,1,False

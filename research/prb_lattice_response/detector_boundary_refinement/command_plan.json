@@ -1,0 +1,79 @@
+{
+  "written_utc": "2026-09-11T13:16:11.121224+00:00",
+  "status": "PLANNED_AFTER_SUCCESSFUL_PARTIAL_PILOTS",
+  "source_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling.py": "a168d803486f1a7e40a44895df276d63f53005c0c80ccc0e63ddaa242d039687",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\test_parameter_sector_sampling.py": "50f1f9503b2c1752b63f0e164b2b470e10aba901b4ced36c4ae8fe008fadb211",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\magnetic_bloch_response.py": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\uv_matching_audit.py": "6290fcd6913b5b384d87a32d58056fa117bdb92fb2f022d01058a3aed9098cc7",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\low_energy_mode_audit.py": "36700fc96b269a551063ac4f77e3ca25ad63b11e6abf60e741f53595bb62d45b",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement.py": "2deb2a80abe7eae90df6b1bcc7162149aace81e4905857d15b0627f09dbb7235",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\test_detector_boundary_refinement.py": "0a9e74c4b3b82cceb0f753170aad7421b22f99c0912864c7fe004de6b5355b0a",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_identifiability_audit.py": "1e39010e2d33b1ed6031ffb39009abb8f401e64372d757fbe23b40b27a99eacb",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_calibration_independent_review.py": "00a169e3f1fb40fbb6c54d313d493560909a323382c0be23977177cb005c8109"
+  },
+  "commands": [
+    {
+      "field": "B0",
+      "parameters": {
+        "Lx": 96,
+        "Ly": 96,
+        "Nkz": 768,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "cases": [
+        "qhalf",
+        "baseline",
+        "qdouble"
+      ],
+      "command": "python research/prb_lattice_response/detector_boundary_refinement.py sample --field B0 --output research/prb_lattice_response/detector_boundary_refinement/B0_higher"
+    },
+    {
+      "field": "Bplus",
+      "parameters": {
+        "Lx": 72,
+        "Ly": 13,
+        "Nkz": 384,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "cases": [
+        "eta_low"
+      ],
+      "command": "python research/prb_lattice_response/detector_boundary_refinement.py sample --field Bplus --output research/prb_lattice_response/detector_boundary_refinement/Bplus_higher"
+    }
+  ],
+  "pilots": {
+    "B0": {
+      "report_sha256": "ba541b06812d649e7f93b4863152bbf2341a41c80a8dcccd0fe3139b97e367e6",
+      "elapsed_seconds": 11.706805099995108,
+      "projected_seconds": 1083.824783996679,
+      "complete_torus": false,
+      "required_available_bytes": 1551892480
+    },
+    "Bplus": {
+      "report_sha256": "1131701baadd0a8515763ae7547a4685903394cc6cb38991291b00f0449220b9",
+      "elapsed_seconds": 20.845768800005317,
+      "projected_seconds": 539.8982290002168,
+      "complete_torus": false,
+      "required_available_bytes": 3005218816
+    }
+  },
+  "memory_admission": "192 bytes per raw pair + 384 MiB allocator + 1 GiB free-memory reserve; checked every block",
+  "sources_frozen_before_production": true,
+  "final_analysis_command": "python research/prb_lattice_response/detector_boundary_refinement.py profiles --higher-root research/prb_lattice_response/detector_boundary_refinement --output research/prb_lattice_response/detector_boundary_refinement/higher_profile_comparison"
+}

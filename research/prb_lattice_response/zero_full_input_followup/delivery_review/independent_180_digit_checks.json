@@ -1,0 +1,648 @@
+[
+  {
+    "old_interval_index": 1199,
+    "raw_index": 2453,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "7.9233068231299474925580768462216213241576027020072e-155",
+      "denominator": "3816.533254116873398693432933609288404702614654811",
+      "normalized_numerator": "1.229898409810443954277272e-161",
+      "normalized_dielectric_denominator": "0.1618258219976984300413822",
+      "unscaled_charge_response": "2.0760481556352535553596400832639732942263374863543e-158",
+      "normalized_charge_response": "1.587607149407308572780385e-158",
+      "cofactor_inverse_difference": "1.56043301447605962676581e-179",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "2.45886181328922914221136183085e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1345,
+    "raw_index": 3455,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-7.7713878178863638725681413788707417935656673026867e-162",
+      "denominator": "5.4133092832091174407959892608816556333996515383886",
+      "normalized_numerator": "6.96171408110969632975577e-162",
+      "normalized_dielectric_denominator": "0.9998959861636495483847719",
+      "unscaled_charge_response": "1.4356075759409280532512358043728762451155586508627e-162",
+      "normalized_charge_response": "1.30283832206552342036113e-162",
+      "cofactor_inverse_difference": "1.401883261246790684179371e-186",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.20346168440996272510689835987e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1454,
+    "raw_index": 869,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-1.3637134320528745691562765416550622901444395562805e-155",
+      "denominator": "-4658.2130739615110547045506136301178191498131710914",
+      "normalized_numerator": "1.398174154449932845193004e-162",
+      "normalized_dielectric_denominator": "0.1595915656754716277362402",
+      "unscaled_charge_response": "2.927546272358734928119966008100472971656533190794e-159",
+      "normalized_charge_response": "2.230355325487695364415715e-159",
+      "cofactor_inverse_difference": "8.144718975684891267028108e-179",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "2.79899721635821801052711000072e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 851,
+    "raw_index": 654,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-1.3507150097090242619030748756626080071950541372042e-162",
+      "denominator": "0.20634842597697535314472504734226469096904853904212",
+      "normalized_numerator": "6.391734977385559302002915e-162",
+      "normalized_dielectric_denominator": "0.1078384524572044959331098",
+      "unscaled_charge_response": "6.5457974942815359182610843815992713853445076356261e-162",
+      "normalized_charge_response": "4.297916093414785629496414e-162",
+      "cofactor_inverse_difference": "2.852033630928809653363788e-183",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "6.43809298944563622455802952026e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 857,
+    "raw_index": 2884,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "3.832564271250523393811770584745765381937748340409e-162",
+      "denominator": "2.7306189567011990918671247346689665688654672986386",
+      "normalized_numerator": "2.107898005168825945304022e-161",
+      "normalized_dielectric_denominator": "0.9858349639247833546091469",
+      "unscaled_charge_response": "1.4035514775304132080368551938487815710916953202232e-162",
+      "normalized_charge_response": "1.300433018420620342264661e-162",
+      "cofactor_inverse_difference": "1.7409126836569549838237e-184",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.3801992640339466689509606616e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 877,
+    "raw_index": 382,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-3.6219223678891443681720478748206875435881239100449e-162",
+      "denominator": "0.24113302640353237857940075345541045182675968807046",
+      "normalized_numerator": "1.692256505896898502561516e-161",
+      "normalized_dielectric_denominator": "0.1332880814384716839514937",
+      "unscaled_charge_response": "1.50204325882258595243331869743015019921487022783e-161",
+      "normalized_charge_response": "1.065936808589258790195548e-161",
+      "cofactor_inverse_difference": "1.410066867528075862014014e-183",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.47949300897874408746666244312e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 890,
+    "raw_index": 1390,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "4.6295120361084740659214903643645465432116971079072e-161",
+      "denominator": "1.8483649829791309333720557416445413488804889374892",
+      "normalized_numerator": "2.24569153402664368253114e-160",
+      "normalized_dielectric_denominator": "0.9834782854100765440916149",
+      "unscaled_charge_response": "2.5046525327734710858822567021677656839654889958357e-161",
+      "normalized_charge_response": "2.367594972352838254195929e-161",
+      "cofactor_inverse_difference": "2.181567595494432261277936e-184",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "2.45868621560996964677000361674e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 899,
+    "raw_index": 1422,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-3.1053033857441590638437855117645044292801630106609e-161",
+      "denominator": "0.15726224003648401253365469871370486873506171158596",
+      "normalized_numerator": "7.216828791394340124959104e-161",
+      "normalized_dielectric_denominator": "0.06699680191078332491822985",
+      "unscaled_charge_response": "1.9746020309921472639374411908925300605787570464e-160",
+      "normalized_charge_response": "1.044879039294130557083096e-160",
+      "cofactor_inverse_difference": "4.963058250290795906019875e-183",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.90747878939274985524393350871e-160",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1109,
+    "raw_index": 1039,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "3.093743842877239626650711425191058452947783533451e-158",
+      "denominator": "-58.777423915134886617303026557084720871904925157809",
+      "normalized_numerator": "2.364521571210205079202254e-161",
+      "normalized_dielectric_denominator": "0.1973429232612150919428719",
+      "unscaled_charge_response": "5.2634900218561915908164229678046601900046689338505e-160",
+      "normalized_charge_response": "4.237937171624130196681184e-160",
+      "cofactor_inverse_difference": "1.027370769773630356677087e-181",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "4.72191699283262291552676979518e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1131,
+    "raw_index": 815,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-8.7565148436519002657746695910500980836993392453666e-161",
+      "denominator": "5.0365514842366852882747972401433077507159687485167",
+      "normalized_numerator": "1.384648575030462866505927e-161",
+      "normalized_dielectric_denominator": "0.9631853688388072931242893",
+      "unscaled_charge_response": "1.7385933353521539820725806366027093888009823699067e-161",
+      "normalized_charge_response": "1.580752386612878507503374e-161",
+      "cofactor_inverse_difference": "7.622895479521594943564988e-185",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.13198890701631942156460157095e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1136,
+    "raw_index": 938,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-1.9747796654156291992271959474005985406470189237147e-160",
+      "denominator": "4.2168203715930807018348375523404111347771460444445",
+      "normalized_numerator": "2.305983853236980693357478e-161",
+      "normalized_dielectric_denominator": "0.9149169468878111033404943",
+      "unscaled_charge_response": "4.6831012265043990488002103600904759737057786208977e-161",
+      "normalized_charge_response": "4.277144819328620921289858e-161",
+      "cofactor_inverse_difference": "1.442352765007856701532194e-183",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "2.74214094065566915590404770317e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1145,
+    "raw_index": 1279,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "1.261709671927936136780236324307198610748354454348e-157",
+      "denominator": "179.52479910276038518283027153696626206566595706957",
+      "normalized_numerator": "1.395229294440707203401624e-161",
+      "normalized_dielectric_denominator": "0.2436439117563697146311204",
+      "unscaled_charge_response": "7.028052270403771784154158885422811871329573275887e-160",
+      "normalized_charge_response": "5.882588235231698164448659e-160",
+      "cofactor_inverse_difference": "2.042522033977553894628949e-180",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "2.64409570214118366420530018169e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1189,
+    "raw_index": 607,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-4.6685337485044165930913486682325259951597378849755e-161",
+      "denominator": "5.222193441638732385467149620220516526831190394342",
+      "normalized_numerator": "1.03086877925993333018217e-161",
+      "normalized_dielectric_denominator": "0.6184443475812416044730775",
+      "unscaled_charge_response": "8.9397947446378460395566472467238639132747081931142e-162",
+      "normalized_charge_response": "8.109735882569989514811554e-162",
+      "cofactor_inverse_difference": "1.077750183166528093388473e-182",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "5.81578107788951051812667623506e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1200,
+    "raw_index": 602,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-3.4398705568114919234255896358642794541509392058906e-159",
+      "denominator": "7.9472743378891831367286065678789059930091525159277",
+      "normalized_numerator": "1.076319543097793523815515e-160",
+      "normalized_dielectric_denominator": "0.9160899948362510305316384",
+      "unscaled_charge_response": "4.3283651860508574640911080157212373656385647303162e-160",
+      "normalized_charge_response": "3.905924886883573332920328e-160",
+      "cofactor_inverse_difference": "1.691111393689657695225316e-183",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.49199852467775976271158870789e-160",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1225,
+    "raw_index": 458,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-1.1892611151987932164591009619644939054819344008494e-160",
+      "denominator": "5.8497920017422400595388521333558339449180713615022",
+      "normalized_numerator": "2.73382560456997475223071e-161",
+      "normalized_dielectric_denominator": "0.9997253008462176775148406",
+      "unscaled_charge_response": "2.0329972669876062063595080364878818123973189517072e-161",
+      "normalized_charge_response": "1.842102633233172839755843e-161",
+      "cofactor_inverse_difference": "5.466809537093376745685812e-187",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.31051624302676198375431019684e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1242,
+    "raw_index": 378,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-4.6749234115837610189964882561526901938129618877383e-162",
+      "denominator": "5.753893342450864497766589697212241172909259074365",
+      "normalized_numerator": "1.876204978502360908436001e-162",
+      "normalized_dielectric_denominator": "0.9980530165665165073976812",
+      "unscaled_charge_response": "8.1248002584498421872180738763418445641024073577169e-163",
+      "normalized_charge_response": "7.364394876751825874577948e-163",
+      "cofactor_inverse_difference": "4.232175684845137930028947e-186",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "5.88580145286205850744786751503e-163",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1351,
+    "raw_index": 1818,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-1.0631973796196654768640123142909234706197647485884e-160",
+      "denominator": "5.4257269899030989829235487097221631059812703834541",
+      "normalized_numerator": "9.175816706412842985974073e-161",
+      "normalized_dielectric_denominator": "0.9999884829757847371612084",
+      "unscaled_charge_response": "1.9595482441306058022847096923705140739486306010778e-161",
+      "normalized_charge_response": "1.778236584851738212686057e-161",
+      "cofactor_inverse_difference": "1.389544357612101359468276e-187",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.6343988003758735413356590533e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1369,
+    "raw_index": 3231,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "1.2075310938946211424112489778516673257630953723921e-161",
+      "denominator": "5.4625183109878019769762819073052186288470383566718",
+      "normalized_numerator": "9.242164437342515546147091e-162",
+      "normalized_dielectric_denominator": "0.9977791732797603584654166",
+      "unscaled_charge_response": "2.2105758281225056892920304278282529229716026593992e-162",
+      "normalized_charge_response": "2.005796431152860486254736e-162",
+      "cofactor_inverse_difference": "3.843534055036590604473191e-185",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.81317027036048028063026397859e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1399,
+    "raw_index": 2010,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-6.582675887951913245436849873211185400638395957929e-161",
+      "denominator": "5.6562956136119344046678734120306469232097813634244",
+      "normalized_numerator": "3.270626377169169025269272e-161",
+      "normalized_dielectric_denominator": "0.999783007647089858223589",
+      "unscaled_charge_response": "1.1637786172474145527171459661687048811983398973399e-161",
+      "normalized_charge_response": "1.055200208123163667997014e-161",
+      "cofactor_inverse_difference": "4.197240426248519139910516e-186",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "8.82768548645707574944991290119e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1441,
+    "raw_index": 2090,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "9.2853356268286626485100473159391976929110390549548e-159",
+      "denominator": "2.0322702619701666320379664786128999888351259909126",
+      "normalized_numerator": "1.687715334559445947549984e-160",
+      "normalized_dielectric_denominator": "0.09168229241355406980354606",
+      "unscaled_charge_response": "4.5689472510546285467664372392721312497273080322309e-159",
+      "normalized_charge_response": "2.77972821310097679439675e-159",
+      "cofactor_inverse_difference": "8.608024665568733420569162e-182",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.01469441563848559715524001788e-159",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1444,
+    "raw_index": 3007,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "1.3950432142286547052349891773474249982662000570225e-160",
+      "denominator": "4.1866417203444881119905958402336554586108692420927",
+      "normalized_numerator": "6.858005834544949980248229e-162",
+      "normalized_dielectric_denominator": "0.2354194662353987874095223",
+      "unscaled_charge_response": "3.3321294426738450577823894537724342882759164769378e-161",
+      "normalized_charge_response": "2.742561373449162569916459e-161",
+      "cofactor_inverse_difference": "1.753235031303423944003634e-182",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.17492361193722248820860263093e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1469,
+    "raw_index": 2618,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "1.1085968227078998276530232868979825302189532412786e-161",
+      "denominator": "5.4602237479252648350503069300113260983168372717289",
+      "normalized_numerator": "3.748349554302967868720578e-162",
+      "normalized_dielectric_denominator": "0.804121442975377760803797",
+      "unscaled_charge_response": "2.0303139099915753345199618536830686386231027748646e-162",
+      "normalized_charge_response": "1.844550140440475901059994e-162",
+      "cofactor_inverse_difference": "2.961352438329694297221714e-183",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.49735550827663122110680227181e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1548,
+    "raw_index": 2415,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-9.2096053788666499511288217811503284719125265677587e-159",
+      "denominator": "0.0052765080796336449598436086310115199143554823537342",
+      "normalized_numerator": "9.349051438264664406989078e-161",
+      "normalized_dielectric_denominator": "0.0001359305078293635307796047",
+      "unscaled_charge_response": "1.7453977592518128423501944122524314565658023606477e-156",
+      "normalized_charge_response": "3.787656283366406213176061e-159",
+      "cofactor_inverse_difference": "3.256239493018578832318786e-179",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "3.64327589727521680124764478203e-157",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1585,
+    "raw_index": 1211,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-5.7571992685811180867259320141488030164917134094331e-163",
+      "denominator": "2.4431484074732873684362293701185729988759555697588",
+      "normalized_numerator": "4.223876669726760382317495e-162",
+      "normalized_dielectric_denominator": "0.9962606571714782988565556",
+      "unscaled_charge_response": "2.3564672743459058693380571515436700463662357288804e-163",
+      "normalized_charge_response": "2.194363232853552430372006e-163",
+      "cofactor_inverse_difference": "2.293783652535720722066583e-185",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "2.32255921079737305041106454998e-163",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1639,
+    "raw_index": 1563,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "2.8762582003310905340070058694194855434355809341918e-162",
+      "denominator": "2.9257547328543702552066978178790686388360279686808",
+      "normalized_numerator": "1.93240124785614939425116e-161",
+      "normalized_dielectric_denominator": "0.9906475717273239160291094",
+      "unscaled_charge_response": "9.830824737400353318572944118021123778109922733815e-163",
+      "normalized_charge_response": "9.083280229534543182023595e-163",
+      "cofactor_inverse_difference": "5.789854185230370915117566e-185",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "9.68737911719750533405159049973e-163",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1651,
+    "raw_index": 459,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-7.2331175111230183347688606625441085269331443600242e-160",
+      "denominator": "6.3204962476870445117143643057714333606784057219774",
+      "normalized_numerator": "2.184150249548602046068206e-159",
+      "normalized_dielectric_denominator": "0.9965454794817545822544328",
+      "unscaled_charge_response": "1.1443907610529700458709545774869899203759301623104e-160",
+      "normalized_charge_response": "1.035477171102880236408018e-160",
+      "cofactor_inverse_difference": "1.08336686629109605023636e-184",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.11703349342454989391721941917e-160",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1659,
+    "raw_index": 571,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "8.8847294026522104814198207532650504853749901155347e-162",
+      "denominator": "8.6554765177044821186188447036079543378645252132564",
+      "normalized_numerator": "5.320422506597002586569036e-161",
+      "normalized_dielectric_denominator": "0.9999703350785609561043344",
+      "unscaled_charge_response": "1.0264864544983513504714954381818317235290792368815e-162",
+      "normalized_charge_response": "9.242980486967307892813166e-163",
+      "cofactor_inverse_difference": "1.180481470705090472290573e-186",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.01128510666639581954251636678e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1728,
+    "raw_index": 3419,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-1.1263632107742277607308589445289352438960486470491e-162",
+      "denominator": "1.881587741360180930275733799298038654933259321976",
+      "normalized_numerator": "7.571630424428775537795964e-162",
+      "normalized_dielectric_denominator": "0.9871595929063846023231904",
+      "unscaled_charge_response": "5.9862380372439665157227514125632944818617012456088e-163",
+      "normalized_charge_response": "5.653043758206789479804814e-163",
+      "cofactor_inverse_difference": "1.946217285399623088208635e-184",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "5.90595981999105728500559179331e-163",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1747,
+    "raw_index": 3259,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-3.6451228413155096612074644225759228080174102106989e-162",
+      "denominator": "0.56142724176636281680262158998570884393376276512129",
+      "normalized_numerator": "2.076635244495452547202216e-161",
+      "normalized_dielectric_denominator": "0.3742489216164970006208998",
+      "unscaled_charge_response": "6.4926005903226594315430837880770444124433563999718e-162",
+      "normalized_charge_response": "5.849470880363644559565134e-162",
+      "cofactor_inverse_difference": "7.739572947609690689437109e-184",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "6.40177104031413567825011302329e-162",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1775,
+    "raw_index": 2155,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "1.3547659456451677437625098101588576285205712065057e-162",
+      "denominator": "1.6001283332143866414866351182649519924675989549927",
+      "normalized_numerator": "7.770097789397896379961371e-162",
+      "normalized_dielectric_denominator": "0.9724979516595034054126763",
+      "unscaled_charge_response": "8.4666080683895682066272488762067789292348148210568e-163",
+      "normalized_charge_response": "8.076234171048245266249826e-163",
+      "cofactor_inverse_difference": "5.298456240451754507073734e-185",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "8.34388114663412388563654526992e-163",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1785,
+    "raw_index": 2955,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "5.9759823711470873338704183327439555784897002716933e-162",
+      "denominator": "0.0054539365665182697810683243619492038187597375745007",
+      "normalized_numerator": "2.360841401973492439072025e-161",
+      "normalized_dielectric_denominator": "0.002612562570775433034321992",
+      "unscaled_charge_response": "1.0957190825858991563536740397613466009393317094372e-159",
+      "normalized_charge_response": "4.406818039380818508035705e-161",
+      "cofactor_inverse_difference": "7.060628504950547745707772e-182",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.0784613619362066068920622072e-159",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1805,
+    "raw_index": 2299,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "4.4506843310016206827582678662914583346184556991933e-161",
+      "denominator": "0.048411540647131668707589148276245857138729112901989",
+      "normalized_numerator": "1.395173197482634936143032e-160",
+      "normalized_dielectric_denominator": "0.02122177900328067926817801",
+      "unscaled_charge_response": "9.1934366713142786618784658839559322555297999863924e-160",
+      "normalized_charge_response": "2.360234869782117602010725e-160",
+      "cofactor_inverse_difference": "4.061667302398364382489936e-183",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "8.96516994936518392999920293061e-160",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1810,
+    "raw_index": 2667,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "-1.2696217846848351400277352943909970948905981361185e-162",
+      "denominator": "0.067881161183332063364408113724678680800894367488667",
+      "normalized_numerator": "4.447281928947304207639529e-162",
+      "normalized_dielectric_denominator": "0.03376911656689212781677343",
+      "unscaled_charge_response": "1.8703595556591413843149792284810302275118158614302e-161",
+      "normalized_charge_response": "6.699660667413015457912946e-162",
+      "cofactor_inverse_difference": "3.480701939334573652900725e-184",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.82903248029632729245848468689e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  },
+  {
+    "old_interval_index": 1814,
+    "raw_index": 577,
+    "recalculation_precision_digits": 180,
+    "data_precision_digits": 110,
+    "direct": {
+      "numerator": "3.7384174576431893389868178252452938049672871899529e-161",
+      "denominator": "2.1431500163353556614562496485853781319313039680186",
+      "normalized_numerator": "1.214121002514494587549368e-160",
+      "normalized_dielectric_denominator": "0.9436653194179981697402545",
+      "unscaled_charge_response": "1.7443564048939677879311489680961742035929752627056e-161",
+      "normalized_charge_response": "1.633590306983415180850065e-161",
+      "cofactor_inverse_difference": "1.35819688253485455279302e-184",
+      "direct_original_3456_slot_sum_checked": true
+    },
+    "charge_only_normalized_residual": "1.69813310307296849223742565893e-161",
+    "same_literal_input": true,
+    "new_hamiltonian_precision_claim": false
+  }
+]

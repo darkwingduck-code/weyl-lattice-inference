@@ -1,0 +1,17 @@
+{
+  "status": "INDEPENDENT_EIGENPAIR_AUDIT_COMPLETED",
+  "retained_transitions": 2654,
+  "factorization_absolute_error": 8.673617379884035e-19,
+  "cholesky_relative_frobenius_error": 1.860386695961792e-16,
+  "hermitian_max_defect": 2.465190328815662e-32,
+  "maximum_eigenpair_relative_residual": 3.4834569455645418e-15,
+  "orthogonality_max_entry_error": 1.8207657603852567e-14,
+  "orthogonality_frobenius_error": 2.287160350522566e-13,
+  "csv_eigenvalue_max_absolute_difference": 3.8191672047105385e-14,
+  "csv_eigenvalue_max_relative_difference": 2.459472238185593e-15,
+  "eigensystem_numerical_checks_pass": true,
+  "comparison_group_separation": 1e-08,
+  "comparison_groups": 2654,
+  "maximum_group_residue_absolute_difference": 1.3824011380059176e-14,
+  "scope": "Every eigenpair retained. Close comparison groups are not asserted to be exactly degenerate; raw individual-basis residues may rotate."
+}

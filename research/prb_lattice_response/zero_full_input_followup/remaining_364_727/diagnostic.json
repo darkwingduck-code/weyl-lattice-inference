@@ -1,0 +1,41 @@
+{
+  "status": "BOUNDED_NEW_FULL_INPUT_ZERO_FOLLOWUP_COMPLETE",
+  "started_utc": "2026-09-11T08:14:37.031824+00:00",
+  "source_input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_full_input_followup.py": "a7c7abd4f172549bac676b8e827499b5652871c17c4ba4917dd7e8fff656faa8",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\test_zero_full_input_followup.py": "1d105b87559be314c3576ca73626c291142fb375170538087dad7cd92f2596f6",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\all_3456_transitions_110.json": "0d40fc2293eee1786f536ef75cb2abcc079759cf32f8eac1faa703e4e2a85e58",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit\\local_poles_110\\selected_local_poles.json": "ae628159716cf427039554f5e3ec969aa96d4fff10ad908dd8b00296c71d4e11",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit\\run_01\\all_751_associations.json": "af34b475a62f6341ef6070da940e9305d79c2b7d6abdfec2e91559b4bbc0df4e",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_charge_zeros.csv": "45a1de0423a10862dfc7ea20215c0aeb383da408553be6243b8c227358d77ea0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit\\manifest.json": "80867ce18da924e0f74b70bdc6d5be8fa84273e916aa996bf2631d5c912ee3ec"
+  },
+  "selection": "remaining",
+  "start_index": 364,
+  "requested_cases": 364,
+  "data_precision_digits": 110,
+  "arithmetic_precision_digits": 160,
+  "raw_transition_slots": 3456,
+  "zero_residual_tolerance": "1e-50",
+  "denominator_ratio_guard": "1e-50",
+  "coherent_input_crosscheck": false,
+  "original_verified_zero_count_remains": 1901,
+  "original_751_one_to_one_mapping_certified": false,
+  "complete_new_input_zero_catalog_certified": false,
+  "submission_ready": false,
+  "elapsed_seconds": 717.3611570000066,
+  "completed_cases": 364,
+  "status_counts": {
+    "VERIFIED_NEW_SERIALIZED_INPUT_LOCAL_CHARGE_ZERO": 364
+  },
+  "source_inputs_unchanged": true,
+  "completed_utc": "2026-09-11T08:26:34.177914+00:00",
+  "limitations": [
+    "Stored 110-digit data are reused, not a new Hamiltonian calculation.",
+    "160-digit arithmetic does not add physical input accuracy.",
+    "Primary serialized weights retain their tiny rank-one serialization defect; no weight cutoff.",
+    "Local roots are checked numerically, not by directed-rounding interval arithmetic.",
+    "Old endpoint motion can exceed a true pole-zero separation; nearest-frequency association is not identity.",
+    "The old 1901 checks and unresolved 751 labels are not rewritten or merged with this new-input count."
+  ]
+}

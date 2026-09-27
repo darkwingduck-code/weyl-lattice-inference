@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "reviewed_by": "root",
+  "image": "calibration_counter_control.png",
+  "checks": [
+    "Three panels, all curves and hollow markers visible",
+    "Red fitted-gain dashed foreground visible near blue charge curve",
+    "Legend and axis labels readable without clipping",
+    "Linear vicinity includes zero; no residual floor",
+    "Caption states 49 trials, shared positive gain and no statistical confidence claim"
+  ]
+}

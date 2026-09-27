@@ -1,0 +1,2 @@
+coarse_L,fine_L,coarse_Nkz,fine_Nkz,pole_relative_tolerance,residue_relative_tolerance,passes_declared_tolerances,pole_relative_error,charge_residue_relative_error,axial_residue_relative_error
+48,72,192,192,1e-05,0.01,True,5.070549353579131e-11,0.0002774893667673734,4.399435477235034e-10

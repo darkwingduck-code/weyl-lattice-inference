@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "test_count": 56,
+  "returncode": 0,
+  "completed_utc": "2026-09-10T14:53:37.425379+00:00",
+  "command": [
+    "C:\\Users\\sadva\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "research\\prb_lattice_response",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "test_source_sha256": {
+    "test_bloch_response.py": "0c003e51d0c9badd9b089d1bab613c3f5018d7da737631f5d63e73dd88faf59c",
+    "test_lattice_response.py": "8e10febf53cf42ce4d0f6dfe67dd3aeb96210bbf0a10ef0e21912d34d41fc4f3",
+    "test_low_energy_mode_audit.py": "d8d076c56ce9dc172b432aab8f45e39b53d8e31adaf20425152cea7b88a51ef3",
+    "test_magnetic_bloch_response.py": "a68c73998f6dd8d9c22537448cd6ff6d31695630346844e3cf67679805eda22c",
+    "test_pole_zero_analysis.py": "f481b99353cfd3726134aea9c75c3a3e93fc13e4a9b2365529db4123bb055919",
+    "test_zero_observability_controls.py": "f340b42713d472aea7392e51813f3a4cd2cb071f08be103c5d7da4068d9ca254",
+    "test_zero_precision_followup.py": "54d3db0bf8d8c88222ff1471817b5a94e7f6ae0ff8cae3f4e9ce9d2b57fd8ed6"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status":"SMALL_TRUTH_OPTIMIZER_CONSISTENCY_FAILED",
+  "command":"python -m unittest discover -s research/prb_lattice_response -p test_detector_boundary_refinement.py -v",
+  "tests_run":4,"tests_passed":3,"failed_test":"test_profile_restores_known_coulomb_parameter",
+  "cause":"Bounded minimization position error near exactly zero cost differs across 65 and 129 point brackets.",
+  "g_65":0.8000000015474448,"g_129":0.7999999993574091,
+  "rms_65":5.443326382845924e-9,"rms_129":2.2603928015599584e-9,
+  "rms_difference":3.1829335812859653e-9,"optimizer_consistency_limit":1e-10,
+  "physical_thresholds_changed":false,"large_production_started":false,
+  "planned_fix":"Retain the declared known truth Coulomb g=.8 as an additional common candidate for every Ua and both g grids. Preserve unanchored result in output."
+}

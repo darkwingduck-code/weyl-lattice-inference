@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "tests_run": 41,
+  "completed_utc": "2026-09-10T13:24:56.569958+00:00",
+  "scope": "Four regression test modules and the four scientific implementation modules they exercise. Separate production/audit drivers carry their own source hashes.",
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "magnetic_bloch_response.py": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "pole_zero_analysis.py": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "test_bloch_response.py": "0c003e51d0c9badd9b089d1bab613c3f5018d7da737631f5d63e73dd88faf59c",
+    "test_lattice_response.py": "8e10febf53cf42ce4d0f6dfe67dd3aeb96210bbf0a10ef0e21912d34d41fc4f3",
+    "test_magnetic_bloch_response.py": "a68c73998f6dd8d9c22537448cd6ff6d31695630346844e3cf67679805eda22c",
+    "test_pole_zero_analysis.py": "f481b99353cfd3726134aea9c75c3a3e93fc13e4a9b2365529db4123bb055919"
+  },
+  "output_sha256": {
+    "full_suite.txt": "9ffc2e293a79f3f19d430589f2bba08dbd9d39e4f2adc330163f82031e518632"
+  },
+  "prior_40_test_record": "initial_full_suite.json",
+  "prior_test_source_snapshot": "test_pole_zero_analysis_before_u0.py"
+}

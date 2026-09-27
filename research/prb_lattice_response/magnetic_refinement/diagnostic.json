@@ -1,0 +1,206 @@
+{
+  "started_utc": "2026-09-10T12:23:24.945004+00:00",
+  "status": "BUDGET_LIMIT_REACHED",
+  "settings": {
+    "mu": 0.5,
+    "temperature": 0.04,
+    "eta": 0.015,
+    "coulomb": 0.8,
+    "axial_interaction": 8.0,
+    "numerator": 1,
+    "denominator": 36,
+    "qprobe": 0.2617993877991494,
+    "tolerance": 0.001
+  },
+  "frequency_points": 161,
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "magnetic_bloch_response.py": "c4efb361a8b070d3e3138ad74eb71590f1c8659551ab6b0c763f3cd478cb440c",
+    "extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "run_magnetic_refinement.py": "e92de362cac5a8697081f207a3aef8a5899fd114c4a4f53160a671cdde708315"
+  },
+  "input_sha256": {
+    "magnetic_bloch_validation\\diagnostic.json": "fabb4eaebc94b2d02cc2ade3862cdc66cb19719dd70bb7cbcd8bef6fcf9ad9a7",
+    "refinement\\L48_Nk192_flux+0_fixed_mu.csv": "83b0ba592de336cba001214576f7f7410cdda8ede1935520f024b57c19b909d8"
+  },
+  "budget_seconds": 600.0,
+  "memory_before": {
+    "total_physical_bytes": 68095827968,
+    "available_physical_bytes": 25528004608
+  },
+  "calculations": [
+    {
+      "Nkx": 1,
+      "Nky": 7,
+      "Nkz": 96,
+      "Lx": 36,
+      "Ly": 7,
+      "flux": 7,
+      "B": 0.17453292519943295,
+      "parameters": {
+        "Lx": 36,
+        "Ly": 7,
+        "Nkz": 96,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "density": 1.997557592664895,
+      "retained_transition_count": 13934592,
+      "expected_transition_count": 13934592,
+      "bands_per_block": 144,
+      "vertex_error": 1.685259780113497e-14,
+      "vertex_tolerance": 2e-11,
+      "charge_ward_bare": 3.5407541369759406e-15,
+      "charge_ward_rpa": 3.5246765101734935e-15,
+      "ward_tolerance": 2e-10,
+      "equal_time_density_commutator_max": 2.6020852139652106e-16,
+      "minimum_rpa_weighted_loss_eigenvalue": 8.792003055231225e-05,
+      "weighted_passivity_tolerance": 2e-10,
+      "weighted_passivity_frequency_points": 161,
+      "probe_frequency": {
+        "real": 0.45,
+        "imag": 0.015
+      },
+      "probe_bare_ca": {
+        "real": 0.007223523721114511,
+        "imag": -0.0005218262717825162
+      },
+      "probe_rpa_ca": {
+        "real": 0.0015692944221283867,
+        "imag": -0.00012585078811010343
+      },
+      "estimated_peak_bytes": 643825664,
+      "minimum_observed_available_bytes": 24757460992,
+      "elapsed_seconds": 60.871157499997935,
+      "all_exact_identity_checks_pass": true,
+      "csv": "Nkx1_Nky7_Nk96_B1of36_fixed_mu.csv"
+    },
+    {
+      "Nkx": 2,
+      "Nky": 13,
+      "Nkz": 96,
+      "Lx": 72,
+      "Ly": 13,
+      "flux": 26,
+      "B": 0.17453292519943295,
+      "parameters": {
+        "Lx": 72,
+        "Ly": 13,
+        "Nkz": 96,
+        "mass": 0.0,
+        "wilson": 1.0,
+        "hopping": 1.0,
+        "exchange": 1.0,
+        "theta_x": 0.0,
+        "theta_y": 0.0,
+        "theta_z": 0.0
+      },
+      "density": 1.997557592663138,
+      "retained_transition_count": 51757056,
+      "expected_transition_count": 51757056,
+      "bands_per_block": 144,
+      "vertex_error": 1.685259780113497e-14,
+      "vertex_tolerance": 2e-11,
+      "charge_ward_bare": 3.893295445553925e-15,
+      "charge_ward_rpa": 3.877222027525873e-15,
+      "ward_tolerance": 2e-10,
+      "equal_time_density_commutator_max": 1.9949319973733282e-16,
+      "minimum_rpa_weighted_loss_eigenvalue": 8.792052135793435e-05,
+      "weighted_passivity_tolerance": 2e-10,
+      "weighted_passivity_frequency_points": 161,
+      "probe_frequency": {
+        "real": 0.45,
+        "imag": 0.015
+      },
+      "probe_bare_ca": {
+        "real": 0.007223360585381251,
+        "imag": -0.0005221902879942699
+      },
+      "probe_rpa_ca": {
+        "real": 0.0015692551149183312,
+        "imag": -0.0001259351782817583
+      },
+      "estimated_peak_bytes": 643825664,
+      "minimum_observed_available_bytes": 24777527296,
+      "elapsed_seconds": 229.65629919999628,
+      "all_exact_identity_checks_pass": true,
+      "csv": "Nkx2_Nky13_Nk96_B1of36_fixed_mu.csv"
+    }
+  ],
+  "comparisons": [
+    {
+      "kind": "magnetic_transverse",
+      "coarse_Nkx": 1,
+      "coarse_Nky": 7,
+      "coarse_Nkz": 96,
+      "fine_Nkx": 2,
+      "fine_Nky": 13,
+      "fine_Nkz": 96,
+      "B": 0.17453292519943295,
+      "maximum_scaled_response_error": 2.097062610649091e-06,
+      "tolerance": 0.001,
+      "converged": true
+    }
+  ],
+  "budget_decisions": [
+    {
+      "kind": "magnetic_transverse",
+      "Nkx": 2,
+      "Nky": 13,
+      "Nkz": 96,
+      "elapsed_seconds": 62.85505920000287,
+      "predicted_seconds_with_25_percent_margin": 282.6160883928476,
+      "admitted": true
+    },
+    {
+      "kind": "fixed_B_kz",
+      "Nkx": 2,
+      "Nky": 13,
+      "Nkz": 192,
+      "elapsed_seconds": 294.54559750000044,
+      "predicted_seconds_with_25_percent_margin": 572.2510510757461,
+      "admitted": false
+    }
+  ],
+  "all_selected_directions_converged": false,
+  "collective_pole_or_gap_certified": false,
+  "limitations": [
+    "Only B=+2*pi/36 and fixed mu=.5 are explored here.",
+    "Finite-eta sampled-response convergence is not a pole or continuum-limit certificate.",
+    "Non-divisor Nky grids avoid trivially equivalent magnetic ky samples.",
+    "Partial block sums are never treated as completed spectra."
+  ],
+  "evaluator_validation_pass": true,
+  "final_transverse_comparison": {
+    "kind": "magnetic_transverse",
+    "coarse_Nkx": 1,
+    "coarse_Nky": 7,
+    "coarse_Nkz": 96,
+    "fine_Nkx": 2,
+    "fine_Nky": 13,
+    "fine_Nkz": 96,
+    "B": 0.17453292519943295,
+    "maximum_scaled_response_error": 2.097062610649091e-06,
+    "tolerance": 0.001,
+    "converged": true
+  },
+  "incomplete_reason": "Final Nkz192 check exceeds the measured remaining budget",
+  "sources_unchanged": true,
+  "inputs_unchanged": true,
+  "all_completed_identity_checks_pass": true,
+  "elapsed_seconds": 298.05113960000017,
+  "completed_utc": "2026-09-10T12:28:22.997468+00:00",
+  "output_sha256": {
+    "execution.log": "e80ef34225b4a0bcf1d61784cec3dc46ad9a75936fa1641e5ae0d52f35ad9dfe",
+    "evaluator_validation.json": "b17e9f1c20b3934461bfcc81603dafcb56f4d1cceb7a5baa5b9d9d6028d18197",
+    "Nkx1_Nky7_Nk96_B1of36_fixed_mu.csv": "5e3f2927696e14ff5b0b9b4369eebabbcd7fdb53a5f22207212240fcadcf4404",
+    "Nkx2_Nky13_Nk96_B1of36_fixed_mu.csv": "3cdcd46d32fc2ace7776f878932c8b5db85208ea66520cb7f69962875de4e60d",
+    "comparisons.csv": "d3630767ad4e7eb98668741a2cf822f2b3f7e1a4a0c504759ff53c9cfbf15ce7"
+  }
+}

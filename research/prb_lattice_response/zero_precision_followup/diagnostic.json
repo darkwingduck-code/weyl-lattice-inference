@@ -1,0 +1,72 @@
+{
+  "status": "BOUNDED_ZERO_PRECISION_FOLLOWUP_COMPLETED",
+  "completed_utc": "2026-09-10T14:50:22.839430+00:00",
+  "elapsed_seconds": 51.134155199993984,
+  "source_input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_precision_followup.py": "ad807053429f9791f8d851e3eb74e597dd6682211d15e76604c2736d2627360f",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\test_zero_precision_followup.py": "54d3db0bf8d8c88222ff1471817b5a94e7f6ae0ff8cae3f4e9ce9d2b57fd8ed6",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\diagnostic.json": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\execution.log": "0ec939ee6767f7b0c60fbca36d1aa9eed38691822b515828cb4ecffe277227e0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_poles.csv": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_charge_zeros.csv": "45a1de0423a10862dfc7ea20215c0aeb383da408553be6243b8c227358d77ea0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_regulator_scan.csv": "b0e31fc9276be3ceca41b1d9121991512d044934d7f65f630570a1969195073b",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\degenerate_counterexample.csv": "5a46104917982ca10554dd62af959eca2da5256ac7c7b3bd403e57f1a5b0af5c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\exterior_searches.json": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\exterior_refinement.csv": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_modes.pdf": "0e1f141a884995dc75ee0c6b15f1136b023a3e9a0fdbf7b23f69e1ae2c43c529",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\finite_modes.png": "bb7b17a2012a983f642df65d864708fe53b90ea8ac9028b60178c537465a7538",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\exterior_modes.pdf": "a71393ae44f243cc06cc1e8f243514d67e51349d2f3a23febeb79a074915b370",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\mode_analysis\\exterior_modes.png": "ab6a3b216cffdcc7e3b6c812a0e6da8958044ac119b86c4bd2b2da92440e7d0c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\self_test.json": "0f16be9bda094840986160a5b636ca832648ec81caa80452da7f5c2d8837fa14",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\eigensystem.json": "96880d6356923aeb9fdcdc5add83cb2ea2dc94e97ed7159774908542eeef573a",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\eigenpairs.json": "147c893c52246d37527dd3bb0a1cbc067f8d26479938781086913c6642ee1e67",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\residue_comparison_groups.json": "03d26b595be75f4b80d21be68a0568489d702208ca7f49d8a227e295acf3a910",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\zero_checks.json": "26637c5eb0448450d6ce250c207ff310a5ff578713afc090d658cf17fd513ffc",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\residue_checks.json": "f8a48b4391dbb9c0ff0db5f9c85c4dd46dddb857cf78dac8184f2f213cf2e03b",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\diagnostic.json": "04e3d76ee1b4b302adf5163e5c51af1541aef30d42cf19a666b2545e5c9e81d6",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\manifest.json": "716d4f163282003ae22e939a5fb1782b7bce0e451a2daad47b149ec9157aef1f",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\inputs\\finite_poles.csv": "9649d3fbfd04e5424ad69fa44dd2c14c86e5cadfabc9fd459d04a3c67a3688e0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\inputs\\finite_charge_zeros.csv": "45a1de0423a10862dfc7ea20215c0aeb383da408553be6243b8c227358d77ea0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit\\inputs\\diagnostic.json": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_refinement\\guarded_run\\self_test.json": "ab6d522095cfe92b2b17db3476833a4b8e1c3073a81cde380b103b865ec42c10",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_refinement\\guarded_run\\refined_candidates.json": "5018ec55672bd2b12dfea68a9a67827ada01fe1ddb63213b0c80b6a6d2daf614",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_refinement\\guarded_run\\diagnostic.json": "317d521547998c78eb027ec9454288835582f08024f252b30f22d820062f0f47",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_refinement\\guarded_run\\manifest.json": "2fc7ecbc1b056437add018560785c9d6bd52311def7c246c7523f20389fc8e81",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\pole_zero_analysis.py": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\zero_audit.py": "5b43c9c054607cf6321977c4c352445ae3fbf4947a6bb879996c02b9087e5af3",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\refine_charge_zeros.py": "ebbd32cf4dd206316fa750b1d9b5bce699925c9e4c84f793e3573565c73c289d"
+  },
+  "modal_cases": 782,
+  "modal_status_counts": {
+    "CERTIFIED_ROUNDED_WEIGHTED_MODAL_BRACKET": 782
+  },
+  "offset_above_observed_eigen_difference": 59,
+  "offset_below_float_ulp": 684,
+  "direct_cases": 76,
+  "direct_status_counts": {
+    "VERIFIED_FIXED_INPUT_LAURENT_ZERO": 76
+  },
+  "direct_groups": {
+    "previous_bare_proximity": {
+      "VERIFIED_FIXED_INPUT_LAURENT_ZERO": 45
+    },
+    "selected_previous_pole_proximity": {
+      "VERIFIED_FIXED_INPUT_LAURENT_ZERO": 31
+    }
+  },
+  "four_conditioning_cases": 4,
+  "frozen_inputs_unchanged": true,
+  "complete_physical_zero_catalog_certified": false,
+  "submission_ready": false,
+  "retained_all_nonzero_modal_and_transition_weights": true,
+  "limitations": [
+    "Directed rounding certifies literal rounded weighted modal transfer only.",
+    "110-digit direct/Laurent arithmetic uses original binary64 band energies and matrix weights.",
+    "Empirical eigenvalue differences select bounded follow-up work; they are not rigorous Hamiltonian uncertainty bounds.",
+    "No guard was globally removed: bare-proximity cases use a separate regularized Laurent calculation, reject t=0 and check the unscaled rational response.",
+    "Unselected direct-RPA intervals remain physically unresolved even if their rounded-modal bracket is certified."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Users\\sadva\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "research/prb_lattice_response",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "returncode": 0,
+  "tests": 71,
+  "log_sha256": "323174a2535f57cd5f132fb5d741ee2f27e03c47ba871e4cc81ebe16a9c3d55b",
+  "output_tail": "trols.ZeroObservabilityTests.test_complex_cross_product_and_derivative) ... ok\r\ntest_coulomb_derivative_and_offdiagonal_counterexample (test_zero_observability_controls.ZeroObservabilityTests.test_coulomb_derivative_and_offdiagonal_counterexample) ... ok\r\ntest_shared_factor_is_not_regular_zero (test_zero_observability_controls.ZeroObservabilityTests.test_shared_factor_is_not_regular_zero) ... ok\r\ntest_zero_and_slope_coulomb_invariance (test_zero_observability_controls.ZeroObservabilityTests.test_zero_and_slope_coulomb_invariance) ... ok\r\ntest_bare_multiplication_zero_is_rejected (test_zero_precision_followup.PrecisionControls.test_bare_multiplication_zero_is_rejected) ... ok\r\ntest_direct_refinement_preserves_true_zero (test_zero_precision_followup.PrecisionControls.test_direct_refinement_preserves_true_zero) ... ok\r\ntest_dropping_tiny_weight_invalidates_certificate (test_zero_precision_followup.PrecisionControls.test_dropping_tiny_weight_invalidates_certificate) ... ok\r\ntest_laurent_matches_full_rational_at_very_small_offset (test_zero_precision_followup.PrecisionControls.test_laurent_matches_full_rational_at_very_small_offset) ... ok\r\ntest_raw_rank_rounding_is_not_silently_identified_with_factor (test_zero_precision_followup.PrecisionControls.test_raw_rank_rounding_is_not_silently_identified_with_factor) ... ok\r\ntest_tiny_nonzero_weight_has_certified_sub_ulp_zero (test_zero_precision_followup.PrecisionControls.test_tiny_nonzero_weight_has_certified_sub_ulp_zero) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 71 tests in 8.468s\r\n\r\nOK\r\n"
+}

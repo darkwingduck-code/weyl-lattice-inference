@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_BEFORE_CONFIRMATION_EXECUTION",
+  "purpose": "Independent confirmation of exactly two policy contrasts selected from the 30-repetition pilot, not a new allocation search",
+  "pilot_results": "research/prb_fixed_budget_20260927/run_01/summary.json",
+  "truth_g_Ua": [0.8, 8.0],
+  "contrasts": {
+    "symmetric": {"directions": [0.7, 0.7], "candidate": "Bplus_75pct", "baseline": "Bplus_only"},
+    "asymmetric": {"directions": [0.7, -0.3], "candidate": "Bplus_25pct", "baseline": "B0_only"}
+  },
+  "policies": {"Bplus_75pct": {"B0": 0.25, "Bplus": 0.75}, "Bplus_only": {"Bplus": 1.0}, "Bplus_25pct": {"B0": 0.75, "Bplus": 0.25}, "B0_only": {"B0": 1.0}},
+  "repetitions_per_truth": 200,
+  "seed": 2026092721,
+  "total_fit_count": 800,
+  "reuse": "Unchanged pilot Problem, analytic derivatives, five starting points, bounds, higher B0/Bplus arrays, affine complex gains per field, shared interaction/source parameters, and sigma0=1.2931669440932318e-4",
+  "budget": "Same total acquisition budget as pilot: full four-entry matrices on 45 frequencies, sigma_field=sigma0/sqrt(field_time_fraction); equal detector prefactors, no switching overhead or drift",
+  "pairing": "Independent standard circular-complex noise per field, truth and repetition; identical draws reused within each candidate/baseline pair and rescaled by their time fractions. Confirmation seed differs from pilot. Different truth pairs use independent draws.",
+  "primary_statistic": "D_i=(Ua_candidate_i-8)^2-(Ua_baseline_i-8)^2; report mean D, sample SD/sqrt(200), and interval mean D +/- z*SE. Negative D favors candidate.",
+  "multiple_comparisons": "Exactly two primary contrasts. Bonferroni familywise 95% intervals use per-contrast two-sided 97.5% normal-approximation intervals, z=Phi^-1(0.9875) approximately 2.2414. These are Monte Carlo mean-loss comparisons, not parameter confidence intervals or exact finite-sample coverage.",
+  "failed_optimization": "Retain every estimate and every start. Report optimizer statuses, bounds, and feasible synthetic-truth objective failures. A contrast containing a retained optimizer failure, bound hit, or truth-objective failure cannot support the primary precision claim without an explicitly separate investigation; no silent deletions or reruns.",
+  "secondary_outputs": "RMSE and bias for each of the four declared truth/policy cases; all estimates and input/source hashes. No 50:50 contrast, new policy, or empirical allocation optimization.",
+  "stopping": "Run the fixed 200 repetitions per truth regardless of intermediate result direction. Four disjoint repetition shards with one BLAS thread each."
+}

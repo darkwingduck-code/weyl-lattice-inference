@@ -1,0 +1,10 @@
+{
+    "status":  "PASS",
+    "exit_code":  0,
+    "tests":  4,
+    "source_sha256":  "2deb2a80abe7eae90df6b1bcc7162149aace81e4905857d15b0627f09dbb7235",
+    "test_sha256":  "0a9e74c4b3b82cceb0f753170aad7421b22f99c0912864c7fe004de6b5355b0a",
+    "log_sha256":  "7702a2422c26b7e8afdf99f67e4314b8ef613a4da8a2a9e89f8f4b3617989e45",
+    "command":  "python -m unittest discover -s research/prb_lattice_response -p test_detector_boundary_refinement.py -v",
+    "utc":  "2026-09-11T13:23:14.4293894Z"
+}

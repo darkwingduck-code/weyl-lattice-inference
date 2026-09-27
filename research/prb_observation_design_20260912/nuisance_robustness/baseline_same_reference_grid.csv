@@ -1,0 +1,3 @@
+dataset,model_level,reference_level,g_bias,ua_bias,g,ua,rms,success,nfev,all_starts_success,global_optimum_certified
+Bplus_baseline,coarse,fine,-3.15465713447427e-05,0.000644288858046238,0.7999684534286553,8.000644288858046,0.7114366564692248,True,14,True,False
+Bplus_baseline,fine,fine,0.0,0.0,0.8,8.0,8.151381590287863e-14,True,12,True,False

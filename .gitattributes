@@ -1,0 +1,2 @@
+# Preserve frozen scientific bytes, including original whitespace.
+* -text -whitespace

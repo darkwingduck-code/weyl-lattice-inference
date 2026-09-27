@@ -1,0 +1,62 @@
+{
+  "status": "POST_RESULT_SCALAR_EXPLANATION_COMPLETE",
+  "checked_utc": "2026-09-11T04:48:12.259811+00:00",
+  "rows": 98,
+  "source_input_sha256": {
+    "uv_matching_audit\\B0_zero_real_reference\\diagnostic.json": "a2337e9f409a5604d84111e2d86cd667f2d412eecce757f7fd520b8855a8b7dc",
+    "uv_matching_audit\\Bplus_zero_real_reference\\diagnostic.json": "cbd0b5b53c2a1cb6e811a5a7c5619b3a7fb6571699454fc2fc5e1a191e0a4134",
+    "detector_calibration_followup\\calibration_profiles.csv": "18046abcccefd513650fdb51e406bb0559ef0087b58af00e33e33f58a109f6c8",
+    "explain_scalar_screening.py": "16a6b7c12bca4006d0d72ea774f34d2316fdf1098a15536c7fb7065a78981ff3"
+  },
+  "summary": {
+    "B0": {
+      "A_excluded_at_imaginary_reference": -0.4668374635818893,
+      "maximum_relative_gain_difference": 0.005059279792643291,
+      "ua4": {
+        "dataset": "B0",
+        "ua": 4.0,
+        "fitted_response_gain": 0.6051170590979785,
+        "approximate_scalar_gain": 0.6056033182180469,
+        "relative_gain_difference": 0.0008035786014580943,
+        "definition": "One gain multiplying chi_aa, not one factor per external vertex"
+      },
+      "ua12": {
+        "dataset": "B0",
+        "ua": 12.0,
+        "fitted_response_gain": 1.394869406431814,
+        "approximate_scalar_gain": 1.3943966817819533,
+        "relative_gain_difference": 0.00033890244325442386,
+        "definition": "One gain multiplying chi_aa, not one factor per external vertex"
+      }
+    },
+    "Bplus": {
+      "A_excluded_at_imaginary_reference": -0.4681340915597455,
+      "maximum_relative_gain_difference": 0.014692952974530238,
+      "ua4": {
+        "dataset": "Bplus",
+        "ua": 4.0,
+        "fitted_response_gain": 0.6039935683460196,
+        "approximate_scalar_gain": 0.6053724628028812,
+        "relative_gain_difference": 0.0022829621524572564,
+        "definition": "One gain multiplying chi_aa, not one factor per external vertex"
+      },
+      "ua12": {
+        "dataset": "Bplus",
+        "ua": 12.0,
+        "fitted_response_gain": 1.3959619718141822,
+        "approximate_scalar_gain": 1.3946275371971186,
+        "relative_gain_difference": 0.0009559247630000953,
+        "definition": "One gain multiplying chi_aa, not one factor per external vertex"
+      }
+    }
+  },
+  "formula": "chi_a(U)=A/(1-U*A); response_gain(U_trial -> U_truth=8)=(1-U_trial*A)/(1-8*A)",
+  "assumptions": [
+    "Constant real scalar axial polarization approximated by excluded-sector A at z=i*0.015",
+    "Neglect low-sector frequency dependence and cross-channel coupling",
+    "Interpretation developed after seeing fitted calibration results; no preregistration or independent held-out prediction is claimed",
+    "U_trial values and actual gains come from existing 49-point control; no new fits"
+  ],
+  "gap_certified": false,
+  "novel_identity_claimed": false
+}

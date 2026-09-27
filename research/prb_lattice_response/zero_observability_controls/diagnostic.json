@@ -1,0 +1,65 @@
+{
+  "status": "REGULAR_ZERO_COULOMB_AND_REGULATOR_CONTROLS_PASS",
+  "checked_utc": "2026-09-10T14:46:28.026430+00:00",
+  "parameters": {
+    "Lx": 3,
+    "Ly": 3,
+    "Nkz": 24,
+    "mass": 0.0,
+    "wilson": 1.0,
+    "hopping": 1.0,
+    "exchange": 1.0,
+    "theta_x": 0.21,
+    "theta_y": 0.37,
+    "theta_z": 0.19
+  },
+  "settings": {
+    "mu": 0.5,
+    "T": 0.04,
+    "q": 0.2617993877991494,
+    "Ua": 8.0,
+    "g": [
+      0.0,
+      0.2,
+      0.4,
+      0.8,
+      1.6
+    ]
+  },
+  "selected_zero_indices": [
+    1565,
+    1569,
+    1561,
+    1562,
+    1568,
+    1479,
+    1559,
+    1419
+  ],
+  "selection": "Eight largest modal separations among independently passed low-energy positive zeros",
+  "zero_count": 8,
+  "coulomb_cases": 40,
+  "finite_eta_cases": 200,
+  "maximum_abs_charge_at_regular_zero": 3.462854979183236e-15,
+  "maximum_complex_matrix_identity_error": 3.925231146709438e-17,
+  "maximum_slope_spread": 2.992806003021542e-11,
+  "finite_eta_nonzero_cases": 200,
+  "window_edge_cases": 135,
+  "input_and_source_sha256": {
+    "mode_analysis\\finite_charge_zeros.csv": "45a1de0423a10862dfc7ea20215c0aeb383da408553be6243b8c227358d77ea0",
+    "zero_audit\\zero_checks.json": "26637c5eb0448450d6ce250c207ff310a5ff578713afc090d658cf17fd513ffc",
+    "zero_observability_controls.py": "3a3835501a769f748d6870fcb5066cf8cc23445d2c07b017628d35fee4e91bcb",
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "zero_audit.py": "5b43c9c054607cf6321977c4c352445ae3fbf4947a6bb879996c02b9087e5af3"
+  },
+  "inputs_and_sources_unchanged": true,
+  "limitations": [
+    "Fixed bare Pi and diagonal frequency-independent interactions only.",
+    "Regular zeros only; shared numerator/denominator roots require cancellation analysis.",
+    "Standard Schur identity and finite-size experiment, not a new theorem.",
+    "No resolution of prior827 intervals or continuum low-energy gap is inferred.",
+    "Local |chi| minima are not loss minima or a global antiresonance catalogue.",
+    "Eta is imposed numerical broadening, not a collision lifetime."
+  ]
+}

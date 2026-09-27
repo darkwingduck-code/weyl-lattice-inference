@@ -1,0 +1,14 @@
+{
+  "status": "RENDERED_FROM_FROZEN_PROFILES",
+  "source_sha256": "c7575862d21cb242fe35ef393c97a52423c1de83d8a18c8c30150f33fd002e62",
+  "input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\higher_profile_comparison\\own_mesh_truth_profiles.csv": "226fe4a9386bb7ed826c5cec4291ea76256d6d6d4e554cef4d20af282eddd90f",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\detector_boundary_refinement\\higher_profile_comparison\\shared_higher_truth_profiles.csv": "cc9403e7205749450926bd4a3ed9ea71bb17720766805f41d0ed55a741efdc9e"
+  },
+  "output_sha256": {
+    "threshold_reference_controls.png": "d4c69eef0ddeaaace426288b8b260c5d97bc38005282d9e78e4fd647bbd23d00",
+    "threshold_reference_controls.pdf": "8ffc50d9d043e527102971066bd477034c2c86c901295e1d77c90bc2d9e71436"
+  },
+  "transform": "100*(RMS-threshold); each panel own vertical scale; no numerical evidence changed",
+  "visual_inspection_performed_by_script": false
+}

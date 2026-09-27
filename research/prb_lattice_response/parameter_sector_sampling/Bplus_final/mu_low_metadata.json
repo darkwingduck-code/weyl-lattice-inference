@@ -1,0 +1,1458 @@
+{
+  "case": "mu_low",
+  "q": 0.2617993877991494,
+  "qshift": 8,
+  "mu": 0.25,
+  "T": 0.04,
+  "eta": 0.015,
+  "fixed_lab_frequencies": [
+    0.05,
+    0.0575,
+    0.065,
+    0.07250000000000001,
+    0.08,
+    0.0875,
+    0.09109375,
+    0.095,
+    0.10250000000000001,
+    0.10578125,
+    0.11,
+    0.11750000000000001,
+    0.125,
+    0.1325,
+    0.14,
+    0.14750000000000002,
+    0.155,
+    0.16249999999999998,
+    0.16999999999999998,
+    0.1775,
+    0.185,
+    0.1925,
+    0.2,
+    0.20750000000000002,
+    0.21499999999999997,
+    0.22249999999999998,
+    0.22999999999999998,
+    0.2375,
+    0.245,
+    0.2525,
+    0.26,
+    0.2675,
+    0.2746875,
+    0.27499999999999997,
+    0.28203125,
+    0.2825,
+    0.29,
+    0.2975,
+    0.305,
+    0.3125,
+    0.32,
+    0.32749999999999996,
+    0.33499999999999996,
+    0.34249999999999997,
+    0.35
+  ],
+  "scaled_q_frequencies": [
+    0.05,
+    0.0575,
+    0.065,
+    0.07250000000000001,
+    0.08,
+    0.0875,
+    0.09109375,
+    0.095,
+    0.10250000000000001,
+    0.10578125,
+    0.11,
+    0.11750000000000001,
+    0.125,
+    0.1325,
+    0.14,
+    0.14750000000000002,
+    0.155,
+    0.16249999999999998,
+    0.16999999999999998,
+    0.1775,
+    0.185,
+    0.1925,
+    0.2,
+    0.20750000000000002,
+    0.21499999999999997,
+    0.22249999999999998,
+    0.22999999999999998,
+    0.2375,
+    0.245,
+    0.2525,
+    0.26,
+    0.2675,
+    0.2746875,
+    0.27499999999999997,
+    0.28203125,
+    0.2825,
+    0.29,
+    0.2975,
+    0.305,
+    0.3125,
+    0.32,
+    0.32749999999999996,
+    0.33499999999999996,
+    0.34249999999999997,
+    0.35
+  ],
+  "field": "Bplus",
+  "parameters": {
+    "Lx": 72,
+    "Ly": 13,
+    "Nkz": 192,
+    "mass": 0.0,
+    "wilson": 1.0,
+    "hopping": 1.0,
+    "exchange": 1.0,
+    "theta_x": 0.0,
+    "theta_y": 0.0,
+    "theta_z": 0.0
+  },
+  "density": 1.9935344470333154,
+  "csv": "mu_low.csv",
+  "all_frequencies": [
+    0.0,
+    0.05,
+    0.0575,
+    0.065,
+    0.07250000000000001,
+    0.08,
+    0.0875,
+    0.09109375,
+    0.095,
+    0.10250000000000001,
+    0.10578125,
+    0.11,
+    0.11750000000000001,
+    0.125,
+    0.1325,
+    0.14,
+    0.14750000000000002,
+    0.155,
+    0.16249999999999998,
+    0.16999999999999998,
+    0.1775,
+    0.185,
+    0.1925,
+    0.2,
+    0.20750000000000002,
+    0.21499999999999997,
+    0.22249999999999998,
+    0.22999999999999998,
+    0.2375,
+    0.245,
+    0.2525,
+    0.26,
+    0.2675,
+    0.2746875,
+    0.27499999999999997,
+    0.28203125,
+    0.2825,
+    0.29,
+    0.2975,
+    0.305,
+    0.3125,
+    0.32,
+    0.32749999999999996,
+    0.33499999999999996,
+    0.34249999999999997,
+    0.35
+  ],
+  "reference_z": {
+    "real": 0.0,
+    "imag": 0.015
+  },
+  "checks": {
+    "raw_pairs": 103514112,
+    "expected_raw_pairs": 103514112,
+    "retains_all_raw_pairs": true,
+    "nonzero_occupation_differences": 103509506,
+    "restored_occupation_differences": 22812636,
+    "vertex_error": 3.072135387740873e-14,
+    "moment0_total": [
+      [
+        {
+          "real": 1.0842021724855044e-19,
+          "imag": 0.0
+        },
+        {
+          "real": 4.548566926755593e-19,
+          "imag": -6.002824857298434e-20
+        }
+      ],
+      [
+        {
+          "real": 4.548566926755593e-19,
+          "imag": 6.002824857298434e-20
+        },
+        {
+          "real": -5.421010862427522e-19,
+          "imag": 0.0
+        }
+      ]
+    ],
+    "moment0_positive_positive": [
+      [
+        {
+          "real": 1.0164395367051604e-19,
+          "imag": 0.0
+        },
+        {
+          "real": 0.001739690960874153,
+          "imag": -5.47127149873035e-21
+        }
+      ],
+      [
+        {
+          "real": 0.001739690960874153,
+          "imag": 5.47127149873035e-21
+        },
+        {
+          "real": 1.2197274440461925e-19,
+          "imag": 0.0
+        }
+      ]
+    ],
+    "moment0_excluded": [
+      [
+        {
+          "real": 6.776263578034403e-21,
+          "imag": 0.0
+        },
+        {
+          "real": -0.0017396909608741525,
+          "imag": -5.455697707425398e-20
+        }
+      ],
+      [
+        {
+          "real": -0.0017396909608741525,
+          "imag": 5.455697707425398e-20
+        },
+        {
+          "real": -6.640738306473715e-19,
+          "imag": 0.0
+        }
+      ]
+    ],
+    "full_moment0_max": 5.421010862427522e-19,
+    "positive_positive_moment0_max": 0.001739690960874153,
+    "total_charge_ward_bare": 6.612238046064105e-15,
+    "total_charge_ward_rpa": 6.487497044977569e-15,
+    "charge_ward_probe": {
+      "real": 0.275,
+      "imag": 0.015
+    },
+    "minimum_total_rpa_weighted_loss_eigenvalue": 0.00015341357018534393,
+    "dynamic_matching_identity_max_error": 5.551115123125783e-17,
+    "identity_checks_pass": true
+  },
+  "metrics": {
+    "fixed_lab": {
+      "full": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.0,
+          "normalized_complex_sup_error": 0.0,
+          "maximum_imaginary_absolute_error": 0.0,
+          "normalized_imaginary_sup_error": 0.0,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.06675153455627264,
+              "prominence": 0.06457941256307226,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.032054377513973054,
+              "left_half_height": 0.2509852208511467,
+              "right_half_height": 0.28303959836511977
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.06675153455627264,
+            "prominence": 0.06457941256307226,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.032054377513973054,
+            "left_half_height": 0.2509852208511467,
+            "right_half_height": 0.28303959836511977
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.0,
+          "normalized_complex_sup_error": 0.0,
+          "maximum_imaginary_absolute_error": 0.0,
+          "normalized_imaginary_sup_error": 0.0,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.0027055570406725234,
+              "prominence": 0.0026109105702626575,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031910301625934,
+              "left_half_height": 0.2511877167964982,
+              "right_half_height": 0.2830980184224322
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0027055570406725234,
+            "prominence": 0.0026109105702626575,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031910301625934,
+            "left_half_height": 0.2511877167964982,
+            "right_half_height": 0.2830980184224322
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.0,
+          "normalized_complex_sup_error": 0.0,
+          "maximum_imaginary_absolute_error": 0.0,
+          "normalized_imaginary_sup_error": 0.0,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.0,
+          "normalized_complex_sup_error": 0.0,
+          "maximum_imaginary_absolute_error": 0.0,
+          "normalized_imaginary_sup_error": 0.0,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "naive_low_bare_U": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.018362634069524816,
+          "normalized_complex_sup_error": 0.27459097818236194,
+          "maximum_imaginary_absolute_error": 0.013927172853749448,
+          "normalized_imaginary_sup_error": 0.208641987728516,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 32,
+              "omega": 0.2746875,
+              "height": 0.06508609178903302,
+              "prominence": 0.06269125131522253,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03217381927715912,
+              "left_half_height": 0.2561083234261836,
+              "right_half_height": 0.28828214270334274
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.06508609178903302,
+            "prominence": 0.06269125131522253,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03217381927715912,
+            "left_half_height": 0.2561083234261836,
+            "right_half_height": 0.28828214270334274
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.12604696389022543,
+          "normalized_complex_sup_error": 1.2587878852351895,
+          "maximum_imaginary_absolute_error": 0.051205193140589765,
+          "normalized_imaginary_sup_error": 18.925933687896535,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 32,
+              "omega": 0.2746875,
+              "height": 0.05345063819373122,
+              "prominence": 0.05148383173449639,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.032057746512287044,
+              "left_half_height": 0.25622615773263036,
+              "right_half_height": 0.2882839042449174
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.05345063819373122,
+            "prominence": 0.05148383173449639,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.032057746512287044,
+            "left_half_height": 0.25622615773263036,
+            "right_half_height": 0.2882839042449174
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.04814616940915951,
+          "normalized_complex_sup_error": 3.579138388624305,
+          "maximum_imaginary_absolute_error": 0.04792056137085834,
+          "normalized_imaginary_sup_error": 3.5643476358857047,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.048146169409159514,
+          "normalized_complex_sup_error": 3.5791383886243056,
+          "maximum_imaginary_absolute_error": 0.047920561370858344,
+          "normalized_imaginary_sup_error": 3.5643476358857047,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "matched_dynamic": {
+        "cc": {
+          "maximum_complex_absolute_error": 2.964296775167217e-17,
+          "normalized_complex_sup_error": 4.4327472193484214e-16,
+          "maximum_imaginary_absolute_error": 2.7755575615628914e-17,
+          "normalized_imaginary_sup_error": 4.1580430772315064e-16,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.06675153455627267,
+              "prominence": 0.06457941256307229,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.032054377513973054,
+              "left_half_height": 0.2509852208511467,
+              "right_half_height": 0.28303959836511977
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.06675153455627267,
+            "prominence": 0.06457941256307229,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.032054377513973054,
+            "left_half_height": 0.2509852208511467,
+            "right_half_height": 0.28303959836511977
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 5.551115123125783e-17,
+          "normalized_complex_sup_error": 5.543708670858716e-16,
+          "maximum_imaginary_absolute_error": 2.6020852139652106e-18,
+          "normalized_imaginary_sup_error": 9.617558139962215e-16,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.0027055570406725234,
+              "prominence": 0.0026109105702626575,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031910301625934,
+              "left_half_height": 0.2511877167964982,
+              "right_half_height": 0.2830980184224322
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0027055570406725234,
+            "prominence": 0.0026109105702626575,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031910301625934,
+            "left_half_height": 0.2511877167964982,
+            "right_half_height": 0.2830980184224322
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 1.5515838457795457e-17,
+          "normalized_complex_sup_error": 1.1534320120890904e-15,
+          "maximum_imaginary_absolute_error": 1.3877787807814457e-17,
+          "normalized_imaginary_sup_error": 1.0322345721556582e-15,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 5.553824967135427e-18,
+          "normalized_complex_sup_error": 4.1286582894366e-16,
+          "maximum_imaginary_absolute_error": 3.469446951953614e-18,
+          "normalized_imaginary_sup_error": 2.580586430389145e-16,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "matched_constant": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.008210156882790207,
+          "normalized_complex_sup_error": 0.12277296388634913,
+          "maximum_imaginary_absolute_error": 0.00798423867234601,
+          "normalized_imaginary_sup_error": 0.11961131268997517,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.05961563193270256,
+              "prominence": 0.0577244872975711,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031797024946104924,
+              "left_half_height": 0.2502893062550086,
+              "right_half_height": 0.28208633120111354
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.05961563193270256,
+            "prominence": 0.0577244872975711,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031797024946104924,
+            "left_half_height": 0.2502893062550086,
+            "right_half_height": 0.28208633120111354
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.00029771810757683615,
+          "normalized_complex_sup_error": 0.0029732088379316375,
+          "maximum_imaginary_absolute_error": 0.0002976111906980055,
+          "normalized_imaginary_sup_error": 0.10999996903559199,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.0024501976128378194,
+              "prominence": 0.002371983947644613,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031643623482087435,
+              "left_half_height": 0.25046844186338163,
+              "right_half_height": 0.28211206534546907
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0024501976128378194,
+            "prominence": 0.002371983947644613,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031643623482087435,
+            "left_half_height": 0.25046844186338163,
+            "right_half_height": 0.28211206534546907
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.0015467979251711694,
+          "normalized_complex_sup_error": 0.11498742062689062,
+          "maximum_imaginary_absolute_error": 0.0015212529057274105,
+          "normalized_imaginary_sup_error": 0.1131513079771885,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.0015467979251711488,
+          "normalized_complex_sup_error": 0.11498742062688908,
+          "maximum_imaginary_absolute_error": 0.0015212529057273914,
+          "normalized_imaginary_sup_error": 0.11315130797718707,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "Ueff_only": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.006183574061864272,
+          "normalized_complex_sup_error": 0.09246786947240684,
+          "maximum_imaginary_absolute_error": 0.004185147513471654,
+          "normalized_imaginary_sup_error": 0.0626973977645938,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.06440473149358865,
+              "prominence": 0.062363450411707745,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03179743189509321,
+              "left_half_height": 0.25028682208174385,
+              "right_half_height": 0.28208425397683706
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.06440473149358865,
+            "prominence": 0.062363450411707745,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03179743189509321,
+            "left_half_height": 0.25028682208174385,
+            "right_half_height": 0.28208425397683706
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.1261916734990842,
+          "normalized_complex_sup_error": 1.2602330505679076,
+          "maximum_imaginary_absolute_error": 0.05263204513980642,
+          "normalized_imaginary_sup_error": 19.45331196075009,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.055337602180478944,
+              "prominence": 0.0535831241569474,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03164687787514742,
+              "left_half_height": 0.2504489864307055,
+              "right_half_height": 0.28209586430585293
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.055337602180478944,
+            "prominence": 0.0535831241569474,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03164687787514742,
+            "left_half_height": 0.2504489864307055,
+            "right_half_height": 0.28209586430585293
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.04656588710609238,
+          "normalized_complex_sup_error": 3.461661772619727,
+          "maximum_imaginary_absolute_error": 0.046347338753429466,
+          "normalized_imaginary_sup_error": 3.447330803095332,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.0465658871060924,
+          "normalized_complex_sup_error": 3.4616617726197285,
+          "maximum_imaginary_absolute_error": 0.04634733875342949,
+          "normalized_imaginary_sup_error": 3.4473308030953334,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "constant_background_no_vertices": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.00418532597471737,
+          "normalized_complex_sup_error": 0.06258648672398395,
+          "maximum_imaginary_absolute_error": 0.004185147513471654,
+          "normalized_imaginary_sup_error": 0.0626973977645938,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.06440473149358865,
+              "prominence": 0.062363450411707745,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03179743189509321,
+              "left_half_height": 0.25028682208174385,
+              "right_half_height": 0.28208425397683706
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.06440473149358865,
+            "prominence": 0.062363450411707745,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03179743189509321,
+            "left_half_height": 0.25028682208174385,
+            "right_half_height": 0.28208425397683706
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.0526368802343053,
+          "normalized_complex_sup_error": 0.5256665064398055,
+          "maximum_imaginary_absolute_error": 0.05263204513980642,
+          "normalized_imaginary_sup_error": 19.45331196075009,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.055337602180478944,
+              "prominence": 0.0535831241569474,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03164687787514742,
+              "left_half_height": 0.2504489864307055,
+              "right_half_height": 0.28209586430585293
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.055337602180478944,
+            "prominence": 0.0535831241569474,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03164687787514742,
+            "left_half_height": 0.2504489864307055,
+            "right_half_height": 0.28209586430585293
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.04657472800930287,
+          "normalized_complex_sup_error": 3.462318996578748,
+          "maximum_imaginary_absolute_error": 0.04635622133746823,
+          "normalized_imaginary_sup_error": 3.4479914927140136,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.04657472800930289,
+          "normalized_complex_sup_error": 3.462318996578749,
+          "maximum_imaginary_absolute_error": 0.04635622133746825,
+          "normalized_imaginary_sup_error": 3.447991492714015,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "constant_vertices_no_background": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.009062573776971969,
+          "normalized_complex_sup_error": 0.135519827321427,
+          "maximum_imaginary_absolute_error": 0.00798423867234601,
+          "normalized_imaginary_sup_error": 0.11961131268997517,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.05961563193270256,
+              "prominence": 0.05772448729757109,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031797024946104924,
+              "left_half_height": 0.2502893062550086,
+              "right_half_height": 0.28208633120111354
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.05961563193270256,
+            "prominence": 0.05772448729757109,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031797024946104924,
+            "left_half_height": 0.2502893062550086,
+            "right_half_height": 0.28208633120111354
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.09886683027597092,
+          "normalized_complex_sup_error": 0.9873491939986881,
+          "maximum_imaginary_absolute_error": 0.0002976111906980055,
+          "normalized_imaginary_sup_error": 0.10999996903559199,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.0024501976128378194,
+              "prominence": 0.002371983947644613,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031643623482087435,
+              "left_half_height": 0.25046844186338163,
+              "right_half_height": 0.28211206534546907
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0024501976128378194,
+            "prominence": 0.002371983947644613,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031643623482087435,
+            "left_half_height": 0.25046844186338163,
+            "right_half_height": 0.28211206534546907
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.0015555346460852967,
+          "normalized_complex_sup_error": 0.11563689977753103,
+          "maximum_imaginary_absolute_error": 0.0015301354897661722,
+          "normalized_imaginary_sup_error": 0.11381199759587002,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.0015555346460852768,
+          "normalized_complex_sup_error": 0.11563689977752953,
+          "maximum_imaginary_absolute_error": 0.0015301354897661532,
+          "normalized_imaginary_sup_error": 0.11381199759586859,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      }
+    },
+    "scaled_q": {
+      "full": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.0,
+          "normalized_complex_sup_error": 0.0,
+          "maximum_imaginary_absolute_error": 0.0,
+          "normalized_imaginary_sup_error": 0.0,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.06675153455627264,
+              "prominence": 0.06457941256307226,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.032054377513973054,
+              "left_half_height": 0.2509852208511467,
+              "right_half_height": 0.28303959836511977
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.06675153455627264,
+            "prominence": 0.06457941256307226,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.032054377513973054,
+            "left_half_height": 0.2509852208511467,
+            "right_half_height": 0.28303959836511977
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.0,
+          "normalized_complex_sup_error": 0.0,
+          "maximum_imaginary_absolute_error": 0.0,
+          "normalized_imaginary_sup_error": 0.0,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.0027055570406725234,
+              "prominence": 0.0026109105702626575,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031910301625934,
+              "left_half_height": 0.2511877167964982,
+              "right_half_height": 0.2830980184224322
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0027055570406725234,
+            "prominence": 0.0026109105702626575,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031910301625934,
+            "left_half_height": 0.2511877167964982,
+            "right_half_height": 0.2830980184224322
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.0,
+          "normalized_complex_sup_error": 0.0,
+          "maximum_imaginary_absolute_error": 0.0,
+          "normalized_imaginary_sup_error": 0.0,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.0,
+          "normalized_complex_sup_error": 0.0,
+          "maximum_imaginary_absolute_error": 0.0,
+          "normalized_imaginary_sup_error": 0.0,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "naive_low_bare_U": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.018362634069524816,
+          "normalized_complex_sup_error": 0.27459097818236194,
+          "maximum_imaginary_absolute_error": 0.013927172853749448,
+          "normalized_imaginary_sup_error": 0.208641987728516,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 32,
+              "omega": 0.2746875,
+              "height": 0.06508609178903302,
+              "prominence": 0.06269125131522253,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03217381927715912,
+              "left_half_height": 0.2561083234261836,
+              "right_half_height": 0.28828214270334274
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.06508609178903302,
+            "prominence": 0.06269125131522253,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03217381927715912,
+            "left_half_height": 0.2561083234261836,
+            "right_half_height": 0.28828214270334274
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.12604696389022543,
+          "normalized_complex_sup_error": 1.2587878852351895,
+          "maximum_imaginary_absolute_error": 0.051205193140589765,
+          "normalized_imaginary_sup_error": 18.925933687896535,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 32,
+              "omega": 0.2746875,
+              "height": 0.05345063819373122,
+              "prominence": 0.05148383173449639,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.032057746512287044,
+              "left_half_height": 0.25622615773263036,
+              "right_half_height": 0.2882839042449174
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 32,
+            "omega": 0.2746875,
+            "height": 0.05345063819373122,
+            "prominence": 0.05148383173449639,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.032057746512287044,
+            "left_half_height": 0.25622615773263036,
+            "right_half_height": 0.2882839042449174
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.04814616940915951,
+          "normalized_complex_sup_error": 3.579138388624305,
+          "maximum_imaginary_absolute_error": 0.04792056137085834,
+          "normalized_imaginary_sup_error": 3.5643476358857047,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.048146169409159514,
+          "normalized_complex_sup_error": 3.5791383886243056,
+          "maximum_imaginary_absolute_error": 0.047920561370858344,
+          "normalized_imaginary_sup_error": 3.5643476358857047,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "matched_dynamic": {
+        "cc": {
+          "maximum_complex_absolute_error": 2.964296775167217e-17,
+          "normalized_complex_sup_error": 4.4327472193484214e-16,
+          "maximum_imaginary_absolute_error": 2.7755575615628914e-17,
+          "normalized_imaginary_sup_error": 4.1580430772315064e-16,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.06675153455627267,
+              "prominence": 0.06457941256307229,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.032054377513973054,
+              "left_half_height": 0.2509852208511467,
+              "right_half_height": 0.28303959836511977
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.06675153455627267,
+            "prominence": 0.06457941256307229,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.032054377513973054,
+            "left_half_height": 0.2509852208511467,
+            "right_half_height": 0.28303959836511977
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 5.551115123125783e-17,
+          "normalized_complex_sup_error": 5.543708670858716e-16,
+          "maximum_imaginary_absolute_error": 2.6020852139652106e-18,
+          "normalized_imaginary_sup_error": 9.617558139962215e-16,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.0027055570406725234,
+              "prominence": 0.0026109105702626575,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031910301625934,
+              "left_half_height": 0.2511877167964982,
+              "right_half_height": 0.2830980184224322
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0027055570406725234,
+            "prominence": 0.0026109105702626575,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031910301625934,
+            "left_half_height": 0.2511877167964982,
+            "right_half_height": 0.2830980184224322
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 1.5515838457795457e-17,
+          "normalized_complex_sup_error": 1.1534320120890904e-15,
+          "maximum_imaginary_absolute_error": 1.3877787807814457e-17,
+          "normalized_imaginary_sup_error": 1.0322345721556582e-15,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 5.553824967135427e-18,
+          "normalized_complex_sup_error": 4.1286582894366e-16,
+          "maximum_imaginary_absolute_error": 3.469446951953614e-18,
+          "normalized_imaginary_sup_error": 2.580586430389145e-16,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "matched_constant": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.008210156882790207,
+          "normalized_complex_sup_error": 0.12277296388634913,
+          "maximum_imaginary_absolute_error": 0.00798423867234601,
+          "normalized_imaginary_sup_error": 0.11961131268997517,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.05961563193270256,
+              "prominence": 0.0577244872975711,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031797024946104924,
+              "left_half_height": 0.2502893062550086,
+              "right_half_height": 0.28208633120111354
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.05961563193270256,
+            "prominence": 0.0577244872975711,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031797024946104924,
+            "left_half_height": 0.2502893062550086,
+            "right_half_height": 0.28208633120111354
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.00029771810757683615,
+          "normalized_complex_sup_error": 0.0029732088379316375,
+          "maximum_imaginary_absolute_error": 0.0002976111906980055,
+          "normalized_imaginary_sup_error": 0.10999996903559199,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.0024501976128378194,
+              "prominence": 0.002371983947644613,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031643623482087435,
+              "left_half_height": 0.25046844186338163,
+              "right_half_height": 0.28211206534546907
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0024501976128378194,
+            "prominence": 0.002371983947644613,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031643623482087435,
+            "left_half_height": 0.25046844186338163,
+            "right_half_height": 0.28211206534546907
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.0015467979251711694,
+          "normalized_complex_sup_error": 0.11498742062689062,
+          "maximum_imaginary_absolute_error": 0.0015212529057274105,
+          "normalized_imaginary_sup_error": 0.1131513079771885,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.0015467979251711488,
+          "normalized_complex_sup_error": 0.11498742062688908,
+          "maximum_imaginary_absolute_error": 0.0015212529057273914,
+          "normalized_imaginary_sup_error": 0.11315130797718707,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "Ueff_only": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.006183574061864272,
+          "normalized_complex_sup_error": 0.09246786947240684,
+          "maximum_imaginary_absolute_error": 0.004185147513471654,
+          "normalized_imaginary_sup_error": 0.0626973977645938,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.06440473149358865,
+              "prominence": 0.062363450411707745,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03179743189509321,
+              "left_half_height": 0.25028682208174385,
+              "right_half_height": 0.28208425397683706
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.06440473149358865,
+            "prominence": 0.062363450411707745,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03179743189509321,
+            "left_half_height": 0.25028682208174385,
+            "right_half_height": 0.28208425397683706
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.1261916734990842,
+          "normalized_complex_sup_error": 1.2602330505679076,
+          "maximum_imaginary_absolute_error": 0.05263204513980642,
+          "normalized_imaginary_sup_error": 19.45331196075009,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.055337602180478944,
+              "prominence": 0.0535831241569474,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03164687787514742,
+              "left_half_height": 0.2504489864307055,
+              "right_half_height": 0.28209586430585293
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.055337602180478944,
+            "prominence": 0.0535831241569474,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03164687787514742,
+            "left_half_height": 0.2504489864307055,
+            "right_half_height": 0.28209586430585293
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.04656588710609238,
+          "normalized_complex_sup_error": 3.461661772619727,
+          "maximum_imaginary_absolute_error": 0.046347338753429466,
+          "normalized_imaginary_sup_error": 3.447330803095332,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.0465658871060924,
+          "normalized_complex_sup_error": 3.4616617726197285,
+          "maximum_imaginary_absolute_error": 0.04634733875342949,
+          "normalized_imaginary_sup_error": 3.4473308030953334,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "constant_background_no_vertices": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.00418532597471737,
+          "normalized_complex_sup_error": 0.06258648672398395,
+          "maximum_imaginary_absolute_error": 0.004185147513471654,
+          "normalized_imaginary_sup_error": 0.0626973977645938,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.06440473149358865,
+              "prominence": 0.062363450411707745,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03179743189509321,
+              "left_half_height": 0.25028682208174385,
+              "right_half_height": 0.28208425397683706
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.06440473149358865,
+            "prominence": 0.062363450411707745,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03179743189509321,
+            "left_half_height": 0.25028682208174385,
+            "right_half_height": 0.28208425397683706
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.0526368802343053,
+          "normalized_complex_sup_error": 0.5256665064398055,
+          "maximum_imaginary_absolute_error": 0.05263204513980642,
+          "normalized_imaginary_sup_error": 19.45331196075009,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.055337602180478944,
+              "prominence": 0.0535831241569474,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.03164687787514742,
+              "left_half_height": 0.2504489864307055,
+              "right_half_height": 0.28209586430585293
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.055337602180478944,
+            "prominence": 0.0535831241569474,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.03164687787514742,
+            "left_half_height": 0.2504489864307055,
+            "right_half_height": 0.28209586430585293
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.04657472800930287,
+          "normalized_complex_sup_error": 3.462318996578748,
+          "maximum_imaginary_absolute_error": 0.04635622133746823,
+          "normalized_imaginary_sup_error": 3.4479914927140136,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.04657472800930289,
+          "normalized_complex_sup_error": 3.462318996578749,
+          "maximum_imaginary_absolute_error": 0.04635622133746825,
+          "normalized_imaginary_sup_error": 3.447991492714015,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      },
+      "constant_vertices_no_background": {
+        "cc": {
+          "maximum_complex_absolute_error": 0.009062573776971969,
+          "normalized_complex_sup_error": 0.135519827321427,
+          "maximum_imaginary_absolute_error": 0.00798423867234601,
+          "normalized_imaginary_sup_error": 0.11961131268997517,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.05961563193270256,
+              "prominence": 0.05772448729757109,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031797024946104924,
+              "left_half_height": 0.2502893062550086,
+              "right_half_height": 0.28208633120111354
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.05961563193270256,
+            "prominence": 0.05772448729757109,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031797024946104924,
+            "left_half_height": 0.2502893062550086,
+            "right_half_height": 0.28208633120111354
+          }
+        },
+        "aa": {
+          "maximum_complex_absolute_error": 0.09886683027597092,
+          "normalized_complex_sup_error": 0.9873491939986881,
+          "maximum_imaginary_absolute_error": 0.0002976111906980055,
+          "normalized_imaginary_sup_error": 0.10999996903559199,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error",
+          "all_sampled_loss_peaks": [
+            {
+              "index": 31,
+              "omega": 0.2675,
+              "height": 0.0024501976128378194,
+              "prominence": 0.002371983947644613,
+              "finite_eta_peak_only": true,
+              "half_height_width": 0.031643623482087435,
+              "left_half_height": 0.25046844186338163,
+              "right_half_height": 0.28211206534546907
+            }
+          ],
+          "principal_sampled_loss_peak": {
+            "index": 31,
+            "omega": 0.2675,
+            "height": 0.0024501976128378194,
+            "prominence": 0.002371983947644613,
+            "finite_eta_peak_only": true,
+            "half_height_width": 0.031643623482087435,
+            "left_half_height": 0.25046844186338163,
+            "right_half_height": 0.28211206534546907
+          }
+        },
+        "ca": {
+          "maximum_complex_absolute_error": 0.0015555346460852967,
+          "normalized_complex_sup_error": 0.11563689977753103,
+          "maximum_imaginary_absolute_error": 0.0015301354897661722,
+          "normalized_imaginary_sup_error": 0.11381199759587002,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        },
+        "ac": {
+          "maximum_complex_absolute_error": 0.0015555346460852768,
+          "normalized_complex_sup_error": 0.11563689977752953,
+          "maximum_imaginary_absolute_error": 0.0015301354897661532,
+          "normalized_imaginary_sup_error": 0.11381199759586859,
+          "normalization": "One detector-specific supremum over the entire declared frequency window, not pointwise relative error"
+        }
+      }
+    }
+  },
+  "reference_excluded": [
+    [
+      {
+        "real": -0.0033560103495623786,
+        "imag": 2.0114022773893223e-18
+      },
+      {
+        "real": 1.3002520886942386e-17,
+        "imag": -4.387826088419512e-05
+      }
+    ],
+    [
+      {
+        "real": 1.300287881664176e-17,
+        "imag": -4.387826088419512e-05
+      },
+      {
+        "real": -0.46907163433280424,
+        "imag": 4.323021252070921e-19
+      }
+    ]
+  ],
+  "reference_matching": {
+    "response": [
+      [
+        {
+          "real": -0.010227571345689596,
+          "imag": 5.844516633595656e-19
+        },
+        {
+          "real": 1.0078868227719607e-19,
+          "imag": -8.674975110529177e-05
+        }
+      ],
+      [
+        {
+          "real": 1.0141466231275458e-19,
+          "imag": -8.674975110529177e-05
+        },
+        {
+          "real": -0.09901475958813245,
+          "imag": -1.0886705313483606e-20
+        }
+      ]
+    ],
+    "background": [
+      [
+        {
+          "real": -0.0032288095804304667,
+          "imag": 1.8600364683326797e-18
+        },
+        {
+          "real": 2.6323995382428926e-18,
+          "imag": -8.882584038761195e-06
+        }
+      ],
+      [
+        {
+          "real": 2.632471996461849e-18,
+          "imag": -8.882584038761185e-06
+        },
+        {
+          "real": -0.09869845903241826,
+          "imag": 1.8568870725475882e-20
+        }
+      ]
+    ],
+    "left_vertex": [
+      [
+        {
+          "real": 0.9620966940202621,
+          "imag": 2.1835146866507188e-17
+        },
+        {
+          "real": 2.1059196305943125e-17,
+          "imag": -7.106067231008948e-05
+        }
+      ],
+      [
+        {
+          "real": 3.09028417686008e-17,
+          "imag": -0.00010427350772014724
+        },
+        {
+          "real": 0.21041232774065374,
+          "imag": 1.4855096580380704e-19
+        }
+      ]
+    ],
+    "right_vertex": [
+      [
+        {
+          "real": 0.9620966940202621,
+          "imag": 2.1835146866507188e-17
+        },
+        {
+          "real": 3.0901991174604625e-17,
+          "imag": -0.00010427350772014724
+        }
+      ],
+      [
+        {
+          "real": 2.1059775971694788e-17,
+          "imag": -7.106067231008948e-05
+        },
+        {
+          "real": 0.21041232774065374,
+          "imag": 1.4855096580380704e-19
+        }
+      ]
+    ],
+    "effective_interaction": [
+      [
+        {
+          "real": 11.2941455564817,
+          "imag": 2.5632488760250725e-16
+        },
+        {
+          "real": 2.472159293968372e-16,
+          "imag": -0.0008341880617611788
+        }
+      ],
+      [
+        {
+          "real": 2.4722273414880646e-16,
+          "imag": -0.0008341880617611778
+        },
+        {
+          "real": 1.683298621925231,
+          "imag": 1.1884077264304565e-18
+        }
+      ]
+    ],
+    "dressed_low": [
+      [
+        {
+          "real": -0.007561021417059819,
+          "imag": -1.0195281266958945e-18
+        },
+        {
+          "real": -1.1247321077708362e-17,
+          "imag": -0.00038892353859202883
+        }
+      ],
+      [
+        {
+          "real": -1.1244551916191312e-17,
+          "imag": -0.00038892353859202883
+        },
+        {
+          "real": -0.007143882003590312,
+          "imag": -5.532320890105946e-19
+        }
+      ]
+    ]
+  },
+  "all_frequencies_excluded_axial_real_range": [
+    -0.4720847699791013,
+    -0.46678964892823166
+  ],
+  "convergence_status": "not_certified",
+  "complete_torus": true
+}

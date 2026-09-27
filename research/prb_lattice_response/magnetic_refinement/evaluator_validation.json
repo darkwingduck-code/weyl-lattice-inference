@@ -1,0 +1,26 @@
+{
+  "records": [
+    {
+      "case": "magnetic_twisted_qshift-1",
+      "maximum_absolute_error": 7.771562382423069e-16,
+      "roundoff_budget": 8.185452315956354e-12,
+      "passed": true
+    },
+    {
+      "case": "magnetic_twisted_qshift+1",
+      "maximum_absolute_error": 9.992007456913336e-16,
+      "roundoff_budget": 8.185452315956354e-12,
+      "passed": true
+    },
+    {
+      "case": "nonreal_cross_weights_algebra_fixture",
+      "maximum_absolute_error": 7.944109290391274e-15,
+      "roundoff_budget": 1.2935097522997e-12,
+      "passed": true
+    }
+  ],
+  "all_checks_pass": true,
+  "transition_cutoff": null,
+  "frequency_batch": 4,
+  "method": "All-transition real/imaginary resolvent sum versus core complex resolvent"
+}

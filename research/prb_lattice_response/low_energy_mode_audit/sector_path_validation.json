@@ -1,0 +1,17 @@
+{
+  "all_checks_pass": true,
+  "records": [
+    {
+      "qshift": -1,
+      "maximum_absolute_error": 7.771563894981521e-16,
+      "passed": true,
+      "raw_pairs": 13824
+    },
+    {
+      "qshift": 1,
+      "maximum_absolute_error": 5.5511358753942e-16,
+      "passed": true,
+      "raw_pairs": 13824
+    }
+  ]
+}

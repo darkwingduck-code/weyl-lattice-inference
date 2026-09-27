@@ -1,0 +1,4 @@
+window,group,mode,ua,final_fitted_g,fine_independent_mismatch,coarse_at_final_g_mismatch,coarse_minus_fine_mismatch,fine_axial_gains,coarse_refitted_axial_gains,all_declared_grid_comparisons_pass,sampled_classification_differs_at_0p1percent,sampled_classification_differs_at_1percent,coarse_g_reoptimized,statistical_confidence_interval
+fixed_lab,single_Bplus_eta_low,charge_only,1.0,0.8624170448631814,0.009933042899976373,0.010002413994700437,6.937109472406403e-05,{},{},False,False,True,False,False
+fixed_lab,q_scan_B0,charge_only,20.0,0.7999373879098612,0.0010008507821170345,0.0009993159411345062,-1.5348409825282749e-06,{},{},True,True,False,False,False
+scaled_q,single_B0_qdouble,charge_only,17.0,0.8008277055068517,0.0009975878218289322,0.0010006972106558227,3.1093888268904444e-06,{},{},True,True,False,False,False

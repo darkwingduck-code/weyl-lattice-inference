@@ -1,0 +1,2 @@
+kind,coarse_Nkx,coarse_Nky,coarse_Nkz,fine_Nkx,fine_Nky,fine_Nkz,B,maximum_scaled_response_error,tolerance,converged
+magnetic_transverse,1,7,96,2,13,96,0.17453292519943295,2.097062610649091e-06,0.001,True

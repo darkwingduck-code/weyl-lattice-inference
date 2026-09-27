@@ -1,0 +1,16 @@
+{
+  "status": "RENDERED_AWAITING_VISUAL_REVIEW",
+  "input_source_sha256": {
+    "detector_identifiability_audit\\profiled_coulomb.csv": "b54f2a882c71775853e8adc4d2fd61684ad96dd87fe1a8cd631fa9e902fcda46",
+    "detector_calibration_followup\\calibration_profiles.csv": "18046abcccefd513650fdb51e406bb0559ef0087b58af00e33e33f58a109f6c8",
+    "render_detector_calibration_followup.py": "02d08f3ea4c8475be967fc9005b23c3ceb8c08519df5847eb6c156c1389461fc"
+  },
+  "raw_profiles_changed": false,
+  "fitting_performed": false,
+  "display": {
+    "yscale": "symlog",
+    "linear_threshold_percent": 0.05,
+    "zero_mismatch_not_floored": true,
+    "legend_overlap_control": "Distinct offset hollow markers; fitted-gain red dashed curve in foreground"
+  }
+}

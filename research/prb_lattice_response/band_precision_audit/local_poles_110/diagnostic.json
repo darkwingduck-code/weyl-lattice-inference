@@ -1,0 +1,23 @@
+{
+  "status": "SELECTED_LOCAL_POLE_NUMERICAL_REFINEMENT_COMPLETED",
+  "source_input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit\\local_pole_refinement.py": "25a2303f09528e4aa9aec3ba1841860150cca56f94726ab08b19583d33b9b759",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit.py": "eb99543892a274d674fbb094e1e1f90ac88b5815a89807352345bff966c63ddf",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\test_band_precision_audit.py": "142e7a1c71eea9c654b26f6a1b074c9b928ed49fe1f0a4e272e18e4d9ccb4118",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit\\run_01\\manifest.json": "c04fa3b7a670798713ff8af7eb4f6bb4903606cd92e0dd9ed86198f720d3b174",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\band_precision_audit\\run_01\\representative_cases.json": "5f9388ec49c57900ca698d340d0c15deffb0160122590b85e8d216bf443faec2"
+  },
+  "precision": 110,
+  "started_utc": "2026-09-11T04:45:50.657547+00:00",
+  "all_751_intervals_resolved": false,
+  "elapsed_seconds": 75.57558209999115,
+  "selected_count": 23,
+  "source_inputs_unchanged": true,
+  "max_normalized_schur_residual": 3.347718109571671e-222,
+  "max_last_residue_check_relative": 6.979877748926793e-07,
+  "max_isolated_802_dressed_relative": 1.0887719017291032e-16,
+  "completed_utc": "2026-09-11T04:47:06.222775+00:00",
+  "scope": "All 110-digit band/vertex/thermal inputs; 23 local rank-one Schur poles with full remaining background. Numerical evidence, not outward-rounded theorem."
+}

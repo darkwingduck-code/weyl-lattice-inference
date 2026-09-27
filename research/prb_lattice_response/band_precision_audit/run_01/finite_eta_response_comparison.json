@@ -1,0 +1,374 @@
+[
+  {
+    "omega": 0.02,
+    "eta": 0.015,
+    "total_dressed_relative": "1.148487566049916492121452e-16",
+    "restored_polarization_absolute": "3.693391595062263149171082e-17",
+    "restored_polarization_relative": "6.605579055842914391357438e-17",
+    "original_loss_cc": "0.0003608977667682624543983118",
+    "high_precision_loss_cc": "0.0003608977667682647739014839",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "3.735765489173845593266452e-17",
+        "dressed_absolute": "5.509429108533645909051332e-18",
+        "dressed_relative": "4.947442137704006680168535e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "1.143214378705309212244453e-16",
+        "dressed_absolute": "1.047572545133927089116042e-17",
+        "dressed_relative": "9.407153536234255973952925e-17"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "2.098231537717501196856605e-17",
+        "dressed_absolute": "2.687397010432583991114739e-18",
+        "dressed_relative": "2.413270222419224173141623e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "7.914912670142746832470161e-18",
+        "dressed_absolute": "1.636080846462803503131505e-18",
+        "dressed_relative": "1.469193116205622702820354e-17"
+      }
+    }
+  },
+  {
+    "omega": 0.02,
+    "eta": 0.0075,
+    "total_dressed_relative": "1.374827869024146911780309e-16",
+    "restored_polarization_absolute": "5.488803892745994016043469e-17",
+    "restored_polarization_relative": "9.810600450546540832317827e-17",
+    "original_loss_cc": "0.0001817905530584981996439434",
+    "high_precision_loss_cc": "0.0001817905530585050011635281",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "5.147781769632422835412751e-17",
+        "dressed_absolute": "9.531747934057661639141763e-18",
+        "dressed_relative": "8.555638323873918206485841e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "1.153819141884596917591811e-16",
+        "dressed_absolute": "1.04264774143142781058743e-17",
+        "dressed_relative": "9.358742002626423223753754e-17"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "2.122237626615712559080974e-17",
+        "dressed_absolute": "2.710075654345602320803258e-18",
+        "dressed_relative": "2.4325472399527110191979e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "8.036402127123042240999368e-18",
+        "dressed_absolute": "1.652436249667694119953875e-18",
+        "dressed_relative": "1.483216614961094799600168e-17"
+      }
+    }
+  },
+  {
+    "omega": 0.1,
+    "eta": 0.015,
+    "total_dressed_relative": "2.137759531311917481805924e-16",
+    "restored_polarization_absolute": "1.833378929997807749338134e-17",
+    "restored_polarization_relative": "3.130362529971961995528327e-17",
+    "original_loss_cc": "0.002666874212000729046219727",
+    "high_precision_loss_cc": "0.002666874212000725217172752",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "4.780386808854507296955312e-17",
+        "dressed_absolute": "4.728703863659477172238797e-18",
+        "dressed_relative": "4.117570655452590473540796e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "2.803017142594941075973488e-16",
+        "dressed_absolute": "2.325036891699432545987306e-17",
+        "dressed_relative": "2.024551326142357856156422e-16"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "5.147834181683021127717311e-17",
+        "dressed_absolute": "5.586184163916597266062891e-18",
+        "dressed_relative": "4.864231013928709616227699e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "1.62117296727741940702232e-17",
+        "dressed_absolute": "2.268108383883312471871055e-18",
+        "dressed_relative": "1.974980204752456674556666e-17"
+      }
+    }
+  },
+  {
+    "omega": 0.1,
+    "eta": 0.0075,
+    "total_dressed_relative": "2.138169890708642202086013e-16",
+    "restored_polarization_absolute": "2.673562317094326676565026e-17",
+    "restored_polarization_relative": "4.549684531335580332104964e-17",
+    "original_loss_cc": "0.001366439786040955015081405",
+    "high_precision_loss_cc": "0.001366439786040955698715535",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "5.239345123110904338052463e-17",
+        "dressed_absolute": "5.462531592046164198259533e-18",
+        "dressed_relative": "4.750148023150645907568933e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "2.860460935374607542715621e-16",
+        "dressed_absolute": "2.290843072675730108584634e-17",
+        "dressed_relative": "1.992088010779418010830109e-16"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "5.425206944064378820444554e-17",
+        "dressed_absolute": "5.758116720320441994660183e-18",
+        "dressed_relative": "5.007185092700819734624089e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "1.663235118890373034590463e-17",
+        "dressed_absolute": "2.278371300886093836282053e-18",
+        "dressed_relative": "1.981242716594211375175743e-17"
+      }
+    }
+  },
+  {
+    "omega": 0.26,
+    "eta": 0.015,
+    "total_dressed_relative": "2.475105031796159288767404e-15",
+    "restored_polarization_absolute": "2.694338747510078422420244e-17",
+    "restored_polarization_relative": "5.43948874002075996415265e-17",
+    "original_loss_cc": "0.03738927992369219771611839",
+    "high_precision_loss_cc": "0.03738927992369233764948365",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "1.204874797206511910638439e-16",
+        "dressed_absolute": "2.285392262969387340362019e-17",
+        "dressed_relative": "1.592714690931965230331724e-16"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "2.748843684849254601009836e-15",
+        "dressed_absolute": "3.82247138692578608593284e-16",
+        "dressed_relative": "2.663921827456249417815514e-15"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "2.44739866603248467253939e-16",
+        "dressed_absolute": "3.109099290982606567482528e-17",
+        "dressed_relative": "2.166765065477284990055217e-16"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "1.256113930964547186480163e-16",
+        "dressed_absolute": "1.810022831280728268921809e-17",
+        "dressed_relative": "1.261424570746302709403718e-16"
+      }
+    }
+  },
+  {
+    "omega": 0.26,
+    "eta": 0.0075,
+    "total_dressed_relative": "3.051883732489170673731334e-15",
+    "restored_polarization_absolute": "4.473678714803863400954386e-17",
+    "restored_polarization_relative": "8.582604710066631208529696e-17",
+    "original_loss_cc": "0.02076128316576676094983368",
+    "high_precision_loss_cc": "0.02076128316576682260524425",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "1.874411735283356778545114e-16",
+        "dressed_absolute": "2.249377467534223063861465e-17",
+        "dressed_relative": "1.570105562494268597691294e-16"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "6.102965885099878355485236e-15",
+        "dressed_absolute": "4.750627473149127868707013e-16",
+        "dressed_relative": "3.316022645637198871235994e-15"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "4.984576593330165581243868e-16",
+        "dressed_absolute": "3.825065398197014981231217e-17",
+        "dressed_relative": "2.669963821233173739746553e-16"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "1.24243140141141038208843e-16",
+        "dressed_absolute": "1.022412828461401394341967e-17",
+        "dressed_relative": "7.136623765029857439916301e-17"
+      }
+    }
+  },
+  {
+    "omega": 0.5,
+    "eta": 0.015,
+    "total_dressed_relative": "1.404882452035316814939938e-16",
+    "restored_polarization_absolute": "1.456078905843823473500073e-18",
+    "restored_polarization_relative": "3.014819113064501048770796e-18",
+    "original_loss_cc": "0.002169386260382029830987405",
+    "high_precision_loss_cc": "0.002169386260382028244328854",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "1.524234724275162292897883e-17",
+        "dressed_absolute": "6.816632594491742732905541e-18",
+        "dressed_relative": "6.720789488744117759217261e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "3.724350492600712692441541e-17",
+        "dressed_absolute": "1.124233219955620183676801e-17",
+        "dressed_relative": "1.10842629448449122984228e-16"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "5.732879700548458260412207e-18",
+        "dressed_absolute": "5.403694107315457290455734e-18",
+        "dressed_relative": "5.327717176099631874682179e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "2.596283430979651660330357e-18",
+        "dressed_absolute": "2.487736875608988311003717e-18",
+        "dressed_relative": "2.452758838413038162757843e-17"
+      }
+    }
+  },
+  {
+    "omega": 0.5,
+    "eta": 0.0075,
+    "total_dressed_relative": "1.410471131873932591948078e-16",
+    "restored_polarization_absolute": "1.457039381344894273546532e-18",
+    "restored_polarization_relative": "3.017082053156219283213513e-18",
+    "original_loss_cc": "0.0010900728357152595997173",
+    "high_precision_loss_cc": "0.001090072835715258801597147",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "1.516992965608539914256547e-17",
+        "dressed_absolute": "6.789095235092292272573043e-18",
+        "dressed_relative": "6.693169333372650623358507e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "3.732948692620337379313622e-17",
+        "dressed_absolute": "1.127531559357928488947737e-17",
+        "dressed_relative": "1.111600205060570110066525e-16"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "5.739727793519726878502909e-18",
+        "dressed_absolute": "5.428718377540614546875736e-18",
+        "dressed_relative": "5.352013796515468036034545e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "2.592499807001174928605891e-18",
+        "dressed_absolute": "2.49628891520967378301662e-18",
+        "dressed_relative": "2.461017828731686160082516e-17"
+      }
+    }
+  },
+  {
+    "omega": 0.8,
+    "eta": 0.015,
+    "total_dressed_relative": "2.610527061556445644009066e-16",
+    "restored_polarization_absolute": "8.679568763043308006452874e-19",
+    "restored_polarization_relative": "1.750199267516292465219077e-18",
+    "original_loss_cc": "0.001928349241635886468588204",
+    "high_precision_loss_cc": "0.001928349241635864374028321",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "1.652771406542180941409625e-17",
+        "dressed_absolute": "3.570223241559271129261245e-18",
+        "dressed_relative": "3.567577787411364590027201e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "3.672079025189410025827092e-17",
+        "dressed_absolute": "2.377655990794306942946926e-17",
+        "dressed_relative": "2.37589420183110626655048e-16"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "1.069689045241358101209783e-17",
+        "dressed_absolute": "1.805512398361489726010091e-18",
+        "dressed_relative": "1.80417455477576034981008e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "4.204790440942696461314808e-18",
+        "dressed_absolute": "1.829095477984869800218936e-18",
+        "dressed_relative": "1.827740159873994815365769e-17"
+      }
+    }
+  },
+  {
+    "omega": 0.8,
+    "eta": 0.0075,
+    "total_dressed_relative": "4.180247925460735389066025e-16",
+    "restored_polarization_absolute": "8.677756357888438238676237e-19",
+    "restored_polarization_relative": "1.752825143982292926110901e-18",
+    "original_loss_cc": "0.001433972939571594423485543",
+    "high_precision_loss_cc": "0.001433972939571568668686938",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "1.684046857896880446425678e-17",
+        "dressed_absolute": "3.818528945498424331894526e-18",
+        "dressed_relative": "3.814781680172107821262146e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "5.582809946814029056788984e-17",
+        "dressed_absolute": "3.84755178166550417841878e-17",
+        "dressed_relative": "3.843776035144153509834496e-16"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "1.140726902930211046487799e-17",
+        "dressed_absolute": "2.18340732654935796140433e-18",
+        "dressed_relative": "2.181264667246578811578094e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "4.684880393999419866047497e-18",
+        "dressed_absolute": "2.331938187919896392035604e-18",
+        "dressed_relative": "2.329649769725500654823558e-17"
+      }
+    }
+  },
+  {
+    "omega": 1.2,
+    "eta": 0.015,
+    "total_dressed_relative": "9.602839644684842125543442e-17",
+    "restored_polarization_absolute": "1.458672919932595338316972e-18",
+    "restored_polarization_relative": "2.749180518418010707029479e-18",
+    "original_loss_cc": "0.0003134110019362382659437253",
+    "high_precision_loss_cc": "0.00031341100193623681813023",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "1.245387487889059384106992e-17",
+        "dressed_absolute": "1.549075681016290901344007e-18",
+        "dressed_relative": "1.531244958753710265423266e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "8.586453074980062664587675e-17",
+        "dressed_absolute": "8.117210049979478417983342e-18",
+        "dressed_relative": "8.023776449722287176792199e-17"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "1.942900796856300233369067e-17",
+        "dressed_absolute": "3.611707068010519542094494e-18",
+        "dressed_relative": "3.570134311809708943146636e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "2.12305858069223614032821e-18",
+        "dressed_absolute": "9.786549139838196432625771e-19",
+        "dressed_relative": "9.673900518624887978408657e-18"
+      }
+    }
+  },
+  {
+    "omega": 1.2,
+    "eta": 0.0075,
+    "total_dressed_relative": "1.025945724361252442189624e-16",
+    "restored_polarization_absolute": "1.45920774798724255760632e-18",
+    "restored_polarization_relative": "2.744963197683437090199221e-18",
+    "original_loss_cc": "0.0001656770400123154203373899",
+    "high_precision_loss_cc": "0.0001656770400123146605115784",
+    "stage_differences": {
+      "original_float -> stable_occupation_float_eigenpairs": {
+        "polarization_absolute": "1.149297260287961326905642e-17",
+        "dressed_absolute": "1.412170918652794689482849e-18",
+        "dressed_relative": "1.395432591399302903066816e-17"
+      },
+      "stable_occupation_float_eigenpairs -> literal_matrix": {
+        "polarization_absolute": "9.309409685736244731375211e-17",
+        "dressed_absolute": "8.693840865285141764187225e-18",
+        "dressed_relative": "8.590793598434646941427262e-17"
+      },
+      "literal_matrix -> literal_trig": {
+        "polarization_absolute": "2.084436020706229603396086e-17",
+        "dressed_absolute": "3.924049922385550036190815e-18",
+        "dressed_relative": "3.877538532799232366501592e-17"
+      },
+      "literal_trig -> literal_k": {
+        "polarization_absolute": "2.193719569245973018245633e-18",
+        "dressed_absolute": "1.054845018156072271356566e-18",
+        "dressed_relative": "1.04234204073145864341012e-17"
+      }
+    }
+  }
+]

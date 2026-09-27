@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "scope": "Presentation only; frozen source data unchanged; no fitting or susceptibility computation",
+  "renderer_sha256": "b85feb7e0c314212bc3ba00f860b15111b7303024a8b972f2703a00b5b0b02f8",
+  "input_sha256": {
+    "research\\prb_screening_information_20260927\\run_02\\information.csv": "0d231321ed2d0453fb97bdb7a6d8bcbed3bfe88bdeef16b6bab6735986a08310",
+    "research\\prb_screening_information_20260927\\make_normalized_figure.py": "9a4406cfb761a626f431a61efd08ef09eba386e5fb6c9bc6162cb17b005f47ea",
+    "research\\prb_source_identifiability_20260927\\deterministic_v2\\profiles.csv": "cda613ec00d4a82b444aee74f32bb978a90ff2744d0d72cc2688abb63d87fbc9",
+    "research\\prb_source_identifiability_20260927\\noise_v1\\summary.json": "db01d5c7484ac4afe588a36376206fb42783ba54a7cc32304cbc2f2c3e832647",
+    "research\\prb_source_identifiability_20260927\\figures_v2\\closure_landscape.npz": "972c07dfcd2e1ecccb75dc8a9d05ea98e75e69199f5c3557dc06eba30761eb1b",
+    "research\\prb_source_identifiability_20260927\\render_figure.py": "6a853df3add1db6bae1de5c015aeaad2adf83618eaf78d4f8f8a72ef593dd556"
+  },
+  "output_sha256": {
+    "independent_sources.pdf": "8da32ec9f20944843c2968f10ededf2d35d7a04bffc8824cf0b5ead1d98c4518",
+    "independent_sources.png": "44914d5155f9c9e1b896d29f1af6205399abe2a2fa2f45c2e4b95b5b95d81500",
+    "screening_information_normalized.pdf": "c9f64b885009bdc91978eda3d67c067db5228ca66432033d7edb19ee7fa2e8cd",
+    "screening_information_normalized.png": "b0e3b5462e7b8e01942164ed1961e0aa7d5096117e308429e7f6054d6d0a704a"
+  },
+  "original_figure_mapping": {
+    "Figure 4": "screening_information.tex:54 / screening_information_normalized.pdf",
+    "Figure 8": "source_directions.tex:59 / independent_sources.pdf"
+  },
+  "matplotlib_version": "3.10.5",
+  "numpy_version": "2.3.2",
+  "figures": {
+    "Figure 4": {
+      "figure_inches": [
+        8.0,
+        3.3
+      ],
+      "visible_text_clipping": [],
+      "data_checks": [
+        {
+          "field": "B0",
+          "method": "full_calibrated",
+          "marker": "^",
+          "markevery": [
+            0,
+            12
+          ],
+          "unchanged_plotted_samples": 81
+        },
+        {
+          "field": "B0",
+          "method": "full_profiled",
+          "marker": "s",
+          "markevery": [
+            3,
+            12
+          ],
+          "unchanged_plotted_samples": 81
+        },
+        {
+          "field": "B0",
+          "method": "axial_calibrated",
+          "marker": "o",
+          "markevery": [
+            6,
+            12
+          ],
+          "unchanged_plotted_samples": 81
+        },
+        {
+          "field": "B0",
+          "method": "axial_profiled",
+          "marker": "D",
+          "markevery": [
+            9,
+            12
+          ],
+          "unchanged_plotted_samples": 81
+        },
+        {
+          "field": "Bplus",
+          "method": "full_calibrated",
+          "marker": "^",
+          "markevery": [
+            0,
+            12
+          ],
+          "unchanged_plotted_samples": 81
+        },
+        {
+          "field": "Bplus",
+          "method": "full_profiled",
+          "marker": "s",
+          "markevery": [
+            3,
+            12
+          ],
+          "unchanged_plotted_samples": 81
+        },
+        {
+          "field": "Bplus",
+          "method": "axial_calibrated",
+          "marker": "o",
+          "markevery": [
+            6,
+            12
+          ],
+          "unchanged_plotted_samples": 81
+        },
+        {
+          "field": "Bplus",
+          "method": "axial_profiled",
+          "marker": "D",
+          "markevery": [
+            9,
+            12
+          ],
+          "unchanged_plotted_samples": 81
+        }
+      ]
+    },
+    "Figure 8": {
+      "figure_inches": [
+        7.2,
+        6.15
+      ],
+      "visible_text_clipping": [],
+      "colorbar_panel_gap_points": 4.320000000000014,
+      "retained_grid_shape": [
+        81,
+        81
+      ],
+      "retained_profile_points": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "retained_rmse_values": [
+        0.025431376154018658,
+        0.035976150736224725,
+        0.04605572630594844,
+        0.022756107897826953,
+        0.9402444480796648,
+        0.2318427178212419,
+        0.3464388711245304,
+        0.14182610909169743
+      ]
+    }
+  }
+}

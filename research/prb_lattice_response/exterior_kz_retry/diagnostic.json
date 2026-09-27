@@ -1,0 +1,191 @@
+{
+  "status": "EXTERIOR_EXTENSION_CONVERGED",
+  "started_utc": "2026-09-10T13:56:28.981813+00:00",
+  "settings": {
+    "mu": 0.5,
+    "T": 0.04,
+    "g": 0.8,
+    "Ua": 8.0,
+    "q": 0.2617993877991494,
+    "pole_relative_tolerance": 1e-05,
+    "residue_relative_tolerance": 0.01
+  },
+  "parameters": {
+    "Lx": 72,
+    "Ly": 72,
+    "Nkz": 384,
+    "mass": 0.0,
+    "wilson": 1.0,
+    "hopping": 1.0,
+    "exchange": 1.0,
+    "theta_x": 0.0,
+    "theta_y": 0.0,
+    "theta_z": 0.0
+  },
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "pole_zero_analysis.py": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "extend_exterior_pole.py": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977"
+  },
+  "input_sha256": {
+    "exterior_extension\\diagnostic.json": "1a06d381872879c083cc574e97bd181452c050c5a69398b6803c061f87f50de6",
+    "mode_analysis\\diagnostic.json": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "mode_analysis\\exterior_searches.json": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+    "mode_analysis\\exterior_refinement.csv": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32"
+  },
+  "reference_record": {
+    "L": 72,
+    "Nkz": 192
+  },
+  "reference_evidence_verified": true,
+  "memory_before": {
+    "total_physical_bytes": 68095827968,
+    "available_physical_bytes": 29944545280
+  },
+  "estimated_peak_bytes": 8995471360,
+  "memory_admission_required_bytes": 14030077952,
+  "passes_declared_tolerances": true,
+  "longitudinal_at_L72_checked": true,
+  "low_energy_hybrid_gap_certified": false,
+  "continuum_landau_sheet_constructed": false,
+  "limitations": [
+    "Only a finite high-frequency positive exterior root is followed.",
+    "Near-edge excluded slivers, internal poles, and low-energy modes remain outside this search.",
+    "Convergence in one grid direction does not establish convergence in another."
+  ],
+  "memory_after_transitions": {
+    "total_physical_bytes": 68095827968,
+    "available_physical_bytes": 28507918336
+  },
+  "memory_after_rational_response": {
+    "total_physical_bytes": 68095827968,
+    "available_physical_bytes": 27921637376
+  },
+  "calculation": {
+    "L": 72,
+    "Nkz": 384,
+    "q": 0.2617993877991494,
+    "Ua": 8.0,
+    "stage": "exterior_extension",
+    "density": 2.0054268838613476,
+    "active_transitions": 24174126,
+    "raw_band_pair_slots": 31850496,
+    "exactly_zero_weights_removed": 7676370,
+    "vertex_error": 1.4597615722347763e-14,
+    "factorization_max_error": 2.6469779601696886e-22,
+    "moment0_max": 4.494571461271558e-18,
+    "roots": [
+      {
+        "pole": 15.555451502664793,
+        "dielectric_channel": 0,
+        "determinant_residual": 2.232936058277346e-14,
+        "charge_numerator": {
+          "real": 1.5529341050937728e-12,
+          "imag": 0.0
+        },
+        "nearest_bare_distance": 1.5697185482329932,
+        "cofactor_charge_residue": {
+          "real": 8.347297391953388e-12,
+          "imag": 0.0
+        },
+        "residue_matrix": [
+          [
+            {
+              "real": 8.347314923964564e-12,
+              "imag": 0.0
+            },
+            {
+              "real": -2.366197051043842e-06,
+              "imag": -2.0861463465201502e-18
+            }
+          ],
+          [
+            {
+              "real": -2.366197051043842e-06,
+              "imag": 2.0861463465201502e-18
+            },
+            {
+              "real": 0.6707412545673281,
+              "imag": 0.0
+            }
+          ]
+        ],
+        "residue_status": "isolated_nullspace_checked",
+        "nullspace_eigenvalue_residual": 2.2534416798157315e-14,
+        "nearby_root_cluster": false
+      }
+    ],
+    "positive_bare_edge": 13.9857329544318,
+    "eigenvalue_bound": 38.39294192990057,
+    "search_margin": 1.39857329544318e-09,
+    "near_edge_unresolved": true,
+    "excluded_edge_interval": [
+      13.9857329544318,
+      13.985732955830374
+    ],
+    "samples": 64,
+    "scope": "Positive exterior only; no conclusion about internal or continuum poles",
+    "status": "bounded_exterior_search_completed"
+  },
+  "matched_root": {
+    "pole": 15.555451502664793,
+    "charge_residue": {
+      "real": 8.347314923964564e-12,
+      "imag": 0.0
+    },
+    "axial_residue": {
+      "real": 0.6707412545673281,
+      "imag": 0.0
+    },
+    "residue_matrix": [
+      [
+        {
+          "real": 8.347314923964564e-12,
+          "imag": 0.0
+        },
+        {
+          "real": -2.366197051043842e-06,
+          "imag": -2.0861463465201502e-18
+        }
+      ],
+      [
+        {
+          "real": -2.366197051043842e-06,
+          "imag": 2.0861463465201502e-18
+        },
+        {
+          "real": 0.6707412545673281,
+          "imag": 0.0
+        }
+      ]
+    ],
+    "nearest_bare_distance": 1.5697185482329932,
+    "nullspace_eigenvalue_residual": 2.2534416798157315e-14
+  },
+  "comparison": {
+    "coarse_L": 72,
+    "fine_L": 72,
+    "coarse_Nkz": 192,
+    "fine_Nkz": 384,
+    "pole_relative_tolerance": 1e-05,
+    "residue_relative_tolerance": 0.01,
+    "passes_declared_tolerances": true,
+    "pole_relative_error": 1.4388586646044247e-14,
+    "charge_residue_relative_error": 1.2219683653469506e-10,
+    "axial_residue_relative_error": 1.1089960866932007e-14
+  },
+  "exact_checks_pass": true,
+  "sources_unchanged": true,
+  "inputs_unchanged": true,
+  "elapsed_seconds": 80.80384659999982,
+  "completed_utc": "2026-09-10T13:57:49.787493+00:00",
+  "output_sha256": {
+    "reference_record.json": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+    "execution.log": "cee4fd935b1671c453c0816da7c5a1d1e5bd73d8833a0ccb514d114898598b26",
+    "exterior_search.json": "690db901494b8ab166689bc78b1a2565266e5b089ce54afb253b9daf737c2b04",
+    "comparison.csv": "b3238c8bcf2c4c36f26983899ad0bff2deacbb8566b997d5152f4c22bc61c198"
+  }
+}

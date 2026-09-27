@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this version of the research data and code."
+type: dataset
+title: "Research data and code for Screening and cross-response constraints on interaction inference in a Weyl lattice"
+authors:
+  - family-names: Im
+    given-names: Gyeongtae
+version: 1.0.0
+date-released: 2026-09-27
+url: "https://github.com/darkwingduck-code/weyl-lattice-inference"

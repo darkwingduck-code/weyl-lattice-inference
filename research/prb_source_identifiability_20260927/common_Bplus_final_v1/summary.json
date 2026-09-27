@@ -1,0 +1,1051 @@
+{
+  "absolute_sigma": 0.00012931669440932318,
+  "common_clean_complex_rms": 0.12931669440932317,
+  "model_paths": {
+    "Bplus": "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\Bplus_final\\response_3channel.npz"
+  },
+  "reference_paths": {
+    "Bplus": "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_refinement_20260927\\Bplus_combined\\response_3channel.npz"
+  },
+  "number_of_starts": 5,
+  "protocol": "All five original frozen starts are used uniformly. The earlier three-start mesh run missed the near-truth basin for symmetric full B0 with independently fitted directions; that result is preserved. This extension is a numerical sensitivity check, not a new truth or noise design.",
+  "truth_upper_bound": "For a correctly specified direction family, the unfitted lower-mesh model at the known synthetic truth and exact transfer functions is a feasible objective upper bound. A larger optimized residual marks numerical failure, not mesh bias. The truth is used only as a diagnostic, not a fitted estimate. Unequal truth is not feasible in the shared-direction family.",
+  "design": {
+    "design_id": "prb_independent_source_readout_20260927_v1",
+    "status": "FIXED_BEFORE_NEW_FITS",
+    "question": "Does cross spectroscopy distinguish interaction and independent source/readout directions after complex calibration is profiled?",
+    "input_basis": [
+      "charge",
+      "Gamma5",
+      "Gamma3"
+    ],
+    "interacting_basis": [
+      "charge",
+      "Gamma5"
+    ],
+    "truths": {
+      "symmetric": [
+        0.7,
+        0.7
+      ],
+      "asymmetric": [
+        0.7,
+        -0.3
+      ]
+    },
+    "lambda_order": [
+      "readout",
+      "source"
+    ],
+    "truth_g_Ua": [
+      0.8,
+      8.0
+    ],
+    "field_groups": {
+      "B0": [
+        "B0"
+      ],
+      "Bplus": [
+        "Bplus"
+      ],
+      "joint": [
+        "B0",
+        "Bplus"
+      ]
+    },
+    "observations": [
+      "diagonal",
+      "full"
+    ],
+    "source_models": [
+      "pure",
+      "shared",
+      "independent",
+      "known"
+    ],
+    "gain_model": "independent complex affine source/readout per field; charge is calibrated",
+    "noise": "One common absolute circular-complex RMS sigma=epsilon*A over all entries, frequencies, both fields and both truth directions. A is the clean transferred RMS over all four complete truth datasets. E|noise|^2=sigma^2.",
+    "epsilon": 0.001,
+    "seed": 2026092703,
+    "raw_norm": "sqrt(sum|prediction-observation|^2/(number_of_complex_observations*sigma^2))",
+    "bounds": {
+      "g": [
+        0.2,
+        1.6
+      ],
+      "Ua": [
+        0.0,
+        24.0
+      ],
+      "lambda_readout": [
+        -1.0,
+        1.0
+      ],
+      "lambda_source": [
+        -1.0,
+        1.0
+      ]
+    },
+    "physical_scales": [
+      0.8,
+      8.0,
+      1.0,
+      1.0
+    ],
+    "multistarts": [
+      [
+        0.55,
+        3.0,
+        -0.8,
+        0.4
+      ],
+      [
+        0.8,
+        8.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.1,
+        16.0,
+        0.8,
+        -0.4
+      ],
+      [
+        1.4,
+        22.0,
+        -0.4,
+        0.8
+      ],
+      [
+        0.65,
+        12.0,
+        0.5,
+        0.5
+      ]
+    ],
+    "Ua_profile": [
+      0.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      16.0,
+      24.0
+    ],
+    "profile_cases": "both truths, independent source model, full observations, Bplus and joint; symmetric diagonal Bplus control",
+    "noise_repetitions": 30,
+    "noise_cases": [
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "known"
+      ],
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "shared"
+      ],
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "independent"
+      ],
+      [
+        "symmetric",
+        "joint",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "Bplus",
+        "diagonal",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "Bplus",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "B0",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "joint",
+        "full",
+        "independent"
+      ]
+    ],
+    "noise_multistarts": 3,
+    "mesh_comparison": "identical higher observation, clean transfer functions and common absolute sigma; refit known, shared and independent directions on lower templates",
+    "reporting": "Report every result, failed optimizer and boundary hit. Local normalized Jacobian singular values are after projecting affine gain nuisance columns. Neither local rank nor multistart/profile results prove global identifiability or statistical coverage. No material vertex is claimed."
+  },
+  "results": [
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "known",
+      "g": 0.7999966577593686,
+      "Ua": 7.999984525401834,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 0.01828487203222155,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 212,
+      "bound_hits": "",
+      "best_start": 3,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        136.82852895485246,
+        14.290060571713038
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 9.575083903122321,
+      "start_solutions": [
+        {
+          "g": 0.7999966577593687,
+          "Ua": 7.999984525401812,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.018284872032236523,
+          "success": true
+        },
+        {
+          "g": 0.7999966577593689,
+          "Ua": 7.999984525401817,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.018284872032285966,
+          "success": true
+        },
+        {
+          "g": 0.7999966577593689,
+          "Ua": 7.999984525401811,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.01828487203222201,
+          "success": true
+        },
+        {
+          "g": 0.7999966577593686,
+          "Ua": 7.999984525401834,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.01828487203222155,
+          "success": true
+        },
+        {
+          "g": 0.799996657759369,
+          "Ua": 7.999984525401814,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.018284872032318166,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.01830235695035233,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "shared",
+      "g": 0.7999942727533734,
+      "Ua": 8.000888142767986,
+      "lambda_r": 0.7003218914296452,
+      "lambda_s": 0.7003218914296452,
+      "rms_noise_units": 0.018283904466477652,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 1073,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        136.8290117193556,
+        15.140256593715074,
+        0.5497966178979068
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 3,
+      "local_condition_number": 248.87205061847752,
+      "start_solutions": [
+        {
+          "g": 0.7928877384614319,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999851,
+          "lambda_s": -0.9999999999999851,
+          "rms": 31.890175009610676,
+          "success": true
+        },
+        {
+          "g": 0.7999942727533725,
+          "Ua": 8.000888142768282,
+          "lambda_r": 0.700321891429759,
+          "lambda_s": 0.700321891429759,
+          "rms": 0.01828390446651339,
+          "success": true
+        },
+        {
+          "g": 0.7999942727533734,
+          "Ua": 8.000888142768012,
+          "lambda_r": 0.7003218914296515,
+          "lambda_s": 0.7003218914296515,
+          "rms": 0.018283904466483057,
+          "success": true
+        },
+        {
+          "g": 0.7928877556293483,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999946,
+          "lambda_s": -0.9999999999999946,
+          "rms": 31.8901750094845,
+          "success": true
+        },
+        {
+          "g": 0.7999942727533734,
+          "Ua": 8.000888142767986,
+          "lambda_r": 0.7003218914296452,
+          "lambda_s": 0.7003218914296452,
+          "rms": 0.018283904466477652,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.01830235695035233,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "g": 0.7999942727533745,
+      "Ua": 8.00088814276761,
+      "lambda_r": 0.7003218914292488,
+      "lambda_s": 0.7003218914297829,
+      "rms_noise_units": 0.0182839044664744,
+      "success": true,
+      "all_starts_success": false,
+      "evaluations": 1990,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        136.82881428943082,
+        14.720172566543404,
+        0.39986006013651343,
+        7.458427836222926e-13
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 4,
+      "local_condition_number": 183455303576045.94,
+      "start_solutions": [
+        {
+          "g": 0.705718693665228,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.7735387777570631,
+          "lambda_s": 0.08231234183583032,
+          "rms": 118.27755642153002,
+          "success": true
+        },
+        {
+          "g": 0.7999942727533742,
+          "Ua": 8.00088814276766,
+          "lambda_r": 0.7003218914293273,
+          "lambda_s": 0.7003218914297267,
+          "rms": 0.018283904466523688,
+          "success": true
+        },
+        {
+          "g": 0.80037502230289,
+          "Ua": 7.87776593961387,
+          "lambda_r": 0.7909859106246129,
+          "lambda_s": -0.9488197294218946,
+          "rms": 0.5046134282805164,
+          "success": false
+        },
+        {
+          "g": 0.7963185330972963,
+          "Ua": 9.590452323214713,
+          "lambda_r": -0.9179577042786353,
+          "lambda_s": 0.7378973179718594,
+          "rms": 0.5386295613565839,
+          "success": false
+        },
+        {
+          "g": 0.7999942727533745,
+          "Ua": 8.00088814276761,
+          "lambda_r": 0.7003218914292488,
+          "lambda_s": 0.7003218914297829,
+          "rms": 0.0182839044664744,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.01830235695035233,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "known",
+      "g": 0.7999966545484756,
+      "Ua": 8.000086653017462,
+      "lambda_r": 0.7,
+      "lambda_s": 0.7,
+      "rms_noise_units": 0.014554707454679223,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 81,
+      "bound_hits": "",
+      "best_start": 0,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        134.2535579819584,
+        15.057633435487377
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 8.915979961735134,
+      "start_solutions": [
+        {
+          "g": 0.7999966545484756,
+          "Ua": 8.000086653017462,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.014554707454679223,
+          "success": true
+        },
+        {
+          "g": 0.7999966545484753,
+          "Ua": 8.000086653017501,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.014554707454686053,
+          "success": true
+        },
+        {
+          "g": 0.7999966545484751,
+          "Ua": 8.000086653017501,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.014554707454685772,
+          "success": true
+        },
+        {
+          "g": 0.7999966545484755,
+          "Ua": 8.000086653017481,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.014554707454686787,
+          "success": true
+        },
+        {
+          "g": 0.7999966545484756,
+          "Ua": 8.000086653017485,
+          "lambda_r": 0.7,
+          "lambda_s": 0.7,
+          "rms": 0.014554707454685572,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.0145694662168155,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "shared",
+      "g": 0.7999968183843826,
+      "Ua": 8.000028651304213,
+      "lambda_r": 0.6999733111411556,
+      "lambda_s": 0.6999733111411556,
+      "rms_noise_units": 0.014553902066024865,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 243,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        134.25398003323542,
+        15.686770401081294,
+        5.50721690717566
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 3,
+      "local_condition_number": 24.377826821803303,
+      "start_solutions": [
+        {
+          "g": 0.7916864675903941,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 34.18554176427515,
+          "success": true
+        },
+        {
+          "g": 0.7999968183843826,
+          "Ua": 8.000028651304213,
+          "lambda_r": 0.6999733111411556,
+          "lambda_s": 0.6999733111411556,
+          "rms": 0.014553902066024865,
+          "success": true
+        },
+        {
+          "g": 0.7999968183843841,
+          "Ua": 8.00002865130384,
+          "lambda_r": 0.6999733111409437,
+          "lambda_s": 0.6999733111409437,
+          "rms": 0.014553902066026579,
+          "success": true
+        },
+        {
+          "g": 0.7916864921121439,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 34.18554176427553,
+          "success": true
+        },
+        {
+          "g": 0.7999968183843824,
+          "Ua": 8.000028651304213,
+          "lambda_r": 0.6999733111411581,
+          "lambda_s": 0.6999733111411581,
+          "rms": 0.01455390206602524,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.0145694662168155,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "independent",
+      "g": 0.7999968318030394,
+      "Ua": 8.000021147940215,
+      "lambda_r": 0.6999653632381471,
+      "lambda_s": 0.6999767463572424,
+      "rms_noise_units": 0.014553885758177402,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 539,
+      "bound_hits": "",
+      "best_start": 4,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        134.2537997365303,
+        15.363100168568309,
+        4.47789948111219,
+        2.403593207729938
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 4,
+      "local_condition_number": 55.85545811361552,
+      "start_solutions": [
+        {
+          "g": 0.7839856748577785,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.4499974075054357,
+          "rms": 3.3228603592847534,
+          "success": true
+        },
+        {
+          "g": 0.7999968318030664,
+          "Ua": 8.000021147927406,
+          "lambda_r": 0.6999653632265824,
+          "lambda_s": 0.6999767463600135,
+          "rms": 0.014553885758180268,
+          "success": true
+        },
+        {
+          "g": 0.7832099126401189,
+          "Ua": 23.999999999999996,
+          "lambda_r": 0.44736545928968946,
+          "lambda_s": -0.9999999999999999,
+          "rms": 5.392016510362426,
+          "success": true
+        },
+        {
+          "g": 0.7839856748584616,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.4499974075125256,
+          "rms": 3.3228603592847525,
+          "success": true
+        },
+        {
+          "g": 0.7999968318030394,
+          "Ua": 8.000021147940215,
+          "lambda_r": 0.6999653632381471,
+          "lambda_s": 0.6999767463572424,
+          "rms": 0.014553885758177402,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.0145694662168155,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "known",
+      "g": 0.7999966312951071,
+      "Ua": 8.000019278139089,
+      "lambda_r": 0.7,
+      "lambda_s": -0.3,
+      "rms_noise_units": 0.01806072193177417,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 226,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        112.90231166101941,
+        9.776300515246499
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 2,
+      "local_condition_number": 11.548572129605072,
+      "start_solutions": [
+        {
+          "g": 0.8561318977945036,
+          "Ua": 1.1708655626114575,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 2.0644127058961965,
+          "success": true
+        },
+        {
+          "g": 0.7999966312951072,
+          "Ua": 8.000019278139055,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 0.01806072193186673,
+          "success": true
+        },
+        {
+          "g": 0.7999966312951071,
+          "Ua": 8.000019278139089,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 0.01806072193177417,
+          "success": true
+        },
+        {
+          "g": 0.7999966312951072,
+          "Ua": 8.000019278139055,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 0.018060721931778,
+          "success": true
+        },
+        {
+          "g": 0.7999966312951071,
+          "Ua": 8.000019278139055,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 0.01806072193184311,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.01806696498979534,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "shared",
+      "g": 0.8366954785553165,
+      "Ua": 2.170732413565274,
+      "lambda_r": 0.7821037931454707,
+      "lambda_s": 0.7821037931454707,
+      "rms_noise_units": 1.3471715133708178,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 268,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        112.89074401763844,
+        6.868108386470678,
+        0.1552969569390953
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 3,
+      "local_condition_number": 726.9346820614919,
+      "start_solutions": [
+        {
+          "g": 0.7837175706305106,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 4.879420462318359,
+          "success": true
+        },
+        {
+          "g": 0.8366954785553165,
+          "Ua": 2.170732413565274,
+          "lambda_r": 0.7821037931454707,
+          "lambda_s": 0.7821037931454707,
+          "rms": 1.3471715133708178,
+          "success": true
+        },
+        {
+          "g": 0.8366954777489817,
+          "Ua": 2.1707324627758755,
+          "lambda_r": 0.7820966640182415,
+          "lambda_s": 0.7820966640182415,
+          "rms": 1.3471715134565583,
+          "success": true
+        },
+        {
+          "g": 0.7837175705457974,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999986,
+          "lambda_s": -0.9999999999999986,
+          "rms": 4.879420462322011,
+          "success": true
+        },
+        {
+          "g": 0.836695478192194,
+          "Ua": 2.1707324371106806,
+          "lambda_r": 0.7821026609513819,
+          "lambda_s": 0.7821026609513819,
+          "rms": 1.3471715133733533,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": null,
+      "optimizer_upper_bound_pass": null,
+      "valid_for_mesh_bias": false
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "g": 0.7999913200510372,
+      "Ua": 8.002016948679984,
+      "lambda_r": 0.6999958569712416,
+      "lambda_s": -0.29993503252685555,
+      "rms_noise_units": 0.018059406591437645,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 904,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        112.90359082333065,
+        58.46341801272928,
+        1.9136421906108436,
+        0.8163309637838012
+      ],
+      "nuisance_rank": 6,
+      "physical_parameter_count": 4,
+      "local_condition_number": 138.30614766835217,
+      "start_solutions": [
+        {
+          "g": 0.7829766517627204,
+          "Ua": 23.999999999999922,
+          "lambda_r": -0.7290917755997446,
+          "lambda_s": 0.0872773992846237,
+          "rms": 8.547810421637589,
+          "success": true
+        },
+        {
+          "g": 0.8366954779297446,
+          "Ua": 2.1707324536990784,
+          "lambda_r": 0.7821013610047411,
+          "lambda_s": 0.7821013610020713,
+          "rms": 1.347171513381416,
+          "success": true
+        },
+        {
+          "g": 0.7999913200510372,
+          "Ua": 8.002016948679984,
+          "lambda_r": 0.6999958569712416,
+          "lambda_s": -0.29993503252685555,
+          "rms": 0.018059406591437645,
+          "success": true
+        },
+        {
+          "g": 0.7999913200510365,
+          "Ua": 8.002016948680334,
+          "lambda_r": -0.29993503252688797,
+          "lambda_s": 0.6999958569712071,
+          "rms": 0.01805940659145087,
+          "success": true
+        },
+        {
+          "g": 0.8366954793083207,
+          "Ua": 2.17073236319689,
+          "lambda_r": 0.7821045647462821,
+          "lambda_s": 0.7821045647420902,
+          "rms": 1.3471715133715008,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.01806696498979534,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "known",
+      "g": 0.7999965150591757,
+      "Ua": 8.000003768171519,
+      "lambda_r": 0.7,
+      "lambda_s": -0.3,
+      "rms_noise_units": 0.013298890908214346,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 98,
+      "bound_hits": "",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        85.91921787707358,
+        21.63656612756288
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 2,
+      "local_condition_number": 3.9710191243157045,
+      "start_solutions": [
+        {
+          "g": 0.871206646846904,
+          "Ua": 0.7321403888223288,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 7.533087798496831,
+          "success": true
+        },
+        {
+          "g": 0.7999965150591757,
+          "Ua": 8.000003768171519,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 0.013298890908214346,
+          "success": true
+        },
+        {
+          "g": 0.7999965150541506,
+          "Ua": 8.000003769061534,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 0.013298890908218676,
+          "success": true
+        },
+        {
+          "g": 0.7999965150530951,
+          "Ua": 8.000003769303657,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 0.013298890908216737,
+          "success": true
+        },
+        {
+          "g": 0.7999965150541217,
+          "Ua": 8.00000376906465,
+          "lambda_r": 0.7,
+          "lambda_s": -0.3,
+          "rms": 0.013298890908215616,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.013306169701196628,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "shared",
+      "g": 0.8422579660658501,
+      "Ua": 1.8341208689212989,
+      "lambda_r": 0.9999999999999999,
+      "lambda_s": 0.9999999999999999,
+      "rms_noise_units": 5.017803773012115,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 128,
+      "bound_hits": "lambda_r;lambda_s",
+      "best_start": 1,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        85.82548017550505,
+        11.918914906373177,
+        1.2858430925809354
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 3,
+      "local_condition_number": 66.74646437866438,
+      "start_solutions": [
+        {
+          "g": 0.7811862866032527,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": -0.9999999999999999,
+          "rms": 9.460278431054407,
+          "success": true
+        },
+        {
+          "g": 0.8422579660658501,
+          "Ua": 1.8341208689212989,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 5.017803773012115,
+          "success": true
+        },
+        {
+          "g": 0.8422579643072728,
+          "Ua": 1.8341210257142948,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 5.017803773012284,
+          "success": true
+        },
+        {
+          "g": 0.7811862944001775,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999996919,
+          "lambda_s": -0.9999999999996919,
+          "rms": 9.460278431048913,
+          "success": true
+        },
+        {
+          "g": 0.8422579739489917,
+          "Ua": 1.8341205262648541,
+          "lambda_r": 0.9999999999999987,
+          "lambda_s": 0.9999999999999987,
+          "rms": 5.017803773014459,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": null,
+      "optimizer_upper_bound_pass": null,
+      "valid_for_mesh_bias": false
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "independent",
+      "g": 0.7999976057758942,
+      "Ua": 7.999612454357717,
+      "lambda_r": 0.700002731044652,
+      "lambda_s": -0.3000106493794036,
+      "rms_noise_units": 0.013298719954633683,
+      "success": true,
+      "all_starts_success": true,
+      "evaluations": 236,
+      "bound_hits": "",
+      "best_start": 2,
+      "global_minimum_certified": false,
+      "jacobian_singular_values": [
+        112.39341457106038,
+        85.88970430428604,
+        28.879264644767698,
+        1.1973218668130334
+      ],
+      "nuisance_rank": 8,
+      "physical_parameter_count": 4,
+      "local_condition_number": 93.87067728932662,
+      "start_solutions": [
+        {
+          "g": 0.7811573246014211,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.22093888835065936,
+          "rms": 4.885832914325947,
+          "success": true
+        },
+        {
+          "g": 0.8422579653845217,
+          "Ua": 1.834120862284088,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 5.017803773012124,
+          "success": true
+        },
+        {
+          "g": 0.7999976057758942,
+          "Ua": 7.999612454357717,
+          "lambda_r": 0.700002731044652,
+          "lambda_s": -0.3000106493794036,
+          "rms": 0.013298719954633683,
+          "success": true
+        },
+        {
+          "g": 0.7811573246362404,
+          "Ua": 23.999999999999996,
+          "lambda_r": -0.9999999999999999,
+          "lambda_s": 0.22093888811726248,
+          "rms": 4.885832914325948,
+          "success": true
+        },
+        {
+          "g": 0.8422579652110432,
+          "Ua": 1.8341208659649202,
+          "lambda_r": 0.9999999999999999,
+          "lambda_s": 0.9999999999999999,
+          "rms": 5.017803773012134,
+          "success": true
+        }
+      ],
+      "unfitted_truth_rms": 0.013306169701196628,
+      "optimizer_upper_bound_pass": true,
+      "valid_for_mesh_bias": true
+    }
+  ],
+  "elapsed_seconds": 13.259431799997401,
+  "input_source_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\run_common_reference.py": "c2756022fcd04a486b32353e8089e54d05aac2e56119d0c89b582233152f703b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\run_study.py": "8f5df93e1b0ee5fa1b57da74a254f6abfb074b4f41430f78214f2cb47a13ea03",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\frozen_design.json": "47696caa78139bb2aab0739ecc17e164516da823d55a1d996578db25d96355ae",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\response_derivatives.py": "6ccd9ab5b830052bd2379ea254e8543c771680b7eab0ec2f17792f45f3db79e5",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "170704298b9e79a20550a2069b00b2e5ce719a95414f3bd8646cb8e44332ff43",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\analyze_inference.py": "5d0d9c5bab94bb3bd1929cf9622f10d29991182ad13beb75c119d270aa0bebea",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\noise_sensitivity.py": "096ce6696240942d6f975b596f8fa439952a63554abb53da15c77a88cbaa7e45",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\B0_final\\response_3channel.npz": "9e3496fca6f784caa0a8196fc163e8a11e261e314ea9ee4d158ddb5e9b206f6b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\Bplus_final\\response_3channel.npz": "9452692506a410d7e9c6b3632607e3d458948de3452802e5201c8f8c0ba1a10b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_refinement_20260927\\Bplus_combined\\response_3channel.npz": "9fd110214b9acc3f3124bff31b8b7a487ae6ff5083afd9bbd640e0d2f976190d"
+  },
+  "inputs_sources_unchanged": true,
+  "global_identifiability_certified": false,
+  "statistical_coverage_claimed": false
+}

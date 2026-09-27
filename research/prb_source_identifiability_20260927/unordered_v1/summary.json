@@ -1,0 +1,379 @@
+{
+  "design": {
+    "id": "unordered_source_class_20260927_v1",
+    "fixed_before_execution": true,
+    "conditional_parameters": {
+      "g": 0.8,
+      "Ua": 8.0
+    },
+    "truths": {
+      "symmetric": [
+        0.7,
+        0.7
+      ],
+      "asymmetric": [
+        0.7,
+        -0.3
+      ]
+    },
+    "method": "Real linear least squares for p=lambda_r+lambda_s and q=lambda_r*lambda_s, using the cross-multiplied equation and both real/imaginary parts",
+    "gain_seed": 2026092704,
+    "gains": "Independent nonzero amplitude and phase at each frequency and for each source/readout; amplitude ranges [0.35,1.05] and [0.65,1.95], phases uniform [-pi,pi]",
+    "noise_seed": 2026092705,
+    "noise_repetitions": 500,
+    "sigma": 0.00012931669440932318,
+    "noise_policy": "Independent circular-complex entry noise; paired field observations across single/joint-field estimators",
+    "groups": {
+      "B0": [
+        "B0"
+      ],
+      "Bplus": [
+        "Bplus"
+      ],
+      "joint": [
+        "B0",
+        "Bplus"
+      ]
+    },
+    "diagnostics": [
+      "real design rank and singular values",
+      "sum/product bias and RMSE",
+      "negative discriminant count",
+      "unordered-root error conditional on nonnegative discriminant",
+      "noiseless charge-only interaction recovery followed by source-class recovery"
+    ],
+    "limitations": "Conditional on bare response and the interaction values in the noisy source recovery. Cross multiplication avoids division by noisy axial data but leaves an errors-in-variables least-squares problem; no unbiasedness or coverage claim. Negative discriminants are reported without clipping."
+  },
+  "noiseless": [
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "p": 1.3999999999999997,
+      "q": 0.4899999999999997,
+      "discriminant": 2.220446049250313e-16,
+      "roots": [
+        0.6999999925494192,
+        0.7000000074505804
+      ],
+      "rank": 2,
+      "singular_values": [
+        0.00025545050635024673,
+        5.886620566791696e-05
+      ],
+      "residual": 9.170803533546944e-20,
+      "charge_fit": {
+        "g": 0.7999999999999999,
+        "Ua": 7.999999999979744,
+        "charge_residual": 6.570344333013136e-16,
+        "best_success": true,
+        "global_certificate": false
+      },
+      "sequential_source_recovery": {
+        "p": 1.400000000000059,
+        "q": 0.4900000000010597,
+        "discriminant": -4.073630321954624e-12,
+        "roots": null,
+        "rank": 2,
+        "singular_values": [
+          0.0002554505063502828,
+          5.8866205668026496e-05
+        ],
+        "residual": 2.3758816540404225e-17
+      }
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "p": 1.3999999999999968,
+      "q": 0.48999999999999794,
+      "discriminant": -6.661338147750939e-16,
+      "roots": null,
+      "rank": 2,
+      "singular_values": [
+        0.001424158445719405,
+        1.4673529039932107e-05
+      ],
+      "residual": 5.292467785726726e-19,
+      "charge_fit": {
+        "g": 0.7999999999999999,
+        "Ua": 8.000000000000066,
+        "charge_residual": 2.896585658741885e-17,
+        "best_success": true,
+        "global_certificate": false
+      },
+      "sequential_source_recovery": {
+        "p": 1.4000000000000108,
+        "q": 0.4900000000000038,
+        "discriminant": 1.4876988529977098e-14,
+        "roots": [
+          0.6999999390143749,
+          0.7000000609856359
+        ],
+        "rank": 2,
+        "singular_values": [
+          0.0014241584457194013,
+          1.4673529039931883e-05
+        ],
+        "residual": 1.613467982749419e-18
+      }
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "p": 1.3999999999999995,
+      "q": 0.48999999999999977,
+      "discriminant": -6.661338147750939e-16,
+      "roots": null,
+      "rank": 2,
+      "singular_values": [
+        0.001443973766924489,
+        0.00011001155742299763
+      ],
+      "residual": 6.113951267666247e-19,
+      "charge_fit": {
+        "g": 0.8,
+        "Ua": 8.000000000000023,
+        "charge_residual": 1.3444106938820255e-17,
+        "best_success": true,
+        "global_certificate": false
+      },
+      "sequential_source_recovery": {
+        "p": 1.3999999999999997,
+        "q": 0.48999999999999855,
+        "discriminant": 4.884981308350689e-15,
+        "roots": [
+          0.6999999650536792,
+          0.7000000349463205
+        ],
+        "rank": 2,
+        "singular_values": [
+          0.001443973766924488,
+          0.00011001155742299746
+        ],
+        "residual": 6.681042073524894e-19
+      }
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "p": 0.40000000000000085,
+      "q": -0.21,
+      "discriminant": 1.0000000000000007,
+      "roots": [
+        -0.2999999999999997,
+        0.7000000000000005
+      ],
+      "rank": 2,
+      "singular_values": [
+        0.00016848814438386598,
+        6.508223038503789e-06
+      ],
+      "residual": 8.780915523082294e-21,
+      "charge_fit": {
+        "g": 0.7999999999999999,
+        "Ua": 7.999999999979744,
+        "charge_residual": 6.570344333013136e-16,
+        "best_success": true,
+        "global_certificate": false
+      },
+      "sequential_source_recovery": {
+        "p": 0.3999999999999152,
+        "q": -0.2100000000004245,
+        "discriminant": 1.0000000000016303,
+        "roots": [
+          -0.30000000000044996,
+          0.7000000000003652
+        ],
+        "rank": 2,
+        "singular_values": [
+          0.0001684881443838661,
+          6.508223038516785e-06
+        ],
+        "residual": 1.597772159113712e-18
+      }
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "p": 0.40000000000000074,
+      "q": -0.2099999999999999,
+      "discriminant": 1.0000000000000002,
+      "roots": [
+        -0.2999999999999996,
+        0.7000000000000004
+      ],
+      "rank": 2,
+      "singular_values": [
+        0.00025252947559518675,
+        6.0613483735535775e-06
+      ],
+      "residual": 2.258201690605023e-20,
+      "charge_fit": {
+        "g": 0.7999999999999999,
+        "Ua": 8.000000000000066,
+        "charge_residual": 2.896585658741885e-17,
+        "best_success": true,
+        "global_certificate": false
+      },
+      "sequential_source_recovery": {
+        "p": 0.4000000000000022,
+        "q": -0.20999999999999858,
+        "discriminant": 0.999999999999996,
+        "roots": [
+          -0.29999999999999793,
+          0.7000000000000001
+        ],
+        "rank": 2,
+        "singular_values": [
+          0.0002525294755951866,
+          6.06134837355355e-06
+        ],
+        "residual": 4.9661723220689427e-20
+      }
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "p": 0.40000000000000024,
+      "q": -0.20999999999999996,
+      "discriminant": 1.0,
+      "roots": [
+        -0.2999999999999999,
+        0.7000000000000002
+      ],
+      "rank": 2,
+      "singular_values": [
+        0.0003012391085117805,
+        3.864566284268762e-05
+      ],
+      "residual": 1.9000675661528402e-20,
+      "charge_fit": {
+        "g": 0.8,
+        "Ua": 8.000000000000023,
+        "charge_residual": 1.3444106938820255e-17,
+        "best_success": true,
+        "global_certificate": false
+      },
+      "sequential_source_recovery": {
+        "p": 0.40000000000000047,
+        "q": -0.20999999999999944,
+        "discriminant": 0.9999999999999981,
+        "roots": [
+          -0.29999999999999927,
+          0.6999999999999997
+        ],
+        "rank": 2,
+        "singular_values": [
+          0.00030123910851178053,
+          3.864566284268753e-05
+        ],
+        "residual": 5.58953279407316e-20
+      }
+    }
+  ],
+  "noise_summaries": [
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "count": 500,
+      "negative_discriminants": 258,
+      "p": {
+        "bias": -0.0026213899453542133,
+        "rmse": 0.013929179818982325
+      },
+      "q": {
+        "bias": -0.0014117972955474123,
+        "rmse": 0.005262424185914099
+      },
+      "real_root_count": 242,
+      "conditional_unordered_root_rmse": 0.07314787389340392
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "count": 500,
+      "negative_discriminants": 0,
+      "p": {
+        "bias": -0.3193936474377781,
+        "rmse": 0.32513849580936915
+      },
+      "q": {
+        "bias": -0.25382923988730466,
+        "rmse": 0.25836959418980837
+      },
+      "real_root_count": 500,
+      "conditional_unordered_root_rmse": 0.28829014448893275
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "count": 500,
+      "negative_discriminants": 170,
+      "p": {
+        "bias": -0.010997078690716977,
+        "rmse": 0.013901502775342607
+      },
+      "q": {
+        "bias": -0.008739795137491957,
+        "rmse": 0.010196251767384831
+      },
+      "real_root_count": 330,
+      "conditional_unordered_root_rmse": 0.05214496696357759
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "count": 500,
+      "negative_discriminants": 0,
+      "p": {
+        "bias": 3.722350629209448e-05,
+        "rmse": 0.005407149319954817
+      },
+      "q": {
+        "bias": 4.597166234712735e-05,
+        "rmse": 0.00023450592532673207
+      },
+      "real_root_count": 500,
+      "conditional_unordered_root_rmse": 0.0029403341633346056
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "count": 500,
+      "negative_discriminants": 0,
+      "p": {
+        "bias": 0.02589934572303998,
+        "rmse": 0.027066695167291575
+      },
+      "q": {
+        "bias": 0.006887040931343569,
+        "rmse": 0.007193953064521454
+      },
+      "real_root_count": 500,
+      "conditional_unordered_root_rmse": 0.013632299759660054
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "count": 500,
+      "negative_discriminants": 0,
+      "p": {
+        "bias": 0.0006899961705279511,
+        "rmse": 0.0022474140133503747
+      },
+      "q": {
+        "bias": 0.00018738902755977005,
+        "rmse": 0.00029103509639902026
+      },
+      "real_root_count": 500,
+      "conditional_unordered_root_rmse": 0.0012096712948282805
+    }
+  ],
+  "input_source_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\recover_source_class.py": "7769b37bad10fb2dd985cdace449bf1e333b33d142c0b12d4294be6ca08ebbb3",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\unordered_design.json": "8b1434a148ff637695a0f066526edcaff093e4a44d03895962ed90b85629c40f",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\run_study.py": "8f5df93e1b0ee5fa1b57da74a254f6abfb074b4f41430f78214f2cb47a13ea03",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\B0_final\\response_3channel.npz": "9e3496fca6f784caa0a8196fc163e8a11e261e314ea9ee4d158ddb5e9b206f6b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\Bplus_final\\response_3channel.npz": "9452692506a410d7e9c6b3632607e3d458948de3452802e5201c8f8c0ba1a10b"
+  }
+}

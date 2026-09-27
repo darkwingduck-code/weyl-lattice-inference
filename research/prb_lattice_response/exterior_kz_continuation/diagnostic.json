@@ -1,0 +1,71 @@
+{
+  "status": "EXTERIOR_EXTENSION_FAILED",
+  "started_utc": "2026-09-10T13:03:22.203032+00:00",
+  "settings": {
+    "mu": 0.5,
+    "T": 0.04,
+    "g": 0.8,
+    "Ua": 8.0,
+    "q": 0.2617993877991494,
+    "pole_relative_tolerance": 1e-05,
+    "residue_relative_tolerance": 0.01
+  },
+  "parameters": {
+    "Lx": 72,
+    "Ly": 72,
+    "Nkz": 384,
+    "mass": 0.0,
+    "wilson": 1.0,
+    "hopping": 1.0,
+    "exchange": 1.0,
+    "theta_x": 0.0,
+    "theta_y": 0.0,
+    "theta_z": 0.0
+  },
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "pole_zero_analysis.py": "fd012c5bbef390dec93fb4ba731976e9956d0dbd85a2c9716cec1c8131a6f0a5",
+    "run_pole_zero_experiment.py": "54d4a2cf3e7cd6280cc338ddb419f670edfa59de14561d4c60d10f63e0fe2c28",
+    "extend_transverse.py": "5383e49ebc46b9caaf6c7860017f1c1dea353c062086d07caadb140df1f78339",
+    "extend_exterior_pole.py": "cad48de437d8f82e7cb3fb506397e975fc022e4a74860c5364341d3498c57977"
+  },
+  "input_sha256": {
+    "exterior_extension\\diagnostic.json": "1a06d381872879c083cc574e97bd181452c050c5a69398b6803c061f87f50de6",
+    "mode_analysis\\diagnostic.json": "c545a280e4d079ad0eb4099638694e1a648dd5db32a133c00716df6f2d980a3d",
+    "mode_analysis\\exterior_searches.json": "08bad2151fc1e57364e5b8adb931ae8b8dfe86f1a7795f020f90fe2450986011",
+    "mode_analysis\\exterior_refinement.csv": "48d1f8a4de44399ee5c0aae3920fd816a4db3b82fc770bb131d189eaf9d62c32"
+  },
+  "reference_record": {
+    "L": 72,
+    "Nkz": 192
+  },
+  "reference_evidence_verified": true,
+  "memory_before": {
+    "total_physical_bytes": 68095827968,
+    "available_physical_bytes": 13989670912
+  },
+  "estimated_peak_bytes": 8995471360,
+  "memory_admission_required_bytes": 14030077952,
+  "passes_declared_tolerances": false,
+  "longitudinal_at_L72_checked": true,
+  "low_energy_hybrid_gap_certified": false,
+  "continuum_landau_sheet_constructed": false,
+  "limitations": [
+    "Only a finite high-frequency positive exterior root is followed.",
+    "Near-edge excluded slivers, internal poles, and low-energy modes remain outside this search.",
+    "Convergence in one grid direction does not establish convergence in another."
+  ],
+  "failure": {
+    "type": "MemoryError",
+    "message": "Insufficient RAM for the conservative complete-array budget; use an exact streamed continuation"
+  },
+  "sources_unchanged": true,
+  "inputs_unchanged": true,
+  "elapsed_seconds": 0.11813700000493554,
+  "completed_utc": "2026-09-10T13:03:22.320820+00:00",
+  "output_sha256": {
+    "reference_record.json": "61d3f4dbf6bda9863052db23b97e8c5d0ce5a6ae012d551a7bf80a848fa727f2",
+    "execution.log": "9ade309bd8ea61689d4f3e2fbbb7ae2b07d3730d8e733f9357602c7c8493fe9b"
+  }
+}

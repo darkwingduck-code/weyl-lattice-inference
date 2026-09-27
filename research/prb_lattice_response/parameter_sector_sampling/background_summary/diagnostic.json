@@ -1,0 +1,415 @@
+{
+  "status": "PARAMETER_BACKGROUND_SUMMARY_COMPLETE",
+  "cases": {
+    "B0_baseline": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0024213209448980255,
+            "imag": -3.1605758502540043e-10
+          },
+          {
+            "real": -8.725303992234199e-10,
+            "imag": 9.629469683105924e-08
+          }
+        ],
+        [
+          {
+            "real": -8.72530399220901e-10,
+            "imag": 9.629469683108635e-08
+          },
+          {
+            "real": -0.4668374635818896,
+            "imag": -2.369740987619981e-10
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 3.3718724598564534e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "B0_qhalf": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0006085288537774972,
+            "imag": -6.914454778705178e-11
+          },
+          {
+            "real": -2.5894536483574783e-11,
+            "imag": 1.609582739462768e-07
+          }
+        ],
+        [
+          {
+            "real": -2.589453648104747e-11,
+            "imag": 1.609582739462768e-07
+          },
+          {
+            "real": -0.46576324092260973,
+            "imag": -5.156318056705304e-11
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 4.291591057654514e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "B0_qdouble": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.009473951744165019,
+            "imag": -1.7004353335255612e-08
+          },
+          {
+            "real": -2.7324540513285e-07,
+            "imag": -1.52102489692888e-06
+          }
+        ],
+        [
+          {
+            "real": -2.7324540513284753e-07,
+            "imag": -1.5210248969288259e-06
+          },
+          {
+            "real": -0.4710333729199642,
+            "imag": -1.3705815619257992e-08
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 4.4751349666922906e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "B0_mu_low": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0032013212463376673,
+            "imag": -1.029527983063207e-07
+          },
+          {
+            "real": -1.8671568479599477e-07,
+            "imag": -4.5637955788969275e-07
+          }
+        ],
+        [
+          {
+            "real": -1.8671568479599226e-07,
+            "imag": -4.5637955788969275e-07
+          },
+          {
+            "real": -0.46800309192473727,
+            "imag": -7.769150007912711e-08
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 2.861621905647874e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "B0_mu_high": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0018860662034576037,
+            "imag": -4.390724280130521e-12
+          },
+          {
+            "real": -1.905219023995727e-12,
+            "imag": 8.554749251457779e-07
+          }
+        ],
+        [
+          {
+            "real": -1.9052190214780706e-12,
+            "imag": 8.554749251457779e-07
+          },
+          {
+            "real": -0.46458123997130496,
+            "imag": -4.455075303460352e-13
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 3.3306776617224495e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "B0_eta_low": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.002421441335044478,
+            "imag": -1.5854071135021995e-10
+          },
+          {
+            "real": -8.742251627088656e-10,
+            "imag": 4.8120704203004306e-08
+          }
+        ],
+        [
+          {
+            "real": -8.742251627076059e-10,
+            "imag": 4.8120704202950096e-08
+          },
+          {
+            "real": -0.46683998352168943,
+            "imag": -1.1887794021774483e-10
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 4.298186651842595e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "B0_eta_high": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.002420839689031045,
+            "imag": -6.240572205071961e-10
+          },
+          {
+            "real": -8.658070630722588e-10,
+            "imag": 1.9300823213573353e-07
+          }
+        ],
+        [
+          {
+            "real": -8.658070630672202e-10,
+            "imag": 1.9300823213567932e-07
+          },
+          {
+            "real": -0.4668273844049197,
+            "imag": -4.677936014330145e-10
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 4.44253830572933e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "Bplus_baseline": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.002303850044658398,
+            "imag": 5.665473079526042e-18
+          },
+          {
+            "real": 8.251433254706139e-17,
+            "imag": 5.6959804909223455e-06
+          }
+        ],
+        [
+          {
+            "real": 8.251437359171445e-17,
+            "imag": 5.6959804909223184e-06
+          },
+          {
+            "real": -0.4681340915597456,
+            "imag": 1.952612780682192e-18
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 4.5270546869633904e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "Bplus_qhalf": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0005830035518034522,
+            "imag": 6.388127901815555e-18
+          },
+          {
+            "real": 2.4642589464826738e-17,
+            "imag": 2.921499656669685e-06
+          }
+        ],
+        [
+          {
+            "real": 2.4642644104458088e-17,
+            "imag": 2.9214996566695765e-06
+          },
+          {
+            "real": -0.46712144141362244,
+            "imag": 3.7802166243710906e-18
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 1.520795299232954e-16,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "Bplus_qdouble": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.009250810072157702,
+            "imag": -1.2169869042401329e-18
+          },
+          {
+            "real": 1.4213498115511867e-17,
+            "imag": -2.100282461720853e-06
+          }
+        ],
+        [
+          {
+            "real": 1.4213841692392936e-17,
+            "imag": -2.10028246172088e-06
+          },
+          {
+            "real": -0.47229840823035774,
+            "imag": 9.84451670084158e-19
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 4.115902720421685e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "Bplus_mu_low": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0033560103495623786,
+            "imag": 2.0114022773893223e-18
+          },
+          {
+            "real": 1.3002520886942386e-17,
+            "imag": -4.387826088419512e-05
+          }
+        ],
+        [
+          {
+            "real": 1.300287881664176e-17,
+            "imag": -4.387826088419512e-05
+          },
+          {
+            "real": -0.46907163433280424,
+            "imag": 4.323021252070921e-19
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 3.998047194072511e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "Bplus_mu_high": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0017814588284362776,
+            "imag": 3.522259162442629e-18
+          },
+          {
+            "real": 1.3498971244164357e-16,
+            "imag": 4.990164345050838e-06
+          }
+        ],
+        [
+          {
+            "real": 1.3498981101000996e-16,
+            "imag": 4.990164345050838e-06
+          },
+          {
+            "real": -0.46610512442388186,
+            "imag": 6.788473595219881e-18
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 3.511398622382538e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "Bplus_eta_low": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0023039518671731027,
+            "imag": 1.7000471593747508e-18
+          },
+          {
+            "real": 8.514190468088948e-17,
+            "imag": 2.8479335512800576e-06
+          }
+        ],
+        [
+          {
+            "real": 8.514192520049156e-17,
+            "imag": 2.8479335512800305e-06
+          },
+          {
+            "real": -0.4681366420722011,
+            "imag": 1.2737146183810614e-18
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 8.540347338211842e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    },
+    "Bplus_eta_high": {
+      "reference_excluded": [
+        [
+          {
+            "real": -0.0023034432923294025,
+            "imag": 6.957850711954879e-18
+          },
+          {
+            "real": 2.27296845706312e-17,
+            "imag": 1.1392826632958199e-05
+          }
+        ],
+        [
+          {
+            "real": 2.2729766703799487e-17,
+            "imag": 1.1392826632958307e-05
+          },
+          {
+            "real": -0.46812389029633195,
+            "imag": 2.5343478871741706e-18
+          }
+        ]
+      ],
+      "resolvent_difference_identity_max_error": 3.778444878723469e-17,
+      "resolvent_difference_note": "Full and matched responses differ by L_full [H(omega)-H_ref] R_matched. This standard identity is not new physics."
+    }
+  },
+  "maximum_resolvent_identity_error": 1.520795299232954e-16,
+  "records": 112,
+  "limitations": [
+    "The low sector is energy-sign selected, not a certified UV energy-transfer separation.",
+    "Background dispersion alone does not prove an interband continuum threshold or analytic pole.",
+    "Fixed q finite eta matching does not certify current/torque/contact/high-frequency identities.",
+    "Convergence status inherits the explicit finite-grid comparison only."
+  ],
+  "source_sha256": {
+    "summarize_parameter_sector_outputs.py": "5795ad4456affb5a7f38e48886007ae8a0bcf56f2563fb4e04ae6a018ac70aaf",
+    "audit_parameter_sector_outputs.py": "a0628310f29918a860696d1cb1675928906427c001bb39fde16098d1adb11249"
+  },
+  "input_sha256": {
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\calibration_inputs.json": "fdfd29e3e83a7adf3329d22df0988d43d81ad39c8a018ff002b962ecaff274db",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\baseline.csv": "d74f7ed6e81787eb4ac6ad3db81e3a4e8bd52d14cc4a0a9876e39cd77edc0d12",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\baseline_metadata.json": "aa7a7d93374e18ced40e7f966b26e82fe60b4e60cfd2e8b9cbe9e7ace8e02820",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qhalf.csv": "4827c8e6c0b966bb0778489e6e671ac3f78e962824bc3b3fb46077d5a98ded2d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qhalf_metadata.json": "7db0786c84216f840fa8d37fede7edfc63f949cd4683d3b1ce4e26a1585fe1c1",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qdouble.csv": "11a7a1be0ef52db23ba9ba89e3249342f33962ccfc9fbff2dd2e99d1ba03c34c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\qdouble_metadata.json": "05921b3a9ebf63c15763139dbc3fd2959a26ca580bbba56ae3a2a3aaeabc73de",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\mu_low.csv": "22ef615dcb7303dee82df63a32d5163814eb1574c87216ca24e55cade125ac63",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\mu_low_metadata.json": "29ec2ecfd52bb4028f6cbb8c1dc7618bd0c649a704b59474c0f90b3818c3cc58",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\mu_high.csv": "9b21b6779095794b87a6e828f51a3fb5724017b4253462fd85a3bd96c7dc8f6d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\mu_high_metadata.json": "fbcf010b6bb0f58d54ac246d5317466a6ca94adbd3a6fc0564c98cca06f8a9ff",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\eta_low.csv": "e83e0f02041d2130fc27c244e9ac12bc9d47501b77992045bd2af6045321c9d3",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\eta_low_metadata.json": "7f8a8af9807b7a92dd9403b123584fc5ae7180117e1c7a7be56217558c58faae",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\eta_high.csv": "308bbd2bbe44bff2350569a959550e9d0407999e8bbf026b6aea0e5d3c770e28",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\B0_final\\eta_high_metadata.json": "6370ecd8828e43e31e79d4da4a16d357ed2329a1e163d45894f9cb2ca615e7d0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\baseline.csv": "361a3224c44a6ac71610688b5a1b5e9fb6e2a48828d998a3af129f7b7435da26",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\baseline_metadata.json": "8c1537db5cd79f5b8c3c816dc10c73702d19400db97c9f20e9d1c7c14d34e10c",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qhalf.csv": "8786a8c9700b9eeb5880a300453c4a27bd241a35da340f018c5a69b2a5150455",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qhalf_metadata.json": "2add72de7802542208a822e2860b1095eb08fc14bc83843fb499bcc1d9d9c50d",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qdouble.csv": "49c160bdefe57aca5e163a737736e0b51cd1b7410fea9d8f1a1b1969fad12cd0",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\qdouble_metadata.json": "a3062db8f22d3156756ade58d197932463f8ff2aa9a1de2b0645d1229d48fb6e",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\mu_low.csv": "233eb407d01d24710bd8392b2ca2346a59b25b1e8779d3a764c7c54394067c59",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\mu_low_metadata.json": "46aff9525819f84a446af9db98159814f135008422632fe51b1f0a92bdb21d2e",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\mu_high.csv": "95d8a582dd01e75f7f709fed2fc2f27e92eb0895b3d7a5494123b8d959dafb0b",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\mu_high_metadata.json": "3bafd1effe9471a77628266d20db71129c5303d86d3f8bdd8f2591ac389c45e7",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\eta_low.csv": "20cada710d4a01cd4734e3f56f013eb9b7d49666a5839d201044cc8e40defdb5",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\eta_low_metadata.json": "0b17587b59acf2bcd671bd546ab4ea6b82215c612fea130a9c25dc4c05b357e7",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\eta_high.csv": "ac9a445085a24450b25a0657a8c1efaffe6a4b31fb129efeecb971bd8a9a19c6",
+    "H:\\Research\\weyl-collective-modes\\research\\prb_lattice_response\\parameter_sector_sampling\\Bplus_final\\eta_high_metadata.json": "7a6a10352e3524ca8766551401bd36626b7d4c122eac1fb1955d56c53f24394c"
+  },
+  "output_sha256": {
+    "window_detector_background.csv": "59051ac48cbff46e7b0dd9036c3a6d133c20eff98d5331e30883dcbb4bda0a8a"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "RENDERED_CLASSIFICATION_AWARE_FIGURE",
+  "input_sha256": {
+    "zero_observability_controls\\finite_eta_local_minima.csv": "0edc213a920693d1812a8e7a3bc7d0a554b0ebcb7c5fea043683cb839ebfe343"
+  },
+  "source_sha256": {
+    "render_zero_observability.py": "454d87fd95ced3d2eca0c2dc5134a704d35d688ab7c1ca99758999f17933d0ba"
+  },
+  "output_sha256": {
+    "zero_observability.pdf": "e93f2ab700adeeaf19289aec4b27a34596e440623cbaf796146ed6c5f882034f",
+    "zero_observability.png": "16d9f69bd524b2579518d8bf61518bfe6ac72f7a7a077857fba26ac44cbf4717"
+  },
+  "finite_eta_is_not_physical_damping": true,
+  "scope": "Index1565 only; x points are search-window endpoints, not detected antiresonances."
+}

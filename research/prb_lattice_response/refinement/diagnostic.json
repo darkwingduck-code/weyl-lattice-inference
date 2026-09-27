@@ -1,0 +1,193 @@
+{
+  "completed_utc": "2026-09-10T06:23:48.706906+00:00",
+  "status": "REFINEMENT_COMPLETED",
+  "frequency_points": 161,
+  "eta": 0.015,
+  "tolerance": 0.001,
+  "baseline_sha256": "dbde903e4a625a061791076fdf8c7e5fada86e271e22f1d57f5d3aabaa8a8b4a",
+  "source_sha256": {
+    "lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "bloch_response.py": "77ebebf7c705bc94a7e9c7c5d96ed8dd6de4c06ab08da896daf5ddcce4b2e4b0",
+    "refine_response.py": "3ad9ee0289f9b80902ac337b4dd3f514f936beae21fe87fe333e4d9751bd2e8c"
+  },
+  "comparisons": [
+    {
+      "kind": "fixed_B_kz",
+      "flux": -1,
+      "coarse_L": 6,
+      "fine_L": 6,
+      "coarse_Nkz": 48,
+      "fine_Nkz": 96,
+      "maximum_scaled_response_error": 0.000310139547123431,
+      "tolerance": 0.001,
+      "converged": true,
+      "vertex_error": 3.5221832462109315e-14,
+      "power_min": 8.45629234527685e-05
+    },
+    {
+      "kind": "fixed_B_kz",
+      "flux": 1,
+      "coarse_L": 6,
+      "fine_L": 6,
+      "coarse_Nkz": 48,
+      "fine_Nkz": 96,
+      "maximum_scaled_response_error": 0.0027804988807939614,
+      "tolerance": 0.001,
+      "converged": false,
+      "vertex_error": 3.051512221238259e-14,
+      "power_min": 0.00010141413999371345
+    },
+    {
+      "kind": "fixed_B_kz",
+      "flux": 1,
+      "coarse_L": 6,
+      "fine_L": 6,
+      "coarse_Nkz": 96,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 0.0008465964640212412,
+      "tolerance": 0.001,
+      "converged": true,
+      "vertex_error": 3.1767591078435655e-14,
+      "power_min": 0.00010996451830462274
+    },
+    {
+      "kind": "zero_B_kz",
+      "flux": 0,
+      "coarse_L": 8,
+      "fine_L": 8,
+      "coarse_Nkz": 48,
+      "fine_Nkz": 96,
+      "maximum_scaled_response_error": 0.00011270511969411543,
+      "tolerance": 0.001,
+      "converged": true,
+      "vertex_error": 1.2753932440872672e-14,
+      "power_min": 7.193903417307271e-05
+    },
+    {
+      "kind": "zero_B_kz",
+      "flux": 0,
+      "coarse_L": 8,
+      "fine_L": 8,
+      "coarse_Nkz": 96,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 2.355205739091819e-05,
+      "tolerance": 0.001,
+      "converged": true,
+      "vertex_error": 1.2753932440872672e-14,
+      "power_min": 7.343386538822953e-05
+    },
+    {
+      "kind": "zero_B_transverse",
+      "flux": 0,
+      "coarse_L": 8,
+      "fine_L": 12,
+      "coarse_Nkz": 192,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 0.024677410772810986,
+      "tolerance": 0.001,
+      "converged": false,
+      "vertex_error": 1.2910682992681645e-14,
+      "power_min": 7.894848965245391e-05
+    },
+    {
+      "kind": "zero_B_transverse",
+      "flux": 0,
+      "coarse_L": 12,
+      "fine_L": 24,
+      "coarse_Nkz": 192,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 0.01626842810344556,
+      "tolerance": 0.001,
+      "converged": false,
+      "vertex_error": 1.2910682992681645e-14,
+      "power_min": 8.954011611772037e-05
+    },
+    {
+      "kind": "zero_B_transverse",
+      "flux": 0,
+      "coarse_L": 24,
+      "fine_L": 48,
+      "coarse_Nkz": 192,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 0.0021995195001023723,
+      "tolerance": 0.001,
+      "converged": false,
+      "vertex_error": 1.2910682992681645e-14,
+      "power_min": 9.056320614059862e-05
+    }
+  ],
+  "final_comparisons": {
+    "negative_B_kz": {
+      "kind": "fixed_B_kz",
+      "flux": -1,
+      "coarse_L": 6,
+      "fine_L": 6,
+      "coarse_Nkz": 48,
+      "fine_Nkz": 96,
+      "maximum_scaled_response_error": 0.000310139547123431,
+      "tolerance": 0.001,
+      "converged": true,
+      "vertex_error": 3.5221832462109315e-14,
+      "power_min": 8.45629234527685e-05
+    },
+    "positive_B_kz": {
+      "kind": "fixed_B_kz",
+      "flux": 1,
+      "coarse_L": 6,
+      "fine_L": 6,
+      "coarse_Nkz": 96,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 0.0008465964640212412,
+      "tolerance": 0.001,
+      "converged": true,
+      "vertex_error": 3.1767591078435655e-14,
+      "power_min": 0.00010996451830462274
+    },
+    "zero_B_kz": {
+      "kind": "zero_B_kz",
+      "flux": 0,
+      "coarse_L": 8,
+      "fine_L": 8,
+      "coarse_Nkz": 96,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 2.355205739091819e-05,
+      "tolerance": 0.001,
+      "converged": true,
+      "vertex_error": 1.2753932440872672e-14,
+      "power_min": 7.343386538822953e-05
+    },
+    "zero_B_transverse": {
+      "kind": "zero_B_transverse",
+      "flux": 0,
+      "coarse_L": 24,
+      "fine_L": 48,
+      "coarse_Nkz": 192,
+      "fine_Nkz": 192,
+      "maximum_scaled_response_error": 0.0021995195001023723,
+      "tolerance": 0.001,
+      "converged": false,
+      "vertex_error": 1.2910682992681645e-14,
+      "power_min": 9.056320614059862e-05
+    }
+  },
+  "all_selected_directions_converged": false,
+  "collective_pole_or_gap_certified": false,
+  "limitations": [
+    "Only two nonzero-flux L=6 fixed-density cases are refined here.",
+    "Longitudinal convergence at fixed finite L is not a transverse thermodynamic limit.",
+    "The B=0 Bloch path is an exact decomposition and is not used at nonzero flux.",
+    "No broadening, frequency samples or tolerance were changed to obtain a pass.",
+    "This is spectral mesh refinement, not a residue or complex-pole certification."
+  ],
+  "output_sha256": {
+    "L6_Nk96_flux-1_fixed_n.csv": "e7c19e12eca216326be668368fde4f397bfbbcf5f7e47a3865e2e25cbce79248",
+    "refinement.csv": "01114870b8d4e978899f48ea8c4d1d5c7f93b83858f2684c003182462686237b",
+    "L6_Nk96_flux+1_fixed_n.csv": "d06b70bd563a7e0acb0ca178066d4a90cb658d9a2352bb2cb579df7dac63c8e8",
+    "L6_Nk192_flux+1_fixed_n.csv": "3ed790b958beaf3eb33b97a3a57ee3cb5477bc17d0d6edca57c6c19e3aa00b6d",
+    "L8_Nk96_flux+0_fixed_mu.csv": "f8d7949b1167d14c9ed118efb62f2a717cd787b7a2e8213203e6509616b10360",
+    "L8_Nk192_flux+0_fixed_mu.csv": "da3f9a3801296d3a3643aa8a47e2669c95461c7823de9c53a3c45e786df56d8c",
+    "L12_Nk192_flux+0_fixed_mu.csv": "c7abbadb0a681619af4862fa54de9fc947a73f092c4191a17e54d674d4a68be9",
+    "L24_Nk192_flux+0_fixed_mu.csv": "cfdb9780cef48c80f428afc74a60d12301feff27b31d8ede6fd821cf493acb96",
+    "L48_Nk192_flux+0_fixed_mu.csv": "83b0ba592de336cba001214576f7f7410cdda8ede1935520f024b57c19b909d8"
+  }
+}

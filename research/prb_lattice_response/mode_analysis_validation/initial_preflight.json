@@ -1,0 +1,7 @@
+{
+  "status": "FAILED_BEFORE_PRODUCTION",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 1,
+  "reason": "Degenerate test fixture used old implicit-nullity API; explicit known multiplicity now required. No production output created."
+}

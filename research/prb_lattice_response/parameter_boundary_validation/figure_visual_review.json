@@ -1,0 +1,17 @@
+{
+  "status": "VISUAL_REVIEW_PASS",
+  "date": "2026-09-11",
+  "method": "Images opened and visually inspected by the root reviewer",
+  "checks": [
+    "Legend does not cover curves",
+    "Thin foreground red dashed curve and distinct marker positions remain visible",
+    "Axes and captions readable",
+    "Zero mismatch preserved without a positive floor"
+  ],
+  "reviewed_sha256": {
+    "parameter_calibration_figures/reviewed/combined_calibration.png": "ab5f8e6e79992287529f03921c735997ba7e8df017af9fd55b91e61d98a6a6e5",
+    "parameter_calibration_figures/reviewed/frequency_window_control.png": "9cf5f3bcc23f29dc8980b29192b29f8583dbfdbaa8ba75ca562d4a36d6d6182e",
+    "parameter_sector_sampling/figures_reviewed/q_window_responses.png": "20b62abb5dd657e44ace6c0bf20b406c7d8c23859a05feee4748c4d0df57723e"
+  },
+  "historical_generator_status_unchanged": true
+}

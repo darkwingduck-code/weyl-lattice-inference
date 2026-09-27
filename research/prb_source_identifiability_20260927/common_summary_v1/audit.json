@@ -1,0 +1,63 @@
+{
+  "absolute_sigma": 0.00012931669440932318,
+  "checks": [
+    {
+      "dataset": "common_B0_v1",
+      "fits": 12,
+      "retained_successes": 12,
+      "all_start_successes": 11,
+      "applicable_truth_bounds": 10,
+      "passed_truth_bounds": 10
+    },
+    {
+      "dataset": "common_Bplus_final_v1",
+      "fits": 12,
+      "retained_successes": 12,
+      "all_start_successes": 11,
+      "applicable_truth_bounds": 10,
+      "passed_truth_bounds": 10
+    },
+    {
+      "dataset": "common_Bplus_x_v1",
+      "fits": 12,
+      "retained_successes": 12,
+      "all_start_successes": 11,
+      "applicable_truth_bounds": 10,
+      "passed_truth_bounds": 10
+    },
+    {
+      "dataset": "common_Bplus_y_v1",
+      "fits": 12,
+      "retained_successes": 12,
+      "all_start_successes": 11,
+      "applicable_truth_bounds": 10,
+      "passed_truth_bounds": 10
+    },
+    {
+      "dataset": "common_Bplus_z_v1",
+      "fits": 12,
+      "retained_successes": 12,
+      "all_start_successes": 11,
+      "applicable_truth_bounds": 10,
+      "passed_truth_bounds": 10
+    },
+    {
+      "dataset": "common_joint_v1",
+      "fits": 12,
+      "retained_successes": 12,
+      "all_start_successes": 12,
+      "applicable_truth_bounds": 10,
+      "passed_truth_bounds": 10
+    }
+  ],
+  "current_source_hashes_match": true,
+  "input_summary_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\common_B0_v1\\summary.json": "fffa40459ac61f9fa18fbd3dc769a0641383bd306f5faddb0cef0907331907bd",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\common_Bplus_final_v1\\summary.json": "984b2c0c99907df5797f4b73307fad8859f31a9e3c24bc71b7482a607a0421cb",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\common_Bplus_x_v1\\summary.json": "455d4a1b672a74f6bcee95261afa591490c4a43a8e2c916490b39f47f9a4f8a6",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\common_Bplus_y_v1\\summary.json": "50e0fffc0af4218e4236b4b046d3c2313a37530fa9c4de365232646e64db34cc",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\common_Bplus_z_v1\\summary.json": "4d10d783d0f2090b0be4462735edf9fe1c1292224368f522ac6e128d9629827d",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\common_joint_v1\\summary.json": "4f92ee175eb299aaf3594758af2d15729f4d439c91c727edfb04ed4afa32e0b3",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\summarize_common_reference.py": "3af4d2a50d675f311ffa75cd6c1c5f2c717fc69b45ea56831de3d8ee60af1643"
+  }
+}

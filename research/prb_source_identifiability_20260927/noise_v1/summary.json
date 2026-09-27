@@ -1,0 +1,560 @@
+{
+  "phase": "noise",
+  "design": {
+    "design_id": "prb_independent_source_readout_20260927_v1",
+    "status": "FIXED_BEFORE_NEW_FITS",
+    "question": "Does cross spectroscopy distinguish interaction and independent source/readout directions after complex calibration is profiled?",
+    "input_basis": [
+      "charge",
+      "Gamma5",
+      "Gamma3"
+    ],
+    "interacting_basis": [
+      "charge",
+      "Gamma5"
+    ],
+    "truths": {
+      "symmetric": [
+        0.7,
+        0.7
+      ],
+      "asymmetric": [
+        0.7,
+        -0.3
+      ]
+    },
+    "lambda_order": [
+      "readout",
+      "source"
+    ],
+    "truth_g_Ua": [
+      0.8,
+      8.0
+    ],
+    "field_groups": {
+      "B0": [
+        "B0"
+      ],
+      "Bplus": [
+        "Bplus"
+      ],
+      "joint": [
+        "B0",
+        "Bplus"
+      ]
+    },
+    "observations": [
+      "diagonal",
+      "full"
+    ],
+    "source_models": [
+      "pure",
+      "shared",
+      "independent",
+      "known"
+    ],
+    "gain_model": "independent complex affine source/readout per field; charge is calibrated",
+    "noise": "One common absolute circular-complex RMS sigma=epsilon*A over all entries, frequencies, both fields and both truth directions. A is the clean transferred RMS over all four complete truth datasets. E|noise|^2=sigma^2.",
+    "epsilon": 0.001,
+    "seed": 2026092703,
+    "raw_norm": "sqrt(sum|prediction-observation|^2/(number_of_complex_observations*sigma^2))",
+    "bounds": {
+      "g": [
+        0.2,
+        1.6
+      ],
+      "Ua": [
+        0.0,
+        24.0
+      ],
+      "lambda_readout": [
+        -1.0,
+        1.0
+      ],
+      "lambda_source": [
+        -1.0,
+        1.0
+      ]
+    },
+    "physical_scales": [
+      0.8,
+      8.0,
+      1.0,
+      1.0
+    ],
+    "multistarts": [
+      [
+        0.55,
+        3.0,
+        -0.8,
+        0.4
+      ],
+      [
+        0.8,
+        8.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.1,
+        16.0,
+        0.8,
+        -0.4
+      ],
+      [
+        1.4,
+        22.0,
+        -0.4,
+        0.8
+      ],
+      [
+        0.65,
+        12.0,
+        0.5,
+        0.5
+      ]
+    ],
+    "Ua_profile": [
+      0.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      16.0,
+      24.0
+    ],
+    "profile_cases": "both truths, independent source model, full observations, Bplus and joint; symmetric diagonal Bplus control",
+    "noise_repetitions": 30,
+    "noise_cases": [
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "known"
+      ],
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "shared"
+      ],
+      [
+        "symmetric",
+        "Bplus",
+        "full",
+        "independent"
+      ],
+      [
+        "symmetric",
+        "joint",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "Bplus",
+        "diagonal",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "Bplus",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "B0",
+        "full",
+        "independent"
+      ],
+      [
+        "asymmetric",
+        "joint",
+        "full",
+        "independent"
+      ]
+    ],
+    "noise_multistarts": 3,
+    "mesh_comparison": "identical higher observation, clean transfer functions and common absolute sigma; refit known, shared and independent directions on lower templates",
+    "reporting": "Report every result, failed optimizer and boundary hit. Local normalized Jacobian singular values are after projecting affine gain nuisance columns. Neither local rank nor multistart/profile results prove global identifiability or statistical coverage. No material vertex is claimed."
+  },
+  "absolute_sigma": 0.00012931669440932318,
+  "common_clean_complex_rms": 0.12931669440932317,
+  "results": [
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "known",
+      "count": 30,
+      "successes": 30,
+      "boundary_hits": 0,
+      "g": {
+        "bias": -2.9671467112968308e-05,
+        "rmse": 0.00025138282234917056,
+        "quantiles": [
+          0.7995383173656897,
+          0.7999530794443895,
+          0.8004493743909697
+        ]
+      },
+      "Ua": {
+        "bias": 0.0008202626489666187,
+        "rmse": 0.025431376154018658,
+        "quantiles": [
+          7.954879974392618,
+          8.000712762542648,
+          8.040961396611692
+        ]
+      },
+      "lambda_r": {
+        "bias": -2.220446049250313e-16,
+        "rmse": 0.0,
+        "quantiles": [
+          0.7,
+          0.7,
+          0.7
+        ]
+      },
+      "lambda_s": {
+        "bias": -2.220446049250313e-16,
+        "rmse": 0.0,
+        "quantiles": [
+          0.7,
+          0.7,
+          0.7
+        ]
+      }
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "shared",
+      "count": 30,
+      "successes": 30,
+      "boundary_hits": 0,
+      "g": {
+        "bias": -1.4264092125015893e-05,
+        "rmse": 0.0002649116748759852,
+        "quantiles": [
+          0.7995734773659758,
+          0.7999615545114058,
+          0.8005287841203247
+        ]
+      },
+      "Ua": {
+        "bias": -0.0046198320043338015,
+        "rmse": 0.035976150736224725,
+        "quantiles": [
+          7.920935024559283,
+          7.999373162692764,
+          8.054932522923306
+        ]
+      },
+      "lambda_r": {
+        "bias": -0.0016682650937243082,
+        "rmse": 0.009479687055016993,
+        "quantiles": [
+          0.6843763970807085,
+          0.6978682618128506,
+          0.7143999079324787
+        ]
+      },
+      "lambda_s": {
+        "bias": -0.0016682650937243082,
+        "rmse": 0.009479687055016993,
+        "quantiles": [
+          0.6843763970807085,
+          0.6978682618128506,
+          0.7143999079324787
+        ]
+      }
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "independent",
+      "count": 30,
+      "successes": 30,
+      "boundary_hits": 0,
+      "g": {
+        "bias": -2.138879390289894e-05,
+        "rmse": 0.00027215355512336315,
+        "quantiles": [
+          0.7995967005020206,
+          0.7999546573957044,
+          0.800558046389667
+        ]
+      },
+      "Ua": {
+        "bias": -0.0017660422569898415,
+        "rmse": 0.04605572630594844,
+        "quantiles": [
+          7.9076923390142575,
+          7.9936133973745775,
+          8.089441936475412
+        ]
+      },
+      "lambda_r": {
+        "bias": -0.0008404075560001223,
+        "rmse": 0.02510176434110078,
+        "quantiles": [
+          0.6637105733959658,
+          0.6943823977863768,
+          0.7502212724859604
+        ]
+      },
+      "lambda_s": {
+        "bias": -0.0019791656995116202,
+        "rmse": 0.011171018588039601,
+        "quantiles": [
+          0.6836745204394323,
+          0.6953533796181381,
+          0.7228567970210602
+        ]
+      }
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "independent",
+      "count": 30,
+      "successes": 30,
+      "boundary_hits": 0,
+      "g": {
+        "bias": -3.3050784222443674e-05,
+        "rmse": 0.00025024452648011986,
+        "quantiles": [
+          0.7994837855751551,
+          0.7999591488605826,
+          0.8004796839283561
+        ]
+      },
+      "Ua": {
+        "bias": -0.0005565148094488492,
+        "rmse": 0.022756107897826953,
+        "quantiles": [
+          7.961036007684637,
+          7.994729987918146,
+          8.035789055184985
+        ]
+      },
+      "lambda_r": {
+        "bias": -0.002732787993897867,
+        "rmse": 0.007895869617980462,
+        "quantiles": [
+          0.6845870275894281,
+          0.6985285777831626,
+          0.7098243572278288
+        ]
+      },
+      "lambda_s": {
+        "bias": 0.0009656658215980718,
+        "rmse": 0.005683570008440379,
+        "quantiles": [
+          0.6917926221449884,
+          0.7018331595323479,
+          0.7099548575229513
+        ]
+      }
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "source_model": "independent",
+      "count": 30,
+      "successes": 30,
+      "boundary_hits": 0,
+      "g": {
+        "bias": 0.00014535199814136313,
+        "rmse": 0.002494336472656419,
+        "quantiles": [
+          0.795813806932974,
+          0.7998657085382521,
+          0.8047776252141949
+        ]
+      },
+      "Ua": {
+        "bias": 0.07864328913551866,
+        "rmse": 0.9402444480796648,
+        "quantiles": [
+          6.661517647768456,
+          8.157890930751682,
+          9.97510033087792
+        ]
+      },
+      "lambda_r": {
+        "bias": -0.010158575917850965,
+        "rmse": 0.03271802092986918,
+        "quantiles": [
+          0.6238961957497322,
+          0.6991503861018307,
+          0.7307591794848051
+        ]
+      },
+      "lambda_s": {
+        "bias": -0.0152262634894193,
+        "rmse": 0.04760089917614752,
+        "quantiles": [
+          -0.43240288648859937,
+          -0.3074133526974839,
+          -0.2633305812099236
+        ]
+      }
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "source_model": "independent",
+      "count": 30,
+      "successes": 30,
+      "boundary_hits": 0,
+      "g": {
+        "bias": 0.00018883863530883005,
+        "rmse": 0.0012233257176119767,
+        "quantiles": [
+          0.7981909326131265,
+          0.8002670729406778,
+          0.80218764158758
+        ]
+      },
+      "Ua": {
+        "bias": -0.014781280857032897,
+        "rmse": 0.3464388711245304,
+        "quantiles": [
+          7.349668858885737,
+          7.971258131638503,
+          8.561550960796607
+        ]
+      },
+      "lambda_r": {
+        "bias": -0.00021272322790077958,
+        "rmse": 0.002494309053103758,
+        "quantiles": [
+          0.6950443550539739,
+          0.7001514287456156,
+          0.7043361012086843
+        ]
+      },
+      "lambda_s": {
+        "bias": -0.00131189695286682,
+        "rmse": 0.010145275418975683,
+        "quantiles": [
+          -0.32038927903011666,
+          -0.3010815889926468,
+          -0.2850009405537306
+        ]
+      }
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "full",
+      "source_model": "independent",
+      "count": 30,
+      "successes": 30,
+      "boundary_hits": 0,
+      "g": {
+        "bias": 0.00048507951075260625,
+        "rmse": 0.001807086971649894,
+        "quantiles": [
+          0.7973699948144019,
+          0.8004840823155245,
+          0.8049155143081141
+        ]
+      },
+      "Ua": {
+        "bias": 0.06389055611641581,
+        "rmse": 0.2318427178212419,
+        "quantiles": [
+          7.718620645467747,
+          8.027008638101984,
+          8.484774038102554
+        ]
+      },
+      "lambda_r": {
+        "bias": -0.0008393415336291898,
+        "rmse": 0.004523392188521384,
+        "quantiles": [
+          0.6897134335386076,
+          0.6998099400271265,
+          0.7064337180813856
+        ]
+      },
+      "lambda_s": {
+        "bias": 0.001369210297240131,
+        "rmse": 0.00560882086622425,
+        "quantiles": [
+          -0.3080610370644559,
+          -0.2983511142215006,
+          -0.28957687381838826
+        ]
+      }
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "full",
+      "source_model": "independent",
+      "count": 30,
+      "successes": 30,
+      "boundary_hits": 0,
+      "g": {
+        "bias": 8.90250859235664e-05,
+        "rmse": 0.0007152124733400582,
+        "quantiles": [
+          0.7988241943157119,
+          0.8001357843316474,
+          0.801193434830781
+        ]
+      },
+      "Ua": {
+        "bias": 0.028047818531419466,
+        "rmse": 0.14182610909169743,
+        "quantiles": [
+          7.75256132532027,
+          8.053076559353176,
+          8.2581473779745
+        ]
+      },
+      "lambda_r": {
+        "bias": -0.00019524883101884605,
+        "rmse": 0.0014855025031423961,
+        "quantiles": [
+          0.696723375641711,
+          0.6999419037716583,
+          0.7021025030889282
+        ]
+      },
+      "lambda_s": {
+        "bias": 0.0006187049041402326,
+        "rmse": 0.003753021727056316,
+        "quantiles": [
+          -0.3064919766111019,
+          -0.2990214378306342,
+          -0.2932852430574815
+        ]
+      }
+    }
+  ],
+  "elapsed_seconds": 183.5527757999953,
+  "input_source_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\run_study.py": "8f5df93e1b0ee5fa1b57da74a254f6abfb074b4f41430f78214f2cb47a13ea03",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\frozen_design.json": "47696caa78139bb2aab0739ecc17e164516da823d55a1d996578db25d96355ae",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\response_derivatives.py": "6ccd9ab5b830052bd2379ea254e8543c771680b7eab0ec2f17792f45f3db79e5",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "170704298b9e79a20550a2069b00b2e5ce719a95414f3bd8646cb8e44332ff43",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\analyze_inference.py": "5d0d9c5bab94bb3bd1929cf9622f10d29991182ad13beb75c119d270aa0bebea",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\B0_final\\response_3channel.npz": "9e3496fca6f784caa0a8196fc163e8a11e261e314ea9ee4d158ddb5e9b206f6b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\Bplus_final\\response_3channel.npz": "9452692506a410d7e9c6b3632607e3d458948de3452802e5201c8f8c0ba1a10b"
+  },
+  "inputs_sources_unchanged": true,
+  "global_identifiability_certified": false,
+  "statistical_coverage_claimed": false
+}

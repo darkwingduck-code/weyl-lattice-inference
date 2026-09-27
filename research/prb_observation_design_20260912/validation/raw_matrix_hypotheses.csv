@@ -1,0 +1,25 @@
+dataset,ua_trial,degree,sigma_complex_rms,normalization,g,ua,rms,success,nfev,all_starts_success,global_optimum_certified
+Bplus_baseline,4.0,0,9.896581179107918e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8170703317208419,4.0,22.17541469357439,True,9,True,False
+Bplus_baseline,4.0,1,9.896581179107918e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.816286584701637,4.0,11.499393221100457,True,10,True,False
+Bplus_baseline,8.0,0,9.896581179107918e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8002700344105039,8.0,19.04922221188762,True,6,True,False
+Bplus_baseline,8.0,1,9.896581179107918e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8000000000000002,8.0,6.979584308183562e-14,True,10,True,False
+Bplus_baseline,16.0,0,9.896581179107918e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7886809134602258,16.0,21.172043341947543,True,9,True,False
+Bplus_baseline,16.0,1,9.896581179107918e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7887337746101795,16.0,9.283715911316927,True,9,True,False
+B0_baseline,4.0,0,9.873206427598317e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7986613323560438,4.0,20.57652958697355,True,9,True,False
+B0_baseline,4.0,1,9.873206427598317e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7982654370266916,4.0,3.363023678931476,True,10,True,False
+B0_baseline,8.0,0,9.873206427598317e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8002421397323145,8.0,19.103444451668604,True,4,True,False
+B0_baseline,8.0,1,9.873206427598317e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8,8.0,5.487738552087632e-14,True,2,True,False
+B0_baseline,16.0,0,9.873206427598317e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8010425118581568,16.0,18.51366064427227,True,8,True,False
+B0_baseline,16.0,1,9.873206427598317e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8007921516498528,16.0,2.7184291586448497,True,9,True,False
+B0_mu_low,4.0,0,9.870476136385848e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8019878312078795,4.0,19.330702844048567,True,8,True,False
+B0_mu_low,4.0,1,9.870476136385848e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8014520250287889,4.0,0.514278755170589,True,10,True,False
+B0_mu_low,8.0,0,9.870476136385848e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8003318635054844,8.0,19.084199156351033,True,5,True,False
+B0_mu_low,8.0,1,9.870476136385848e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8,8.0,6.264613121629143e-14,True,2,True,False
+B0_mu_low,16.0,0,9.870476136385848e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7996869153105679,16.0,18.92783968974222,True,7,True,False
+B0_mu_low,16.0,1,9.870476136385848e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7994715687440165,16.0,0.4113646175989859,True,9,True,False
+Bplus_qdouble,4.0,0,9.940419943796827e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8040934273769698,4.0,19.556849584442784,True,8,True,False
+Bplus_qdouble,4.0,1,9.940419943796827e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8081186387213344,4.0,2.3834120715909144,True,10,True,False
+Bplus_qdouble,8.0,0,9.940419943796827e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7977028829814189,8.0,19.084355830602135,True,5,True,False
+Bplus_qdouble,8.0,1,9.940419943796827e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.8,8.0,7.239217054411234e-14,True,2,True,False
+Bplus_qdouble,16.0,0,9.940419943796827e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7955629365440782,16.0,18.96428112340614,True,8,True,False
+Bplus_qdouble,16.0,1,9.940419943796827e-05,L2(all raw complex residuals)/(sigma sqrt(4N)); common absolute floor,0.7967101121401464,16.0,1.9289407021668141,True,9,True,False

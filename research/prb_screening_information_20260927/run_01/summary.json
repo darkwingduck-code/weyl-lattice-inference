@@ -1,0 +1,110 @@
+{
+  "scope": "mathematical fixed-Pi RPA continuation, not physical validity at large Ua",
+  "Coulomb_g": 0.8,
+  "scan_count": 81,
+  "Ua_min": 8.0,
+  "Ua_max": 10000.0,
+  "absolute_complex_sigma": 5.1362428645064546e-05,
+  "noise_convention": "E|epsilon|^2=sigma^2",
+  "true_external_gains": "all unity, independent of Ua and frequency",
+  "profiled_full_gains": "independent constant complex gain for both rows and both columns",
+  "fixed_parameters": "bare Pi, Coulomb g, operator, grid and noise covariance",
+  "information": "total local Gaussian Fisher for Ua; factor 2/sigma^2; no confidence-coverage claim",
+  "tail_min_Ua": 1000,
+  "checks": {
+    "B0": {
+      "frequency_count": 45,
+      "minimum_abs_alpha": 29.82449214610245,
+      "maximum_abs_z": 2.1879783937298556,
+      "cross_product_norm": 9.15681944181028,
+      "cross_to_diagonal_bare_norm": 0.017246856620929157,
+      "derivative_relative_errors": {
+        "8.0": 6.239270484802033e-09,
+        "80.0": 9.480961636915928e-09
+      },
+      "inverse_response_max_relative_error": 4.545576233104632e-14,
+      "projection_tolerance_max_relative_change": 0.0,
+      "full_nuisance_ranks": [
+        6
+      ],
+      "axial_nuisance_ranks": [
+        2
+      ]
+    },
+    "Bplus": {
+      "frequency_count": 45,
+      "minimum_abs_alpha": 13.64381052288008,
+      "maximum_abs_z": 2.2721558168612526,
+      "cross_product_norm": 24.1929839790745,
+      "cross_to_diagonal_bare_norm": 0.056338644350676974,
+      "derivative_relative_errors": {
+        "8.0": 6.269266981213379e-09,
+        "80.0": 9.485049039159087e-09
+      },
+      "inverse_response_max_relative_error": 2.1106028463314872e-14,
+      "projection_tolerance_max_relative_change": 0.0,
+      "full_nuisance_ranks": [
+        6
+      ],
+      "axial_nuisance_ranks": [
+        2
+      ]
+    }
+  },
+  "tail": {
+    "B0": {
+      "full_calibrated": {
+        "log_slope": -3.9970441970530777,
+        "samples": 26,
+        "log_fit_rms": 0.0005779780753222855
+      },
+      "full_profiled": {
+        "log_slope": -3.9969949365000943,
+        "samples": 26,
+        "log_fit_rms": 0.0005867161437238429
+      },
+      "axial_calibrated": {
+        "log_slope": -3.9970442213954125,
+        "samples": 26,
+        "log_fit_rms": 0.0005779733189441466
+      },
+      "axial_profiled": {
+        "log_slope": -5.99558136193241,
+        "samples": 26,
+        "log_fit_rms": 0.000864021460298711
+      }
+    },
+    "Bplus": {
+      "full_calibrated": {
+        "log_slope": -3.9970769160624955,
+        "samples": 26,
+        "log_fit_rms": 0.0005715844155006124
+      },
+      "full_profiled": {
+        "log_slope": -3.9970326726108563,
+        "samples": 26,
+        "log_fit_rms": 0.0005800053484148479
+      },
+      "axial_calibrated": {
+        "log_slope": -3.997077235628438,
+        "samples": 26,
+        "log_fit_rms": 0.0005715219718666965
+      },
+      "axial_profiled": {
+        "log_slope": -5.995569853613464,
+        "samples": 26,
+        "log_fit_rms": 0.0008662717958281133
+      }
+    }
+  },
+  "sha256": {
+    "research\\prb_screening_information_20260927\\run_information.py": "94b6a527d55f5423400162f95209faa6e21a1023cf85173a5aca82a7019bb665",
+    "research\\prb_screening_information_20260927\\plan.md": "38f67d724756d1fd94d6a9a3dd63287e6ff628bf00552cb2a9e449edf6effc25",
+    "research\\prb_mixed_source_response_20260914\\mixed_vertex_response.py": "170704298b9e79a20550a2069b00b2e5ce719a95414f3bd8646cb8e44332ff43",
+    "research\\prb_lattice_response\\lattice_response.py": "384cb8d65d07800ef4a64df3678f319744b9af687442bfd392c0de35510e92ef",
+    "research\\prb_lattice_response\\parameter_sector_sampling.py": "a168d803486f1a7e40a44895df276d63f53005c0c80ccc0e63ddaa242d039687",
+    "research\\prb_mixed_source_response_20260914\\production\\B0_final\\response_3channel.npz": "9e3496fca6f784caa0a8196fc163e8a11e261e314ea9ee4d158ddb5e9b206f6b",
+    "research\\prb_mixed_source_response_20260914\\production\\Bplus_final\\response_3channel.npz": "9452692506a410d7e9c6b3632607e3d458948de3452802e5201c8f8c0ba1a10b"
+  },
+  "status": "PASS"
+}

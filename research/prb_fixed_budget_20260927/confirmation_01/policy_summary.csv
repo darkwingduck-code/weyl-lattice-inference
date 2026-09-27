@@ -1,0 +1,5 @@
+truth,role,policy,count,Ua_rmse,Ua_bias,success_count,bound_count,truth_upper_bound_failures,unsuccessful_starts
+symmetric,candidate,Bplus_75pct,200,0.03250728894557934,0.00023239913401987167,200,0,0,0
+symmetric,baseline,Bplus_only,200,0.037523425233037894,0.002596523652363656,200,0,0,0
+asymmetric,candidate,Bplus_25pct,200,0.17612622534404088,0.006031219693824723,200,0,0,0
+asymmetric,baseline,B0_only,200,0.18995733133204415,-0.0005781133801501648,200,0,0,0

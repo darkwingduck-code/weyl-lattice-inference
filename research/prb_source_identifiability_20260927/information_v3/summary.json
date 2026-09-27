@@ -1,0 +1,679 @@
+{
+  "absolute_complex_sigma": 0.00012931669440932318,
+  "information": [
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "gain_policy": "affine",
+      "nuisance_rank": 6,
+      "remaining_source_rank": 1,
+      "source_numerical_rank_tolerance": 0.00030093826627983835,
+      "physical_singular_values": [
+        36.386647180219654,
+        4.510831328244072,
+        2.5193116238551108,
+        5.740931128519136e-09
+      ],
+      "interaction_only_singular_values": [
+        36.30937487257563,
+        3.1262389385938576
+      ],
+      "interaction_whitened_singular_values": [
+        344.46097504267505,
+        29.658106667591586
+      ],
+      "complex_observation_count": 90,
+      "antisymmetric_direction_norm": 5.95292522889323e-09,
+      "interaction_condition_number": 11.614395311993372
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 90,
+      "remaining_source_rank": 0,
+      "source_numerical_rank_tolerance": 0.00030093826627983835,
+      "physical_singular_values": [
+        35.87966473612795,
+        0.20774748263360115,
+        3.2481350362608292e-12,
+        1.8039999615155696e-13
+      ],
+      "interaction_only_singular_values": [
+        35.87966473612795,
+        0.20774748263360115
+      ],
+      "interaction_whitened_singular_values": [
+        340.3843867481658,
+        1.970865669865366
+      ],
+      "complex_observation_count": 90,
+      "antisymmetric_direction_norm": 1.8049044279963107e-13,
+      "interaction_condition_number": 172.70806019540552
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "full",
+      "gain_policy": "affine",
+      "nuisance_rank": 8,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.00021286299909732028,
+      "physical_singular_values": [
+        29.61825351773093,
+        13.151987087031356,
+        6.222498302940434,
+        3.448418977160145
+      ],
+      "interaction_only_singular_values": [
+        27.767847020127142,
+        3.844366774967739
+      ],
+      "interaction_whitened_singular_values": [
+        372.5447611549156,
+        51.57759263561701
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 6.75384700301683,
+      "interaction_condition_number": 7.222996307463448
+    },
+    {
+      "truth": "symmetric",
+      "group": "B0",
+      "observation": "full",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 180,
+      "remaining_source_rank": 1,
+      "source_numerical_rank_tolerance": 0.00021286299909732028,
+      "physical_singular_values": [
+        28.511354092156132,
+        11.902988795198485,
+        2.8341478154152737,
+        1.128163863486777e-10
+      ],
+      "interaction_only_singular_values": [
+        27.319841753406845,
+        3.133253689791806
+      ],
+      "interaction_whitened_singular_values": [
+        366.5341397709285,
+        42.03700944675911
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 1.1453377971252894e-10,
+      "interaction_condition_number": 8.719320060937088
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "gain_policy": "affine",
+      "nuisance_rank": 6,
+      "remaining_source_rank": 1,
+      "source_numerical_rank_tolerance": 0.0003030399426946304,
+      "physical_singular_values": [
+        136.8287171494071,
+        14.726028285761474,
+        0.40054060192048024,
+        5.5817745139517965e-09
+      ],
+      "interaction_only_singular_values": [
+        136.54175502730325,
+        1.6478525963012305
+      ],
+      "interaction_whitened_singular_values": [
+        1295.3488248090737,
+        15.632902357601532
+      ],
+      "complex_observation_count": 90,
+      "antisymmetric_direction_norm": 5.662727122732589e-09,
+      "interaction_condition_number": 82.86041805789233
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 90,
+      "remaining_source_rank": 0,
+      "source_numerical_rank_tolerance": 0.0003030399426946304,
+      "physical_singular_values": [
+        112.6228124837587,
+        0.655508928564499,
+        3.1131966104888385e-12,
+        1.6368707482634476e-13
+      ],
+      "interaction_only_singular_values": [
+        112.6228124837587,
+        0.655508928564499
+      ],
+      "interaction_whitened_singular_values": [
+        1068.4338118281678,
+        6.218703722521276
+      ],
+      "complex_observation_count": 90,
+      "antisymmetric_direction_norm": 1.6373346940387863e-13,
+      "interaction_condition_number": 171.80973069335872
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "gain_policy": "affine",
+      "nuisance_rank": 8,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.0002146149222460388,
+      "physical_singular_values": [
+        134.25391834051064,
+        15.36290575341261,
+        4.4775233609371705,
+        2.403391350432795
+      ],
+      "interaction_only_singular_values": [
+        134.06197953606312,
+        10.842432449595604
+      ],
+      "interaction_whitened_singular_values": [
+        1798.6301966449373,
+        145.466495992472
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 3.2083789699823515,
+      "interaction_condition_number": 12.364566729771353
+    },
+    {
+      "truth": "symmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 180,
+      "remaining_source_rank": 1,
+      "source_numerical_rank_tolerance": 0.0002146149222460388,
+      "physical_singular_values": [
+        118.0999827305164,
+        10.728568862104282,
+        3.3777848733518168,
+        1.8887886508363857e-10
+      ],
+      "interaction_only_singular_values": [
+        118.02117902857019,
+        9.112011098023322
+      ],
+      "interaction_whitened_singular_values": [
+        1583.4202745553332,
+        122.2504573614759
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 1.9485273117644474e-10,
+      "interaction_condition_number": 12.952264627308525
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "gain_policy": "affine",
+      "nuisance_rank": 12,
+      "remaining_source_rank": 1,
+      "source_numerical_rank_tolerance": 0.0003019903197126108,
+      "physical_singular_values": [
+        100.11121654907764,
+        10.688966577547493,
+        2.8963279409071236,
+        5.755208591208412e-09
+      ],
+      "interaction_only_singular_values": [
+        100.05775814865828,
+        8.56854125211473
+      ],
+      "interaction_whitened_singular_values": [
+        1342.4156933798006,
+        114.95904424643821
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 5.809569925090712e-09,
+      "interaction_condition_number": 11.677338674650583
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 180,
+      "remaining_source_rank": 0,
+      "source_numerical_rank_tolerance": 0.0003019903197126108,
+      "physical_singular_values": [
+        83.57737366759723,
+        0.8265306874044093,
+        3.229116932051602e-12,
+        1.1019755074030662e-13
+      ],
+      "interaction_only_singular_values": [
+        83.57737366759723,
+        0.8265306874044093
+      ],
+      "interaction_whitened_singular_values": [
+        1121.30813340989,
+        11.08907281515533
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 1.1036309336282858e-13,
+      "interaction_condition_number": 101.11829474844902
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "full",
+      "gain_policy": "affine",
+      "nuisance_rank": 16,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.00021374026462850118,
+      "physical_singular_values": [
+        97.12774466472725,
+        12.318745136940498,
+        9.220945023958986,
+        4.776639387139293
+      ],
+      "interaction_only_singular_values": [
+        97.05277796530389,
+        11.582585798032556
+      ],
+      "interaction_whitened_singular_values": [
+        1841.4469897017746,
+        219.76411389661135
+      ],
+      "complex_observation_count": 360,
+      "antisymmetric_direction_norm": 5.28716109813124,
+      "interaction_condition_number": 8.379197845595886
+    },
+    {
+      "truth": "symmetric",
+      "group": "joint",
+      "observation": "full",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 360,
+      "remaining_source_rank": 1,
+      "source_numerical_rank_tolerance": 0.00021374026462850118,
+      "physical_singular_values": [
+        85.85314296594065,
+        9.721299944263935,
+        7.286862501145416,
+        1.555931524524881e-10
+      ],
+      "interaction_only_singular_values": [
+        85.77343274140918,
+        8.41198607564661
+      ],
+      "interaction_whitened_singular_values": [
+        1627.4364611646797,
+        159.6062138679885
+      ],
+      "complex_observation_count": 360,
+      "antisymmetric_direction_norm": 1.5981923980817157e-10,
+      "interaction_condition_number": 10.196573314562457
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "gain_policy": "affine",
+      "nuisance_rank": 6,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.0002326799570643694,
+      "physical_singular_values": [
+        39.201409590493235,
+        35.9472404589409,
+        7.580963190390396,
+        0.5223506834961821
+      ],
+      "interaction_only_singular_values": [
+        35.89666745548898,
+        0.5350048572529096
+      ],
+      "interaction_whitened_singular_values": [
+        340.54568870695834,
+        5.075501724517347
+      ],
+      "complex_observation_count": 90,
+      "antisymmetric_direction_norm": 35.00051936471931,
+      "interaction_condition_number": 67.0959655204023
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "diagonal",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 90,
+      "remaining_source_rank": 0,
+      "source_numerical_rank_tolerance": 0.0002326799570643694,
+      "physical_singular_values": [
+        35.87966473612795,
+        0.20774748263359338,
+        2.230214636132673e-12,
+        3.0961774665615444e-13
+      ],
+      "interaction_only_singular_values": [
+        35.87966473612795,
+        0.20774748263359336
+      ],
+      "interaction_whitened_singular_values": [
+        340.3843867481658,
+        1.9708656698652918
+      ],
+      "complex_observation_count": 90,
+      "antisymmetric_direction_norm": 2.0637724114082613e-12,
+      "interaction_condition_number": 172.708060195412
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "full",
+      "gain_policy": "affine",
+      "nuisance_rank": 8,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.0001646484098796598,
+      "physical_singular_values": [
+        201.26375626696804,
+        27.21974142092584,
+        13.726019735455562,
+        2.0254493097282475
+      ],
+      "interaction_only_singular_values": [
+        26.060558963555376,
+        2.0760119380506348
+      ],
+      "interaction_whitened_singular_values": [
+        349.6390882449077,
+        27.852622893493812
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 181.94467091935348,
+      "interaction_condition_number": 12.553183575633055
+    },
+    {
+      "truth": "asymmetric",
+      "group": "B0",
+      "observation": "full",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 180,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.0001646484098796598,
+      "physical_singular_values": [
+        190.3621213445495,
+        26.98224591443226,
+        12.554328447469237,
+        0.8787370843142203
+      ],
+      "interaction_only_singular_values": [
+        25.877848504645456,
+        0.9000329077203423
+      ],
+      "interaction_whitened_singular_values": [
+        347.18777020697115,
+        12.075208581896884
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 172.167229019262,
+      "interaction_condition_number": 28.752113709031413
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "gain_policy": "affine",
+      "nuisance_rank": 6,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.00023434457570603476,
+      "physical_singular_values": [
+        112.90344911264437,
+        58.4516318679394,
+        1.9129138095080271,
+        0.8166589861168773
+      ],
+      "interaction_only_singular_values": [
+        112.898931982862,
+        0.8300617201844033
+      ],
+      "interaction_whitened_singular_values": [
+        1071.0533113988215,
+        7.874656902900225
+      ],
+      "complex_observation_count": 90,
+      "antisymmetric_direction_norm": 57.091079868852695,
+      "interaction_condition_number": 136.01269548700645
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "diagonal",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 90,
+      "remaining_source_rank": 0,
+      "source_numerical_rank_tolerance": 0.00023434457570603476,
+      "physical_singular_values": [
+        112.6228124837587,
+        0.6555089285644686,
+        2.305782474555105e-12,
+        2.505131356285833e-13
+      ],
+      "interaction_only_singular_values": [
+        112.6228124837587,
+        0.6555089285644685
+      ],
+      "interaction_whitened_singular_values": [
+        1068.4338118281678,
+        6.218703722520987
+      ],
+      "complex_observation_count": 90,
+      "antisymmetric_direction_norm": 2.139000179182056e-12,
+      "interaction_condition_number": 171.8097306933667
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "gain_policy": "affine",
+      "nuisance_rank": 8,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.00016628376075419562,
+      "physical_singular_values": [
+        112.3965602629966,
+        85.8897426642726,
+        28.87905987959476,
+        1.1972643737606623
+      ],
+      "interaction_only_singular_values": [
+        85.72141605110771,
+        1.2297497908034278
+      ],
+      "interaction_whitened_singular_values": [
+        1150.0734805069105,
+        16.498824765315664
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 110.31989422380619,
+      "interaction_condition_number": 69.70638799223023
+    },
+    {
+      "truth": "asymmetric",
+      "group": "Bplus",
+      "observation": "full",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 180,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.00016628376075419562,
+      "physical_singular_values": [
+        99.60649324581001,
+        81.57366586298525,
+        26.037310025584947,
+        0.647036053354252
+      ],
+      "interaction_only_singular_values": [
+        81.52137535152463,
+        0.6637951939688297
+      ],
+      "interaction_whitened_singular_values": [
+        1093.7240214317094,
+        8.90574706111177
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 97.7812038532777,
+      "interaction_condition_number": 122.81103583186335
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "gain_policy": "affine",
+      "nuisance_rank": 12,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.00023351372755703485,
+      "physical_singular_values": [
+        83.78064385945216,
+        48.15488118468092,
+        13.717108593236732,
+        1.0749077114933117
+      ],
+      "interaction_only_singular_values": [
+        83.77371576443424,
+        1.09481458148034
+      ],
+      "interaction_whitened_singular_values": [
+        1123.9423390621243,
+        14.688478961688137
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 47.35202084595659,
+      "interaction_condition_number": 76.51863354903499
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "diagonal",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 180,
+      "remaining_source_rank": 0,
+      "source_numerical_rank_tolerance": 0.00023351372755703485,
+      "physical_singular_values": [
+        83.57737366759723,
+        0.8265306874044258,
+        2.7778583434084177e-12,
+        2.0845100285367765e-13
+      ],
+      "interaction_only_singular_values": [
+        83.5773736675972,
+        0.8265306874044259
+      ],
+      "interaction_whitened_singular_values": [
+        1121.3081334098895,
+        11.089072815155554
+      ],
+      "complex_observation_count": 180,
+      "antisymmetric_direction_norm": 2.5752659273482085e-12,
+      "interaction_condition_number": 101.11829474844694
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "full",
+      "gain_policy": "affine",
+      "nuisance_rank": 16,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.00016546806895644192,
+      "physical_singular_values": [
+        161.10734630624376,
+        63.66619050129026,
+        33.61264530872328,
+        2.055069940558132
+      ],
+      "interaction_only_singular_values": [
+        63.543090474312514,
+        2.104878686645438
+      ],
+      "interaction_whitened_singular_values": [
+        1205.6453727898597,
+        39.93726508886056
+      ],
+      "complex_observation_count": 360,
+      "antisymmetric_direction_norm": 150.45654245911612,
+      "interaction_condition_number": 30.18848111174599
+    },
+    {
+      "truth": "asymmetric",
+      "group": "joint",
+      "observation": "full",
+      "gain_policy": "arbitrary_frequency",
+      "nuisance_rank": 360,
+      "remaining_source_rank": 2,
+      "source_numerical_rank_tolerance": 0.00016546806895644192,
+      "physical_singular_values": [
+        150.3538038196252,
+        60.75481210762491,
+        29.836191163250472,
+        1.2278367774628371
+      ],
+      "interaction_only_singular_values": [
+        60.59305854312216,
+        1.2573101920790282
+      ],
+      "interaction_whitened_singular_values": [
+        1149.67245235314,
+        23.85578359388115
+      ],
+      "complex_observation_count": 360,
+      "antisymmetric_direction_norm": 140.0048545143476,
+      "interaction_condition_number": 48.19260905133392
+    }
+  ],
+  "exchange_controls": [
+    {
+      "truth": "symmetric",
+      "field": "B0",
+      "bare_reciprocity_max": 6.938893903907228e-18,
+      "closure_swap_relative": 0.0,
+      "arbitrary_gain_exchange_relative": 1.9025009457631468e-16,
+      "affine_projection_exchange_relative": 5.700784013912266e-16,
+      "required_readout_nonaffinity": 2.4158688567620897e-16,
+      "required_source_nonaffinity": 3.942293538394278e-16
+    },
+    {
+      "truth": "symmetric",
+      "field": "Bplus",
+      "bare_reciprocity_max": 1.4304896245381992e-17,
+      "closure_swap_relative": 0.0,
+      "arbitrary_gain_exchange_relative": 2.0377701390742742e-16,
+      "affine_projection_exchange_relative": 5.006541544015319e-16,
+      "required_readout_nonaffinity": 3.5821434216189586e-16,
+      "required_source_nonaffinity": 2.3308598446833925e-16
+    },
+    {
+      "truth": "asymmetric",
+      "field": "B0",
+      "bare_reciprocity_max": 6.938893903907228e-18,
+      "closure_swap_relative": 6.024649086314225e-16,
+      "arbitrary_gain_exchange_relative": 3.618201153917676e-16,
+      "affine_projection_exchange_relative": 0.1444648689492159,
+      "required_readout_nonaffinity": 0.3335756574381889,
+      "required_source_nonaffinity": 0.3227915776591465
+    },
+    {
+      "truth": "asymmetric",
+      "field": "Bplus",
+      "bare_reciprocity_max": 1.4304896245381992e-17,
+      "closure_swap_relative": 1.4152256270065094e-15,
+      "arbitrary_gain_exchange_relative": 1.2521825386006506e-15,
+      "affine_projection_exchange_relative": 0.2727977703923203,
+      "required_readout_nonaffinity": 0.4803743679907239,
+      "required_source_nonaffinity": 0.4833638542293868
+    }
+  ],
+  "interpretation": "Local information after nuisance projection, not global uniqueness or confidence. Exchange ambiguity in source labels is separate from interaction information.",
+  "input_source_sha256": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\B0_final\\response_3channel.npz": "9e3496fca6f784caa0a8196fc163e8a11e261e314ea9ee4d158ddb5e9b206f6b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_mixed_source_response_20260914\\production\\Bplus_final\\response_3channel.npz": "9452692506a410d7e9c6b3632607e3d458948de3452802e5201c8f8c0ba1a10b",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\analyze_information.py": "da8d7e45570825e685d7c99fb4cc3f2bee4ce04628aa3cfd5bb200f9dfb98572",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\run_study.py": "8f5df93e1b0ee5fa1b57da74a254f6abfb074b4f41430f78214f2cb47a13ea03",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\prb_source_identifiability_20260927\\frozen_design.json": "47696caa78139bb2aab0739ecc17e164516da823d55a1d996578db25d96355ae"
+  }
+}

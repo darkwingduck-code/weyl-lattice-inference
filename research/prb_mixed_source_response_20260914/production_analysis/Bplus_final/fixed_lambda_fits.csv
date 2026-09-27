@@ -1,0 +1,4 @@
+method,lambda_model,invariant_g,invariant_ua,invariant_rms,invariant_success,invariant_all_starts_success,invariant_global_minimum_certified,raw_g,raw_ua,raw_lambda,raw_rms_noise_units,raw_success,raw_all_starts_success,raw_global_minimum_certified
+correct_lambda,0.7,0.8,8.0,0.0,True,True,False,0.8,7.999999999999993,0.7,6.186697760647542e-14,True,True,False
+pure_Gamma5_model,0.0,0.9030970501709459,4.20936313841028e-27,0.022137198100377602,True,True,False,0.8976014803492716,0.05149088165680787,0.0,3.8814615026147545,True,True,False
+sign_reversed_model,-0.7,0.8134305010515781,23.999999999999996,0.3174613827015706,True,True,False,0.792661857163515,23.999999999999996,-0.7,9.602195688628775,True,True,False
